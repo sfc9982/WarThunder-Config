@@ -1,0 +1,41 @@
+thousandth:t = "nato"
+crosshairHorVertSize:p2=3, 2
+rangefinderProgressBarColor1:c=0, 255, 0, 64
+rangefinderProgressBarColor2:c=255, 255, 255, 64
+rangefinderTextScale:r=0.7
+rangefinderVerticalOffset:r=15
+rangefinderHorizontalOffset:r=130
+fontSizeMult:r=1
+lineSizeMult:r=1
+drawCentralLineVert:b=no
+drawCentralLineHorz:b=no
+crosshairDistHorSizeMain:p2=0.03, 0.02
+crosshairDistHorSizeAdditional:p2=0.005, 0.003
+distanceCorrectionPos:p2=-0.2, -0.035
+drawDistanceCorrection:b=yes
+
+crosshair_distances{}
+
+crosshair_hor_ranges{}
+
+
+drawCircles {
+  circle {
+    segment:p2 = 12.0, 348.0; 
+    pos:p2 = 0.0, 0.0;
+    diameter:r = 15.0;
+    size:r = 1.8;
+    move:b = no;
+    thousandth:b = yes;
+  }
+
+  circle {
+    segment:p2 = 0.0, 360.0; 
+    pos:p2 = 0.0, 0.0;
+    diameter:r = 60.0;
+    size:r = 1.8;
+    move:b = no;
+    thousandth:b = yes;
+  }
+
+}

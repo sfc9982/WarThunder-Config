@@ -1,0 +1,136 @@
+
+///Created by RideR2; edited by Caffeinated Gunner///
+
+crosshairHorVertSize:p2=3, 2
+rangefinderProgressBarColor1:c=238,238,200, 64
+rangefinderProgressBarColor2:c=0,0,0,0
+rangefinderTextScale:r=0.5
+rangefinderVerticalOffset:r=-33
+rangefinderHorizontalOffset:r=145
+fontSizeMult:r=1.0
+lineSizeMult:r=1.5
+drawCentralLineVert:b=no
+drawCentralLineHorz:b=no
+distanceCorrectionPos:p2=0.05, 0.19
+drawDistanceCorrection:b=no
+applyCorrectionToGun:b=no
+thousandth:t=“nato”
+crosshairColor:c = 0, 0, 0, 255
+crosshairLightColor:c = 255, 35, 40, 255  
+
+	
+crosshair_distances{
+}
+
+crosshair_hor_ranges{
+}
+
+drawCircles {
+
+   circle {
+      segment:p2 = 12.0, 348.0
+      pos:p2 = 0.0, 0
+      diameter:r = 10.0
+      size:r = 2
+      move:b = no
+      thousandth:b = yes
+    }
+	
+   circle {
+      segment:p2 = 0.0, 360.0
+      pos:p2 = 0.0, 0
+      diameter:r = 27.0
+      size:r = 2
+      move:b = no
+      thousandth:b = yes
+    }
+
+//FOV//
+
+//1
+circle{
+      segment:p2 = 0.0, 360.0
+      pos:p2 = 0.0, 0.0
+      diameter:r = 537.0
+      size:r = 15.0
+      move:b = no
+      thousandth:b = yes
+    }
+//2
+circle{
+      segment:p2 = 0.0, 360.0
+      pos:p2 = 0.0, 0.0
+      diameter:r = 542.5
+      size:r = 20.0
+      move:b = no
+      thousandth:b = yes
+    }
+//3
+circle{
+      segment:p2 = 0.0, 360.0
+      pos:p2 = 0.0, 0.0
+      diameter:r = 550.0
+      size:r = 35.0
+      move:b = no
+      thousandth:b = yes
+    }
+//4
+circle{
+      segment:p2 = 0.0, 360.0
+      pos:p2 = 0.0, 0.0
+      diameter:r = 566.0
+      size:r = 80.0
+      move:b = no
+      thousandth:b = yes
+    }
+//5
+circle{
+      segment:p2 = 0.0, 360.0
+      pos:p2 = 0.0, 0.0
+      diameter:r = 590.0
+      size:r = 100.0
+      move:b = no
+      thousandth:b = yes
+    }
+//6
+circle{
+      segment:p2 = 0.0, 360.0
+      pos:p2 = 0.0, 0.0
+      diameter:r = 633.0
+      size:r = 200.0
+      move:b = no
+      thousandth:b = yes
+    }
+//7
+circle{
+      segment:p2 = 0.0, 360.0
+      pos:p2 = 0.0, 0.0
+      diameter:r = 690.0
+      size:r = 300.0
+      move:b = no
+      thousandth:b = yes
+    }
+//8
+circle{
+      segment:p2 = 0.0, 360.0
+      pos:p2 = 0.0, 0.0
+      diameter:r = 750.0
+      size:r = 400.0
+      move:b = no
+      thousandth:b = yes
+    }
+//9
+circle{
+      segment:p2 = 0.0, 360.0
+      pos:p2 = 0.0, 0.0
+      diameter:r = 790.0
+      size:r = 500.0
+      move:b = no
+      thousandth:b = yes
+    }
+  }	
+
+drawLines{
+
+  //line { line:p4=1.5, 0, -1.5, 0;thousandth:b = true; move:b=no ;}
+}

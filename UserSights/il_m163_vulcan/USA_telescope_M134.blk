@@ -1,0 +1,237 @@
+
+///Created by RideR2; edited by Caffeinated Gunner///
+
+crosshairHorVertSize:p2=3, 2
+rangefinderProgressBarColor1:c=238,238,200, 64
+rangefinderProgressBarColor2:c=0,0,0,0
+rangefinderTextScale:r=0.5
+rangefinderVerticalOffset:r=-33
+rangefinderHorizontalOffset:r=145
+fontSizeMult:r=1.0
+lineSizeMult:r=1.2
+drawCentralLineVert:b=no
+drawCentralLineHorz:b=no
+distanceCorrectionPos:p2=0.05, 0.19
+drawDistanceCorrection:b=no
+applyCorrectionToGun:b=no
+thousandth:t=“nato”
+crosshairColor:c = 0, 0, 0, 255
+crosshairLightColor:c = 255, 35, 40, 255  
+
+crosshair_distances{}
+
+crosshair_hor_ranges{}
+
+drawCircles {
+
+//FOV//
+
+//1
+circle{
+      segment:p2 = 0.0, 360.0
+      pos:p2 = 0.0, 0.0
+      diameter:r = 537.0
+      size:r = 15.0
+      move:b = no
+      thousandth:b = yes
+    }
+//2
+circle{
+      segment:p2 = 0.0, 360.0
+      pos:p2 = 0.0, 0.0
+      diameter:r = 542.5
+      size:r = 20.0
+      move:b = no
+      thousandth:b = yes
+    }
+//3
+circle{
+      segment:p2 = 0.0, 360.0
+      pos:p2 = 0.0, 0.0
+      diameter:r = 550.0
+      size:r = 35.0
+      move:b = no
+      thousandth:b = yes
+    }
+//4
+circle{
+      segment:p2 = 0.0, 360.0
+      pos:p2 = 0.0, 0.0
+      diameter:r = 566.0
+      size:r = 80.0
+      move:b = no
+      thousandth:b = yes
+    }
+//5
+circle{
+      segment:p2 = 0.0, 360.0
+      pos:p2 = 0.0, 0.0
+      diameter:r = 590.0
+      size:r = 100.0
+      move:b = no
+      thousandth:b = yes
+    }
+//6
+circle{
+      segment:p2 = 0.0, 360.0
+      pos:p2 = 0.0, 0.0
+      diameter:r = 633.0
+      size:r = 200.0
+      move:b = no
+      thousandth:b = yes
+    }
+//7
+circle{
+      segment:p2 = 0.0, 360.0
+      pos:p2 = 0.0, 0.0
+      diameter:r = 690.0
+      size:r = 300.0
+      move:b = no
+      thousandth:b = yes
+    }
+//8
+circle{
+      segment:p2 = 0.0, 360.0
+      pos:p2 = 0.0, 0.0
+      diameter:r = 750.0
+      size:r = 400.0
+      move:b = no
+      thousandth:b = yes
+    }
+//9
+circle{
+      segment:p2 = 0.0, 360.0
+      pos:p2 = 0.0, 0.0
+      diameter:r = 790.0
+      size:r = 500.0
+      move:b = no
+      thousandth:b = yes
+    }
+  }	
+
+drawLines{
+
+//CROSS
+  line { line:p4 = -1.5, 0, 1.5, 0; thousandth:b = true; move:b = no; }
+  line { line:p4 = 0, -1.5, 0, 1.5; thousandth:b = true; move:b = no; }
+
+//400
+  line { line:p4 = 1.5, 2.3, 7.5, 2.3; thousandth:b = true; move:b = no; }
+  line { line:p4 = -1.5, 2.3, -7.5, 2.3; thousandth:b = true; move:b = no; }
+
+//800
+  line { line:p4 = 1.5, 5.1, 7.5, 5.1; thousandth:b = true; move:b = no; }
+  line { line:p4 = -1.5, 5.1, -7.5, 5.1; thousandth:b = true; move:b = no; }
+
+//1200
+  line { line:p4 = 1.5, 8.65, 7.5, 8.65; thousandth:b = true; move:b = no; }
+  line { line:p4 = -1.5, 8.65, -7.5, 8.65; thousandth:b = true; move:b = no; }
+
+//1600
+  line { line:p4 = 1.5, 13.3, 7.5, 13.3; thousandth:b = true; move:b = no; }
+  line { line:p4 = -1.5, 13.3, -7.5, 13.3; thousandth:b = true; move:b = no; }
+
+//2000
+  line { line:p4 = 1.5, 19.35, 7.5, 19.35; thousandth:b = true; move:b = no; }
+  line { line:p4 = -1.5, 19.35, -7.5, 19.35; thousandth:b = true; move:b = no; }
+
+//CENTER VERTICAL LINES
+  line { line:p4 = 0, 2.8, 0, 4.6; thousandth:b = true; move:b = no; }
+  line { line:p4 = 0, 5.6, 0, 8.1; thousandth:b = true; move:b = no; }
+  line { line:p4 = 0, 9.1, 0, 12.8; thousandth:b = true; move:b = no; }
+  line { line:p4 = 0, 13.9, 0, 18.85; thousandth:b = true; move:b = no; }
+}
+
+drawTexts{
+
+      text{
+        text:t="4"
+        align:i=0
+        pos:p2=9.2, 1.7
+        size:r=0.5
+	move:b=no
+ 	thousandth:b = yes
+	highlight:b = yes
+      }
+     text{
+        text:t="4"
+        align:i=0
+        pos:p2=-9.2, 1.7
+        size:r=0.5
+	move:b=no
+	highlight:b = yes
+ 	thousandth:b = yes
+      }
+      text{
+        text:t="8"
+        align:i=0
+        pos:p2=9.2, 5.1
+        size:r=0.5
+	move:b=no
+ 	thousandth:b = yes
+	highlight:b = yes
+      }
+     text{
+        text:t="8"
+        align:i=0
+        pos:p2=-9.2, 5.1
+        size:r=0.5
+	move:b=no
+	highlight:b = yes
+ 	thousandth:b = yes
+      }
+      text{
+        text:t="12"
+        align:i=0
+        pos:p2=10, 8.5
+        size:r=0.5
+	move:b=no
+	highlight:b = yes
+ 	thousandth:b = yes
+      }
+     text{
+        text:t="12"
+        align:i=0
+        pos:p2=-10, 8.5
+        size:r=0.5
+	move:b=no
+	highlight:b = yes
+ 	thousandth:b = yes
+      }
+      text{
+        text:t="16"
+        align:i=0
+        pos:p2=10, 13.1
+        size:r=0.5
+	move:b=no
+	highlight:b = yes
+ 	thousandth:b = yes
+      }
+     text{
+        text:t="16"
+        align:i=0
+        pos:p2=-10, 13.1
+        size:r=0.5
+	move:b=no
+	highlight:b = yes
+ 	thousandth:b = yes
+      }
+      text{
+        text:t="20"
+        align:i=0
+        pos:p2=10, 19.2
+        size:r=0.5
+	move:b=no
+	highlight:b = yes
+ 	thousandth:b = yes
+      }
+     text{
+        text:t="20"
+        align:i=0
+        pos:p2=-10, 19.2
+        size:r=0.5
+	move:b=no
+	highlight:b = yes
+ 	thousandth:b = yes
+      }
+    }

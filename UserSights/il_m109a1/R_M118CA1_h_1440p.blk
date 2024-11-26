@@ -1,0 +1,616 @@
+thousandth:t = "nato"
+crosshairHorVertSize:p2=3, 2
+rangefinderProgressBarColor1:c=0, 255, 0, 64
+rangefinderProgressBarColor2:c=255, 255, 255, 64
+rangefinderTextScale:r=0.7
+rangefinderUseThousandth:b=no
+rangefinderVerticalOffset:r=0.1
+rangefinderHorizontalOffset:r=5
+detectAllyTextScale:r=0.7
+detectAllyOffset:p2=4, 0.05
+fontSizeMult:r=1.2
+lineSizeMult:r=1.4
+drawCentralLineVert:b=no
+drawCentralLineHorz:b=no
+drawSightMask:b=yes
+useSmoothEdge:b=yes
+crosshairColor:c=0, 0, 0, 0
+crosshairLightColor:c=0, 0, 0, 0
+crosshairDistHorSizeMain:p2=0.03, 0.02
+crosshairDistHorSizeAdditional:p2=0.005, 0.003
+distanceCorrectionPos:p2=-0.15, -0.0
+drawDistanceCorrection:b=yes
+
+crosshair_distances{
+}
+
+crosshair_hor_ranges{
+}
+
+ballistics {
+bullet {
+bulletType:t = "he_frag_tank"
+speed:r = 684
+
+drawAdditionalLines:b = no // draw notches on the central line
+
+drawDistanceCorrection:b = no
+distanceCorrectionPos:p2 = 0, 0
+
+distancePos:p2 = -0.128, 0.0 //line offset
+textPos:p2 = 0.012, -0.001
+textShift:r = 0.0 //text offset
+textAlign:i = 0 //text position relative to notches
+crosshairDistHorSizeMain:p2 = 0.00, 0.00
+crosshairDistHorSizeAdditional:p2 = 0.00, 0.00
+
+crosshair_distances { 
+distance:p3 = 200, 0, 0.2562
+distance:p3 = 400, 0, 0.2562
+distance:p3 = 600, 0, 0.2562
+distance:p3 = 800, 0, 0.2562
+distance:p3 = 1000, 0, 0.2562
+distance:p3 = 1200, 0, 0.2562
+}
+}
+
+bullet {
+bulletType:t = "he_frag_tank"
+speed:r = 684
+
+drawAdditionalLines:b = no // draw notches on the central line
+
+drawDistanceCorrection:b = no
+distanceCorrectionPos:p2 = 0, 0
+
+distancePos:p2 = -0.0854, 0.0 //line offset
+textPos:p2 = 0.012, -0.001
+textShift:r = 0.0 //text offset
+textAlign:i = 0 //text position relative to notches
+crosshairDistHorSizeMain:p2 = 0.00, 0.00
+crosshairDistHorSizeAdditional:p2 = 0.00, 0.00
+
+crosshair_distances {
+distance:p3 = 1400, 0, 0.1708
+distance:p3 = 1600, 0, 0.1708
+distance:p3 = 1800, 0, 0.1708
+distance:p3 = 2000, 0, 0.1708
+distance:p3 = 2200, 0, 0.1708
+}
+}
+
+bullet {
+bulletType:t = "he_frag_tank"
+speed:r = 684
+
+drawAdditionalLines:b = no // draw notches on the central line
+
+drawDistanceCorrection:b = no
+distanceCorrectionPos:p2 = 0, 0
+
+distancePos:p2 = -0.0854, 0.0 //line offset
+textPos:p2 = 0.014, -0.001
+textShift:r = 0.0 //text offset
+textAlign:i = 0 //text position relative to notches
+crosshairDistHorSizeMain:p2 = 0.00, 0.00
+crosshairDistHorSizeAdditional:p2 = 0.00, 0.00
+
+crosshair_distances {
+distance:p3 = 1300, 0, 0.00854
+distance:p3 = 1500, 0, 0.00854
+distance:p3 = 1700, 0, 0.00854
+distance:p3 = 1900, 0, 0.00854
+distance:p3 = 2100, 0, 0.00854
+}
+}
+
+bullet {
+bulletType:t = "he_frag_tank"
+speed:r = 684
+
+drawAdditionalLines:b = no // draw notches on the central line
+
+drawDistanceCorrection:b = no
+distanceCorrectionPos:p2 = 0, 0
+
+distancePos:p2 = -0.06832, 0.0 //line offset
+textPos:p2 = 0.014, -0.001
+textShift:r = 0.0 //text offset
+textAlign:i = 0 //text position relative to notches
+crosshairDistHorSizeMain:p2 = 0.00, 0.00
+crosshairDistHorSizeAdditional:p2 = 0.00, 0.00
+
+crosshair_distances {
+distance:p3 = 1300, 0, 0.00854
+distance:p3 = 1500, 0, 0.00854
+distance:p3 = 1700, 0, 0.00854
+distance:p3 = 1900, 0, 0.00854
+distance:p3 = 2100, 0, 0.00854
+}
+}
+
+bullet {
+bulletType:t = "he_frag_tank"
+speed:r = 684
+
+drawAdditionalLines:b = no // draw notches on the central line
+
+drawDistanceCorrection:b = no
+distanceCorrectionPos:p2 = 0, 0
+
+distancePos:p2 = -0.05124, 0.0 //line offset
+textPos:p2 = 0.014, -0.001
+textShift:r = 0.0 //text offset
+textAlign:i = 0 //text position relative to notches
+crosshairDistHorSizeMain:p2 = 0.00, 0.00
+crosshairDistHorSizeAdditional:p2 = 0.00, 0.00
+
+crosshair_distances {
+distance:p3 = 1300, 0, 0.00854
+distance:p3 = 1500, 0, 0.00854
+distance:p3 = 1700, 0, 0.00854
+distance:p3 = 1900, 0, 0.00854
+distance:p3 = 2100, 0, 0.00854
+}
+}
+
+bullet {
+bulletType:t = "he_frag_tank"
+speed:r = 684
+
+drawAdditionalLines:b = no // draw notches on the central line
+
+drawDistanceCorrection:b = no
+distanceCorrectionPos:p2 = 0, 0
+
+distancePos:p2 = -0.03416, 0.0 //line offset
+textPos:p2 = 0.014, -0.001
+textShift:r = 0.0 //text offset
+textAlign:i = 0 //text position relative to notches
+crosshairDistHorSizeMain:p2 = 0.00, 0.00
+crosshairDistHorSizeAdditional:p2 = 0.00, 0.00
+
+crosshair_distances {
+distance:p3 = 1300, 0, 0.00854
+distance:p3 = 1500, 0, 0.00854
+distance:p3 = 1700, 0, 0.00854
+distance:p3 = 1900, 0, 0.00854
+distance:p3 = 2100, 0, 0.00854
+}
+}
+
+
+bullet {
+bulletType:t = "he_frag_tank"
+speed:r = 684
+
+drawAdditionalLines:b = no // draw notches on the central line
+
+drawDistanceCorrection:b = no
+distanceCorrectionPos:p2 = 0, 0
+
+distancePos:p2 = -0.01708, 0.0 //line offset
+textPos:p2 = 0.014, -0.001
+textShift:r = 0.0 //text offset
+textAlign:i = 0 //text position relative to notches
+crosshairDistHorSizeMain:p2 = 0.00, 0.00
+crosshairDistHorSizeAdditional:p2 = 0.00, 0.00
+
+crosshair_distances {
+distance:p3 = 1300, 0, 0.00854
+distance:p3 = 1500, 0, 0.00854
+distance:p3 = 1700, 0, 0.00854
+distance:p3 = 1900, 0, 0.00854
+distance:p3 = 2100, 0, 0.00854
+}
+}
+
+bullet {
+bulletType:t = "he_frag_tank"
+speed:r = 684
+
+drawAdditionalLines:b = no // draw notches on the central line
+
+drawDistanceCorrection:b = no
+distanceCorrectionPos:p2 = 0, 0
+
+distancePos:p2 = 0.0854, 0.0 //line offset
+textPos:p2 = 0.014, -0.001
+textShift:r = 0.0 //text offset
+textAlign:i = 0 //text position relative to notches
+crosshairDistHorSizeMain:p2 = 0.00, 0.00
+crosshairDistHorSizeAdditional:p2 = 0.00, 0.00
+
+crosshair_distances {
+distance:p3 = 1300, 0, -0.00854
+distance:p3 = 1500, 0, -0.00854
+distance:p3 = 1700, 0, -0.00854
+distance:p3 = 1900, 0, -0.00854
+distance:p3 = 2100, 0, -0.00854
+}
+}
+
+bullet {
+bulletType:t = "he_frag_tank"
+speed:r = 684
+
+drawAdditionalLines:b = no // draw notches on the central line
+
+drawDistanceCorrection:b = no
+distanceCorrectionPos:p2 = 0, 0
+
+distancePos:p2 = 0.06832, 0.0 //line offset
+textPos:p2 = 0.014, -0.001
+textShift:r = 0.0 //text offset
+textAlign:i = 0 //text position relative to notches
+crosshairDistHorSizeMain:p2 = 0.00, 0.00
+crosshairDistHorSizeAdditional:p2 = 0.00, 0.00
+
+crosshair_distances {
+distance:p3 = 1300, 0, -0.00854
+distance:p3 = 1500, 0, -0.00854
+distance:p3 = 1700, 0, -0.00854
+distance:p3 = 1900, 0, -0.00854
+distance:p3 = 2100, 0, -0.00854
+
+}
+}
+
+bullet {
+bulletType:t = "he_frag_tank"
+speed:r = 684
+
+drawAdditionalLines:b = no // draw notches on the central line
+
+drawDistanceCorrection:b = no
+distanceCorrectionPos:p2 = 0, 0
+
+distancePos:p2 = 0.05124, 0.0 //line offset
+textPos:p2 = 0.014, -0.001
+textShift:r = 0.0 //text offset
+textAlign:i = 0 //text position relative to notches
+crosshairDistHorSizeMain:p2 = 0.00, 0.00
+crosshairDistHorSizeAdditional:p2 = 0.00, 0.00
+
+crosshair_distances {
+distance:p3 = 1300, 0, -0.00854
+distance:p3 = 1500, 0, -0.00854
+distance:p3 = 1700, 0, -0.00854
+distance:p3 = 1900, 0, -0.00854
+distance:p3 = 2100, 0, -0.00854
+
+}
+}
+
+bullet {
+bulletType:t = "he_frag_tank"
+speed:r = 684
+
+drawAdditionalLines:b = no // draw notches on the central line
+
+drawDistanceCorrection:b = no
+distanceCorrectionPos:p2 = 0, 0
+
+distancePos:p2 = 0.03416, 0.0 //line offset
+textPos:p2 = 0.014, -0.001
+textShift:r = 0.0 //text offset
+textAlign:i = 0 //text position relative to notches
+crosshairDistHorSizeMain:p2 = 0.00, 0.00
+crosshairDistHorSizeAdditional:p2 = 0.00, 0.00
+
+crosshair_distances {
+distance:p3 = 1300, 0, -0.00854
+distance:p3 = 1500, 0, -0.00854
+distance:p3 = 1700, 0, -0.00854
+distance:p3 = 1900, 0, -0.00854
+distance:p3 = 2100, 0, -0.00854
+
+}
+}
+
+
+bullet {
+bulletType:t = "he_frag_tank"
+speed:r = 684
+
+drawAdditionalLines:b = no // draw notches on the central line
+
+drawDistanceCorrection:b = no
+distanceCorrectionPos:p2 = 0, 0
+
+distancePos:p2 = 0.01708, 0.0 //line offset
+textPos:p2 = 0.014, -0.001
+textShift:r = 0.0 //text offset
+textAlign:i = 0 //text position relative to notches
+crosshairDistHorSizeMain:p2 = 0.00, 0.00
+crosshairDistHorSizeAdditional:p2 = 0.00, 0.00
+
+crosshair_distances {
+distance:p3 = 1300, 0, -0.00854
+distance:p3 = 1500, 0, -0.00854
+distance:p3 = 1700, 0, -0.00854
+distance:p3 = 1900, 0, -0.00854
+distance:p3 = 2100, 0, -0.00854
+
+}
+}
+
+} 
+
+drawLines{
+  line{
+    line:p4=30, 0, -30, 0
+    move:b=yes
+    thousandth:b=yes
+  }
+  line{
+    line:p4=0, -9.8, 0, 49.2
+    move:b=yes
+    thousandth:b=yes
+  }
+}
+
+drawCircles {
+    circle {
+      segment:p2 = 0, 360;
+      pos:p2 = 0, 0;
+      diameter:r = 330;
+      size:r = 466.667;
+      move:b = no;
+      thousandth:b = yes;
+    }
+    circle {
+      segment:p2 = 0, 360;
+      pos:p2 = 0, 0;
+      diameter:r = 380;
+      size:r = 466.667;
+      move:b = no;
+      thousandth:b = yes;
+    }
+    circle {
+      segment:p2 = 0, 360;
+      pos:p2 = 0, 0;
+      diameter:r = 280;
+      size:r = 400;
+      move:b = no;
+      thousandth:b = yes;
+    }
+  }
+
+drawTexts {
+    text {
+      text:t = "N"
+      align:i = 0
+      pos:p2 = 31.5, -0.2
+      move:b = yes
+      thousandth:b = yes
+      size:r = 0.6
+      highlight:b=yes
+    }
+    text {
+      text:t = "2"
+      align:i = 0
+      pos:p2 = 31.5, 2.2
+      move:b = yes
+      thousandth:b = yes
+      size:r = 0.6
+      highlight:b=yes
+    }
+    text {
+      text:t = "4"
+      align:i = 0
+      pos:p2 = 31.5, 4.4
+      move:b = yes
+      thousandth:b = yes
+      size:r = 0.6
+      highlight:b=yes
+    }
+    text {
+      text:t = "6"
+      align:i = 0
+      pos:p2 = 31.5, 6.6
+      move:b = yes
+      thousandth:b = yes
+      size:r = 0.6
+      highlight:b=yes
+    }
+    text {
+      text:t = "8"
+      align:i = 0
+      pos:p2 = 31.5, 8.9
+      move:b = yes
+      thousandth:b = yes
+      size:r = 0.6
+      highlight:b=yes
+    }
+    text {
+      text:t = "10"
+      align:i = 0
+      pos:p2 = 32.1, 11.3
+      move:b = yes
+      thousandth:b = yes
+      size:r = 0.6
+      highlight:b=yes
+    }
+    text {
+      text:t = "12"
+      align:i = 0
+      pos:p2 = 32.1, 13.8
+      move:b = yes
+      thousandth:b = yes
+      size:r = 0.6
+      highlight:b=yes
+    }
+    text {
+      text:t = "14"
+      align:i = 0
+      pos:p2 = 22.1, 16.2
+      move:b = yes
+      thousandth:b = yes
+      size:r = 0.6
+      highlight:b=yes
+    }
+    text {
+      text:t = "16"
+      align:i = 0
+      pos:p2 = 22.1, 18.7
+      move:b = yes
+      thousandth:b = yes
+      size:r = 0.6
+      highlight:b=yes
+    }
+    text {
+      text:t = "18"
+      align:i = 0
+      pos:p2 = 22.1, 21.4
+      move:b = yes
+      thousandth:b = yes
+      size:r = 0.6
+      highlight:b=yes
+    }
+    text {
+      text:t = "20"
+      align:i = 0
+      pos:p2 = 22.1, 24.2
+      move:b = yes
+      thousandth:b = yes
+      size:r = 0.6
+      highlight:b=yes
+    }
+    text {
+      text:t = "22"
+      align:i = 0
+      pos:p2 = 22.1, 27
+      move:b = yes
+      thousandth:b = yes
+      size:r = 0.6
+      highlight:b=yes
+
+    }
+    text {
+      text:t = "N"
+      align:i = 0
+      pos:p2 = -31.5, -0.2
+      move:b = yes
+      thousandth:b = yes
+      size:r = 0.6
+      highlight:b=yes
+    }
+    text {
+      text:t = "2"
+      align:i = 0
+      pos:p2 = -31.5, 2.2
+      move:b = yes
+      thousandth:b = yes
+      size:r = 0.6
+      highlight:b=yes
+    }
+    text {
+      text:t = "4"
+      align:i = 0
+      pos:p2 = -31.5, 4.4
+      move:b = yes
+      thousandth:b = yes
+      size:r = 0.6
+      highlight:b=yes
+    }
+    text {
+      text:t = "6"
+      align:i = 0
+      pos:p2 = -31.5, 6.6
+      move:b = yes
+      thousandth:b = yes
+      size:r = 0.6
+      highlight:b=yes
+    }
+    text {
+      text:t = "8"
+      align:i = 0
+      pos:p2 = -31.5, 8.9
+      move:b = yes
+      thousandth:b = yes
+      size:r = 0.6
+      highlight:b=yes
+    }
+    text {
+      text:t = "10"
+      align:i = 0
+      pos:p2 = -32.1, 11.3
+      move:b = yes
+      thousandth:b = yes
+      size:r = 0.6
+      highlight:b=yes
+    }
+    text {
+      text:t = "12"
+      align:i = 0
+      pos:p2 = -32.1, 13.8
+      move:b = yes
+      thousandth:b = yes
+      size:r = 0.6
+      highlight:b=yes
+    }
+    text {
+      text:t = "14"
+      align:i = 0
+      pos:p2 = -22.1, 16.2
+      move:b = yes
+      thousandth:b = yes
+      size:r = 0.6
+      highlight:b=yes
+    }
+    text {
+      text:t = "16"
+      align:i = 0
+      pos:p2 = -22.1, 18.7
+      move:b = yes
+      thousandth:b = yes
+      size:r = 0.6
+      highlight:b=yes
+    }
+    text {
+      text:t = "18"
+      align:i = 0
+      pos:p2 = -22.1, 21.4
+      move:b = yes
+      thousandth:b = yes
+      size:r = 0.6
+      highlight:b=yes
+    }
+    text {
+      text:t = "20"
+      align:i = 0
+      pos:p2 = -22.1, 24.2
+      move:b = yes
+      thousandth:b = yes
+      size:r = 0.6
+      highlight:b=yes
+    }
+    text {
+      text:t = "22"
+      align:i = 0
+      pos:p2 = -22.1, 27
+      move:b = yes
+      thousandth:b = yes
+      size:r = 0.6
+      highlight:b=yes
+    }
+    text {
+      text:t = "155MM,  HE,  M107"
+      align:i = 0
+      pos:p2 = 0, -76
+      move:b = no
+      thousandth:b = yes
+      size:r = 0.6
+      highlight:b=yes
+    }
+    text {
+      text:t = "10547125"
+      align:i = 0
+      pos:p2 = 0, -80
+      move:b = no
+      thousandth:b = yes
+      size:r = 0.6
+      highlight:b=yes
+    }
+  }
