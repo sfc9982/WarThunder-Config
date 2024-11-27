@@ -1,0 +1,1037 @@
+crosshairHorVertSize:p2=3, 2
+rangefinderProgressBarColor1:c=0, 255, 0, 1
+rangefinderProgressBarColor2:c=255, 255, 255, 1
+rangefinderTextScale:r=0.001
+rangefinderUseThousandth:b=yes
+rangefinderVerticalOffset:r=-103
+rangefinderHorizontalOffset:r=-160
+detectAllyTextScale:r=0.7
+detectAllyOffset:p2=4, 0.05
+fontSizeMult:r=1
+lineSizeMult:r=1.7
+drawCentralLineVert:b=no
+drawCentralLineHorz:b=no
+drawSightMask:b=yes
+useSmoothEdge:b=yes
+crosshairColor:c=0, 0, 255, 255
+crosshairLightColor:c=0, 0, 0, 255
+crosshairDistHorSizeMain:p2=0.03, 0.02
+crosshairDistHorSizeAdditional:p2=0.005, 0.003
+distanceCorrectionPos:p2=0.159, -0.3842
+drawDistanceCorrection:b=yes
+
+crosshair_distances{
+}
+
+crosshair_hor_ranges{
+}
+
+
+drawLines{
+
+//outline
+
+  line{
+    line:p4=230, 150, -230, 150
+    move:b=no
+    thousandth:b=yes
+  }
+  line{
+    line:p4=230, -150, -230, -150
+    move:b=no
+    thousandth:b=yes
+  }
+  line{
+    line:p4=230, 150, 230, -150
+    move:b=no
+    thousandth:b=yes
+  }
+  line{
+    line:p4=-230, 150, -230, -150
+    move:b=no
+    thousandth:b=yes
+
+//crosshair
+
+  }
+  line{
+    line:p4=0.7, 0, 5, 0
+    move:b=no
+    thousandth:b=yes
+  }
+  line{
+    line:p4=5, -2, 10, -2
+    move:b=no
+    thousandth:b=yes
+  }
+  line{
+    line:p4=5, 2, 10, 2
+    move:b=no
+    thousandth:b=yes
+  }
+  line{
+    line:p4=15, 0, 20, 0
+    move:b=no
+    thousandth:b=yes
+  }
+  line{
+    line:p4=-0.7, 0, -5, 0
+    move:b=no
+    thousandth:b=yes
+  }
+  line{
+    line:p4=-5, -2, -10, -2
+    move:b=no
+    thousandth:b=yes
+  }
+  line{
+    line:p4=-5, 2, -10, 2
+    move:b=no
+    thousandth:b=yes
+  }
+  line{
+    line:p4=-15, 0, -20, 0
+    move:b=no
+    thousandth:b=yes
+  }
+  line{
+    line:p4=0, 0.7, 0, 2
+    move:b=no
+    thousandth:b=yes
+  }
+  line{
+    line:p4=0, -0.7, 0, -2
+    move:b=no
+    thousandth:b=yes
+  }
+  line{
+    line:p4=0, -4, 0, -6
+    move:b=no
+    thousandth:b=yes
+  }
+  line{
+    line:p4=0, 4, 0, 6
+    move:b=no
+    thousandth:b=yes
+
+//top box
+
+  }
+  line{
+    line:p4=190, -144, -190, -144
+    move:b=no
+    thousandth:b=yes
+  }
+  line{
+    line:p4=-114, -144, -114, -150
+    move:b=no
+    thousandth:b=yes
+  }
+  line{
+    line:p4=-38, -144, -38, -150
+    move:b=no
+    thousandth:b=yes
+  }
+  line{
+    line:p4=38, -144, 38, -150
+    move:b=no
+    thousandth:b=yes
+  }
+  line{
+    line:p4=114, -144, 114, -150
+    move:b=no
+    thousandth:b=yes
+
+//left boxes
+
+  }
+  line{
+    line:p4=-190, -150, -190, 90
+    move:b=no
+    thousandth:b=yes
+  }
+  line{
+    line:p4=-230, -110, -190, -110
+    move:b=no
+    thousandth:b=yes
+  }
+  line{
+    line:p4=-230, -70, -190, -70
+    move:b=no
+    thousandth:b=yes
+  }
+  line{
+    line:p4=-230, -30, -190, -30
+    move:b=no
+    thousandth:b=yes
+  }
+  line{
+    line:p4=-230, 10, -190, 10
+    move:b=no
+    thousandth:b=yes
+  }
+  line{
+    line:p4=-230, 50, -190, 50
+    move:b=no
+    thousandth:b=yes
+  }
+  line{
+    line:p4=-230, 90, -190, 90
+    move:b=no
+    thousandth:b=yes
+
+//right boxes
+
+  }
+  line{
+    line:p4=190, -150, 190, -70
+    move:b=no
+    thousandth:b=yes
+  }
+  line{
+    line:p4=190, 90, 190, 150
+    move:b=no
+    thousandth:b=yes
+  }
+  line{
+    line:p4=230, -110, 190, -110
+    move:b=no
+    thousandth:b=yes
+  }
+  line{
+    line:p4=230, -70, 190, -70
+    move:b=no
+    thousandth:b=yes
+  }
+  line{
+    line:p4=230, 90, 190, 90
+    move:b=no
+    thousandth:b=yes
+
+//lower boxes
+
+  }
+  line{
+    line:p4=-230, 130, 230, 130
+    move:b=no
+    thousandth:b=yes
+  }
+  line{
+    line:p4=150, 130, 150, 150
+    move:b=no
+    thousandth:b=yes
+  }
+  line{
+    line:p4=-175.7143, 130, -175.7143, 150
+    move:b=no
+    thousandth:b=yes
+  }
+  line{
+    line:p4=-121.4286, 130, -121.4286, 150
+    move:b=no
+    thousandth:b=yes
+  }
+  line{
+    line:p4=-67.1429, 130, -67.1429, 150
+    move:b=no
+    thousandth:b=yes
+  }
+  line{
+    line:p4=-12.8571, 130, -12.8571, 150
+    move:b=no
+    thousandth:b=yes
+  }
+  line{
+    line:p4=41.4286, 130, 41.4286, 150
+    move:b=no
+    thousandth:b=yes
+  }
+  line{
+    line:p4=95.7143, 130, 95.7143, 150
+    move:b=no
+    thousandth:b=yes
+
+//FIRST: box
+
+  }
+  line{
+    line:p4=-60, 97, -20, 97
+    move:b=no
+    thousandth:b=yes
+  }
+  line{
+    line:p4=-60, 103.7, -20, 103.7
+    move:b=no
+    thousandth:b=yes
+  }
+  line{
+    line:p4=-60, 97, -60, 103.7
+    move:b=no
+    thousandth:b=yes
+  }
+  line{
+    line:p4=-20, 97, -20, 103.7
+    move:b=no
+    thousandth:b=yes
+
+//bottom tank model
+
+  }
+  line{
+    line:p4=149, 95, 165, 95
+    move:b=no
+    thousandth:b=yes
+  }
+  line{
+    line:p4=149, 58, 165, 58
+    move:b=no
+    thousandth:b=yes
+  }
+  line{
+    line:p4=165, 95, 165, 58
+    move:b=no
+    thousandth:b=yes
+  }
+  line{
+    line:p4=149, 95, 149, 58
+    move:b=no
+    thousandth:b=yes
+
+  }
+  line{
+    line:p4=152, 94, 162, 94
+    move:b=no
+    thousandth:b=yes
+  }
+  line{
+    line:p4=152, 94, 151, 86
+    move:b=no
+    thousandth:b=yes
+  }
+  line{
+    line:p4=162, 94, 163, 86
+    move:b=no
+    thousandth:b=yes
+  }
+  line{
+    line:p4=151, 86, 151, 76
+    move:b=no
+    thousandth:b=yes
+  }
+  line{
+    line:p4=163, 86, 163, 76
+    move:b=no
+    thousandth:b=yes
+  }
+  line{
+    line:p4=151, 76, 153.5, 73.5
+    move:b=no
+    thousandth:b=yes
+  }
+  line{
+    line:p4=163, 76, 160.5, 73.5
+    move:b=no
+    thousandth:b=yes
+  }
+  line{
+    line:p4=153.5, 73.5, 155.5, 73.5
+    move:b=no
+    thousandth:b=yes
+  }
+  line{
+    line:p4=160.5, 73.5, 158.5, 73.5
+    move:b=no
+    thousandth:b=yes
+  }
+  line{
+    line:p4=155.5, 73.5, 155.5, 71.5
+    move:b=no
+    thousandth:b=yes
+  }
+  line{
+    line:p4=158.5, 73.5, 158.5, 71.5
+    move:b=no
+    thousandth:b=yes
+  }
+  line{
+    line:p4=155.5, 71.5, 155.8, 71.2
+    move:b=no
+    thousandth:b=yes
+  }
+  line{
+    line:p4=158.5, 71.5, 158.2, 71.2
+    move:b=no
+    thousandth:b=yes
+  }
+  line{
+    line:p4=155.8, 71.2, 155.8, 68
+    move:b=no
+    thousandth:b=yes
+  }
+  line{
+    line:p4=158.2, 71.2, 158.2, 68
+    move:b=no
+    thousandth:b=yes
+  }
+  line{
+    line:p4=155.8, 68, 156.3, 67.5
+    move:b=no
+    thousandth:b=yes
+  }
+  line{
+    line:p4=158.2, 68, 157.7, 67.5
+    move:b=no
+    thousandth:b=yes
+  }
+  line{
+    line:p4=156.3, 67.5, 156.3, 50
+    move:b=no
+    thousandth:b=yes
+  }
+  line{
+    line:p4=157.7, 67.5, 157.7, 50
+    move:b=no
+    thousandth:b=yes
+  }
+  line{
+    line:p4=156.3, 50, 157.7, 50
+    move:b=no
+    thousandth:b=yes
+
+//top tank model
+
+  }
+  line{
+    line:p4=152, -76.1, 138.5, -75.5
+    move:b=no
+    thousandth:b=yes
+  }
+  line{
+    line:p4=138.5, -75.5, 138.5, -72.4
+    move:b=no
+    thousandth:b=yes
+  }
+  line{
+    line:p4=138.5, -72.4, 147.9, -72.3
+    move:b=no
+    thousandth:b=yes
+  }
+  line{
+    line:p4=147.9, -72.3, 147.9, -71.5
+    move:b=no
+    thousandth:b=yes
+  }
+  line{
+    line:p4=138.5, -71.5, 138.5, -67.25
+    move:b=no
+    thousandth:b=yes
+  }
+  line{
+    line:p4=139.1, -67.25, 139.9, -65.6
+    move:b=no
+    thousandth:b=yes
+  }
+  line{
+    line:p4=139.9, -66, 139.43, -65.4
+    move:b=no
+    thousandth:b=yes
+  }
+  line{
+    line:p4=139.43, -65.4, 139.15, -64.5
+    move:b=no
+    thousandth:b=yes
+  }
+  line{
+    line:p4=139.15, -64.5, 139.43, -63.6
+    move:b=no
+    thousandth:b=yes
+  }
+  line{
+    line:p4=139.43, -63.6, 139.9, -62.95
+    move:b=no
+    thousandth:b=yes
+  }
+  line{
+    line:p4=145, -61.7, 139.9, -62.95
+    move:b=no
+    thousandth:b=yes
+  }
+  line{
+    line:p4=145, -61.7, 168.5, -61.7
+    move:b=no
+    thousandth:b=yes
+  }
+  line{
+    line:p4=173.5, -63.55, 168.5, -61.7
+    move:b=no
+    thousandth:b=yes
+  }
+  line{
+    line:p4=173.5, -63.55, 174.3, -64.45
+    move:b=no
+    thousandth:b=yes
+  }
+  line{
+    line:p4=174.3, -64.45, 174.5, -65.15
+    move:b=no
+    thousandth:b=yes
+  }
+  line{
+    line:p4=174, -66.2, 174.5, -65.15
+    move:b=no
+    thousandth:b=yes
+  }
+  line{
+    line:p4=173, -66.75, 174, -66.2
+    move:b=no
+    thousandth:b=yes
+  }
+  line{
+    line:p4=138.5, -67.25, 173, -67.3
+    move:b=no
+    thousandth:b=yes
+  }
+  line{
+    line:p4=174, -67, 173, -67.3
+    move:b=no
+    thousandth:b=yes
+  }
+  line{
+    line:p4=139.9, -65.6, 173, -65.3
+    move:b=no
+    thousandth:b=yes
+  }
+  line{
+    line:p4=173, -65.3, 173, -67.25
+    move:b=no
+    thousandth:b=yes
+  }
+  line{
+    line:p4=174, -67, 174, -68.12
+    move:b=no
+    thousandth:b=yes
+  }
+  line{
+    line:p4=174, -68.12, 162.75, -70.7
+    move:b=no
+    thousandth:b=yes
+  }
+  line{
+    line:p4=158.75, -71.1, 162.75, -70.7
+    move:b=no
+    thousandth:b=yes
+  }
+  line{
+    line:p4=158.75, -71.1, 138.5, -71.5
+    move:b=no
+    thousandth:b=yes
+  }
+  line{
+    line:p4=158.75, -71.1, 160.25, -72
+    move:b=no
+    thousandth:b=yes
+  }
+  line{
+    line:p4=165.77, -72, 160.25, -72
+    move:b=no
+    thousandth:b=yes
+  }
+  line{
+    line:p4=165.77, -72, 163.64, -74.13
+    move:b=no
+    thousandth:b=yes
+  }
+  line{
+    line:p4=159, -74.53, 163.64, -74.13
+    move:b=no
+    thousandth:b=yes
+  }
+  line{
+    line:p4=159, -74.53, 152, -76.1
+    move:b=no
+    thousandth:b=yes
+  }
+  line{
+    line:p4=164.97, -72.8, 180, -72.8
+    move:b=no
+    thousandth:b=yes
+  }
+  line{
+    line:p4=164.44, -73.43, 180, -73.43
+    move:b=no
+    thousandth:b=yes
+  }
+  line{
+    line:p4=180, -72.8, 180, -73.43
+    move:b=no
+    thousandth:b=yes
+  }
+}
+
+drawCircles {
+    circle {
+      segment:p2 = 0, 360;
+      pos:p2 = 0, 0;
+      diameter:r = 2.2;
+      size:r = 1.8;
+      move:b = no;
+      thousandth:b = yes;
+
+    }
+    circle {
+      segment:p2 = 0, 360;
+      pos:p2 = 145, -63.6;
+      diameter:r = 3.3;
+      size:r = 2.667;
+      move:b = no;
+      thousandth:b = yes;
+    }
+    circle {
+      segment:p2 = 0, 360;
+      pos:p2 = 148.85, -63.6;
+      diameter:r = 3.3;
+      size:r = 2.667;
+      move:b = no;
+      thousandth:b = yes;
+    }
+    circle {
+      segment:p2 = 0, 360;
+      pos:p2 = 152.7, -63.6;
+      diameter:r = 3.3;
+      size:r = 2.667;
+      move:b = no;
+      thousandth:b = yes;
+    }
+    circle {
+      segment:p2 = 0, 360;
+      pos:p2 = 156.55, -63.6;
+      diameter:r = 3.3;
+      size:r = 2.667;
+      move:b = no;
+      thousandth:b = yes;
+    }
+    circle {
+      segment:p2 = 0, 360;
+      pos:p2 = 160.4, -63.6;
+      diameter:r = 3.3;
+      size:r = 2.667;
+      move:b = no;
+      thousandth:b = yes;
+    }
+    circle {
+      segment:p2 = 0, 360;
+      pos:p2 = 164.25, -63.6;
+      diameter:r = 3.3;
+      size:r = 2.667;
+      move:b = no;
+      thousandth:b = yes;
+    }
+    circle {
+      segment:p2 = 0, 360;
+      pos:p2 = 168.1, -63.6;
+      diameter:r = 3.3;
+      size:r = 2.667;
+      move:b = no;
+      thousandth:b = yes;
+
+    }
+    circle {
+      segment:p2 = 0, 360;
+      pos:p2 = 140.4, -64.5;
+      diameter:r = 2.5;
+      size:r = 2.667;
+      move:b = no;
+      thousandth:b = yes;
+    }
+    circle {
+      segment:p2 = 0, 40;
+      pos:p2 = 173, -65.15;
+      diameter:r = 2.5;
+      size:r = 2.667;
+      move:b = no;
+      thousandth:b = yes;
+    }
+    circle {
+      segment:p2 = 270, 360;
+      pos:p2 = 173, -65.15;
+      diameter:r = 2.5;
+      size:r = 2.667;
+      move:b = no;
+      thousandth:b = yes;
+    }
+  }
+
+
+drawTexts {
+
+//right
+
+    text {
+      text:t = "AMMO SEL"
+      align:i = 0
+      pos:p2 = 210, -136.667
+      move:b = no
+      thousandth:b = yes
+      size:r = 0.9
+      highlight:b=yes
+    }
+    text {
+      text:t = "N/A"
+      align:i = 0
+      pos:p2 = 210, -123.333
+      move:b = no
+      thousandth:b = yes
+      size:r = 0.9
+      highlight:b=yes
+    }
+    text {
+      text:t = "LOAD AMMO"
+      align:i = 0
+      pos:p2 = 210, -96.667
+      move:b = no
+      thousandth:b = yes
+      size:r = 0.9
+      highlight:b=yes
+    }
+    text {
+      text:t = "CUR: N/A"
+      align:i = 0
+      pos:p2 = 210, -83.333
+      move:b = no
+      thousandth:b = yes
+      size:r = 0.9
+      highlight:b=yes
+    }
+    text {
+      text:t = "FIRE AUTH"
+      align:i = 0
+      pos:p2 = 210, 110
+      move:b = no
+      thousandth:b = yes
+      size:r = 0.9
+      highlight:b=yes
+
+//left
+
+    }
+    text {
+      text:t = "TUR MODE"
+      align:i = 0
+      pos:p2 = -210, -136.667
+      move:b = no
+      thousandth:b = yes
+      size:r = 0.9
+      highlight:b=yes
+    }
+    text {
+      text:t = "STAB"
+      align:i = 0
+      pos:p2 = -210, -123.333
+      move:b = no
+      thousandth:b = yes
+      size:r = 0.9
+      highlight:b=yes
+    }
+    text {
+      text:t = "FIRING"
+      align:i = 0
+      pos:p2 = -210, -96.667
+      move:b = no
+      thousandth:b = yes
+      size:r = 0.9
+      highlight:b=yes
+    }
+    text {
+      text:t = "DIRECT"
+      align:i = 0
+      pos:p2 = -210, -83.333
+      move:b = no
+      thousandth:b = yes
+      size:r = 0.9
+      highlight:b=yes
+    }
+    text {
+      text:t = "TGT RANGE"
+      align:i = 0
+      pos:p2 = -210, -56.667
+      move:b = no
+      thousandth:b = yes
+      size:r = 0.9
+      highlight:b=yes
+    }
+    text {
+      text:t = "FIRST"
+      align:i = 0
+      pos:p2 = -210, -43.333
+      move:b = no
+      thousandth:b = yes
+      size:r = 0.9
+      highlight:b=yes
+    }
+    text {
+      text:t = "VIDEO SRC"
+      align:i = 0
+      pos:p2 = -210, -16.667
+      move:b = no
+      thousandth:b = yes
+      size:r = 0.9
+      highlight:b=yes
+    }
+    text {
+      text:t = "GSS TV"
+      align:i = 0
+      pos:p2 = -210, -3.333
+      move:b = no
+      thousandth:b = yes
+      size:r = 0.9
+      highlight:b=yes
+    }
+    text {
+      text:t = "FOV"
+      align:i = 0
+      pos:p2 = -210, 23.333
+      move:b = no
+      thousandth:b = yes
+      size:r = 0.9
+      highlight:b=yes
+    }
+    text {
+      text:t = "WIDE"
+      align:i = 0
+      pos:p2 = -210, 36.667
+      move:b = no
+      thousandth:b = yes
+      size:r = 0.9
+      highlight:b=yes
+    }
+    text {
+      text:t = "DRIFT COMP"
+      align:i = 0
+      pos:p2 = -210, 70
+      move:b = no
+      thousandth:b = yes
+      size:r = 0.9
+      highlight:b=yes
+
+//bottom
+
+    }
+    text {
+      text:t = "COMBAT"
+      align:i = 0
+      pos:p2 = -202.8572, 140
+      move:b = no
+      thousandth:b = yes
+      size:r = 0.9
+      highlight:b=yes
+    }
+    text {
+      text:t = "BAL PARAM"
+      align:i = 0
+      pos:p2 = -148.5715, 140
+      move:b = no
+      thousandth:b = yes
+      size:r = 0.9
+      highlight:b=yes
+    }
+    text {
+      text:t = "CAMERA CTRL"
+      align:i = 0
+      pos:p2 = -94.2858, 140
+      move:b = no
+      thousandth:b = yes
+      size:r = 0.9
+      highlight:b=yes
+    }
+    text {
+      text:t = "POWER MGT"
+      align:i = 0
+      pos:p2 = -40, 140
+      move:b = no
+      thousandth:b = yes
+      size:r = 0.9
+      highlight:b=yes
+    }
+    text {
+      text:t = "SETTINGS"
+      align:i = 0
+      pos:p2 = 14.2857, 140
+      move:b = no
+      thousandth:b = yes
+      size:r = 0.9
+      highlight:b=yes
+    }
+    text {
+      text:t = "CLOSE OBS"
+      align:i = 0
+      pos:p2 = 68.5715, 140
+      move:b = no
+      thousandth:b = yes
+      size:r = 0.9
+      highlight:b=yes
+    }
+    text {
+      text:t = "MORE"
+      align:i = 0
+      pos:p2 = 122.8571, 140
+      move:b = no
+      thousandth:b = yes
+      size:r = 0.9
+      highlight:b=yes
+    }
+    text {
+      text:t = "RASTMUST"
+      align:i = 0
+      pos:p2 = 170, 140
+      move:b = no
+      thousandth:b = yes
+      size:r = 0.9
+      highlight:b=yes
+    }
+    text {
+      text:t = "HIDE"
+      align:i = 0
+      pos:p2 = 210, 140
+      move:b = no
+      thousandth:b = yes
+      size:r = 0.9
+      highlight:b=yes
+
+//top
+
+    }
+    text {
+      text:t = "AZ   N/A   mil"
+      align:i = 0
+      pos:p2 = -152, -147.2
+      move:b = no
+      thousandth:b = yes
+      size:r = 0.8
+      highlight:b=yes
+    }
+    text {
+      text:t = "EL   N/A   mil"
+      align:i = 0
+      pos:p2 = -76, -147.2
+      move:b = no
+      thousandth:b = yes
+      size:r = 0.8
+      highlight:b=yes
+    }
+    text {
+      text:t = "AMMO   N/A"
+      align:i = 0
+      pos:p2 = 0, -147.2
+      move:b = no
+      thousandth:b = yes
+      size:r = 0.8
+      highlight:b=yes
+    }
+    text {
+      text:t = "m"
+      align:i = 0
+      pos:p2 = 88, -147.4
+      move:b = no
+      thousandth:b = yes
+      size:r = 0.8
+      highlight:b=yes
+    }
+    text {
+      text:t = "FIRED   N/A"
+      align:i = 0
+      pos:p2 = 152, -147.2
+      move:b = no
+      thousandth:b = yes
+      size:r = 0.8
+      highlight:b=yes
+
+//center
+
+    }
+    text {
+      text:t = "GSS   -   TV"
+      align:i = 0
+      pos:p2 = 0, -100
+      move:b = no
+      thousandth:b = yes
+      size:r = 0.9
+      highlight:b=yes
+
+    }
+    text {
+      text:t = "LAST:   ---   m"
+      align:i = 0
+      pos:p2 = 0, 100
+      move:b = no
+      thousandth:b = yes
+      size:r = 0.9
+      highlight:b=yes
+    }
+    text {
+      text:t = "FIRST:           m"
+      align:i = 0
+      pos:p2 = -40, 100
+      move:b = no
+      thousandth:b = yes
+      size:r = 0.9
+      highlight:b=yes
+    }
+    text {
+      text:t = "MAN:   ---   m"
+      align:i = 0
+      pos:p2 = -40, 110
+      move:b = no
+      thousandth:b = yes
+      size:r = 0.9
+      highlight:b=yes
+    }
+    text {
+      text:t = "DEF:   ---   m"
+      align:i = 0
+      pos:p2 = 0, 110
+      move:b = no
+      thousandth:b = yes
+      size:r = 0.9
+      highlight:b=yes
+    }
+    text {
+      text:t = "AMMO:   N/A"
+      align:i = 0
+      pos:p2 = 40, 100
+      move:b = no
+      thousandth:b = yes
+      size:r = 0.9
+      highlight:b=yes
+
+//drawings
+
+    }
+    text {
+      text:t = "EL   N/A   mil"
+      align:i = 0
+      pos:p2 = 157, -53
+      move:b = no
+      thousandth:b = yes
+      size:r = 0.9
+      highlight:b=yes
+
+    }
+    text {
+      text:t = "AZ   N/A   mil"
+      align:i = 0
+      pos:p2 = 157, 105
+      move:b = no
+      thousandth:b = yes
+      size:r = 0.9
+      highlight:b=yes
+    }
+    text {
+      text:t = "RL   N/A   mil"
+      align:i = 0
+      pos:p2 = 157, 111
+      move:b = no
+      thousandth:b = yes
+      size:r = 0.9
+      highlight:b=yes
+    }
+  }

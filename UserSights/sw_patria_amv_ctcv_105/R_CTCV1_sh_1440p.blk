@@ -1,0 +1,184 @@
+crosshairHorVertSize:p2=3, 2
+rangefinderProgressBarColor1:c=0, 255, 0, 64
+rangefinderProgressBarColor2:c=255, 255, 255, 64
+rangefinderTextScale:r=0.6
+rangefinderUseThousandth:b=no
+rangefinderVerticalOffset:r=0.166
+rangefinderHorizontalOffset:r=-20
+detectAllyTextScale:r=0.7
+detectAllyOffset:p2=-142, 0.19
+fontSizeMult:r=1
+lineSizeMult:r=1.7
+drawCentralLineVert:b=no
+drawCentralLineHorz:b=no
+drawSightMask:b=yes
+useSmoothEdge:b=yes
+crosshairColor:c=0, 0, 0, 0
+crosshairLightColor:c=0, 0, 0, 0
+crosshairDistHorSizeMain:p2=0.03, 0.02
+crosshairDistHorSizeAdditional:p2=0.005, 0.003
+distanceCorrectionPos:p2=-0.039, 0.2528
+drawDistanceCorrection:b=yes
+
+crosshair_distances{
+}
+
+crosshair_hor_ranges{
+}
+
+  drawTexts {
+    text {
+      text:t = "LASER" 
+      align:i = 0 
+      pos:p2 = -43, 5.2
+      move:b = no
+      thousandth:b = yes 
+      size:r = 0.8
+      highlight:b=yes
+}
+    text {
+      text:t = "ON" 
+      align:i = 0 
+      pos:p2 = -43.22, 6.7
+      move:b = no
+      thousandth:b = yes 
+      size:r = 0.8
+      highlight:b=yes
+}
+    text {
+      text:t = "MAIN" 
+      align:i = 0 
+      pos:p2 = -43, -6
+      move:b = no
+      thousandth:b = yes 
+      size:r = 0.8
+      highlight:b=yes
+}
+    text {
+      text:t = "READY" 
+      align:i = 0 
+      pos:p2 = -43, -4.5
+      move:b = no
+      thousandth:b = yes 
+      size:r = 0.8
+      highlight:b=yes
+}
+    text {
+      text:t = "RANGE:" 
+      align:i = 0 
+      pos:p2 = -4, -15
+      move:b = no
+      thousandth:b = yes 
+      size:r = 0.8
+      highlight:b=yes
+}
+    text {
+      text:t = "STAB" 
+      align:i = 0 
+      pos:p2 = -7, 21.5
+      move:b = no
+      thousandth:b = yes 
+      size:r = 0.8
+      highlight:b=yes
+}
+    text {
+      text:t = "ON" 
+      align:i = 0 
+      pos:p2 = -7, 23
+      move:b = no
+      thousandth:b = yes 
+      size:r = 0.8
+      highlight:b=yes
+}
+    text {
+      text:t = "AUTO" 
+      align:i = 0 
+      pos:p2 = 7, 23
+      move:b = no
+      thousandth:b = yes 
+      size:r = 0.8
+      highlight:b=yes
+}
+}
+
+drawLines{
+  line{
+    line:p4=0.5, 0, 2.5, 0
+    move:b=no
+    thousandth:b=yes
+  }
+  line{
+    line:p4=2.5, 1, 5, 1
+    move:b=no
+    thousandth:b=yes
+  }
+  line{
+    line:p4=2.5, -1, 5, -1
+    move:b=no
+    thousandth:b=yes
+  }
+  line{
+    line:p4=7.5, 0, 10, 0
+    move:b=no
+    thousandth:b=yes
+  }
+  line{
+    line:p4=-0.5, 0, -2.5, 0
+    move:b=no
+    thousandth:b=yes
+  }
+  line{
+    line:p4=-2.5, 1, -5, 1
+    move:b=no
+    thousandth:b=yes
+  }
+  line{
+    line:p4=-2.5, -1, -5, -1
+    move:b=no
+    thousandth:b=yes
+  }
+  line{
+    line:p4=-7.5, 0, -10, 0
+    move:b=no
+    thousandth:b=yes
+  }
+  line{
+    line:p4=0, 0.5, 0, 1
+    move:b=no
+    thousandth:b=yes
+  }
+  line{
+    line:p4=0, 2, 0, 3
+    move:b=no
+    thousandth:b=yes
+  }
+  line{
+    line:p4=0, -0.5, 0, -1
+    move:b=no
+    thousandth:b=yes
+  }
+  line{
+    line:p4=0, -2, 0, -3
+    move:b=no
+    thousandth:b=yes
+  }
+}
+
+drawCircles {
+    circle {
+      segment:p2 = 0, 360;
+      pos:p2 = 0, 0;
+      diameter:r = 1;
+      size:r = 1.2;
+      move:b = no;
+      thousandth:b = yes;
+    }
+    circle {
+      segment:p2 = 0, 360;
+      pos:p2 = 0, 0;
+      diameter:r = 0;
+      size:r = 1.333;
+      move:b = no;
+      thousandth:b = yes;
+    }
+  }

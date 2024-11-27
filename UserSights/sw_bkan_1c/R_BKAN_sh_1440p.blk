@@ -1,0 +1,60 @@
+crosshairHorVertSize:p2=3, 2
+rangefinderProgressBarColor1:c=0, 255, 0, 64
+rangefinderProgressBarColor2:c=255, 255, 255, 64
+rangefinderTextScale:r=0.7
+rangefinderUseThousandth:b=yes
+rangefinderVerticalOffset:r=0.1
+rangefinderHorizontalOffset:r=40
+detectAllyTextScale:r=0.7
+detectAllyOffset:p2=4, 0.05
+fontSizeMult:r=1
+lineSizeMult:r=2
+drawCentralLineVert:b=no
+drawCentralLineHorz:b=no
+drawSightMask:b=yes
+useSmoothEdge:b=yes
+crosshairColor:c=0, 0, 0, 0
+crosshairLightColor:c=0, 0, 0, 0
+crosshairDistHorSizeMain:p2=0.03, 0.02
+crosshairDistHorSizeAdditional:p2=0.005, 0.003
+distanceCorrectionPos:p2=-0.26, -0.05
+drawDistanceCorrection:b=yes
+
+crosshair_distances{
+}
+
+crosshair_hor_ranges{
+}
+
+drawLines{
+  line{
+    line:p4=0, 0, 50, 50
+    move:b=no
+    thousandth:b=yes
+  }
+  line{
+    line:p4=0, 0, -50, 50
+    move:b=no
+    thousandth:b=yes
+  }
+  line{
+    line:p4=2.5, -2.5, 50, -50
+    move:b=no
+    thousandth:b=yes
+  }
+  line{
+    line:p4=-2.5, -2.5, -50, -50
+    move:b=no
+    thousandth:b=yes
+  }
+  line{
+    line:p4=0, 10, 0, 100
+    move:b=no
+    thousandth:b=yes
+  }
+  line{
+    line:p4=0, -10, 0, -100
+    move:b=no
+    thousandth:b=yes
+  }
+}

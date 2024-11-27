@@ -1,0 +1,2286 @@
+crosshairHorVertSize:p2=3, 2
+rangefinderProgressBarColor1:c=0, 255, 0, 64
+rangefinderProgressBarColor2:c=255, 255, 255, 64
+rangefinderTextScale:r=0.7
+rangefinderUseThousandth:b=yes
+rangefinderVerticalOffset:r=20
+rangefinderHorizontalOffset:r=200
+detectAllyTextScale:r=0.5
+detectAllyOffset:p2=200, 0.2
+fontSizeMult:r=0.6
+lineSizeMult:r=2
+drawCentralLineVert:b=no
+drawCentralLineHorz:b=no
+drawSightMask:b=yes
+useSmoothEdge:b=yes
+crosshairColor:c=255, 255, 255, 255
+crosshairLightColor:c=255, 255, 255, 200
+crosshairDistHorSizeMain:p2=0.03, 0.02
+crosshairDistHorSizeAdditional:p2=0.005, 0.003
+distanceCorrectionPos:p2=-0.26, -0.05
+drawDistanceCorrection:b=yes
+
+crosshair_distances{
+}
+
+crosshair_hor_ranges{
+}
+
+  drawTexts {
+    text {
+      text:t = "BOLIDE  READY" 
+      align:i = 0 
+      pos:p2 = 103, 7
+      move:b = no
+      thousandth:b = yes 
+      size:r = 2.2
+      highlight:b=yes 
+}
+    text {
+      text:t = "BOLIDE  READY" 
+      align:i = 0 
+      pos:p2 = -103, 7
+      move:b = no
+      thousandth:b = yes 
+      size:r = 2.2
+      highlight:b=yes 
+}
+    text {
+      text:t = "X4N  ZIEL" 
+      align:i = 0 
+      pos:p2 = 103.8, 36
+      move:b = no
+      thousandth:b = yes 
+      size:r = 2.2
+      highlight:b=yes 
+}
+    text {
+      text:t = "SAM  R=9000m" 
+      align:i = 0 
+      pos:p2 = 98, 55
+      move:b = no
+      thousandth:b = yes 
+      size:r = 2.2
+      highlight:b=yes 
+}
+    text {
+      text:t = "RADAR  R=12000m" 
+      align:i = 0 
+      pos:p2 = 97, 60
+      move:b = no
+      thousandth:b = yes 
+      size:r = 2.2
+      highlight:b=yes 
+}
+    text {
+      text:t = "32s  IN-AIR  R=9000m" 
+      align:i = 0 
+      pos:p2 = 92.3, 65
+      move:b = no
+      thousandth:b = yes 
+      size:r = 2.2
+      highlight:b=yes 
+}
+    text {
+      text:t = "TRACK/ING" 
+      align:i = 0 
+      pos:p2 = -104, 60
+      move:b = no
+      thousandth:b = yes 
+      size:r = 2.2
+      highlight:b=yes 
+}
+    text {
+      text:t = "WEATHER  UNCLEAR" 
+      align:i = 0 
+      pos:p2 = -96, 65
+      move:b = no
+      thousandth:b = yes 
+      size:r = 2.2
+      highlight:b=yes 
+}
+    text {
+      text:t = "TRAJEK AUTO" 
+      align:i = 0 
+      pos:p2 = -102, 70
+      move:b = no
+      thousandth:b = yes 
+      size:r = 2.2
+      highlight:b=yes 
+}
+    text {
+      text:t = "4444" 
+      align:i = 0 
+      pos:p2 = -95, -24
+      move:b = no
+      thousandth:b = yes 
+      size:r = 2.2
+      highlight:b=yes 
+}
+    text {
+      text:t = "LFK  IDLE" 
+      align:i = 0 
+      pos:p2 = -85, -78
+      move:b = no
+      thousandth:b = yes 
+      size:r = 2.2
+      highlight:b=yes 
+}
+    text {
+      text:t = "RADAR" 
+      align:i = 0 
+      pos:p2 = -87.2, -83
+      move:b = no
+      thousandth:b = yes 
+      size:r = 2.2
+      highlight:b=yes 
+}
+    text {
+      text:t = "IN REICHWEITE" 
+      align:i = 0 
+      pos:p2 = 100, -78
+      move:b = no
+      thousandth:b = yes 
+      size:r = 2.2
+      highlight:b=yes 
+}
+}
+
+drawCircles {
+circle {
+segment:p2 = 57, 303; 
+pos:p2 = 0, 0;
+diameter:r = 178;
+size:r = 7.0;
+move:b = yes;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = -175, 175; 
+pos:p2 = 0, 0;
+diameter:r = 123.4;
+size:r = 7.0;
+move:b = yes;
+thousandth:b = yes; //////////////////// circle spam yay
+}
+circle {
+segment:p2 = 0, 360; 
+pos:p2 = -77.4882, -1.3526;
+diameter:r = 0.1;
+size:r = 8.0;
+move:b = yes;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 0, 360; 
+pos:p2 = -77.4528, -2.7047;
+diameter:r = 0.1;
+size:r = 8.0;
+move:b = yes;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 0, 360; 
+pos:p2 = -77.3938, -4.0560;
+diameter:r = 0.1;
+size:r = 8.0;
+move:b = yes;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 0, 360; 
+pos:p2 = -77.3112, -5.4061;
+diameter:r = 0.1;
+size:r = 8.0;
+move:b = yes;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 0, 360; 
+pos:p2 = -77.2051, -6.7546;
+diameter:r = 0.1;
+size:r = 8.0;
+move:b = yes;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 0, 360; 
+pos:p2 = -77.0754, -8.1010;
+diameter:r = 0.1;
+size:r = 8.0;
+move:b = yes;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 0, 360; 
+pos:p2 = -76.9223, -9.4449;
+diameter:r = 0.1;
+size:r = 8.0;
+move:b = yes;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 0, 360; 
+pos:p2 = -76.7458, -10.7859;
+diameter:r = 0.1;
+size:r = 8.0;
+move:b = yes;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 0, 360; 
+pos:p2 = -76.5458, -12.1237;
+diameter:r = 0.1;
+size:r = 8.0;
+move:b = yes;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 0, 360; 
+pos:p2 = -76.3226, -13.4577;
+diameter:r = 0.1;
+size:r = 8.0;
+move:b = yes;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 0, 360; 
+pos:p2 = -76.0761, -14.7877;
+diameter:r = 0.1;
+size:r = 8.0;
+move:b = yes;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 0, 360; 
+pos:p2 = -75.8064, -16.1132;
+diameter:r = 0.1;
+size:r = 8.0;
+move:b = yes;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 0, 360; 
+pos:p2 = -75.5137, -17.4337;
+diameter:r = 0.1;
+size:r = 8.0;
+move:b = yes;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 0, 360; 
+pos:p2 = -75.1979, -18.7489;
+diameter:r = 0.1;
+size:r = 8.0;
+move:b = yes;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 0, 360; 
+pos:p2 = -74.8593, -20.0585;
+diameter:r = 0.1;
+size:r = 8.0;
+move:b = yes;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 0, 360; 
+pos:p2 = -74.4978, -21.3619;
+diameter:r = 0.1;
+size:r = 8.0;
+move:b = yes;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 0, 360; 
+pos:p2 = -74.1136, -22.6588;
+diameter:r = 0.1;
+size:r = 8.0;
+move:b = yes;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 0, 360; 
+pos:p2 = -73.7069, -23.9488;
+diameter:r = 0.1;
+size:r = 8.0;
+move:b = yes;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 0, 360; 
+pos:p2 = -73.2777, -25.2315;
+diameter:r = 0.1;
+size:r = 8.0;
+move:b = yes;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 0, 360; 
+pos:p2 = -72.8262, -26.5066;
+diameter:r = 0.1;
+size:r = 8.0;
+move:b = yes;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 0, 360; 
+pos:p2 = -72.3525, -27.7735;
+diameter:r = 0.1;
+size:r = 8.0;
+move:b = yes;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 0, 360; 
+pos:p2 = -71.8567, -29.0320;
+diameter:r = 0.1;
+size:r = 8.0;
+move:b = yes;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 0, 360; 
+pos:p2 = -71.3391, -30.2817;
+diameter:r = 0.1;
+size:r = 8.0;
+move:b = yes;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 0, 360; 
+pos:p2 = -70.7998, -31.5221;
+diameter:r = 0.1;
+size:r = 8.0;
+move:b = yes;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 0, 360; 
+pos:p2 = -70.2389, -32.7529;
+diameter:r = 0.1;
+size:r = 8.0;
+move:b = yes;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 0, 360; 
+pos:p2 = -69.6565, -33.9738;
+diameter:r = 0.1;
+size:r = 8.0;
+move:b = yes;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 0, 360; 
+pos:p2 = -69.0530, -35.1843;
+diameter:r = 0.1;
+size:r = 8.0;
+move:b = yes;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 0, 360; 
+pos:p2 = -68.4284, -36.3840;
+diameter:r = 0.1;
+size:r = 8.0;
+move:b = yes;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 0, 360; 
+pos:p2 = -67.7830, -37.5727;
+diameter:r = 0.1;
+size:r = 8.0;
+move:b = yes;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 0, 360; 
+pos:p2 = -67.1170, -38.7500;
+diameter:r = 0.1;
+size:r = 8.0;
+move:b = yes;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 0, 360; 
+pos:p2 = -66.4305, -39.9155;
+diameter:r = 0.1;
+size:r = 8.0;
+move:b = yes;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 0, 360; 
+pos:p2 = -65.7237, -41.0687;
+diameter:r = 0.1;
+size:r = 8.0;
+move:b = yes;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 0, 360; 
+pos:p2 = -64.9970, -42.2095;
+diameter:r = 0.1;
+size:r = 8.0;
+move:b = yes;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 0, 360; 
+pos:p2 = -64.2504, -43.3375;
+diameter:r = 0.1;
+size:r = 8.0;
+move:b = yes;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 0, 360; 
+pos:p2 = -63.4843, -44.4522;
+diameter:r = 0.1;
+size:r = 8.0;
+move:b = yes;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 0, 360; 
+pos:p2 = -62.6988, -45.5534;
+diameter:r = 0.1;
+size:r = 8.0;
+move:b = yes;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 0, 360; 
+pos:p2 = -61.8943, -46.6407;
+diameter:r = 0.1;
+size:r = 8.0;
+move:b = yes;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 0, 360; 
+pos:p2 = -61.0708, -47.7138;
+diameter:r = 0.1;
+size:r = 8.0;
+move:b = yes;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 0, 360; 
+pos:p2 = -60.2288, -48.7723;
+diameter:r = 0.1;
+size:r = 8.0;
+move:b = yes;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 0, 360; 
+pos:p2 = -59.3684, -49.8160;
+diameter:r = 0.1;
+size:r = 8.0;
+move:b = yes;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 0, 360; 
+pos:p2 = -58.4900, -50.8446;
+diameter:r = 0.1;
+size:r = 8.0;
+move:b = yes;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 0, 360; 
+pos:p2 = -57.5937, -51.8576;
+diameter:r = 0.1;
+size:r = 8.0;
+move:b = yes;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 0, 360; 
+pos:p2 = -56.6799, -52.8549;
+diameter:r = 0.1;
+size:r = 8.0;
+move:b = yes;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 0, 360; 
+pos:p2 = -55.7488, -53.8360; //////////
+diameter:r = 0.1;
+size:r = 8.0;
+move:b = yes;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 0, 360; 
+pos:p2 = -54.8008, -54.8008;
+diameter:r = 0.1;
+size:r = 8.0;
+move:b = yes;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 0, 360; 
+pos:p2 = -53.8360, -55.7488;
+diameter:r = 0.1;
+size:r = 8.0;
+move:b = yes;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 0, 360; 
+pos:p2 = -52.8549, -56.6799;
+diameter:r = 0.1;
+size:r = 8.0;
+move:b = yes;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 0, 360; 
+pos:p2 = -51.8576, -57.5937;
+diameter:r = 0.1;
+size:r = 8.0;
+move:b = yes;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 0, 360; 
+pos:p2 = -50.8446, -58.4900;
+diameter:r = 0.1;
+size:r = 8.0;
+move:b = yes;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 0, 360; 
+pos:p2 = -49.8160, -59.3684;
+diameter:r = 0.1;
+size:r = 8.0;
+move:b = yes;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 0, 360; 
+pos:p2 = -48.7723, -60.2288;
+diameter:r = 0.1;
+size:r = 8.0;
+move:b = yes;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 0, 360; 
+pos:p2 = -47.7138, -61.0708;
+diameter:r = 0.1;
+size:r = 8.0;
+move:b = yes;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 0, 360; 
+pos:p2 = -46.6407, -61.8943;
+diameter:r = 0.1;
+size:r = 8.0;
+move:b = yes;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 0, 360; 
+pos:p2 = -45.5534, -62.6988;
+diameter:r = 0.1;
+size:r = 8.0;
+move:b = yes;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 0, 360; 
+pos:p2 = -44.4522, -63.4843;
+diameter:r = 0.1;
+size:r = 8.0;
+move:b = yes;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 0, 360; 
+pos:p2 = -43.3375, -64.2504;
+diameter:r = 0.1;
+size:r = 8.0;
+move:b = yes;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 0, 360; 
+pos:p2 = -42.2095, -64.9970;
+diameter:r = 0.1;
+size:r = 8.0;
+move:b = yes;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 0, 360; 
+pos:p2 = -41.0687, -65.7237;
+diameter:r = 0.1;
+size:r = 8.0;
+move:b = yes;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 0, 360; 
+pos:p2 = -39.9155, -66.4305;
+diameter:r = 0.1;
+size:r = 8.0;
+move:b = yes;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 0, 360; 
+pos:p2 = -38.7500, -67.1170;
+diameter:r = 0.1;
+size:r = 8.0;
+move:b = yes;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 0, 360; 
+pos:p2 = -37.5727, -67.7830;
+diameter:r = 0.1;
+size:r = 8.0;
+move:b = yes;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 0, 360; 
+pos:p2 = -36.3840, -68.4284;
+diameter:r = 0.1;
+size:r = 8.0;
+move:b = yes;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 0, 360; 
+pos:p2 = -35.1843, -69.0530;
+diameter:r = 0.1;
+size:r = 8.0;
+move:b = yes;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 0, 360; 
+pos:p2 = -33.9738, -69.6565;
+diameter:r = 0.1;
+size:r = 8.0;
+move:b = yes;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 0, 360; 
+pos:p2 = -32.7529, -70.2389;
+diameter:r = 0.1;
+size:r = 8.0;
+move:b = yes;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 0, 360; 
+pos:p2 = -33.9738, -69.6565;
+diameter:r = 0.1;
+size:r = 8.0;
+move:b = yes;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 0, 360; 
+pos:p2 = -32.7529, -70.2389;
+diameter:r = 0.1;
+size:r = 8.0;
+move:b = yes;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 0, 360; 
+pos:p2 = -31.5221, -70.7998;
+diameter:r = 0.1;
+size:r = 8.0;
+move:b = yes;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 0, 360; 
+pos:p2 = -30.2817, -71.3391;
+diameter:r = 0.1;
+size:r = 8.0;
+move:b = yes;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 0, 360; 
+pos:p2 = -29.0320, -71.8567;
+diameter:r = 0.1;
+size:r = 8.0;
+move:b = yes;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 0, 360; 
+pos:p2 = -27.7735, -72.3525;
+diameter:r = 0.1;
+size:r = 8.0;
+move:b = yes;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 0, 360; 
+pos:p2 = -26.5066, -72.8262;
+diameter:r = 0.1;
+size:r = 8.0;
+move:b = yes;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 0, 360; 
+pos:p2 = -25.2315, -73.2777;
+diameter:r = 0.1;
+size:r = 8.0;
+move:b = yes;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 0, 360; 
+pos:p2 = -23.9488, -73.7069;
+diameter:r = 0.1;
+size:r = 8.0;
+move:b = yes;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 0, 360; 
+pos:p2 = -22.6588, -74.1136;
+diameter:r = 0.1;
+size:r = 8.0;
+move:b = yes;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 0, 360; 
+pos:p2 = -21.3619, -74.4978;
+diameter:r = 0.1;
+size:r = 8.0;
+move:b = yes;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 0, 360; 
+pos:p2 = -20.0585, -74.8593;
+diameter:r = 0.1;
+size:r = 8.0;
+move:b = yes;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 0, 360; 
+pos:p2 = -18.7489, -75.1979;
+diameter:r = 0.1;
+size:r = 8.0;
+move:b = yes;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 0, 360; 
+pos:p2 = -17.4337, -75.5137;
+diameter:r = 0.1;
+size:r = 8.0;
+move:b = yes;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 0, 360; 
+pos:p2 = -16.1132, -75.8064;
+diameter:r = 0.1;
+size:r = 8.0;
+move:b = yes;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 0, 360; 
+pos:p2 = -14.7877, -76.0761;
+diameter:r = 0.1;
+size:r = 8.0;
+move:b = yes;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 0, 360; 
+pos:p2 = -13.4577, -76.3226;
+diameter:r = 0.1;
+size:r = 8.0;
+move:b = yes;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 0, 360; 
+pos:p2 = -12.1237, -76.5458;
+diameter:r = 0.1;
+size:r = 8.0;
+move:b = yes;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 0, 360; 
+pos:p2 = -10.7859, -76.7458;
+diameter:r = 0.1;
+size:r = 8.0;
+move:b = yes;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 0, 360; 
+pos:p2 = -9.4449, -76.9223;
+diameter:r = 0.1;
+size:r = 8.0;
+move:b = yes;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 0, 360; 
+pos:p2 = -8.1010, -77.0754;
+diameter:r = 0.1;
+size:r = 8.0;
+move:b = yes;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 0, 360; 
+pos:p2 = -6.7546, -77.2051;
+diameter:r = 0.1;
+size:r = 8.0;
+move:b = yes;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 0, 360; 
+pos:p2 = -5.4061, -77.3112;
+diameter:r = 0.1;
+size:r = 8.0;
+move:b = yes;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 0, 360; 
+pos:p2 = -4.0560, -77.3938;
+diameter:r = 0.1;
+size:r = 8.0;
+move:b = yes;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 0, 360; 
+pos:p2 = -2.7047, -77.4528; 
+diameter:r = 0.1;
+size:r = 8.0;
+move:b = yes;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 0, 360; 
+pos:p2 = -1.3526, -77.4882; ////////////////
+diameter:r = 0.1;
+size:r = 8.0;
+move:b = yes;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 0, 360; 
+pos:p2 = 77.4882, -1.3526;
+diameter:r = 0.1;
+size:r = 8.0;
+move:b = yes;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 0, 360; 
+pos:p2 = 77.4528, -2.7047;
+diameter:r = 0.1;
+size:r = 8.0;
+move:b = yes;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 0, 360; 
+pos:p2 = 77.3938, -4.0560;
+diameter:r = 0.1;
+size:r = 8.0;
+move:b = yes;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 0, 360; 
+pos:p2 = 77.3112, -5.4061;
+diameter:r = 0.1;
+size:r = 8.0;
+move:b = yes;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 0, 360; 
+pos:p2 = 77.2051, -6.7546;
+diameter:r = 0.1;
+size:r = 8.0;
+move:b = yes;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 0, 360; 
+pos:p2 = 77.0754, -8.1010;
+diameter:r = 0.1;
+size:r = 8.0;
+move:b = yes;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 0, 360; 
+pos:p2 = 76.9223, -9.4449;
+diameter:r = 0.1;
+size:r = 8.0;
+move:b = yes;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 0, 360; 
+pos:p2 = 76.7458, -10.7859;
+diameter:r = 0.1;
+size:r = 8.0;
+move:b = yes;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 0, 360; 
+pos:p2 = 76.5458, -12.1237;
+diameter:r = 0.1;
+size:r = 8.0;
+move:b = yes;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 0, 360; 
+pos:p2 = 76.3226, -13.4577;
+diameter:r = 0.1;
+size:r = 8.0;
+move:b = yes;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 0, 360; 
+pos:p2 = 76.0761, -14.7877;
+diameter:r = 0.1;
+size:r = 8.0;
+move:b = yes;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 0, 360; 
+pos:p2 = 75.8064, -16.1132;
+diameter:r = 0.1;
+size:r = 8.0;
+move:b = yes;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 0, 360; 
+pos:p2 = 75.5137, -17.4337;
+diameter:r = 0.1;
+size:r = 8.0;
+move:b = yes;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 0, 360; 
+pos:p2 = 75.1979, -18.7489;
+diameter:r = 0.1;
+size:r = 8.0;
+move:b = yes;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 0, 360; 
+pos:p2 = 74.8593, -20.0585;
+diameter:r = 0.1;
+size:r = 8.0;
+move:b = yes;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 0, 360; 
+pos:p2 = 74.4978, -21.3619;
+diameter:r = 0.1;
+size:r = 8.0;
+move:b = yes;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 0, 360; 
+pos:p2 = 74.1136, -22.6588;
+diameter:r = 0.1;
+size:r = 8.0;
+move:b = yes;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 0, 360; 
+pos:p2 = 73.7069, -23.9488;
+diameter:r = 0.1;
+size:r = 8.0;
+move:b = yes;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 0, 360; 
+pos:p2 = 73.2777, -25.2315;
+diameter:r = 0.1;
+size:r = 8.0;
+move:b = yes;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 0, 360; 
+pos:p2 = 72.8262, -26.5066;
+diameter:r = 0.1;
+size:r = 8.0;
+move:b = yes;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 0, 360; 
+pos:p2 = 72.3525, -27.7735;
+diameter:r = 0.1;
+size:r = 8.0;
+move:b = yes;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 0, 360; 
+pos:p2 = 71.8567, -29.0320;
+diameter:r = 0.1;
+size:r = 8.0;
+move:b = yes;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 0, 360; 
+pos:p2 = 71.3391, -30.2817;
+diameter:r = 0.1;
+size:r = 8.0;
+move:b = yes;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 0, 360; 
+pos:p2 = 70.7998, -31.5221;
+diameter:r = 0.1;
+size:r = 8.0;
+move:b = yes;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 0, 360; 
+pos:p2 = 70.2389, -32.7529;
+diameter:r = 0.1;
+size:r = 8.0;
+move:b = yes;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 0, 360; 
+pos:p2 = 69.6565, -33.9738;
+diameter:r = 0.1;
+size:r = 8.0;
+move:b = yes;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 0, 360; 
+pos:p2 = 69.0530, -35.1843;
+diameter:r = 0.1;
+size:r = 8.0;
+move:b = yes;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 0, 360; 
+pos:p2 = 68.4284, -36.3840;
+diameter:r = 0.1;
+size:r = 8.0;
+move:b = yes;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 0, 360; 
+pos:p2 = 67.7830, -37.5727;
+diameter:r = 0.1;
+size:r = 8.0;
+move:b = yes;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 0, 360; 
+pos:p2 = 67.1170, -38.7500;
+diameter:r = 0.1;
+size:r = 8.0;
+move:b = yes;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 0, 360; 
+pos:p2 = 66.4305, -39.9155;
+diameter:r = 0.1;
+size:r = 8.0;
+move:b = yes;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 0, 360; 
+pos:p2 = 65.7237, -41.0687;
+diameter:r = 0.1;
+size:r = 8.0;
+move:b = yes;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 0, 360; 
+pos:p2 = 64.9970, -42.2095;
+diameter:r = 0.1;
+size:r = 8.0;
+move:b = yes;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 0, 360; 
+pos:p2 = 64.2504, -43.3375;
+diameter:r = 0.1;
+size:r = 8.0;
+move:b = yes;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 0, 360; 
+pos:p2 = 63.4843, -44.4522;
+diameter:r = 0.1;
+size:r = 8.0;
+move:b = yes;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 0, 360; 
+pos:p2 = 62.6988, -45.5534;
+diameter:r = 0.1;
+size:r = 8.0;
+move:b = yes;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 0, 360; 
+pos:p2 = 61.8943, -46.6407;
+diameter:r = 0.1;
+size:r = 8.0;
+move:b = yes;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 0, 360; 
+pos:p2 = 61.0708, -47.7138;
+diameter:r = 0.1;
+size:r = 8.0;
+move:b = yes;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 0, 360; 
+pos:p2 = 60.2288, -48.7723;
+diameter:r = 0.1;
+size:r = 8.0;
+move:b = yes;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 0, 360; 
+pos:p2 = 59.3684, -49.8160;
+diameter:r = 0.1;
+size:r = 8.0;
+move:b = yes;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 0, 360; 
+pos:p2 = 58.4900, -50.8446;
+diameter:r = 0.1;
+size:r = 8.0;
+move:b = yes;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 0, 360; 
+pos:p2 = 57.5937, -51.8576;
+diameter:r = 0.1;
+size:r = 8.0;
+move:b = yes;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 0, 360; 
+pos:p2 = 56.6799, -52.8549;
+diameter:r = 0.1;
+size:r = 8.0;
+move:b = yes;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 0, 360; 
+pos:p2 = 55.7488, -53.8360; //////////
+diameter:r = 0.1;
+size:r = 8.0;
+move:b = yes;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 0, 360; 
+pos:p2 = 54.8008, -54.8008;
+diameter:r = 0.1;
+size:r = 8.0;
+move:b = yes;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 0, 360; 
+pos:p2 = 53.8360, -55.7488;
+diameter:r = 0.1;
+size:r = 8.0;
+move:b = yes;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 0, 360; 
+pos:p2 = 52.8549, -56.6799;
+diameter:r = 0.1;
+size:r = 8.0;
+move:b = yes;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 0, 360; 
+pos:p2 = 51.8576, -57.5937;
+diameter:r = 0.1;
+size:r = 8.0;
+move:b = yes;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 0, 360; 
+pos:p2 = 50.8446, -58.4900;
+diameter:r = 0.1;
+size:r = 8.0;
+move:b = yes;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 0, 360; 
+pos:p2 = 49.8160, -59.3684;
+diameter:r = 0.1;
+size:r = 8.0;
+move:b = yes;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 0, 360; 
+pos:p2 = 48.7723, -60.2288;
+diameter:r = 0.1;
+size:r = 8.0;
+move:b = yes;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 0, 360; 
+pos:p2 = 47.7138, -61.0708;
+diameter:r = 0.1;
+size:r = 8.0;
+move:b = yes;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 0, 360; 
+pos:p2 = 46.6407, -61.8943;
+diameter:r = 0.1;
+size:r = 8.0;
+move:b = yes;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 0, 360; 
+pos:p2 = 45.5534, -62.6988;
+diameter:r = 0.1;
+size:r = 8.0;
+move:b = yes;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 0, 360; 
+pos:p2 = 44.4522, -63.4843;
+diameter:r = 0.1;
+size:r = 8.0;
+move:b = yes;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 0, 360; 
+pos:p2 = 43.3375, -64.2504;
+diameter:r = 0.1;
+size:r = 8.0;
+move:b = yes;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 0, 360; 
+pos:p2 = 42.2095, -64.9970;
+diameter:r = 0.1;
+size:r = 8.0;
+move:b = yes;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 0, 360; 
+pos:p2 = 41.0687, -65.7237;
+diameter:r = 0.1;
+size:r = 8.0;
+move:b = yes;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 0, 360; 
+pos:p2 = 39.9155, -66.4305;
+diameter:r = 0.1;
+size:r = 8.0;
+move:b = yes;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 0, 360; 
+pos:p2 = 38.7500, -67.1170;
+diameter:r = 0.1;
+size:r = 8.0;
+move:b = yes;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 0, 360; 
+pos:p2 = 37.5727, -67.7830;
+diameter:r = 0.1;
+size:r = 8.0;
+move:b = yes;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 0, 360; 
+pos:p2 = 36.3840, -68.4284;
+diameter:r = 0.1;
+size:r = 8.0;
+move:b = yes;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 0, 360; 
+pos:p2 = 35.1843, -69.0530;
+diameter:r = 0.1;
+size:r = 8.0;
+move:b = yes;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 0, 360; 
+pos:p2 = 33.9738, -69.6565;
+diameter:r = 0.1;
+size:r = 8.0;
+move:b = yes;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 0, 360; 
+pos:p2 = 32.7529, -70.2389;
+diameter:r = 0.1;
+size:r = 8.0;
+move:b = yes;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 0, 360; 
+pos:p2 = 33.9738, -69.6565;
+diameter:r = 0.1;
+size:r = 8.0;
+move:b = yes;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 0, 360; 
+pos:p2 = 32.7529, -70.2389;
+diameter:r = 0.1;
+size:r = 8.0;
+move:b = yes;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 0, 360; 
+pos:p2 = 31.5221, -70.7998;
+diameter:r = 0.1;
+size:r = 8.0;
+move:b = yes;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 0, 360; 
+pos:p2 = 30.2817, -71.3391;
+diameter:r = 0.1;
+size:r = 8.0;
+move:b = yes;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 0, 360; 
+pos:p2 = 29.0320, -71.8567;
+diameter:r = 0.1;
+size:r = 8.0;
+move:b = yes;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 0, 360; 
+pos:p2 = 27.7735, -72.3525;
+diameter:r = 0.1;
+size:r = 8.0;
+move:b = yes;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 0, 360; 
+pos:p2 = 26.5066, -72.8262;
+diameter:r = 0.1;
+size:r = 8.0;
+move:b = yes;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 0, 360; 
+pos:p2 = 25.2315, -73.2777;
+diameter:r = 0.1;
+size:r = 8.0;
+move:b = yes;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 0, 360; 
+pos:p2 = 23.9488, -73.7069;
+diameter:r = 0.1;
+size:r = 8.0;
+move:b = yes;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 0, 360; 
+pos:p2 = 22.6588, -74.1136;
+diameter:r = 0.1;
+size:r = 8.0;
+move:b = yes;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 0, 360; 
+pos:p2 = 21.3619, -74.4978;
+diameter:r = 0.1;
+size:r = 8.0;
+move:b = yes;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 0, 360; 
+pos:p2 = 20.0585, -74.8593;
+diameter:r = 0.1;
+size:r = 8.0;
+move:b = yes;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 0, 360; 
+pos:p2 = 18.7489, -75.1979;
+diameter:r = 0.1;
+size:r = 8.0;
+move:b = yes;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 0, 360; 
+pos:p2 = 17.4337, -75.5137;
+diameter:r = 0.1;
+size:r = 8.0;
+move:b = yes;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 0, 360; 
+pos:p2 = 16.1132, -75.8064;
+diameter:r = 0.1;
+size:r = 8.0;
+move:b = yes;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 0, 360; 
+pos:p2 = 14.7877, -76.0761;
+diameter:r = 0.1;
+size:r = 8.0;
+move:b = yes;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 0, 360; 
+pos:p2 = 13.4577, -76.3226;
+diameter:r = 0.1;
+size:r = 8.0;
+move:b = yes;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 0, 360; 
+pos:p2 = 12.1237, -76.5458;
+diameter:r = 0.1;
+size:r = 8.0;
+move:b = yes;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 0, 360; 
+pos:p2 = 10.7859, -76.7458;
+diameter:r = 0.1;
+size:r = 8.0;
+move:b = yes;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 0, 360; 
+pos:p2 = 9.4449, -76.9223;
+diameter:r = 0.1;
+size:r = 8.0;
+move:b = yes;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 0, 360; 
+pos:p2 = 8.1010, -77.0754;
+diameter:r = 0.1;
+size:r = 8.0;
+move:b = yes;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 0, 360; 
+pos:p2 = 6.7546, -77.2051;
+diameter:r = 0.1;
+size:r = 8.0;
+move:b = yes;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 0, 360; 
+pos:p2 = 5.4061, -77.3112;
+diameter:r = 0.1;
+size:r = 8.0;
+move:b = yes;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 0, 360; 
+pos:p2 = 4.0560, -77.3938;
+diameter:r = 0.1;
+size:r = 8.0;
+move:b = yes;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 0, 360; 
+pos:p2 = 2.7047, -77.4528;
+diameter:r = 0.1;
+size:r = 8.0;
+move:b = yes;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 0, 360; 
+pos:p2 = 1.3526, -77.4882; //////////////////
+diameter:r = 0.1;
+size:r = 8.0;
+move:b = yes;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 0, 360; 
+pos:p2 = -77.4882, 1.3526;
+diameter:r = 0.1;
+size:r = 8.0;
+move:b = yes;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 0, 360; 
+pos:p2 = -77.4528, 2.7047;
+diameter:r = 0.1;
+size:r = 8.0;
+move:b = yes;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 0, 360; 
+pos:p2 = -77.3938, 4.0560;
+diameter:r = 0.1;
+size:r = 8.0;
+move:b = yes;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 0, 360; 
+pos:p2 = -77.3112, 5.4061;
+diameter:r = 0.1;
+size:r = 8.0;
+move:b = yes;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 0, 360; 
+pos:p2 = -77.2051, 6.7546;
+diameter:r = 0.1;
+size:r = 8.0;
+move:b = yes;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 0, 360; 
+pos:p2 = -77.0754, 8.1010;
+diameter:r = 0.1;
+size:r = 8.0;
+move:b = yes;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 0, 360; 
+pos:p2 = -76.9223, 9.4449;
+diameter:r = 0.1;
+size:r = 8.0;
+move:b = yes;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 0, 360; 
+pos:p2 = -76.7458, 10.7859;
+diameter:r = 0.1;
+size:r = 8.0;
+move:b = yes;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 0, 360; 
+pos:p2 = -76.5458, 12.1237;
+diameter:r = 0.1;
+size:r = 8.0;
+move:b = yes;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 0, 360; 
+pos:p2 = -76.3226, 13.4577;
+diameter:r = 0.1;
+size:r = 8.0;
+move:b = yes;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 0, 360; 
+pos:p2 = -76.0761, 14.7877;
+diameter:r = 0.1;
+size:r = 8.0;
+move:b = yes;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 0, 360; 
+pos:p2 = -75.8064, 16.1132;
+diameter:r = 0.1;
+size:r = 8.0;
+move:b = yes;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 0, 360; 
+pos:p2 = -75.5137, 17.4337;
+diameter:r = 0.1;
+size:r = 8.0;
+move:b = yes;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 0, 360; 
+pos:p2 = -75.1979, 18.7489;
+diameter:r = 0.1;
+size:r = 8.0;
+move:b = yes;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 0, 360; 
+pos:p2 = -74.8593, 20.0585;
+diameter:r = 0.1;
+size:r = 8.0;
+move:b = yes;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 0, 360; 
+pos:p2 = -74.4978, 21.3619;
+diameter:r = 0.1;
+size:r = 8.0;
+move:b = yes;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 0, 360; 
+pos:p2 = -74.1136, 22.6588;
+diameter:r = 0.1;
+size:r = 8.0;
+move:b = yes;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 0, 360; 
+pos:p2 = -73.7069, 23.9488;
+diameter:r = 0.1;
+size:r = 8.0;
+move:b = yes;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 0, 360; 
+pos:p2 = -73.2777, 25.2315;
+diameter:r = 0.1;
+size:r = 8.0;
+move:b = yes;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 0, 360; 
+pos:p2 = -72.8262, 26.5066;
+diameter:r = 0.1;
+size:r = 8.0;
+move:b = yes;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 0, 360; 
+pos:p2 = -72.3525, 27.7735;
+diameter:r = 0.1;
+size:r = 8.0;
+move:b = yes;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 0, 360; 
+pos:p2 = -71.8567, 29.0320;
+diameter:r = 0.1;
+size:r = 8.0;
+move:b = yes;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 0, 360; 
+pos:p2 = -71.3391, 30.2817;
+diameter:r = 0.1;
+size:r = 8.0;
+move:b = yes;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 0, 360; 
+pos:p2 = -70.7998, 31.5221;
+diameter:r = 0.1;
+size:r = 8.0;
+move:b = yes;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 0, 360; 
+pos:p2 = -70.2389, 32.7529;
+diameter:r = 0.1;
+size:r = 8.0;
+move:b = yes;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 0, 360; 
+pos:p2 = -69.6565, 33.9738;
+diameter:r = 0.1;
+size:r = 8.0;
+move:b = yes;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 0, 360; 
+pos:p2 = -69.0530, 35.1843;
+diameter:r = 0.1;
+size:r = 8.0;
+move:b = yes;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 0, 360; 
+pos:p2 = -68.4284, 36.3840;
+diameter:r = 0.1;
+size:r = 8.0;
+move:b = yes;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 0, 360; 
+pos:p2 = -67.7830, 37.5727;
+diameter:r = 0.1;
+size:r = 8.0;
+move:b = yes;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 0, 360; 
+pos:p2 = -67.1170, 38.7500;
+diameter:r = 0.1;
+size:r = 8.0;
+move:b = yes;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 0, 360; 
+pos:p2 = -66.4305, 39.9155;
+diameter:r = 0.1;
+size:r = 8.0;
+move:b = yes;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 0, 360; 
+pos:p2 = -65.7237, 41.0687;
+diameter:r = 0.1;
+size:r = 8.0;
+move:b = yes;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 0, 360; 
+pos:p2 = -64.9970, 42.2095; //////////////////
+diameter:r = 0.1;
+size:r = 8.0;
+move:b = yes;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 0, 360; 
+pos:p2 = 77.4882, 1.3526;
+diameter:r = 0.1;
+size:r = 8.0;
+move:b = yes;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 0, 360; 
+pos:p2 = 77.4528, 2.7047;
+diameter:r = 0.1;
+size:r = 8.0;
+move:b = yes;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 0, 360; 
+pos:p2 = 77.3938, 4.0560;
+diameter:r = 0.1;
+size:r = 8.0;
+move:b = yes;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 0, 360; 
+pos:p2 = 77.3112, 5.4061;
+diameter:r = 0.1;
+size:r = 8.0;
+move:b = yes;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 0, 360; 
+pos:p2 = 77.2051, 6.7546;
+diameter:r = 0.1;
+size:r = 8.0;
+move:b = yes;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 0, 360; 
+pos:p2 = 77.0754, 8.1010;
+diameter:r = 0.1;
+size:r = 8.0;
+move:b = yes;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 0, 360; 
+pos:p2 = 76.9223, 9.4449;
+diameter:r = 0.1;
+size:r = 8.0;
+move:b = yes;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 0, 360; 
+pos:p2 = 76.7458, 10.7859;
+diameter:r = 0.1;
+size:r = 8.0;
+move:b = yes;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 0, 360; 
+pos:p2 = 76.5458, 12.1237;
+diameter:r = 0.1;
+size:r = 8.0;
+move:b = yes;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 0, 360; 
+pos:p2 = 76.3226, 13.4577;
+diameter:r = 0.1;
+size:r = 8.0;
+move:b = yes;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 0, 360; 
+pos:p2 = 76.0761, 14.7877;
+diameter:r = 0.1;
+size:r = 8.0;
+move:b = yes;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 0, 360; 
+pos:p2 = 75.8064, 16.1132;
+diameter:r = 0.1;
+size:r = 8.0;
+move:b = yes;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 0, 360; 
+pos:p2 = 75.5137, 17.4337;
+diameter:r = 0.1;
+size:r = 8.0;
+move:b = yes;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 0, 360; 
+pos:p2 = 75.1979, 18.7489;
+diameter:r = 0.1;
+size:r = 8.0;
+move:b = yes;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 0, 360; 
+pos:p2 = 74.8593, 20.0585;
+diameter:r = 0.1;
+size:r = 8.0;
+move:b = yes;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 0, 360; 
+pos:p2 = 74.4978, 21.3619;
+diameter:r = 0.1;
+size:r = 8.0;
+move:b = yes;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 0, 360; 
+pos:p2 = 74.1136, 22.6588;
+diameter:r = 0.1;
+size:r = 8.0;
+move:b = yes;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 0, 360; 
+pos:p2 = 73.7069, 23.9488;
+diameter:r = 0.1;
+size:r = 8.0;
+move:b = yes;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 0, 360; 
+pos:p2 = 73.2777, 25.2315;
+diameter:r = 0.1;
+size:r = 8.0;
+move:b = yes;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 0, 360; 
+pos:p2 = 72.8262, 26.5066;
+diameter:r = 0.1;
+size:r = 8.0;
+move:b = yes;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 0, 360; 
+pos:p2 = 72.3525, 27.7735;
+diameter:r = 0.1;
+size:r = 8.0;
+move:b = yes;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 0, 360; 
+pos:p2 = 71.8567, 29.0320;
+diameter:r = 0.1;
+size:r = 8.0;
+move:b = yes;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 0, 360; 
+pos:p2 = 71.3391, 30.2817;
+diameter:r = 0.1;
+size:r = 8.0;
+move:b = yes;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 0, 360; 
+pos:p2 = 70.7998, 31.5221;
+diameter:r = 0.1;
+size:r = 8.0;
+move:b = yes;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 0, 360; 
+pos:p2 = 70.2389, 32.7529;
+diameter:r = 0.1;
+size:r = 8.0;
+move:b = yes;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 0, 360; 
+pos:p2 = 69.6565, 33.9738;
+diameter:r = 0.1;
+size:r = 8.0;
+move:b = yes;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 0, 360; 
+pos:p2 = 69.0530, 35.1843;
+diameter:r = 0.1;
+size:r = 8.0;
+move:b = yes;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 0, 360; 
+pos:p2 = 68.4284, 36.3840;
+diameter:r = 0.1;
+size:r = 8.0;
+move:b = yes;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 0, 360; 
+pos:p2 = 67.7830, 37.5727;
+diameter:r = 0.1;
+size:r = 8.0;
+move:b = yes;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 0, 360; 
+pos:p2 = 67.1170, 38.7500;
+diameter:r = 0.1;
+size:r = 8.0;
+move:b = yes;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 0, 360; 
+pos:p2 = 66.4305, 39.9155;
+diameter:r = 0.1;
+size:r = 8.0;
+move:b = yes;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 0, 360; 
+pos:p2 = 65.7237, 41.0687;
+diameter:r = 0.1;
+size:r = 8.0;
+move:b = yes;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 0, 360; 
+pos:p2 = 64.9970, 42.2095; ///////////////
+diameter:r = 0.1;
+size:r = 8.0;
+move:b = yes;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 0, 360; 
+pos:p2 = 0, -77.5;
+diameter:r = 0.1;
+size:r = 8.0;
+move:b = yes;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 0, 360; 
+pos:p2 = 77.5, 0;
+diameter:r = 0.1;
+size:r = 8.0;
+move:b = yes;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 0, 360; 
+pos:p2 = -77.5, 0;
+diameter:r = 0.1;
+size:r = 8.0;
+move:b = yes;
+thousandth:b = yes;
+}
+}
+
+drawLines{
+  line{
+    line:p4=8, 0, -8, 0
+    move:b=no
+    thousandth:b=yes
+}
+  line{
+    line:p4=0, -8, 0, 8 /////////////
+    move:b=no
+    thousandth:b=yes
+}
+  line{
+    line:p4=89.4, -2, 91.9, -2
+    move:b=no
+    thousandth:b=yes
+}
+  line{
+    line:p4=93.9, -2, 96.4, -2
+    move:b=no
+    thousandth:b=yes
+}
+  line{
+    line:p4=98.4, -2, 100.9, -2 
+    move:b=no
+    thousandth:b=yes
+}
+  line{
+    line:p4=-104.2, -2, -106.7, -2
+    move:b=no
+    thousandth:b=yes
+}
+  line{
+    line:p4=-108.7, -2, -111.2, -2
+    move:b=no
+    thousandth:b=yes
+}
+  line{
+    line:p4=-113.2, -2, -115.7, -2 ///////////
+    move:b=no
+    thousandth:b=yes
+}
+  line{
+    line:p4=62.9325, -62.9325, 60.8112, -60.8112
+    move:b=no
+    thousandth:b=yes
+}
+  line{
+    line:p4=82.2253, -34.0588, 79.4536, -32.9108
+    move:b=no
+    thousandth:b=yes
+}
+  line{
+    line:p4=34.0588, -82.2253, 32.9108, -79.4536
+    move:b=no
+    thousandth:b=yes
+}
+  line{
+    line:p4=-62.9325, -62.9325, -60.8112, -60.8112
+    move:b=no
+    thousandth:b=yes
+}
+  line{
+    line:p4=-82.2253, -34.0588, -79.4536, -32.9108
+    move:b=no
+    thousandth:b=yes
+}
+  line{
+    line:p4=-34.0588, -82.2253, -32.9108, -79.4536
+    move:b=no
+    thousandth:b=yes
+}
+  line{
+    line:p4=-82.2253, 34.0588, -79.4536, 32.9108
+    move:b=no
+    thousandth:b=yes
+}
+  line{
+    line:p4=82.2253, 34.0588, 79.4536, 32.9108 /////////////
+    move:b=no
+    thousandth:b=yes
+}
+  line{
+    line:p4=82.2253, 34.0588, 79.4536, 32.9108
+    move:b=no
+    thousandth:b=yes
+  }
+}
+
+  drawQuads {
+    quad {
+      tl:p2 = 86, -0.5; // Top left top
+      tr:p2 = 89, -0.5; // Top right top
+      br:p2 = 89, 0.5; // Top right bottom
+      bl:p2 = 86, 0.5; // Top left bottom
+      thousandth:b = true;
+    }
+    quad {
+      tl:p2 = -89, -0.5; // Top left top
+      tr:p2 = -86, -0.5; // Top right top
+      br:p2 = -86, 0.5; // Top right bottom
+      bl:p2 = -89, 0.5; // Top left bottom
+      thousandth:b = true;
+    }
+    quad {
+      tl:p2 = -0.5, -89; // Top left top
+      tr:p2 = 0.5, -89; // Top right top
+      br:p2 = 0.5, -86; // Top right bottom
+      bl:p2 = -0.5, -86; // Top left bottom
+      thousandth:b = true;
+    }
+}
