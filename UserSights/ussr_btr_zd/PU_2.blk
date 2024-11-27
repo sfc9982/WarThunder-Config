@@ -1,0 +1,234 @@
+crosshairDistHorSizeAdditional:p2=0.0045, 0.0025
+crosshairHorVertSize:p2=0.4, 0.2
+crosshairDistHorSizeMain:p2=0, 0
+
+rangefinderProgressBarColor1:c=239, 48, 56, 64
+rangefinderProgressBarColor2:c=0, 0, 0, 0
+
+rangefinderHorizontalOffset:r=110.0
+rangefinderVerticalOffset:r=2.0
+rangefinderTextScale:r=0.50
+
+autoSightDistanceCorrection:b=yes
+drawDistanceCorrection:b=yes
+drawCentralLineVert:b=no
+drawCentralLineHorz:b=no
+
+drawDistanceCorrection:b=no
+applyCorrectionToGun:b=no
+
+crosshairLightColor:c = 0,0,0
+
+
+
+                                                 // Прицел "ПУ 3,5х22" для БТР-3Д
+
+
+
+    // Толщина прицельной сетки (рекомендованные значения от 0.75 до 1.25)
+
+                       lineSizeMult:r = 1.75
+
+    // Размер шрифта поправок (рекомендованные значения от 0.45 до 1.3)
+
+                     fontSizeMult:r = 1
+
+    // Изменить положение введенной поправки в прицел (лево / право, верх / низ)
+
+              distanceCorrectionPos:p2=-0.170, 0.01
+
+
+
+    // Вертикальные поправки основного орудия
+
+crosshair_distances{
+
+    	distance { textPos:p2 = 0.1405, 0; distance:p3 = 99000, 0, 0; }
+   	distance { distance:p3 = 99999, 0, 0; }
+
+}
+
+    // Тысячные на горизонтальной линии прицела:
+
+crosshair_hor_ranges{}
+
+
+ drawCircles { 
+        circle {segment:p2 = 0.0, 360.0; pos:p2 = 0.0, 0.0; diameter:r = 1.5; size:r = 150; move:b = no;}
+        circle {segment:p2 = 0.0, 360.0; pos:p2 = 0.0, 0.0; diameter:r = 1.5; size:r = 150; move:b = no;}
+        circle {segment:p2 = 0.0, 360.0; pos:p2 = 0.0, 0.0; diameter:r = 1.5; size:r = 150; move:b = no;}
+        circle {segment:p2 = 0.0, 360.0; pos:p2 = 0.0, 0.0; diameter:r = 1.7; size:r = 250; move:b = no;}
+        circle {segment:p2 = 0.0, 360.0; pos:p2 = 0.0, 0.0; diameter:r = 1.8; size:r = 150; move:b = no;}
+        circle {segment:p2 = 0.0, 360.0; pos:p2 = 0.0, 0.0; diameter:r = 1.8; size:r = 150; move:b = no;}
+        circle {segment:p2 = 0.0, 360.0; pos:p2 = 0.0, 0.0; diameter:r = 1.8; size:r = 150; move:b = no;}
+
+
+
+
+
+
+
+
+
+
+
+        circle {segment:p2 = 0.0, 360.0; pos:p2 = 0.0, 0.0; diameter:r = 1.5; size:r = 150; move:b = no;}
+        circle {segment:p2 = 0.0, 360.0; pos:p2 = 0.0, 0.0; diameter:r = 1.5; size:r = 150; move:b = no;}
+        circle {segment:p2 = 0.0, 360.0; pos:p2 = 0.0, 0.0; diameter:r = 1.5; size:r = 150; move:b = no;}
+        circle {segment:p2 = 0.0, 360.0; pos:p2 = 0.0, 0.0; diameter:r = 1.7; size:r = 250; move:b = no;}
+        circle {segment:p2 = 0.0, 360.0; pos:p2 = 0.0, 0.0; diameter:r = 1.8; size:r = 150; move:b = no;}
+        circle {segment:p2 = 0.0, 360.0; pos:p2 = 0.0, 0.0; diameter:r = 1.8; size:r = 150; move:b = no;}
+        circle {segment:p2 = 0.0, 360.0; pos:p2 = 0.0, 0.0; diameter:r = 1.8; size:r = 150; move:b = no;}
+}
+
+
+drawLines{
+line{ line:p4=0, 0, 0, 0; move:b=no; }
+
+}
+drawQuads {
+  quad { 
+    tl:p2 = -10.5, 6.5; // Вершина  верхняя левая
+    tr:p2 = -320, 6.5; // Вершина  верхняя правая
+    br:p2 = -320, 2.05; // Вершина  нижняя правая
+    bl:p2 = -10.5, 2.05; // Вершина  нижняя левая
+    thousandth:b = true; move:b = yes; radialMoveSpeed:r =  0.7;  moveRadial:b = yes;  radialCenter:p2 = 1000000, 0;
+  }
+  quad { 
+    tl:p2 = 10.5, 6.5; // Вершина  верхняя левая
+    tr:p2 = 320, 6.5; // Вершина  верхняя правая
+    br:p2 = 320, 2.05; // Вершина  нижняя правая
+    bl:p2 = 10.5, 2.05; // Вершина  нижняя левая
+    thousandth:b = true; move:b = yes; radialMoveSpeed:r =  0.7;  moveRadial:b = yes;  radialCenter:p2 = 1000000, 0;
+  }
+  quad { 
+    tl:p2 = 2.01, 9.85; // Вершина  верхняя левая
+    tr:p2 = -2.01, 9.85; // Вершина  верхняя правая
+    br:p2 = -2.01, 600; // Вершина  нижняя правая
+    bl:p2 = 2.01, 600; // Вершина  нижняя левая
+    thousandth:b = true; move:b = yes; radialMoveSpeed:r =  0.7;  moveRadial:b = yes;  radialCenter:p2 = 5000000, 0;
+  }
+  quad { 
+    tl:p2 = 0, 1.75; // Вершина  верхняя левая
+    tr:p2 = 0, 1.75; // Вершина  верхняя правая
+    br:p2 = 2.05, 9.85; // Вершина  нижняя правая
+    bl:p2 = -2.05, 9.85; // Вершина  нижняя левая
+    thousandth:b = true; move:b = yes; radialMoveSpeed:r =  0.7;  moveRadial:b = yes;  radialCenter:p2 = 5000000, 0;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  quad { 
+    tl:p2 = -10.5, 6.5; // Вершина  верхняя левая
+    tr:p2 = -320, 6.5; // Вершина  верхняя правая
+    br:p2 = -320, 2.05; // Вершина  нижняя правая
+    bl:p2 = -10.5, 2.05; // Вершина  нижняя левая
+    thousandth:b = true; move:b = yes; radialMoveSpeed:r =  0.7;  moveRadial:b = yes;  radialCenter:p2 = 1000000, 0;
+  }
+  quad { 
+    tl:p2 = 10.5, 6.5; // Вершина  верхняя левая
+    tr:p2 = 320, 6.5; // Вершина  верхняя правая
+    br:p2 = 320, 2.05; // Вершина  нижняя правая
+    bl:p2 = 10.5, 2.05; // Вершина  нижняя левая
+    thousandth:b = true; move:b = yes; radialMoveSpeed:r =  0.7;  moveRadial:b = yes;  radialCenter:p2 = 1000000, 0;
+  }
+  quad { 
+    tl:p2 = 2.01, 9.85; // Вершина  верхняя левая
+    tr:p2 = -2.01, 9.85; // Вершина  верхняя правая
+    br:p2 = -2.01, 600; // Вершина  нижняя правая
+    bl:p2 = 2.01, 600; // Вершина  нижняя левая
+    thousandth:b = true; move:b = yes; radialMoveSpeed:r =  0.7;  moveRadial:b = yes;  radialCenter:p2 = 5000000, 0;
+  }
+  quad { 
+    tl:p2 = 0, 1.75; // Вершина  верхняя левая
+    tr:p2 = 0, 1.75; // Вершина  верхняя правая
+    br:p2 = 2.05, 9.85; // Вершина  нижняя правая
+    bl:p2 = -2.05, 9.85; // Вершина  нижняя левая
+    thousandth:b = true; move:b = yes; radialMoveSpeed:r =  0.7;  moveRadial:b = yes;  radialCenter:p2 = 5000000, 0;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  quad { 
+    tl:p2 = -10.5, 6.5; // Вершина  верхняя левая
+    tr:p2 = -320, 6.5; // Вершина  верхняя правая
+    br:p2 = -320, 2.05; // Вершина  нижняя правая
+    bl:p2 = -10.5, 2.05; // Вершина  нижняя левая
+    thousandth:b = true; move:b = yes; radialMoveSpeed:r =  0.7;  moveRadial:b = yes;  radialCenter:p2 = 1000000, 0;
+  }
+  quad { 
+    tl:p2 = 10.5, 6.5; // Вершина  верхняя левая
+    tr:p2 = 320, 6.5; // Вершина  верхняя правая
+    br:p2 = 320, 2.05; // Вершина  нижняя правая
+    bl:p2 = 10.5, 2.05; // Вершина  нижняя левая
+    thousandth:b = true; move:b = yes; radialMoveSpeed:r =  0.7;  moveRadial:b = yes;  radialCenter:p2 = 1000000, 0;
+  }
+  quad { 
+    tl:p2 = 2.01, 9.85; // Вершина  верхняя левая
+    tr:p2 = -2.01, 9.85; // Вершина  верхняя правая
+    br:p2 = -2.01, 600; // Вершина  нижняя правая
+    bl:p2 = 2.01, 600; // Вершина  нижняя левая
+    thousandth:b = true; move:b = yes; radialMoveSpeed:r =  0.7;  moveRadial:b = yes;  radialCenter:p2 = 5000000, 0;
+  }
+  quad { 
+    tl:p2 = 0, 1.75; // Вершина  верхняя левая
+    tr:p2 = 0, 1.75; // Вершина  верхняя правая
+    br:p2 = 2.05, 9.85; // Вершина  нижняя правая
+    bl:p2 = -2.05, 9.85; // Вершина  нижняя левая
+    thousandth:b = true; move:b = yes; radialMoveSpeed:r =  0.7;  moveRadial:b = yes;  radialCenter:p2 = 5000000, 0;
+  }
+
+
+
+
+}

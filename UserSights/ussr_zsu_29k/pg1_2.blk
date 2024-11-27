@@ -1,0 +1,129 @@
+
+ 
+ 
+ crosshairHorVertSize:p2=3, 2
+rangefinderProgressBarColor1:c=0, 255, 0, 64
+rangefinderProgressBarColor2:c=255, 255, 255, 64
+rangefinderTextScale:r=0.7
+rangefinderVerticalOffset:r=10
+rangefinderHorizontalOffset:r=108
+fontSizeMult:r=1.5
+lineSizeMult:r=1
+drawCentralLineVert:b=no
+drawCentralLineHorz:b=no
+crosshairDistHorSizeMain:p2=0.03, 0.02
+crosshairDistHorSizeAdditional:p2=0.005, 0.003
+    crosshairColor:c = 0,0,0
+    crosshairLightColor:c = 0,0,0
+distanceCorrectionPos:p2=0.1, 0.0075
+drawDistanceCorrection:b=yes
+applyCorrectionToGun:b=yes
+
+crosshair_distances{
+}
+
+crosshair_hor_ranges{
+}
+
+
+
+ drawCircles { 
+        circle {segment:p2 = 0.0, 360.0; pos:p2 = 0.0, 0.0; diameter:r = 1.0; size:r = 150; move:b = no;}
+        circle {segment:p2 = 0.0, 360.0; pos:p2 = 0.0, 0.0; diameter:r = 1.0; size:r = 150; move:b = no;}
+        circle {segment:p2 = 0.0, 360.0; pos:p2 = 0.0, 0.0; diameter:r = 1.0; size:r = 150; move:b = no;}
+        circle {segment:p2 = 0.0, 360.0; pos:p2 = 0.0, 0.0; diameter:r = 1.1; size:r = 150; move:b = no;}
+        circle {segment:p2 = 0.0, 360.0; pos:p2 = 0.0, 0.0; diameter:r = 1.2; size:r = 150; move:b = no;}
+        circle {segment:p2 = 0.0, 360.0; pos:p2 = 0.0, 0.0; diameter:r = 1.2; size:r = 150; move:b = no;}
+        circle {segment:p2 = 0.0, 360.0; pos:p2 = 0.0, 0.0; diameter:r = 1.2; size:r = 150; move:b = no;}
+
+
+
+
+
+
+
+
+
+        circle {segment:p2 = 0.0, 360.0; pos:p2 = 0.0, 0.0; diameter:r = 1.0; size:r = 150; move:b = no;}
+        circle {segment:p2 = 0.0, 360.0; pos:p2 = 0.0, 0.0; diameter:r = 1.0; size:r = 150; move:b = no;}
+        circle {segment:p2 = 0.0, 360.0; pos:p2 = 0.0, 0.0; diameter:r = 1.0; size:r = 150; move:b = no;}
+        circle {segment:p2 = 0.0, 360.0; pos:p2 = 0.0, 0.0; diameter:r = 1.1; size:r = 150; move:b = no;}
+        circle {segment:p2 = 0.0, 360.0; pos:p2 = 0.0, 0.0; diameter:r = 1.2; size:r = 150; move:b = no;}
+        circle {segment:p2 = 0.0, 360.0; pos:p2 = 0.0, 0.0; diameter:r = 1.2; size:r = 150; move:b = no;}
+        circle {segment:p2 = 0.0, 360.0; pos:p2 = 0.0, 0.0; diameter:r = 1.2; size:r = 150; move:b = no;}
+
+}
+
+
+drawLines{
+    /// ///
+	
+	line{
+    line:p4=40, 0.0, 40, -5
+	thousandth:b=yes; move:b=no; }
+
+	line{
+    line:p4=30, 0.0, 30, -2.5
+	thousandth:b=yes; move:b=no; }
+	
+	line{
+    line:p4=20, 0.0, 20, -5
+	thousandth:b=yes; move:b=no; }
+	
+	line{
+    line:p4=10, 0.0, 10, -2.5
+	thousandth:b=yes; move:b=no; }
+	
+	
+	
+	
+	line{
+    line:p4=-40, 0.0, -40, -5
+	thousandth:b=yes; move:b=no; }
+
+	line{
+    line:p4=-30, 0.0, -30, -2.5
+	thousandth:b=yes; move:b=no; }
+	
+	line{
+    line:p4=-20, 0.0, -20, -5
+	thousandth:b=yes; move:b=no; }
+	
+	line{
+    line:p4=-10, 0.0, -10, -2.5
+	thousandth:b=yes; move:b=no; }
+	
+	
+	/// /// ///
+	
+	
+	line{
+    line:p4=0, 0.0, 7.5, 12.5
+	thousandth:b=yes; move:b=no; }
+	
+	line{
+    line:p4=0, 0.0, -7.5, 12.5
+	thousandth:b=yes; move:b=no; }
+	
+	line{
+    line:p4=0, 2.75, 0, 10000
+	thousandth:b=yes; move:b=no; }
+	
+	
+	/// /// ///
+	
+	
+	line{
+    line:p4=5, 0.0, 300, 0
+	thousandth:b=yes; move:b=no; }
+	
+	line{
+    line:p4=-5, 0.0, -300, 0
+	thousandth:b=yes; move:b=no; }
+	
+	line{
+    line:p4=0, -5.0, 0, -1000
+	thousandth:b=yes; move:b=no; }
+	
+	
+}

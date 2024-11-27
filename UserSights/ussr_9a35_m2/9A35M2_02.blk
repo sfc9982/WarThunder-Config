@@ -1,0 +1,267 @@
+crosshairDistHorSizeAdditional:p2=0.0045, 0.0025
+crosshairHorVertSize:p2=0.4, 0.2
+crosshairDistHorSizeMain:p2=0, 0
+
+rangefinderProgressBarColor1:c=239, 48, 56, 64
+rangefinderProgressBarColor2:c=0, 0, 0, 0
+
+rangefinderHorizontalOffset:r=-15
+rangefinderVerticalOffset:r=35
+rangefinderTextScale:r=0.5
+
+drawDistanceCorrection:b=yes
+drawCentralLineVert:b=no
+drawCentralLineHorz:b=no
+applyCorrectionToGun:b=no
+
+crosshairLightColor:c = 255, 0, 0
+
+                                                 // Сетка прицела для ЗРК Стрела-10
+
+
+    // Толщина прицельной сетки (рекомендованные значения от 0.75 до 1.25)
+
+                       lineSizeMult:r = 3.75
+
+    // Размер шрифта поправок (рекомендованные значения от 0.45 до 1.3)
+
+                     fontSizeMult:r = 1.30
+
+    // Изменить положение введенной поправки в прицел (лево / право, верх / низ)
+
+              distanceCorrectionPos:p2=-0.145, 0.027
+
+
+
+    // Вертикальные поправки основного орудия
+
+crosshair_distances{
+
+    	distance { distance:p3 = 200, 0, 0; }
+    	distance { textPos:p2 = 0.1405, 0; distance:p3 =   400, 4, 0; }
+    	distance { distance:p3 = 600, 0, 0; }
+    	distance { textPos:p2 = 0.1405, 0; distance:p3 =   800, 8, 0; }
+    	distance { distance:p3 = 1000, 0, 0; }
+    	distance { textPos:p2 = 0.1405, 0; distance:p3 = 1200, 12, 0; }
+    	distance { distance:p3 = 1400, 0, 0; }
+    	distance { textPos:p2 = 0.1405, 0; distance:p3 = 1600, 16, 0; }
+    	distance { textPos:p2 = 0.1405, 0; distance:p3 = 2000, 20, 0; }
+   	distance { distance:p3 = 99999, 0, 0; }
+}
+
+    // Тысячные на горизонтальной линии прицела:
+
+crosshair_hor_ranges{}
+
+    // Настройки дальномерной шкалы: По высоте
+
+
+drawQuads {
+    quad {  
+      tl:p2 = 18.05, 43; // Top left top
+      tr:p2 = 31.95, 43; // Top right top
+      br:p2 = 31.95, 85; // Top right bottom
+      bl:p2 = 18.05, 85; // Top left bottom
+      thousandth:b = yes;
+    }
+    quad {  
+      tl:p2 = -18.05, 43; // Top left top
+      tr:p2 = -31.95, 43; // Top right top
+      br:p2 = -31.95, 85; // Top right bottom
+      bl:p2 = -18.05, 85; // Top left bottom
+      thousandth:b = yes;
+    }
+    quad {  
+      tl:p2 = 18.05, -43; // Top left top
+      tr:p2 = 31.95, -43; // Top right top
+      br:p2 = 31.95, -85; // Top right bottom
+      bl:p2 = 18.05, -85; // Top left bottom
+      thousandth:b = yes;
+    }
+    quad {  
+      tl:p2 = -18.05, -43; // Top left top
+      tr:p2 = -31.95, -43; // Top right top
+      br:p2 = -31.95, -85; // Top right bottom
+      bl:p2 = -18.05, -85; // Top left bottom
+      thousandth:b = yes;
+    } 
+
+
+
+
+
+
+
+    quad {  
+      tl:p2 = 70, 55; // Top left top
+      tr:p2 = -70, 55; // Top right top
+      br:p2 = -50, 85; // Top right bottom
+      bl:p2 = 50, 85; // Top left bottom
+      thousandth:b = yes;
+    }
+   quad {  
+      tl:p2 = 70, -55; // Top left top
+      tr:p2 = -70, -55; // Top right top
+      br:p2 = -50, -85; // Top right bottom
+      bl:p2 = 50, -85; // Top left bottom
+      thousandth:b = yes;
+    }
+
+
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+}
+
+
+
+drawLines{
+
+    // Перекрестье прицела
+
+    	line { line:p4 =   0, -17,   0, -9.7; thousandth:b = true; }
+    	line { line:p4 =   0,  17,   0,  9.7; thousandth:b = true; }
+
+    	line { line:p4 = -17,    0, -9.7,    0; thousandth:b = true; }
+    	line { line:p4 =  17,    0,  9.7,    0; thousandth:b = true; }
+      
+
+
+
+
+        line { line:p4 =   0, -17,   0, -9.7; thousandth:b = true; }
+    	line { line:p4 =   0,  17,   0,  9.7; thousandth:b = true; }
+
+    	line { line:p4 = -17,    0, -9.7,    0; thousandth:b = true; }
+    	line { line:p4 =  17,    0,  9.7,    0; thousandth:b = true; }
+}
+
+                   // Маркер наведения ЗУР
+
+        drawCircles { 
+        circle {segment:p2 = 0.0, 360.0; pos:p2 = 0.0, 0.0; diameter:r = 18.95; size:r = 3.75; move:b = no; thousandth:b = yes; }
+        circle {segment:p2 = 0.0, 360.0; pos:p2 = 0.0, 0.0; diameter:r = 18.95; size:r = 3.75; move:b = no; thousandth:b = yes; }
+
+
+    // Реалистичный угол обзора (Можно удалить).
+        circle{ segment:p2 = 0.0, 360.0; pos:p2 = 0.0, 0.0; diameter:r = 1.25; size:r = 150; move:b = no; }
+        circle{ segment:p2 = 0.0, 360.0; pos:p2 = 0.0, 0.0; diameter:r = 1.25; size:r = 150; move:b = no; }
+        circle{ segment:p2 = 0.0, 360.0; pos:p2 = 0.0, 0.0; diameter:r = 1.25; size:r = 150; move:b = no; }
+        circle{ segment:p2 = 0.0, 360.0; pos:p2 = 0.0, 0.0; diameter:r = 1.25; size:r = 150; move:b = no; }
+        circle{ segment:p2 = 0.0, 360.0; pos:p2 = 0.0, 0.0; diameter:r = 1.25; size:r = 150; move:b = no; }
+        circle{ segment:p2 = 0.0, 360.0; pos:p2 = 0.0, 0.0; diameter:r = 1.35; size:r = 150; move:b = no; }
+        circle{ segment:p2 = 0.0, 360.0; pos:p2 = 0.0, 0.0; diameter:r = 1.45; size:r = 150; move:b = no; }
+        circle{ segment:p2 = 0.0, 360.0; pos:p2 = 0.0, 0.0; diameter:r = 1.45; size:r = 150; move:b = no; }
+        circle{ segment:p2 = 0.0, 360.0; pos:p2 = 0.0, 0.0; diameter:r = 1.45; size:r = 150; move:b = no; }
+        circle{ segment:p2 = 0.0, 360.0; pos:p2 = 0.0, 0.0; diameter:r = 1.45; size:r = 150; move:b = no; }
+        circle{ segment:p2 = 0.0, 360.0; pos:p2 = 0.0, 0.0; diameter:r = 1.45; size:r = 150; move:b = no; }
+
+
+        circle{ segment:p2 = 0.0, 360.0; pos:p2 = 0.0, 0.0; diameter:r = 1.25; size:r = 150; move:b = no; }
+        circle{ segment:p2 = 0.0, 360.0; pos:p2 = 0.0, 0.0; diameter:r = 1.25; size:r = 150; move:b = no; }
+        circle{ segment:p2 = 0.0, 360.0; pos:p2 = 0.0, 0.0; diameter:r = 1.25; size:r = 150; move:b = no; }
+        circle{ segment:p2 = 0.0, 360.0; pos:p2 = 0.0, 0.0; diameter:r = 1.25; size:r = 150; move:b = no; }
+        circle{ segment:p2 = 0.0, 360.0; pos:p2 = 0.0, 0.0; diameter:r = 1.25; size:r = 150; move:b = no; }
+        circle{ segment:p2 = 0.0, 360.0; pos:p2 = 0.0, 0.0; diameter:r = 1.35; size:r = 150; move:b = no; }
+        circle{ segment:p2 = 0.0, 360.0; pos:p2 = 0.0, 0.0; diameter:r = 1.45; size:r = 150; move:b = no; }
+        circle{ segment:p2 = 0.0, 360.0; pos:p2 = 0.0, 0.0; diameter:r = 1.45; size:r = 150; move:b = no; }
+        circle{ segment:p2 = 0.0, 360.0; pos:p2 = 0.0, 0.0; diameter:r = 1.45; size:r = 150; move:b = no; }
+        circle{ segment:p2 = 0.0, 360.0; pos:p2 = 0.0, 0.0; diameter:r = 1.45; size:r = 150; move:b = no; }
+        circle{ segment:p2 = 0.0, 360.0; pos:p2 = 0.0, 0.0; diameter:r = 1.45; size:r = 150; move:b = no; }
+
+
+
+        
+//News
+//1
+circle {segment:p2 = 0.0, 360.0; pos:p2 = 25, 43; diameter:r = 13.5; size:r = 5; move:b = no; thousandth:b = yes; }
+circle {segment:p2 = 0.0, 360.0; pos:p2 = 25, 43; diameter:r = 13; size:r = 5; move:b = no; thousandth:b = yes; }
+circle {segment:p2 = 0.0, 360.0; pos:p2 = 25, 43; diameter:r = 12.5; size:r = 5; move:b = no; thousandth:b = yes; }
+circle {segment:p2 = 0.0, 360.0; pos:p2 = 25, 43; diameter:r = 12; size:r = 5; move:b = no; thousandth:b = yes; }
+circle {segment:p2 = 0.0, 360.0; pos:p2 = 25, 43; diameter:r = 11.5; size:r = 5; move:b = no; thousandth:b = yes; }
+circle {segment:p2 = 0.0, 360.0; pos:p2 = 25, 43; diameter:r = 11; size:r = 5; move:b = no; thousandth:b = yes; }
+circle {segment:p2 = 0.0, 360.0; pos:p2 = 25, 43; diameter:r = 10.5; size:r = 5; move:b = no; thousandth:b = yes; }
+circle {segment:p2 = 0.0, 360.0; pos:p2 = 25, 43; diameter:r = 10; size:r = 5; move:b = no; thousandth:b = yes; }
+circle {segment:p2 = 0.0, 360.0; pos:p2 = 25, 43; diameter:r = 9.5; size:r = 35; move:b = no; thousandth:b = yes; }
+circle {segment:p2 = 0.0, 360.0; pos:p2 = 25, 43; diameter:r = 7.5; size:r = 35; move:b = no; thousandth:b = yes; }
+circle {segment:p2 = 0.0, 360.0; pos:p2 = 25, 43; diameter:r = 5.5; size:r = 35; move:b = no; thousandth:b = yes; }
+circle {segment:p2 = 0.0, 360.0; pos:p2 = 25, 43; diameter:r = 3.5; size:r = 35; move:b = no; thousandth:b = yes; }
+circle {segment:p2 = 0.0, 360.0; pos:p2 = 25, 43; diameter:r = 1.5; size:r = 35; move:b = no; thousandth:b = yes; }
+
+
+//2
+circle {segment:p2 = 0.0, 360.0; pos:p2 = -25, 43; diameter:r = 13.5; size:r = 5; move:b = no; thousandth:b = yes; }
+circle {segment:p2 = 0.0, 360.0; pos:p2 = -25, 43; diameter:r = 13; size:r = 5; move:b = no; thousandth:b = yes; }
+circle {segment:p2 = 0.0, 360.0; pos:p2 = -25, 43; diameter:r = 12.5; size:r = 5; move:b = no; thousandth:b = yes; }
+circle {segment:p2 = 0.0, 360.0; pos:p2 = -25, 43; diameter:r = 12; size:r = 5; move:b = no; thousandth:b = yes; }
+circle {segment:p2 = 0.0, 360.0; pos:p2 = -25, 43; diameter:r = 11.5; size:r = 5; move:b = no; thousandth:b = yes; }
+circle {segment:p2 = 0.0, 360.0; pos:p2 = -25, 43; diameter:r = 11; size:r = 5; move:b = no; thousandth:b = yes; }
+circle {segment:p2 = 0.0, 360.0; pos:p2 = -25, 43; diameter:r = 10.5; size:r = 5; move:b = no; thousandth:b = yes; }
+circle {segment:p2 = 0.0, 360.0; pos:p2 = -25, 43; diameter:r = 10; size:r = 5; move:b = no; thousandth:b = yes; }
+circle {segment:p2 = 0.0, 360.0; pos:p2 = -25, 43; diameter:r = 9.5; size:r = 35; move:b = no; thousandth:b = yes; }
+circle {segment:p2 = 0.0, 360.0; pos:p2 = -25, 43; diameter:r = 7.5; size:r = 35; move:b = no; thousandth:b = yes; }
+circle {segment:p2 = 0.0, 360.0; pos:p2 = -25, 43; diameter:r = 5.5; size:r = 35; move:b = no; thousandth:b = yes; }
+circle {segment:p2 = 0.0, 360.0; pos:p2 = -25, 43; diameter:r = 3.5; size:r = 35; move:b = no; thousandth:b = yes; }
+circle {segment:p2 = 0.0, 360.0; pos:p2 = -25, 43; diameter:r = 1.5; size:r = 35; move:b = no; thousandth:b = yes; }
+
+
+//3
+circle {segment:p2 = 0.0, 360.0; pos:p2 = 25, -43; diameter:r = 13.5; size:r = 5; move:b = no; thousandth:b = yes; }
+circle {segment:p2 = 0.0, 360.0; pos:p2 = 25, -43; diameter:r = 13; size:r = 5; move:b = no; thousandth:b = yes; }
+circle {segment:p2 = 0.0, 360.0; pos:p2 = 25, -43; diameter:r = 12.5; size:r = 5; move:b = no; thousandth:b = yes; }
+circle {segment:p2 = 0.0, 360.0; pos:p2 = 25, -43; diameter:r = 12; size:r = 5; move:b = no; thousandth:b = yes; }
+circle {segment:p2 = 0.0, 360.0; pos:p2 = 25, -43; diameter:r = 11.5; size:r = 5; move:b = no; thousandth:b = yes; }
+circle {segment:p2 = 0.0, 360.0; pos:p2 = 25, -43; diameter:r = 11; size:r = 5; move:b = no; thousandth:b = yes; }
+circle {segment:p2 = 0.0, 360.0; pos:p2 = 25, -43; diameter:r = 10.5; size:r = 5; move:b = no; thousandth:b = yes; }
+circle {segment:p2 = 0.0, 360.0; pos:p2 = 25, -43; diameter:r = 10; size:r = 5; move:b = no; thousandth:b = yes; }
+circle {segment:p2 = 0.0, 360.0; pos:p2 = 25, -43; diameter:r = 9.5; size:r = 35; move:b = no; thousandth:b = yes; }
+circle {segment:p2 = 0.0, 360.0; pos:p2 = 25, -43; diameter:r = 7.5; size:r = 35; move:b = no; thousandth:b = yes; }
+circle {segment:p2 = 0.0, 360.0; pos:p2 = 25, -43; diameter:r = 5.5; size:r = 35; move:b = no; thousandth:b = yes; }
+circle {segment:p2 = 0.0, 360.0; pos:p2 = 25, -43; diameter:r = 3.5; size:r = 35; move:b = no; thousandth:b = yes; }
+circle {segment:p2 = 0.0, 360.0; pos:p2 = 25, -43; diameter:r = 1.5; size:r = 35; move:b = no; thousandth:b = yes; }
+
+
+//4
+circle {segment:p2 = 0.0, 360.0; pos:p2 = -25, -43; diameter:r = 13.5; size:r = 5; move:b = no; thousandth:b = yes; }
+circle {segment:p2 = 0.0, 360.0; pos:p2 = -25, -43; diameter:r = 13; size:r = 5; move:b = no; thousandth:b = yes; }
+circle {segment:p2 = 0.0, 360.0; pos:p2 = -25, -43; diameter:r = 12.5; size:r = 5; move:b = no; thousandth:b = yes; }
+circle {segment:p2 = 0.0, 360.0; pos:p2 = -25, -43; diameter:r = 12; size:r = 5; move:b = no; thousandth:b = yes; }
+circle {segment:p2 = 0.0, 360.0; pos:p2 = -25, -43; diameter:r = 11.5; size:r = 5; move:b = no; thousandth:b = yes; }
+circle {segment:p2 = 0.0, 360.0; pos:p2 = -25, -43; diameter:r = 11; size:r = 5; move:b = no; thousandth:b = yes; }
+circle {segment:p2 = 0.0, 360.0; pos:p2 = -25, -43; diameter:r = 10.5; size:r = 5; move:b = no; thousandth:b = yes; }
+circle {segment:p2 = 0.0, 360.0; pos:p2 = -25, -43; diameter:r = 10; size:r = 5; move:b = no; thousandth:b = yes; }
+circle {segment:p2 = 0.0, 360.0; pos:p2 = -25, -43; diameter:r = 9.5; size:r = 35; move:b = no; thousandth:b = yes; }
+circle {segment:p2 = 0.0, 360.0; pos:p2 = -25, -43; diameter:r = 7.5; size:r = 35; move:b = no; thousandth:b = yes; }
+circle {segment:p2 = 0.0, 360.0; pos:p2 = -25, -43; diameter:r = 5.5; size:r = 35; move:b = no; thousandth:b = yes; }
+circle {segment:p2 = 0.0, 360.0; pos:p2 = -25, -43; diameter:r = 3.5; size:r = 35; move:b = no; thousandth:b = yes; }
+circle {segment:p2 = 0.0, 360.0; pos:p2 = -25, -43; diameter:r = 1.5; size:r = 35; move:b = no; thousandth:b = yes; }
+
+
+
+}

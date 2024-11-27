@@ -1,0 +1,427 @@
+
+ 
+ 	crosshairHorVertSize:p2=0.0, 0.0
+    rangefinderProgressBarColor1:c=0, 255, 0, 64
+    rangefinderProgressBarColor2:c=255, 255, 255, 64
+    rangefinderTextScale:r=0.7
+    rangefinderVerticalOffset:r=5
+    rangefinderHorizontalOffset:r=5.0
+    fontSizeMult:r=0.8
+    lineSizeMult:r=1.8
+    drawCentralLineVert:b=yes
+    drawCentralLineHorz:b=no; applyCorrectionToGun:b=no
+    crosshairDistHorSizeMain:p2=0.03, 0.02
+    crosshairDistHorSizeAdditional:p2=0.005, 0.003
+    crosshairColor:c = 0,0,0
+    crosshairLightColor:c = 255,160,0
+    distanceCorrectionPos:p2=-0.2, -0.05
+    drawDistanceCorrection:b=no; move:b=no
+
+    ballistics{
+
+      bullet{
+        bulletType:t="aphebc_tank"
+        speed:r=760.0
+        drawAdditionalLines:b=no
+        drawDistanceCorrection:b=no
+        distanceCorrectionPos:p2=0.15, -0.15
+        distancePos:p2=0.2, -0.001
+        textPos:p2=0.0345, 0.0
+        textShift:r=0.0
+        textAlign:i=2
+        crosshairDistHorSizeMain:p2=0.03, 0.03
+        crosshairDistHorSizeAdditional:p2=0.00, 0.0
+		move:b=no
+
+        crosshair_distances{
+		  distance:p3=5.0, .9, 0.0
+            distance:p3=800.0, 8.0, 0.0
+            distance:p3=1600.0, 16.0, 0.0
+		    distance:p3=2400.0, 24.0, 0.0
+
+
+
+        }
+      }
+bullet{
+        bulletType:t="aphebc_tank"
+        speed:r=760.0
+        drawAdditionalLines:b=no
+        drawDistanceCorrection:b=no
+        distanceCorrectionPos:p2=0.15, -0.15
+        distancePos:p2=0.2, -0.001
+        textPos:p2=0.0, 0.0
+        textShift:r=0.0
+        textAlign:i=1
+        crosshairDistHorSizeMain:p2=0.03, 0.03
+        crosshairDistHorSizeAdditional:p2=0.00, 0.0
+		move:b=no
+
+        crosshair_distances{
+		distance:p3=400.0, 4.0, 0.0
+            distance:p3=1200.0, 12.0, 0.0
+            distance:p3=2000.0, 20.0, 0.0
+            distance:p3=2800.0, 28.0, 0.0
+   
+
+        }
+      }	  
+	  bullet{
+        bulletType:t="aphebc_tank"
+        speed:r=760.0
+        drawAdditionalLines:b=no
+        drawDistanceCorrection:b=no; move:b=no
+        distanceCorrectionPos:p2=0.15, -0.15
+        distancePos:p2=0.193, -0.001
+        textPos:p2=0.0, 0.0
+        textShift:r=0.0
+        textAlign:i=2
+        crosshairDistHorSizeMain:p2=0.015, 0.015
+        crosshairDistHorSizeAdditional:p2=0.00, 0.0
+
+        crosshair_distances{
+		distance:p3=200.0, 0.0, 0.0
+		distance:p3=600.0, 0.0, 0.0
+		distance:p3=1000.0, 0.0, 0.0
+		distance:p3=1400.0, 0.0, 0.0
+		distance:p3=1800.0, 0.0, 0.0
+		distance:p3=2200.0, 0.0, 0.0
+		distance:p3=2600.0, 0.0, 0.0
+		distance:p3=3000.0, 0.0, 0.0
+        }
+      }
+
+
+
+
+
+
+
+
+
+
+	  
+	  bullet{
+        bulletType:t="he_frag_tank"
+        speed:r=335.0
+        drawAdditionalLines:b=no
+        drawDistanceCorrection:b=no
+        distanceCorrectionPos:p2=0.15, -0.15
+        distancePos:p2=-0.17, -0.0025
+        textPos:p2=0.0, 0.0
+        textShift:r=0.0
+        textAlign:i=1
+        crosshairDistHorSizeMain:p2=0.03, 0.03
+        crosshairDistHorSizeAdditional:p2=0.00, 0.0
+		move:b=no
+
+        crosshair_distances{
+            distance:p3=5.0, .9, 0.0
+            distance:p3=200.0, 2.0, 0.0
+            distance:p3=400.0, 4.0, 0.0
+		    distance:p3=600.0, 6.0, 0.0
+		    distance:p3=800.0, 8.0, 0.0
+		    distance:p3=1000.0, 10.0, 0.0
+		    distance:p3=1200.0, 12.0, 0.0
+		    distance:p3=1400.0, 14.0, 0.0
+		    distance:p3=1600.0, 16.0, 0.0
+		    distance:p3=1800.0, 18.0, 0.0
+		    distance:p3=2000.0, 20.0, 0.0
+        }
+      }
+ bullet{
+        bulletType:t="he_frag_tank"
+        speed:r=335.0
+        drawAdditionalLines:b=no
+        drawDistanceCorrection:b=no
+        distanceCorrectionPos:p2=0.15, -0.15
+        distancePos:p2=-0.17, -0.0025
+        textPos:p2=0.0345, 0.0
+        textShift:r=0.0
+        textAlign:i=2
+        crosshairDistHorSizeMain:p2=0.03, 0.03
+        crosshairDistHorSizeAdditional:p2=0.00, 0.0
+		move:b=no
+
+        crosshair_distances{
+            distance:p3=100.0, 1.0, 0.0
+            distance:p3=300.0, 3.0, 0.0
+		    distance:p3=500.0, 5.0, 0.0
+		    distance:p3=700.0, 7.0, 0.0
+		    distance:p3=900.0, 9.0, 0.0
+		    distance:p3=1100.0, 11.0, 0.0
+		    distance:p3=1300.0, 13.0, 0.0
+		    distance:p3=1500.0, 15.0, 0.0
+		    distance:p3=1700.0, 17.0, 0.0
+		    distance:p3=1900.0, 19.0, 0.0
+        }
+      }	  
+	  bullet{
+        bulletType:t="he_frag_tank"
+        speed:r=335.0
+        drawAdditionalLines:b=no
+        drawDistanceCorrection:b=no; move:b=no
+        distanceCorrectionPos:p2=0.15, -0.15
+        distancePos:p2=-0.177, -0.0025
+        textPos:p2=0.0, 0.0
+        textShift:r=0.0
+        textAlign:i=2
+        crosshairDistHorSizeMain:p2=0.015, 0.015
+        crosshairDistHorSizeAdditional:p2=0.00, 0.0
+
+        crosshair_distances{
+		    distance:p3=50.0, 0.0, 0.0
+		    distance:p3=150.0, 0.0, 0.0
+		    distance:p3=250.0, 0.0, 0.0
+		    distance:p3=350.0, 0.0, 0.0
+		    distance:p3=450.0, 0.0, 0.0
+		    distance:p3=550.0, 0.0, 0.0
+		    distance:p3=650.0, 0.0, 0.0
+		    distance:p3=750.0, 0.0, 0.0
+		    distance:p3=850.0, 0.0, 0.0
+		    distance:p3=950.0, 0.0, 0.0
+		    distance:p3=1050.0, 0.0, 0.0
+		    distance:p3=1150.0, 0.0, 0.0
+		    distance:p3=1250.0, 0.0, 0.0
+		    distance:p3=1350.0, 0.0, 0.0
+		    distance:p3=1450.0, 0.0, 0.0
+		    distance:p3=1550.0, 0.0, 0.0
+		    distance:p3=1650.0, 0.0, 0.0
+		    distance:p3=1750.0, 0.0, 0.0
+		    distance:p3=1850.0, 0.0, 0.0
+		    distance:p3=1950.0, 0.0, 0.0
+        }
+      }
+	  
+
+
+
+
+
+
+
+
+	  
+	  bullet{
+        triggerGroup:t="coaxial"
+        bulletType:t="ap_i_ball"
+        speed:r=817.5
+        drawAdditionalLines:b=no
+        drawDistanceCorrection:b=no
+        distanceCorrectionPos:p2=0.15, -0.15
+        distancePos:p2=0.29, -0.001
+        textPos:p2=0.0, 0.0
+        textShift:r=0.0
+        textAlign:i=1
+        crosshairDistHorSizeMain:p2=0.02, 0.02
+        crosshairDistHorSizeAdditional:p2=0.00, 0.0
+		move:b=no
+
+        crosshair_distances{
+		    distance:p3=400.0, 4.0, 0.0
+		    distance:p3=800.0, 8.0, 0.0
+        }
+      }
+  bullet{
+        triggerGroup:t="coaxial"
+        bulletType:t="ap_i_ball"
+        speed:r=817.5
+        drawAdditionalLines:b=no
+        drawDistanceCorrection:b=no
+        distanceCorrectionPos:p2=0.15, -0.15
+        distancePos:p2=0.28, -0.001
+        textPos:p2=0.0243, 0.0
+        textShift:r=0.0
+        textAlign:i=2
+        crosshairDistHorSizeMain:p2=0.02, 0.02
+        crosshairDistHorSizeAdditional:p2=0.00, 0.0
+		move:b=no
+
+        crosshair_distances{
+		    distance:p3=5.0, .9, 0.0
+		    distance:p3=600.0, 6.0, 0.0
+        }
+      }	  
+
+
+	  /*bullet{
+	    triggerGroup:t="machinegun"
+        bulletType:t="ap_i_ball"
+        speed:r=815.0
+        drawAdditionalLines:b=no
+        drawDistanceCorrection:b=no; move:b=no
+        distanceCorrectionPos:p2=0.15, -0.15
+        distancePos:p2=0.1413, 0.0
+        textPos:p2=0.0, 0.0
+        textShift:r=0.0
+        textAlign:i=2
+        crosshairDistHorSizeMain:p2=0.004, 0.004
+        crosshairDistHorSizeAdditional:p2=0.00, 0.0
+
+        crosshair_distances{
+		  distance{
+            textPos:p2=0.028, 0.0
+            distance:p3=400.0, 0.0, -0.0105
+		  }
+		  distance{
+            textPos:p2=0.028, 0.0
+            distance:p3=800.0, 0.0, -0.0105
+		  }
+		  distance{
+            textPos:p2=0.026, 0.0
+            distance:p3=1200.0, 0.0, -0.0105
+		  }
+        }
+      }*/
+    }
+
+    crosshair_hor_ranges{
+    }
+	
+
+
+
+ drawCircles { 
+        circle {segment:p2 = 0.0, 360.0; pos:p2 = 0.0, 0.0; diameter:r = 1.8; size:r = 150; move:b = no;}
+        circle {segment:p2 = 0.0, 360.0; pos:p2 = 0.0, 0.0; diameter:r = 1.8; size:r = 150; move:b = no;}
+        circle {segment:p2 = 0.0, 360.0; pos:p2 = 0.0, 0.0; diameter:r = 1.8; size:r = 150; move:b = no;}
+        circle {segment:p2 = 0.0, 360.0; pos:p2 = 0.0, 0.0; diameter:r = 1.8; size:r = 150; move:b = no;}
+        circle {segment:p2 = 0.0, 360.0; pos:p2 = 0.0, 0.0; diameter:r = 2.0; size:r = 250; move:b = no;}
+        circle {segment:p2 = 0.0, 360.0; pos:p2 = 0.0, 0.0; diameter:r = 2.1; size:r = 250; move:b = no;}
+        circle {segment:p2 = 0.0, 360.0; pos:p2 = 0.0, 0.0; diameter:r = 2.3; size:r = 250; move:b = no;}
+        circle {segment:p2 = 0.0, 360.0; pos:p2 = 0.0, 0.0; diameter:r = 2.4; size:r = 150; move:b = no;}
+        circle {segment:p2 = 0.0, 360.0; pos:p2 = 0.0, 0.0; diameter:r = 2.4; size:r = 150; move:b = no;}
+        circle {segment:p2 = 0.0, 360.0; pos:p2 = 0.0, 0.0; diameter:r = 2.4; size:r = 150; move:b = no;}
+        circle {segment:p2 = 0.0, 360.0; pos:p2 = 0.0, 0.0; diameter:r = 2.4; size:r = 150; move:b = no;}
+
+
+
+
+
+
+
+        circle {segment:p2 = 0.0, 360.0; pos:p2 = 0.0, 0.0; diameter:r = 1.8; size:r = 150; move:b = no;}
+        circle {segment:p2 = 0.0, 360.0; pos:p2 = 0.0, 0.0; diameter:r = 1.8; size:r = 150; move:b = no;}
+        circle {segment:p2 = 0.0, 360.0; pos:p2 = 0.0, 0.0; diameter:r = 1.8; size:r = 150; move:b = no;}
+        circle {segment:p2 = 0.0, 360.0; pos:p2 = 0.0, 0.0; diameter:r = 1.8; size:r = 150; move:b = no;}
+        circle {segment:p2 = 0.0, 360.0; pos:p2 = 0.0, 0.0; diameter:r = 2.0; size:r = 250; move:b = no;}
+        circle {segment:p2 = 0.0, 360.0; pos:p2 = 0.0, 0.0; diameter:r = 2.1; size:r = 250; move:b = no;}
+        circle {segment:p2 = 0.0, 360.0; pos:p2 = 0.0, 0.0; diameter:r = 2.3; size:r = 250; move:b = no;}
+        circle {segment:p2 = 0.0, 360.0; pos:p2 = 0.0, 0.0; diameter:r = 2.4; size:r = 150; move:b = no;}
+        circle {segment:p2 = 0.0, 360.0; pos:p2 = 0.0, 0.0; diameter:r = 2.4; size:r = 150; move:b = no;}
+        circle {segment:p2 = 0.0, 360.0; pos:p2 = 0.0, 0.0; diameter:r = 2.4; size:r = 150; move:b = no;}
+        circle {segment:p2 = 0.0, 360.0; pos:p2 = 0.0, 0.0; diameter:r = 2.4; size:r = 150; move:b = no;}
+
+}
+
+
+
+
+	
+ 	drawTexts{
+ //text
+  text { move:b = no; highlight:b = true; size:r = 1.3; align:i = 0; text:t = "O"; pos:p2 = 0.1835, -0.0215; }
+  text { move:b = no; highlight:b = true; size:r = 1.3; align:i = 0; text:t = "Б"; pos:p2 = -0.185, -0.0215; }
+  text { move:b = no; highlight:b = true; size:r = 1.25; align:i = 0; text:t = "ДТ"; pos:p2 = -0.272, -0.0215; }
+
+
+ //number
+  text { move:b = no; highlight:b = true; size:r = 0.7; align:i = 0; text:t = "0"; pos:p2 = 0.000, 0.2815; }
+  text { move:b = no; highlight:b = true; size:r = 0.7; align:i = 0; text:t = "8"; pos:p2 = 0.025, 0.2815; }
+  text { move:b = no; highlight:b = true; size:r = 0.7; align:i = 0; text:t = "16"; pos:p2 = 0.050, 0.2815; }	  
+  text { move:b = no; highlight:b = true; size:r = 0.7; align:i = 0; text:t = "24"; pos:p2 = 0.075, 0.2815; }	  
+  text { move:b = no; highlight:b = true; size:r = 0.7; align:i = 0; text:t = "32"; pos:p2 = 0.100, 0.2815; }
+
+  text { move:b = no; highlight:b = true; size:r = 0.7; align:i = 0; text:t = "8"; pos:p2 = -0.025, 0.2815; }
+  text { move:b = no; highlight:b = true; size:r = 0.7; align:i = 0; text:t = "16"; pos:p2 = -0.050, 0.2815; }	  
+  text { move:b = no; highlight:b = true; size:r = 0.7; align:i = 0; text:t = "24"; pos:p2 = -0.075, 0.2815; }	  
+  text { move:b = no; highlight:b = true; size:r = 0.7; align:i = 0; text:t = "32"; pos:p2 = -0.100, 0.2815; }
+
+
+
+
+
+
+
+    }
+
+    drawLines{
+	  line{
+        line:p4=1, 0, -1, 0
+		move:b=yes
+      }
+//scale
+line{
+        line:p4=0.0125, 0.30, 0.0125, 0.31
+		move:b=no
+      }	  
+line{
+        line:p4=0.025, 0.29, 0.025, 0.31
+		move:b=no
+      }	  	  
+line{
+        line:p4=0.0375, 0.30, 0.0375, 0.31
+		move:b=no
+      }	  
+line{
+        line:p4=0.050, 0.29, 0.050, 0.31
+		move:b=no
+      }	  
+line{
+        line:p4=0.0625, 0.30, 0.0625, 0.31
+		move:b=no
+      }	  
+line{
+        line:p4=0.075, 0.29, 0.075, 0.31
+		move:b=no
+      }	  	  
+line{
+        line:p4=0.0875, 0.30, 0.0875, 0.31
+		move:b=no
+      }	  
+line{
+        line:p4=0.1, 0.29, 0.1, 0.31
+		move:b=no
+      }	  	  
+
+
+
+
+
+
+
+
+
+line{
+        line:p4=-0.0125, 0.30, -0.0125, 0.31
+		move:b=no
+      }	  
+line{
+        line:p4=-0.025, 0.29, -0.025, 0.31
+		move:b=no
+      }	  	  
+line{
+        line:p4=-0.0375, 0.30, -0.0375, 0.31
+		move:b=no
+      }	  
+line{
+        line:p4=-0.050, 0.29, -0.050, 0.31
+		move:b=no
+      }	  
+line{
+        line:p4=-0.0625, 0.30, -0.0625, 0.31
+		move:b=no
+      }	  
+line{
+        line:p4=-0.075, 0.29, -0.075, 0.31
+		move:b=no
+      }	  	  
+line{
+        line:p4=-0.0875, 0.30, -0.0875, 0.31
+		move:b=no
+      }	  
+line{
+        line:p4=-0.1, 0.29, -0.1, 0.31
+		move:b=no
+      }	  	  	
+    }

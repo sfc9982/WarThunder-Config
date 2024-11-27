@@ -1,0 +1,5331 @@
+crosshairHorVertSize:p2=3, 2
+rangefinderProgressBarColor1:c=0, 255, 0, 64
+rangefinderProgressBarColor2:c=255, 255, 255, 64
+rangefinderTextScale:r=1.7
+rangefinderVerticalOffset:r=-520.5
+rangefinderHorizontalOffset:r=-31.3
+fontSizeMult:r=3
+lineSizeMult:r=1.9
+drawCentralLineVert:b=no
+drawCentralLineHorz:b=no
+crosshairDistHorSizeMain:p2=0.03, 0.02
+crosshairDistHorSizeAdditional:p2=0.005, 0.003
+crosshairColor:c = 255, 192, 0
+crosshairLightColor:c = 125, 249, 255
+
+distanceCorrectionPos:p2=-0.08, -0.11
+drawDistanceCorrection:b=yes
+thousandth:t = ussr
+
+crosshair_distances{
+}
+
+crosshair_hor_ranges{
+}
+
+
+  drawQuads {
+
+    quad {  // Simple fixed quadrangle
+      tl:p2 = -170, 154.65; // Top left top
+      tr:p2 = 5, 154.65; // Top right top
+      br:p2 = 5, 155.17; // Top right bottom
+      bl:p2 = -170, 155.17; // Top left bottom
+      thousandth:b = true;
+    }
+    quad {  // Simple fixed quadrangle
+      tl:p2 = -170, -154.65; // Top left top
+      tr:p2 = 5, -154.65; // Top right top
+      br:p2 = 5, -155.17; // Top right bottom
+      bl:p2 = -170, -155.17; // Top left bottom
+      thousandth:b = true;
+    }
+
+
+
+
+    quad {  // Simple fixed quadrangle
+      tl:p2 = -170, 154.65; // Top left top
+      tr:p2 = 5, 154.65; // Top right top
+      br:p2 = 5, 155.17; // Top right bottom
+      bl:p2 = -170, 155.17; // Top left bottom
+      thousandth:b = true;
+    }
+    quad {  // Simple fixed quadrangle
+      tl:p2 = -170, -154.65; // Top left top
+      tr:p2 = 5, -154.65; // Top right top
+      br:p2 = 5, -155.17; // Top right bottom
+      bl:p2 = -170, -155.17; // Top left bottom
+      thousandth:b = true;
+    }
+
+
+}
+
+
+drawCircles {
+
+
+    circle {
+      segment:p2 = 0.0, 180.0; // Sector of a circle
+      pos:p2 = 5.0, 0.0; // Position
+      diameter:r = 310; // Diameter. If thousandth=yes, then in thousandths
+      size:r = 0.75; // Line Thickness
+      thousandth:b = true;
+      move:b = no;
+ 
+    }
+
+    circle {
+      segment:p2 = 0.0, 180.0; // Sector of a circle
+      pos:p2 = 5.0, 0.0; // Position
+      diameter:r = 310; // Diameter. If thousandth=yes, then in thousandths
+      size:r = 0.75; // Line Thickness
+      thousandth:b = true;
+      move:b = no;
+ 
+    }
+
+
+
+
+
+
+
+
+
+
+    circle {
+      segment:p2 = 0.0, 360.0; // Sector of a circle
+      pos:p2 = 0.0, 0.0; // Position
+      diameter:r = 126; // Diameter. If thousandth=yes, then in thousandths
+      size:r = 2; // Line Thickness
+      thousandth:b = true;
+      move:b = no;
+ 
+    }
+    circle {
+      segment:p2 = 0.0, 360.0; // Sector of a circle
+      pos:p2 = 0.0, 0.0; // Position
+      diameter:r = 252; // Diameter. If thousandth=yes, then in thousandths
+      size:r = 2; // Line Thickness
+      thousandth:b = true;
+      move:b = no;
+    }
+
+
+
+
+
+
+
+    circle {
+      segment:p2 = 0.0, 360.0; // Sector of a circle
+      pos:p2 = 0.0, 0.0; // Position
+      diameter:r = 126; // Diameter. If thousandth=yes, then in thousandths
+      size:r = 2; // Line Thickness
+      thousandth:b = true;
+      move:b = no;
+ 
+    }
+    circle {
+      segment:p2 = 0.0, 360.0; // Sector of a circle
+      pos:p2 = 0.0, 0.0; // Position
+      diameter:r = 252; // Diameter. If thousandth=yes, then in thousandths
+      size:r = 2; // Line Thickness
+      thousandth:b = true;
+      move:b = no;
+    }
+
+
+}
+
+
+
+
+  drawTexts {
+ ////---------------------------upppppppppppppppppppppppppppppppppppppppppp
+text {
+    text:t = "┪"
+    align:i = 0
+    pos:p2 = 0.06, -0.16
+    move:b = false
+    highlight:b=no
+    size:r = 2
+   }
+text {
+    text:t = "┪"
+    align:i = 0
+    pos:p2 = 0.06, -0.16
+    move:b = false
+    highlight:b=no
+    size:r = 2
+   }
+text {
+    text:t = "┪"
+    align:i = 0
+    pos:p2 = 0.05, -0.16
+    move:b = false
+    highlight:b=no
+    size:r = 2
+   }
+text {
+    text:t = "┪"
+    align:i = 0
+    pos:p2 = 0.04, -0.16
+    move:b = false
+    highlight:b=no
+    size:r = 2
+   }
+text {
+    text:t = "┪"
+    align:i = 0
+    pos:p2 = 0.03, -0.16
+    move:b = false
+    highlight:b=no
+    size:r = 2
+   }
+text {
+    text:t = "┪"
+    align:i = 0
+    pos:p2 = 0.02, -0.16
+    move:b = false
+    highlight:b=no
+    size:r = 2
+   }
+text {
+    text:t = "┪"
+    align:i = 0
+    pos:p2 = 0.01, -0.16
+    move:b = false
+    highlight:b=no
+    size:r = 2
+   }
+text {
+    text:t = "┪"
+    align:i = 0
+    pos:p2 = 0.0, -0.16
+    move:b = false
+    highlight:b=no
+    size:r = 2
+   }
+text {
+    text:t = "┪"
+    align:i = 0
+    pos:p2 = -0.01, -0.16
+    move:b = false
+    highlight:b=no
+    size:r = 2
+   }
+text {
+    text:t = "┪"
+    align:i = 0
+    pos:p2 = -0.02, -0.16
+    move:b = false
+    highlight:b=no
+    size:r = 2
+   }
+text {
+    text:t = "┪"
+    align:i = 0
+    pos:p2 = -0.03, -0.16
+    move:b = false
+    highlight:b=no
+    size:r = 2
+   }
+text {
+    text:t = "┪"
+    align:i = 0
+    pos:p2 = -0.04, -0.16
+    move:b = false
+    highlight:b=no
+    size:r = 2
+   }
+text {
+    text:t = "┪"
+    align:i = 0
+    pos:p2 = -0.05, -0.16
+    move:b = false
+    highlight:b=no
+    size:r = 2
+   }
+text {
+    text:t = "┪"
+    align:i = 0
+    pos:p2 = -0.06, -0.16
+    move:b = false
+    highlight:b=no
+    size:r = 2
+   }
+text {
+    text:t = "┪"
+    align:i = 0
+    pos:p2 = -0.07, -0.16
+    move:b = false
+    highlight:b=no
+    size:r = 2
+   }
+text {
+    text:t = "┪"
+    align:i = 0
+    pos:p2 = -0.08, -0.16
+    move:b = false
+    highlight:b=no
+    size:r = 2
+   }
+text {
+    text:t = "┪"
+    align:i = 0
+    pos:p2 = -0.09, -0.16
+    move:b = false
+    highlight:b=no
+    size:r = 2
+   }
+text {
+    text:t = "┪"
+    align:i = 0
+    pos:p2 = -0.1, -0.16
+    move:b = false
+    highlight:b=no
+    size:r = 2
+   }
+text {
+    text:t = "┪"
+    align:i = 0
+    pos:p2 = -0.11, -0.16
+    move:b = false
+    highlight:b=no
+    size:r = 2
+   }
+text {
+    text:t = "┪"
+    align:i = 0
+    pos:p2 = -0.12, -0.16
+    move:b = false
+    highlight:b=no
+    size:r = 2
+   }
+text {
+    text:t = "┪"
+    align:i = 0
+    pos:p2 = -0.13, -0.16
+    move:b = false
+    highlight:b=no
+    size:r = 2
+   }
+text {
+    text:t = "┪"
+    align:i = 0
+    pos:p2 = -0.14, -0.16
+    move:b = false
+    highlight:b=no
+    size:r = 2
+   }
+text {
+    text:t = "┪"
+    align:i = 0
+    pos:p2 = -0.15, -0.16
+    move:b = false
+    highlight:b=no
+    size:r = 2
+   }
+text {
+    text:t = "┪"
+    align:i = 0
+    pos:p2 = -0.16, -0.16
+    move:b = false
+    highlight:b=no
+    size:r = 2
+   }
+text {
+    text:t = "┪"
+    align:i = 0
+    pos:p2 = -0.16, -0.16
+    move:b = false
+    highlight:b=no
+    size:r = 2
+   }
+text {
+    text:t = "┪"
+    align:i = 0
+    pos:p2 = -0.18, -0.16
+    move:b = false
+    highlight:b=no
+    size:r = 2
+   }
+text {
+    text:t = "┪"
+    align:i = 0
+    pos:p2 = -0.18, -0.16
+    move:b = false
+    highlight:b=no
+    size:r = 2
+   }
+text {
+    text:t = "┪"
+    align:i = 0
+    pos:p2 = -0.18, -0.16
+    move:b = false
+    highlight:b=no
+    size:r = 2
+   }
+
+///////\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+text {
+    text:t = "┤"
+    align:i = 0
+    pos:p2 = 0.1578, -0.073
+    move:b = false
+    highlight:b=no
+    size:r = 1.3
+   }
+text {
+    text:t = "┤"
+    align:i = 0
+    pos:p2 = 0.153, -0.078
+    move:b = false
+    highlight:b=no
+    size:r = 1.3
+   }
+text {
+    text:t = "┤"
+    align:i = 0
+    pos:p2 = 0.148, -0.083
+    move:b = false
+    highlight:b=no
+    size:r = 1.3
+   }
+text {
+    text:t = "┤"
+    align:i = 0
+    pos:p2 = 0.143, -0.088
+    move:b = false
+    highlight:b=no
+    size:r = 1.3
+   }
+text {
+    text:t = "┤"
+    align:i = 0
+    pos:p2 = 0.138, -0.093
+    move:b = false
+    highlight:b=no
+    size:r = 1.3
+   }
+text {
+    text:t = "┤"
+    align:i = 0
+    pos:p2 = 0.133, -0.098
+    move:b = false
+    highlight:b=no
+    size:r = 1.3
+   }
+text {
+    text:t = "┤"
+    align:i = 0
+    pos:p2 = 0.128, -0.103
+    move:b = false
+    highlight:b=no
+    size:r = 1.3
+   }
+text {
+    text:t = "┤"
+    align:i = 0
+    pos:p2 = 0.123, -0.108
+    move:b = false
+    highlight:b=no
+    size:r = 1.3
+   }
+text {
+    text:t = "┤"
+    align:i = 0
+    pos:p2 = 0.118, -0.113
+    move:b = false
+    highlight:b=no
+    size:r = 1.3
+   }
+text {
+    text:t = "┤"
+    align:i = 0
+    pos:p2 = 0.113, -0.118
+    move:b = false
+    highlight:b=no
+    size:r = 1.3
+   }
+text {
+    text:t = "┤"
+    align:i = 0
+    pos:p2 = 0.108, -0.123
+    move:b = false
+    highlight:b=no
+    size:r = 1.3
+   }
+text {
+    text:t = "┤"
+    align:i = 0
+    pos:p2 = 0.103, -0.128
+    move:b = false
+    highlight:b=no
+    size:r = 1.3
+   }
+text {
+    text:t = "┤"
+    align:i = 0
+    pos:p2 = 0.098, -0.133
+    move:b = false
+    highlight:b=no
+    size:r = 1.3
+   }
+text {
+    text:t = "┤"
+    align:i = 0
+    pos:p2 = 0.093, -0.138
+    move:b = false
+    highlight:b=no
+    size:r = 1.3
+   }
+text {
+    text:t = "┤"
+    align:i = 0
+    pos:p2 = 0.088, -0.143
+    move:b = false
+    highlight:b=no
+    size:r = 1.3
+   }
+text {
+    text:t = "┤"
+    align:i = 0
+    pos:p2 = 0.083, -0.148
+    move:b = false
+    highlight:b=no
+    size:r = 1.3
+   }
+text {
+    text:t = "┤"
+    align:i = 0
+    pos:p2 = 0.078, -0.153
+    move:b = false
+    highlight:b=no
+    size:r = 1.3
+   }
+text {
+    text:t = "┤"
+    align:i = 0
+    pos:p2 = 0.074, -0.157
+    move:b = false
+    highlight:b=no
+    size:r = 1.3
+   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+////////iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
+
+text {
+    text:t = "I"
+    align:i = 0
+    pos:p2 = 0.16, -0.056
+    move:b = false
+    highlight:b=no
+    size:r = 3
+   }
+text {
+    text:t = "I"
+    align:i = 0
+    pos:p2 = 0.16, -0.056
+    move:b = false
+    highlight:b=no
+    size:r = 3
+   }
+text {
+    text:t = "I"
+    align:i = 0
+    pos:p2 = 0.16, -0.056
+    move:b = false
+    highlight:b=no
+    size:r = 3
+   }
+text {
+    text:t = "I"
+    align:i = 0
+    pos:p2 = 0.16, -0.05
+    move:b = false
+    highlight:b=no
+    size:r = 3
+   }
+text {
+    text:t = "I"
+    align:i = 0
+    pos:p2 = 0.16, -0.04
+    move:b = false
+    highlight:b=no
+    size:r = 3
+   }
+text {
+    text:t = "I"
+    align:i = 0
+    pos:p2 = 0.16, -0.03
+    move:b = false
+    highlight:b=no
+    size:r = 3
+   }
+text {
+    text:t = "I"
+    align:i = 0
+    pos:p2 = 0.16, -0.02
+    move:b = false
+    highlight:b=no
+    size:r = 3
+   }
+text {
+    text:t = "I"
+    align:i = 0
+    pos:p2 = 0.16, -0.01
+    move:b = false
+    highlight:b=no
+    size:r = 3
+   }
+text {
+    text:t = "I"
+    align:i = 0
+    pos:p2 = 0.16, 0.0
+    move:b = false
+    highlight:b=no
+    size:r = 3
+   }
+text {
+    text:t = "I"
+    align:i = 0
+    pos:p2 = 0.16, 0.01
+    move:b = false
+    highlight:b=no
+    size:r = 3
+   }
+text {
+    text:t = "I"
+    align:i = 0
+    pos:p2 = 0.16, 0.02
+    move:b = false
+    highlight:b=no
+    size:r = 3
+   }
+text {
+    text:t = "I"
+    align:i = 0
+    pos:p2 = 0.16, 0.03
+    move:b = false
+    highlight:b=no
+    size:r = 3
+   }
+text {
+    text:t = "I"
+    align:i = 0
+    pos:p2 = 0.16, 0.04
+    move:b = false
+    highlight:b=no
+    size:r = 3
+   }
+text {
+    text:t = "I"
+    align:i = 0
+    pos:p2 = 0.16, 0.048
+    move:b = false
+    highlight:b=no
+    size:r = 3
+   }
+text {
+    text:t = "I"
+    align:i = 0
+    pos:p2 = 0.16, 0.048
+    move:b = false
+    highlight:b=no
+    size:r = 3
+   }
+text {
+    text:t = "I"
+    align:i = 0
+    pos:p2 = 0.16, 0.048
+    move:b = false
+    highlight:b=no
+    size:r = 3
+   }
+text {
+    text:t = "I"
+    align:i = 0
+    pos:p2 = 0.16, 0.048
+    move:b = false
+    highlight:b=no
+    size:r = 3
+   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+////---------------------------------------------doowwwwwwwwwwwwwnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
+text {
+    text:t = "┪"
+    align:i = 0
+    pos:p2 = 0.06, 0.155
+    move:b = false
+    highlight:b=no
+    size:r = 2
+   }
+text {
+    text:t = "┪"
+    align:i = 0
+    pos:p2 = 0.06, 0.155
+    move:b = false
+    highlight:b=no
+    size:r = 2
+   }
+text {
+    text:t = "┪"
+    align:i = 0
+    pos:p2 = 0.05, 0.155
+    move:b = false
+    highlight:b=no
+    size:r = 2
+   }
+text {
+    text:t = "┪"
+    align:i = 0
+    pos:p2 = 0.05, 0.155
+    move:b = false
+    highlight:b=no
+    size:r = 2
+   }
+text {
+    text:t = "┪"
+    align:i = 0
+    pos:p2 = 0.04, 0.155
+    move:b = false
+    highlight:b=no
+    size:r = 2
+   }
+text {
+    text:t = "┪"
+    align:i = 0
+    pos:p2 = 0.03, 0.155
+    move:b = false
+    highlight:b=no
+    size:r = 2
+   }
+text {
+    text:t = "┪"
+    align:i = 0
+    pos:p2 = 0.02, 0.155
+    move:b = false
+    highlight:b=no
+    size:r = 2
+   }
+text {
+    text:t = "┪"
+    align:i = 0
+    pos:p2 = 0.01, 0.155
+    move:b = false
+    highlight:b=no
+    size:r = 2
+   }
+text {
+    text:t = "┪"
+    align:i = 0
+    pos:p2 = 0.0, 0.155
+    move:b = false
+    highlight:b=no
+    size:r = 2
+   }
+text {
+    text:t = "┪"
+    align:i = 0
+    pos:p2 = -0.01, 0.155
+    move:b = false
+    highlight:b=no
+    size:r = 2
+   }
+text {
+    text:t = "┪"
+    align:i = 0
+    pos:p2 = -0.02, 0.155
+    move:b = false
+    highlight:b=no
+    size:r = 2
+   }
+text {
+    text:t = "┪"
+    align:i = 0
+    pos:p2 = -0.03, 0.155
+    move:b = false
+    highlight:b=no
+    size:r = 2
+   }
+text {
+    text:t = "┪"
+    align:i = 0
+    pos:p2 = -0.04, 0.155
+    move:b = false
+    highlight:b=no
+    size:r = 2
+   }
+text {
+    text:t = "┪"
+    align:i = 0
+    pos:p2 = -0.05, 0.155
+    move:b = false
+    highlight:b=no
+    size:r = 2
+   }
+text {
+    text:t = "┪"
+    align:i = 0
+    pos:p2 = -0.06, 0.155
+    move:b = false
+    highlight:b=no
+    size:r = 2
+   }
+text {
+    text:t = "┪"
+    align:i = 0
+    pos:p2 = -0.07, 0.155
+    move:b = false
+    highlight:b=no
+    size:r = 2
+   }
+text {
+    text:t = "┪"
+    align:i = 0
+    pos:p2 = -0.08, 0.155
+    move:b = false
+    highlight:b=no
+    size:r = 2
+   }
+text {
+    text:t = "┪"
+    align:i = 0
+    pos:p2 = -0.09, 0.155
+    move:b = false
+    highlight:b=no
+    size:r = 2
+   }
+text {
+    text:t = "┪"
+    align:i = 0
+    pos:p2 = -0.1, 0.155
+    move:b = false
+    highlight:b=no
+    size:r = 2
+   }
+text {
+    text:t = "┪"
+    align:i = 0
+    pos:p2 = -0.11, 0.155
+    move:b = false
+    highlight:b=no
+    size:r = 2
+   }
+text {
+    text:t = "┪"
+    align:i = 0
+    pos:p2 = -0.12, 0.155
+    move:b = false
+    highlight:b=no
+    size:r = 2
+   }
+text {
+    text:t = "┪"
+    align:i = 0
+    pos:p2 = -0.13, 0.155
+    move:b = false
+    highlight:b=no
+    size:r = 2
+   }
+text {
+    text:t = "┪"
+    align:i = 0
+    pos:p2 = -0.14, 0.155
+    move:b = false
+    highlight:b=no
+    size:r = 2
+   }
+text {
+    text:t = "┪"
+    align:i = 0
+    pos:p2 = -0.15, 0.155
+    move:b = false
+    highlight:b=no
+    size:r = 2
+   }
+text {
+    text:t = "┪"
+    align:i = 0
+    pos:p2 = -0.16, 0.155
+    move:b = false
+    highlight:b=no
+    size:r = 2
+   }
+text {
+    text:t = "┪"
+    align:i = 0
+    pos:p2 = -0.17, 0.155
+    move:b = false
+    highlight:b=no
+    size:r = 2
+   }
+text {
+    text:t = "┪"
+    align:i = 0
+    pos:p2 = -0.18, 0.155
+    move:b = false
+    highlight:b=no
+    size:r = 2
+   }
+text {
+    text:t = "┪"
+    align:i = 0
+    pos:p2 = -0.18, 0.155
+    move:b = false
+    highlight:b=no
+    size:r = 2
+   }
+text {
+    text:t = "┪"
+    align:i = 0
+    pos:p2 = -0.18, 0.155
+    move:b = false
+    highlight:b=no
+    size:r = 2
+   }
+
+/////////////////////////////////////////////////////////////////
+
+text {
+    text:t = "┤"
+    align:i = 0
+    pos:p2 = 0.1578, 0.07
+    move:b = false
+    highlight:b=no
+    size:r = 1.3
+   }
+text {
+    text:t = "┤"
+    align:i = 0
+    pos:p2 = 0.153, 0.075
+    move:b = false
+    highlight:b=no
+    size:r = 1.3
+   }
+text {
+    text:t = "┤"
+    align:i = 0
+    pos:p2 = 0.148, 0.08
+    move:b = false
+    highlight:b=no
+    size:r = 1.3
+   }
+text {
+    text:t = "┤"
+    align:i = 0
+    pos:p2 = 0.143, 0.085
+    move:b = false
+    highlight:b=no
+    size:r = 1.3
+   }
+text {
+    text:t = "┤"
+    align:i = 0
+    pos:p2 = 0.138, 0.09
+    move:b = false
+    highlight:b=no
+    size:r = 1.3
+   }
+text {
+    text:t = "┤"
+    align:i = 0
+    pos:p2 = 0.133, 0.095
+    move:b = false
+    highlight:b=no
+    size:r = 1.3
+   }
+text {
+    text:t = "┤"
+    align:i = 0
+    pos:p2 = 0.128, 0.1
+    move:b = false
+    highlight:b=no
+    size:r = 1.3
+   }
+text {
+    text:t = "┤"
+    align:i = 0
+    pos:p2 = 0.123, 0.105
+    move:b = false
+    highlight:b=no
+    size:r = 1.3
+   }
+text {
+    text:t = "┤"
+    align:i = 0
+    pos:p2 = 0.118, 0.110
+    move:b = false
+    highlight:b=no
+    size:r = 1.3
+   }
+text {
+    text:t = "┤"
+    align:i = 0
+    pos:p2 = 0.113, 0.115
+    move:b = false
+    highlight:b=no
+    size:r = 1.3
+   }
+text {
+    text:t = "┤"
+    align:i = 0
+    pos:p2 = 0.108, 0.120
+    move:b = false
+    highlight:b=no
+    size:r = 1.3
+   }
+text {
+    text:t = "┤"
+    align:i = 0
+    pos:p2 = 0.103, 0.125
+    move:b = false
+    highlight:b=no
+    size:r = 1.3
+   }
+text {
+    text:t = "┤"
+    align:i = 0
+    pos:p2 = 0.098, 0.130
+    move:b = false
+    highlight:b=no
+    size:r = 1.3
+   }
+text {
+    text:t = "┤"
+    align:i = 0
+    pos:p2 = 0.093, 0.135
+    move:b = false
+    highlight:b=no
+    size:r = 1.3
+   }
+text {
+    text:t = "┤"
+    align:i = 0
+    pos:p2 = 0.088, 0.140
+    move:b = false
+    highlight:b=no
+    size:r = 1.3
+   }
+text {
+    text:t = "┤"
+    align:i = 0
+    pos:p2 = 0.083, 0.145
+    move:b = false
+    highlight:b=no
+    size:r = 1.3
+   }
+text {
+    text:t = "┤"
+    align:i = 0
+    pos:p2 = 0.078, 0.150
+    move:b = false
+    highlight:b=no
+    size:r = 1.3
+   }
+text {
+    text:t = "┤"
+    align:i = 0
+    pos:p2 = 0.074, 0.154
+    move:b = false
+    highlight:b=no
+    size:r = 1.3
+   }
+
+
+
+
+
+
+/////iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii2222222222222222222222222222222222222222222222
+text {
+    text:t = "I"
+    align:i = 0
+    pos:p2 = -0.17, 0.123
+    move:b = false
+    highlight:b=no
+    size:r = 5
+   }
+text {
+    text:t = "I"
+    align:i = 0
+    pos:p2 = -0.17, 0.123
+    move:b = false
+    highlight:b=no
+    size:r = 5
+   }
+text {
+    text:t = "I"
+    align:i = 0
+    pos:p2 = -0.17, 0.093
+    move:b = false
+    highlight:b=no
+    size:r = 5
+   }
+
+text {
+    text:t = "I"
+    align:i = 0
+    pos:p2 = -0.17, 0.063
+    move:b = false
+    highlight:b=no
+    size:r = 5
+   }
+
+text {
+    text:t = "I"
+    align:i = 0
+    pos:p2 = -0.17, 0.033
+    move:b = false
+    highlight:b=no
+    size:r = 5
+   }
+text {
+    text:t = "I"
+    align:i = 0
+    pos:p2 = -0.17, 0.000
+    move:b = false
+    highlight:b=no
+    size:r = 5
+   }
+text {
+    text:t = "I"
+    align:i = 0
+    pos:p2 = -0.17, 0.000
+    move:b = false
+    highlight:b=no
+    size:r = 5
+   }
+text {
+    text:t = "I"
+    align:i = 0
+    pos:p2 = -0.17, -0.033
+    move:b = false
+    highlight:b=no
+    size:r = 5
+   }
+text {
+    text:t = "I"
+    align:i = 0
+    pos:p2 = -0.17, -0.063
+    move:b = false
+    highlight:b=no
+    size:r = 5
+   }
+text {
+    text:t = "I"
+    align:i = 0
+    pos:p2 = -0.17, -0.093
+    move:b = false
+    highlight:b=no
+    size:r = 5
+   }
+text {
+    text:t = "I"
+    align:i = 0
+    pos:p2 = -0.17, -0.123
+    move:b = false
+    highlight:b=no
+    size:r = 5
+   }
+text {
+    text:t = "I"
+    align:i = 0
+    pos:p2 = -0.17, -0.135
+    move:b = false
+    highlight:b=no
+    size:r = 5
+   }
+text {
+    text:t = "I"
+    align:i = 0
+    pos:p2 = -0.17, -0.135
+    move:b = false
+    highlight:b=no
+    size:r = 5
+   }
+
+/////////////////////////////////----------
+
+text {
+    text:t = "I"
+    align:i = 0
+    pos:p2 = -0.17, 0.123
+    move:b = false
+    highlight:b=no
+    size:r = 5
+   }
+text {
+    text:t = "I"
+    align:i = 0
+    pos:p2 = -0.17, 0.123
+    move:b = false
+    highlight:b=no
+    size:r = 5
+   }
+text {
+    text:t = "I"
+    align:i = 0
+    pos:p2 = -0.17, 0.093
+    move:b = false
+    highlight:b=no
+    size:r = 5
+   }
+
+text {
+    text:t = "I"
+    align:i = 0
+    pos:p2 = -0.17, 0.063
+    move:b = false
+    highlight:b=no
+    size:r = 5
+   }
+
+text {
+    text:t = "I"
+    align:i = 0
+    pos:p2 = -0.17, 0.033
+    move:b = false
+    highlight:b=no
+    size:r = 5
+   }
+text {
+    text:t = "I"
+    align:i = 0
+    pos:p2 = -0.17, 0.000
+    move:b = false
+    highlight:b=no
+    size:r = 5
+   }
+text {
+    text:t = "I"
+    align:i = 0
+    pos:p2 = -0.17, 0.000
+    move:b = false
+    highlight:b=no
+    size:r = 5
+   }
+text {
+    text:t = "I"
+    align:i = 0
+    pos:p2 = -0.17, -0.033
+    move:b = false
+    highlight:b=no
+    size:r = 5
+   }
+text {
+    text:t = "I"
+    align:i = 0
+    pos:p2 = -0.17, -0.063
+    move:b = false
+    highlight:b=no
+    size:r = 5
+   }
+text {
+    text:t = "I"
+    align:i = 0
+    pos:p2 = -0.17, -0.093
+    move:b = false
+    highlight:b=no
+    size:r = 5
+   }
+text {
+    text:t = "I"
+    align:i = 0
+    pos:p2 = -0.17, -0.123
+    move:b = false
+    highlight:b=no
+    size:r = 5
+   }
+text {
+    text:t = "I"
+    align:i = 0
+    pos:p2 = -0.17, -0.135
+    move:b = false
+    highlight:b=no
+    size:r = 5
+   }
+text {
+    text:t = "I"
+    align:i = 0
+    pos:p2 = -0.17, -0.135
+    move:b = false
+    highlight:b=no
+    size:r = 5
+   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/////iiiiiiiiiiiiiiiiiiiiiiii33333333333333333333333333333333333333333333333
+text {
+    text:t = "I"
+    align:i = 0
+    pos:p2 = -0.18, 0.123
+    move:b = false
+    highlight:b=no
+    size:r = 5
+   }
+text {
+    text:t = "I"
+    align:i = 0
+    pos:p2 = -0.18, 0.123
+    move:b = false
+    highlight:b=no
+    size:r = 5
+   }
+text {
+    text:t = "I"
+    align:i = 0
+    pos:p2 = -0.18, 0.093
+    move:b = false
+    highlight:b=no
+    size:r = 5
+   }
+
+text {
+    text:t = "I"
+    align:i = 0
+    pos:p2 = -0.18, 0.063
+    move:b = false
+    highlight:b=no
+    size:r = 5
+   }
+
+text {
+    text:t = "I"
+    align:i = 0
+    pos:p2 = -0.18, 0.033
+    move:b = false
+    highlight:b=no
+    size:r = 5
+   }
+text {
+    text:t = "I"
+    align:i = 0
+    pos:p2 = -0.18, 0.000
+    move:b = false
+    highlight:b=no
+    size:r = 5
+   }
+text {
+    text:t = "I"
+    align:i = 0
+    pos:p2 = -0.18, 0.000
+    move:b = false
+    highlight:b=no
+    size:r = 5
+   }
+text {
+    text:t = "I"
+    align:i = 0
+    pos:p2 = -0.18, -0.033
+    move:b = false
+    highlight:b=no
+    size:r = 5
+   }
+text {
+    text:t = "I"
+    align:i = 0
+    pos:p2 = -0.18, -0.063
+    move:b = false
+    highlight:b=no
+    size:r = 5
+   }
+text {
+    text:t = "I"
+    align:i = 0
+    pos:p2 = -0.18, -0.093
+    move:b = false
+    highlight:b=no
+    size:r = 5
+   }
+text {
+    text:t = "I"
+    align:i = 0
+    pos:p2 = -0.18, -0.123
+    move:b = false
+    highlight:b=no
+    size:r = 5
+   }
+text {
+    text:t = "I"
+    align:i = 0
+    pos:p2 = -0.17, -0.135
+    move:b = false
+    highlight:b=no
+    size:r = 5
+   }
+text {
+    text:t = "I"
+    align:i = 0
+    pos:p2 = -0.18, -0.135
+    move:b = false
+    highlight:b=no
+    size:r = 5
+   }
+
+/////////------------------------------------
+
+text {
+    text:t = "I"
+    align:i = 0
+    pos:p2 = -0.18, 0.123
+    move:b = false
+    highlight:b=no
+    size:r = 5
+   }
+text {
+    text:t = "I"
+    align:i = 0
+    pos:p2 = -0.18, 0.123
+    move:b = false
+    highlight:b=no
+    size:r = 5
+   }
+text {
+    text:t = "I"
+    align:i = 0
+    pos:p2 = -0.18, 0.123
+    move:b = false
+    highlight:b=no
+    size:r = 5
+   }
+text {
+    text:t = "I"
+    align:i = 0
+    pos:p2 = -0.18, 0.123
+    move:b = false
+    highlight:b=no
+    size:r = 5
+   }
+text {
+    text:t = "I"
+    align:i = 0
+    pos:p2 = -0.18, 0.123
+    move:b = false
+    highlight:b=no
+    size:r = 5
+   }
+text {
+    text:t = "I"
+    align:i = 0
+    pos:p2 = -0.18, 0.123
+    move:b = false
+    highlight:b=no
+    size:r = 5
+   }
+
+//////////
+text {
+    text:t = "I"
+    align:i = 0
+    pos:p2 = -0.17, -0.135
+    move:b = false
+    highlight:b=no
+    size:r = 5
+   }
+text {
+    text:t = "I"
+    align:i = 0
+    pos:p2 = -0.18, -0.135
+    move:b = false
+    highlight:b=no
+    size:r = 5
+   }
+text {
+    text:t = "I"
+    align:i = 0
+    pos:p2 = -0.17, -0.135
+    move:b = false
+    highlight:b=no
+    size:r = 5
+   }
+text {
+    text:t = "I"
+    align:i = 0
+    pos:p2 = -0.18, -0.135
+    move:b = false
+    highlight:b=no
+    size:r = 5
+   }
+text {
+    text:t = "I"
+    align:i = 0
+    pos:p2 = -0.17, -0.135
+    move:b = false
+    highlight:b=no
+    size:r = 5
+   }
+text {
+    text:t = "I"
+    align:i = 0
+    pos:p2 = -0.18, -0.135
+    move:b = false
+    highlight:b=no
+    size:r = 5
+   }
+
+
+
+
+
+
+
+
+
+
+
+////////////////////oothhhheeeeeerrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr
+//////////leftttttttttttttttttttttttttttttttttttttttt
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = -0.285, -0.0521
+    move:b = false
+    highlight:b=no
+    size:r = 17
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = -0.285, -0.0521
+    move:b = false
+    highlight:b=no
+    size:r = 17
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = -0.285, -0.0521
+    move:b = false
+    highlight:b=no
+    size:r = 17
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = -0.285, -0.0521
+    move:b = false
+    highlight:b=no
+    size:r = 17
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = -0.285, -0.0521
+    move:b = false
+    highlight:b=no
+    size:r = 17
+   }
+
+////////-----------------------------
+
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = -0.285, 0.0047
+    move:b = false
+    highlight:b=no
+    size:r = 17
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = -0.285, 0.0047
+    move:b = false
+    highlight:b=no
+    size:r = 17
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = -0.285, 0.0047
+    move:b = false
+    highlight:b=no
+    size:r = 17
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = -0.285, 0.0047
+    move:b = false
+    highlight:b=no
+    size:r = 17
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = -0.285, 0.0047
+    move:b = false
+    highlight:b=no
+    size:r = 17
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = -0.285, 0.0047
+    move:b = false
+    highlight:b=no
+    size:r = 17
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = -0.285, 0.0047
+    move:b = false
+    highlight:b=no
+    size:r = 17
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = -0.285, 0.0047
+    move:b = false
+    highlight:b=no
+    size:r = 17
+   }
+
+
+
+
+
+
+
+
+
+
+
+///////////rriiigggggggggggggggggghhhhhhhhhhhhhhhhhhhhhhhhhhhtttttttttttttttttttttttttttttttt
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.17, -0.0305
+    move:b = false
+    highlight:b=no
+    size:r = 2
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.17, -0.0220
+    move:b = false
+    highlight:b=no
+    size:r = 2
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.17, -0.0135
+    move:b = false
+    highlight:b=no
+    size:r = 2
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.17, -0.0055
+    move:b = false
+    highlight:b=no
+    size:r = 2
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.17, 0.0015
+    move:b = false
+    highlight:b=no
+    size:r = 2
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.17, 0.0085
+    move:b = false
+    highlight:b=no
+    size:r = 2
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.17, 0.017
+    move:b = false
+    highlight:b=no
+    size:r = 2
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.17, 0.0245
+    move:b = false
+    highlight:b=no
+    size:r = 2
+   }
+
+
+
+
+
+
+
+
+
+
+
+/////////////////////////////////tttttttttttttttoooooooooooooooooooooooppppppppppppppppppppppppppppppppppppppppppp
+text {
+    text:t = "┪"
+    align:i = 0
+    pos:p2 = -0.0, -0.165
+    move:b = false
+    highlight:b=no
+    size:r = 2
+   }
+text {
+    text:t = "┪"
+    align:i = 0
+    pos:p2 = -0.0, -0.170
+    move:b = false
+    highlight:b=no
+    size:r = 2
+   }
+text {
+    text:t = "┪"
+    align:i = 0
+    pos:p2 = -0.0, -0.175
+    move:b = false
+    highlight:b=no
+    size:r = 2
+   }
+
+///////
+
+text {
+    text:t = "┪"
+    align:i = 0
+    pos:p2 = -0.05, -0.165
+    move:b = false
+    highlight:b=no
+    size:r = 2
+   }
+text {
+    text:t = "┪"
+    align:i = 0
+    pos:p2 = -0.05, -0.170
+    move:b = false
+    highlight:b=no
+    size:r = 2
+   }
+text {
+    text:t = "┪"
+    align:i = 0
+    pos:p2 = -0.05, -0.175
+    move:b = false
+    highlight:b=no
+    size:r = 2
+   }
+
+//////////
+
+text {
+    text:t = "┪"
+    align:i = 0
+    pos:p2 = -0.02, -0.165
+    move:b = false
+    highlight:b=no
+    size:r = 3
+   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//////////////xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx222222222222222222222222222222222222222222222222
+ ////---------------------------upppppppppppppppppppppppppppppppppppppppppp
+text {
+    text:t = "┪"
+    align:i = 0
+    pos:p2 = 0.06, -0.16
+    move:b = false
+    highlight:b=no
+    size:r = 2
+   }
+text {
+    text:t = "┪"
+    align:i = 0
+    pos:p2 = 0.06, -0.16
+    move:b = false
+    highlight:b=no
+    size:r = 2
+   }
+text {
+    text:t = "┪"
+    align:i = 0
+    pos:p2 = 0.05, -0.16
+    move:b = false
+    highlight:b=no
+    size:r = 2
+   }
+text {
+    text:t = "┪"
+    align:i = 0
+    pos:p2 = 0.04, -0.16
+    move:b = false
+    highlight:b=no
+    size:r = 2
+   }
+text {
+    text:t = "┪"
+    align:i = 0
+    pos:p2 = 0.03, -0.16
+    move:b = false
+    highlight:b=no
+    size:r = 2
+   }
+text {
+    text:t = "┪"
+    align:i = 0
+    pos:p2 = 0.02, -0.16
+    move:b = false
+    highlight:b=no
+    size:r = 2
+   }
+text {
+    text:t = "┪"
+    align:i = 0
+    pos:p2 = 0.01, -0.16
+    move:b = false
+    highlight:b=no
+    size:r = 2
+   }
+text {
+    text:t = "┪"
+    align:i = 0
+    pos:p2 = 0.0, -0.16
+    move:b = false
+    highlight:b=no
+    size:r = 2
+   }
+text {
+    text:t = "┪"
+    align:i = 0
+    pos:p2 = -0.01, -0.16
+    move:b = false
+    highlight:b=no
+    size:r = 2
+   }
+text {
+    text:t = "┪"
+    align:i = 0
+    pos:p2 = -0.02, -0.16
+    move:b = false
+    highlight:b=no
+    size:r = 2
+   }
+text {
+    text:t = "┪"
+    align:i = 0
+    pos:p2 = -0.03, -0.16
+    move:b = false
+    highlight:b=no
+    size:r = 2
+   }
+text {
+    text:t = "┪"
+    align:i = 0
+    pos:p2 = -0.04, -0.16
+    move:b = false
+    highlight:b=no
+    size:r = 2
+   }
+text {
+    text:t = "┪"
+    align:i = 0
+    pos:p2 = -0.05, -0.16
+    move:b = false
+    highlight:b=no
+    size:r = 2
+   }
+text {
+    text:t = "┪"
+    align:i = 0
+    pos:p2 = -0.06, -0.16
+    move:b = false
+    highlight:b=no
+    size:r = 2
+   }
+text {
+    text:t = "┪"
+    align:i = 0
+    pos:p2 = -0.07, -0.16
+    move:b = false
+    highlight:b=no
+    size:r = 2
+   }
+text {
+    text:t = "┪"
+    align:i = 0
+    pos:p2 = -0.08, -0.16
+    move:b = false
+    highlight:b=no
+    size:r = 2
+   }
+text {
+    text:t = "┪"
+    align:i = 0
+    pos:p2 = -0.09, -0.16
+    move:b = false
+    highlight:b=no
+    size:r = 2
+   }
+text {
+    text:t = "┪"
+    align:i = 0
+    pos:p2 = -0.1, -0.16
+    move:b = false
+    highlight:b=no
+    size:r = 2
+   }
+text {
+    text:t = "┪"
+    align:i = 0
+    pos:p2 = -0.11, -0.16
+    move:b = false
+    highlight:b=no
+    size:r = 2
+   }
+text {
+    text:t = "┪"
+    align:i = 0
+    pos:p2 = -0.12, -0.16
+    move:b = false
+    highlight:b=no
+    size:r = 2
+   }
+text {
+    text:t = "┪"
+    align:i = 0
+    pos:p2 = -0.13, -0.16
+    move:b = false
+    highlight:b=no
+    size:r = 2
+   }
+text {
+    text:t = "┪"
+    align:i = 0
+    pos:p2 = -0.14, -0.16
+    move:b = false
+    highlight:b=no
+    size:r = 2
+   }
+text {
+    text:t = "┪"
+    align:i = 0
+    pos:p2 = -0.15, -0.16
+    move:b = false
+    highlight:b=no
+    size:r = 2
+   }
+text {
+    text:t = "┪"
+    align:i = 0
+    pos:p2 = -0.16, -0.16
+    move:b = false
+    highlight:b=no
+    size:r = 2
+   }
+text {
+    text:t = "┪"
+    align:i = 0
+    pos:p2 = -0.16, -0.16
+    move:b = false
+    highlight:b=no
+    size:r = 2
+   }
+text {
+    text:t = "┪"
+    align:i = 0
+    pos:p2 = -0.18, -0.16
+    move:b = false
+    highlight:b=no
+    size:r = 2
+   }
+text {
+    text:t = "┪"
+    align:i = 0
+    pos:p2 = -0.18, -0.16
+    move:b = false
+    highlight:b=no
+    size:r = 2
+   }
+text {
+    text:t = "┪"
+    align:i = 0
+    pos:p2 = -0.18, -0.16
+    move:b = false
+    highlight:b=no
+    size:r = 2
+   }
+
+///////\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+text {
+    text:t = "┤"
+    align:i = 0
+    pos:p2 = 0.1578, -0.073
+    move:b = false
+    highlight:b=no
+    size:r = 1.3
+   }
+text {
+    text:t = "┤"
+    align:i = 0
+    pos:p2 = 0.153, -0.078
+    move:b = false
+    highlight:b=no
+    size:r = 1.3
+   }
+text {
+    text:t = "┤"
+    align:i = 0
+    pos:p2 = 0.148, -0.083
+    move:b = false
+    highlight:b=no
+    size:r = 1.3
+   }
+text {
+    text:t = "┤"
+    align:i = 0
+    pos:p2 = 0.143, -0.088
+    move:b = false
+    highlight:b=no
+    size:r = 1.3
+   }
+text {
+    text:t = "┤"
+    align:i = 0
+    pos:p2 = 0.138, -0.093
+    move:b = false
+    highlight:b=no
+    size:r = 1.3
+   }
+text {
+    text:t = "┤"
+    align:i = 0
+    pos:p2 = 0.133, -0.098
+    move:b = false
+    highlight:b=no
+    size:r = 1.3
+   }
+text {
+    text:t = "┤"
+    align:i = 0
+    pos:p2 = 0.128, -0.103
+    move:b = false
+    highlight:b=no
+    size:r = 1.3
+   }
+text {
+    text:t = "┤"
+    align:i = 0
+    pos:p2 = 0.123, -0.108
+    move:b = false
+    highlight:b=no
+    size:r = 1.3
+   }
+text {
+    text:t = "┤"
+    align:i = 0
+    pos:p2 = 0.118, -0.113
+    move:b = false
+    highlight:b=no
+    size:r = 1.3
+   }
+text {
+    text:t = "┤"
+    align:i = 0
+    pos:p2 = 0.113, -0.118
+    move:b = false
+    highlight:b=no
+    size:r = 1.3
+   }
+text {
+    text:t = "┤"
+    align:i = 0
+    pos:p2 = 0.108, -0.123
+    move:b = false
+    highlight:b=no
+    size:r = 1.3
+   }
+text {
+    text:t = "┤"
+    align:i = 0
+    pos:p2 = 0.103, -0.128
+    move:b = false
+    highlight:b=no
+    size:r = 1.3
+   }
+text {
+    text:t = "┤"
+    align:i = 0
+    pos:p2 = 0.098, -0.133
+    move:b = false
+    highlight:b=no
+    size:r = 1.3
+   }
+text {
+    text:t = "┤"
+    align:i = 0
+    pos:p2 = 0.093, -0.138
+    move:b = false
+    highlight:b=no
+    size:r = 1.3
+   }
+text {
+    text:t = "┤"
+    align:i = 0
+    pos:p2 = 0.088, -0.143
+    move:b = false
+    highlight:b=no
+    size:r = 1.3
+   }
+text {
+    text:t = "┤"
+    align:i = 0
+    pos:p2 = 0.083, -0.148
+    move:b = false
+    highlight:b=no
+    size:r = 1.3
+   }
+text {
+    text:t = "┤"
+    align:i = 0
+    pos:p2 = 0.078, -0.153
+    move:b = false
+    highlight:b=no
+    size:r = 1.3
+   }
+text {
+    text:t = "┤"
+    align:i = 0
+    pos:p2 = 0.074, -0.157
+    move:b = false
+    highlight:b=no
+    size:r = 1.3
+   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+////////iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
+
+text {
+    text:t = "I"
+    align:i = 0
+    pos:p2 = 0.16, -0.056
+    move:b = false
+    highlight:b=no
+    size:r = 3
+   }
+text {
+    text:t = "I"
+    align:i = 0
+    pos:p2 = 0.16, -0.056
+    move:b = false
+    highlight:b=no
+    size:r = 3
+   }
+text {
+    text:t = "I"
+    align:i = 0
+    pos:p2 = 0.16, -0.056
+    move:b = false
+    highlight:b=no
+    size:r = 3
+   }
+text {
+    text:t = "I"
+    align:i = 0
+    pos:p2 = 0.16, -0.05
+    move:b = false
+    highlight:b=no
+    size:r = 3
+   }
+text {
+    text:t = "I"
+    align:i = 0
+    pos:p2 = 0.16, -0.04
+    move:b = false
+    highlight:b=no
+    size:r = 3
+   }
+text {
+    text:t = "I"
+    align:i = 0
+    pos:p2 = 0.16, -0.03
+    move:b = false
+    highlight:b=no
+    size:r = 3
+   }
+text {
+    text:t = "I"
+    align:i = 0
+    pos:p2 = 0.16, -0.02
+    move:b = false
+    highlight:b=no
+    size:r = 3
+   }
+text {
+    text:t = "I"
+    align:i = 0
+    pos:p2 = 0.16, -0.01
+    move:b = false
+    highlight:b=no
+    size:r = 3
+   }
+text {
+    text:t = "I"
+    align:i = 0
+    pos:p2 = 0.16, 0.0
+    move:b = false
+    highlight:b=no
+    size:r = 3
+   }
+text {
+    text:t = "I"
+    align:i = 0
+    pos:p2 = 0.16, 0.01
+    move:b = false
+    highlight:b=no
+    size:r = 3
+   }
+text {
+    text:t = "I"
+    align:i = 0
+    pos:p2 = 0.16, 0.02
+    move:b = false
+    highlight:b=no
+    size:r = 3
+   }
+text {
+    text:t = "I"
+    align:i = 0
+    pos:p2 = 0.16, 0.03
+    move:b = false
+    highlight:b=no
+    size:r = 3
+   }
+text {
+    text:t = "I"
+    align:i = 0
+    pos:p2 = 0.16, 0.04
+    move:b = false
+    highlight:b=no
+    size:r = 3
+   }
+text {
+    text:t = "I"
+    align:i = 0
+    pos:p2 = 0.16, 0.048
+    move:b = false
+    highlight:b=no
+    size:r = 3
+   }
+text {
+    text:t = "I"
+    align:i = 0
+    pos:p2 = 0.16, 0.048
+    move:b = false
+    highlight:b=no
+    size:r = 3
+   }
+text {
+    text:t = "I"
+    align:i = 0
+    pos:p2 = 0.16, 0.048
+    move:b = false
+    highlight:b=no
+    size:r = 3
+   }
+text {
+    text:t = "I"
+    align:i = 0
+    pos:p2 = 0.16, 0.048
+    move:b = false
+    highlight:b=no
+    size:r = 3
+   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+////---------------------------------------------doowwwwwwwwwwwwwnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
+text {
+    text:t = "┪"
+    align:i = 0
+    pos:p2 = 0.06, 0.155
+    move:b = false
+    highlight:b=no
+    size:r = 2
+   }
+text {
+    text:t = "┪"
+    align:i = 0
+    pos:p2 = 0.06, 0.155
+    move:b = false
+    highlight:b=no
+    size:r = 2
+   }
+text {
+    text:t = "┪"
+    align:i = 0
+    pos:p2 = 0.05, 0.155
+    move:b = false
+    highlight:b=no
+    size:r = 2
+   }
+text {
+    text:t = "┪"
+    align:i = 0
+    pos:p2 = 0.05, 0.155
+    move:b = false
+    highlight:b=no
+    size:r = 2
+   }
+text {
+    text:t = "┪"
+    align:i = 0
+    pos:p2 = 0.04, 0.155
+    move:b = false
+    highlight:b=no
+    size:r = 2
+   }
+text {
+    text:t = "┪"
+    align:i = 0
+    pos:p2 = 0.03, 0.155
+    move:b = false
+    highlight:b=no
+    size:r = 2
+   }
+text {
+    text:t = "┪"
+    align:i = 0
+    pos:p2 = 0.02, 0.155
+    move:b = false
+    highlight:b=no
+    size:r = 2
+   }
+text {
+    text:t = "┪"
+    align:i = 0
+    pos:p2 = 0.01, 0.155
+    move:b = false
+    highlight:b=no
+    size:r = 2
+   }
+text {
+    text:t = "┪"
+    align:i = 0
+    pos:p2 = 0.0, 0.155
+    move:b = false
+    highlight:b=no
+    size:r = 2
+   }
+text {
+    text:t = "┪"
+    align:i = 0
+    pos:p2 = -0.01, 0.155
+    move:b = false
+    highlight:b=no
+    size:r = 2
+   }
+text {
+    text:t = "┪"
+    align:i = 0
+    pos:p2 = -0.02, 0.155
+    move:b = false
+    highlight:b=no
+    size:r = 2
+   }
+text {
+    text:t = "┪"
+    align:i = 0
+    pos:p2 = -0.03, 0.155
+    move:b = false
+    highlight:b=no
+    size:r = 2
+   }
+text {
+    text:t = "┪"
+    align:i = 0
+    pos:p2 = -0.04, 0.155
+    move:b = false
+    highlight:b=no
+    size:r = 2
+   }
+text {
+    text:t = "┪"
+    align:i = 0
+    pos:p2 = -0.05, 0.155
+    move:b = false
+    highlight:b=no
+    size:r = 2
+   }
+text {
+    text:t = "┪"
+    align:i = 0
+    pos:p2 = -0.06, 0.155
+    move:b = false
+    highlight:b=no
+    size:r = 2
+   }
+text {
+    text:t = "┪"
+    align:i = 0
+    pos:p2 = -0.07, 0.155
+    move:b = false
+    highlight:b=no
+    size:r = 2
+   }
+text {
+    text:t = "┪"
+    align:i = 0
+    pos:p2 = -0.08, 0.155
+    move:b = false
+    highlight:b=no
+    size:r = 2
+   }
+text {
+    text:t = "┪"
+    align:i = 0
+    pos:p2 = -0.09, 0.155
+    move:b = false
+    highlight:b=no
+    size:r = 2
+   }
+text {
+    text:t = "┪"
+    align:i = 0
+    pos:p2 = -0.1, 0.155
+    move:b = false
+    highlight:b=no
+    size:r = 2
+   }
+text {
+    text:t = "┪"
+    align:i = 0
+    pos:p2 = -0.11, 0.155
+    move:b = false
+    highlight:b=no
+    size:r = 2
+   }
+text {
+    text:t = "┪"
+    align:i = 0
+    pos:p2 = -0.12, 0.155
+    move:b = false
+    highlight:b=no
+    size:r = 2
+   }
+text {
+    text:t = "┪"
+    align:i = 0
+    pos:p2 = -0.13, 0.155
+    move:b = false
+    highlight:b=no
+    size:r = 2
+   }
+text {
+    text:t = "┪"
+    align:i = 0
+    pos:p2 = -0.14, 0.155
+    move:b = false
+    highlight:b=no
+    size:r = 2
+   }
+text {
+    text:t = "┪"
+    align:i = 0
+    pos:p2 = -0.15, 0.155
+    move:b = false
+    highlight:b=no
+    size:r = 2
+   }
+text {
+    text:t = "┪"
+    align:i = 0
+    pos:p2 = -0.16, 0.155
+    move:b = false
+    highlight:b=no
+    size:r = 2
+   }
+text {
+    text:t = "┪"
+    align:i = 0
+    pos:p2 = -0.17, 0.155
+    move:b = false
+    highlight:b=no
+    size:r = 2
+   }
+text {
+    text:t = "┪"
+    align:i = 0
+    pos:p2 = -0.18, 0.155
+    move:b = false
+    highlight:b=no
+    size:r = 2
+   }
+text {
+    text:t = "┪"
+    align:i = 0
+    pos:p2 = -0.18, 0.155
+    move:b = false
+    highlight:b=no
+    size:r = 2
+   }
+text {
+    text:t = "┪"
+    align:i = 0
+    pos:p2 = -0.18, 0.155
+    move:b = false
+    highlight:b=no
+    size:r = 2
+   }
+
+/////////////////////////////////////////////////////////////////
+
+text {
+    text:t = "┤"
+    align:i = 0
+    pos:p2 = 0.1578, 0.07
+    move:b = false
+    highlight:b=no
+    size:r = 1.3
+   }
+text {
+    text:t = "┤"
+    align:i = 0
+    pos:p2 = 0.153, 0.075
+    move:b = false
+    highlight:b=no
+    size:r = 1.3
+   }
+text {
+    text:t = "┤"
+    align:i = 0
+    pos:p2 = 0.148, 0.08
+    move:b = false
+    highlight:b=no
+    size:r = 1.3
+   }
+text {
+    text:t = "┤"
+    align:i = 0
+    pos:p2 = 0.143, 0.085
+    move:b = false
+    highlight:b=no
+    size:r = 1.3
+   }
+text {
+    text:t = "┤"
+    align:i = 0
+    pos:p2 = 0.138, 0.09
+    move:b = false
+    highlight:b=no
+    size:r = 1.3
+   }
+text {
+    text:t = "┤"
+    align:i = 0
+    pos:p2 = 0.133, 0.095
+    move:b = false
+    highlight:b=no
+    size:r = 1.3
+   }
+text {
+    text:t = "┤"
+    align:i = 0
+    pos:p2 = 0.128, 0.1
+    move:b = false
+    highlight:b=no
+    size:r = 1.3
+   }
+text {
+    text:t = "┤"
+    align:i = 0
+    pos:p2 = 0.123, 0.105
+    move:b = false
+    highlight:b=no
+    size:r = 1.3
+   }
+text {
+    text:t = "┤"
+    align:i = 0
+    pos:p2 = 0.118, 0.110
+    move:b = false
+    highlight:b=no
+    size:r = 1.3
+   }
+text {
+    text:t = "┤"
+    align:i = 0
+    pos:p2 = 0.113, 0.115
+    move:b = false
+    highlight:b=no
+    size:r = 1.3
+   }
+text {
+    text:t = "┤"
+    align:i = 0
+    pos:p2 = 0.108, 0.120
+    move:b = false
+    highlight:b=no
+    size:r = 1.3
+   }
+text {
+    text:t = "┤"
+    align:i = 0
+    pos:p2 = 0.103, 0.125
+    move:b = false
+    highlight:b=no
+    size:r = 1.3
+   }
+text {
+    text:t = "┤"
+    align:i = 0
+    pos:p2 = 0.098, 0.130
+    move:b = false
+    highlight:b=no
+    size:r = 1.3
+   }
+text {
+    text:t = "┤"
+    align:i = 0
+    pos:p2 = 0.093, 0.135
+    move:b = false
+    highlight:b=no
+    size:r = 1.3
+   }
+text {
+    text:t = "┤"
+    align:i = 0
+    pos:p2 = 0.088, 0.140
+    move:b = false
+    highlight:b=no
+    size:r = 1.3
+   }
+text {
+    text:t = "┤"
+    align:i = 0
+    pos:p2 = 0.083, 0.145
+    move:b = false
+    highlight:b=no
+    size:r = 1.3
+   }
+text {
+    text:t = "┤"
+    align:i = 0
+    pos:p2 = 0.078, 0.150
+    move:b = false
+    highlight:b=no
+    size:r = 1.3
+   }
+text {
+    text:t = "┤"
+    align:i = 0
+    pos:p2 = 0.074, 0.154
+    move:b = false
+    highlight:b=no
+    size:r = 1.3
+   }
+
+
+
+
+
+
+/////iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii2222222222222222222222222222222222222222222222
+text {
+    text:t = "I"
+    align:i = 0
+    pos:p2 = -0.17, 0.123
+    move:b = false
+    highlight:b=no
+    size:r = 5
+   }
+text {
+    text:t = "I"
+    align:i = 0
+    pos:p2 = -0.17, 0.123
+    move:b = false
+    highlight:b=no
+    size:r = 5
+   }
+text {
+    text:t = "I"
+    align:i = 0
+    pos:p2 = -0.17, 0.093
+    move:b = false
+    highlight:b=no
+    size:r = 5
+   }
+
+text {
+    text:t = "I"
+    align:i = 0
+    pos:p2 = -0.17, 0.063
+    move:b = false
+    highlight:b=no
+    size:r = 5
+   }
+
+text {
+    text:t = "I"
+    align:i = 0
+    pos:p2 = -0.17, 0.033
+    move:b = false
+    highlight:b=no
+    size:r = 5
+   }
+text {
+    text:t = "I"
+    align:i = 0
+    pos:p2 = -0.17, 0.000
+    move:b = false
+    highlight:b=no
+    size:r = 5
+   }
+text {
+    text:t = "I"
+    align:i = 0
+    pos:p2 = -0.17, 0.000
+    move:b = false
+    highlight:b=no
+    size:r = 5
+   }
+text {
+    text:t = "I"
+    align:i = 0
+    pos:p2 = -0.17, -0.033
+    move:b = false
+    highlight:b=no
+    size:r = 5
+   }
+text {
+    text:t = "I"
+    align:i = 0
+    pos:p2 = -0.17, -0.063
+    move:b = false
+    highlight:b=no
+    size:r = 5
+   }
+text {
+    text:t = "I"
+    align:i = 0
+    pos:p2 = -0.17, -0.093
+    move:b = false
+    highlight:b=no
+    size:r = 5
+   }
+text {
+    text:t = "I"
+    align:i = 0
+    pos:p2 = -0.17, -0.123
+    move:b = false
+    highlight:b=no
+    size:r = 5
+   }
+text {
+    text:t = "I"
+    align:i = 0
+    pos:p2 = -0.17, -0.135
+    move:b = false
+    highlight:b=no
+    size:r = 5
+   }
+text {
+    text:t = "I"
+    align:i = 0
+    pos:p2 = -0.17, -0.135
+    move:b = false
+    highlight:b=no
+    size:r = 5
+   }
+
+/////////////////////////////////----------
+
+text {
+    text:t = "I"
+    align:i = 0
+    pos:p2 = -0.17, 0.123
+    move:b = false
+    highlight:b=no
+    size:r = 5
+   }
+text {
+    text:t = "I"
+    align:i = 0
+    pos:p2 = -0.17, 0.123
+    move:b = false
+    highlight:b=no
+    size:r = 5
+   }
+text {
+    text:t = "I"
+    align:i = 0
+    pos:p2 = -0.17, 0.093
+    move:b = false
+    highlight:b=no
+    size:r = 5
+   }
+
+text {
+    text:t = "I"
+    align:i = 0
+    pos:p2 = -0.17, 0.063
+    move:b = false
+    highlight:b=no
+    size:r = 5
+   }
+
+text {
+    text:t = "I"
+    align:i = 0
+    pos:p2 = -0.17, 0.033
+    move:b = false
+    highlight:b=no
+    size:r = 5
+   }
+text {
+    text:t = "I"
+    align:i = 0
+    pos:p2 = -0.17, 0.000
+    move:b = false
+    highlight:b=no
+    size:r = 5
+   }
+text {
+    text:t = "I"
+    align:i = 0
+    pos:p2 = -0.17, 0.000
+    move:b = false
+    highlight:b=no
+    size:r = 5
+   }
+text {
+    text:t = "I"
+    align:i = 0
+    pos:p2 = -0.17, -0.033
+    move:b = false
+    highlight:b=no
+    size:r = 5
+   }
+text {
+    text:t = "I"
+    align:i = 0
+    pos:p2 = -0.17, -0.063
+    move:b = false
+    highlight:b=no
+    size:r = 5
+   }
+text {
+    text:t = "I"
+    align:i = 0
+    pos:p2 = -0.17, -0.093
+    move:b = false
+    highlight:b=no
+    size:r = 5
+   }
+text {
+    text:t = "I"
+    align:i = 0
+    pos:p2 = -0.17, -0.123
+    move:b = false
+    highlight:b=no
+    size:r = 5
+   }
+text {
+    text:t = "I"
+    align:i = 0
+    pos:p2 = -0.17, -0.135
+    move:b = false
+    highlight:b=no
+    size:r = 5
+   }
+text {
+    text:t = "I"
+    align:i = 0
+    pos:p2 = -0.17, -0.135
+    move:b = false
+    highlight:b=no
+    size:r = 5
+   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/////iiiiiiiiiiiiiiiiiiiiiiii33333333333333333333333333333333333333333333333
+text {
+    text:t = "I"
+    align:i = 0
+    pos:p2 = -0.18, 0.123
+    move:b = false
+    highlight:b=no
+    size:r = 5
+   }
+text {
+    text:t = "I"
+    align:i = 0
+    pos:p2 = -0.18, 0.123
+    move:b = false
+    highlight:b=no
+    size:r = 5
+   }
+text {
+    text:t = "I"
+    align:i = 0
+    pos:p2 = -0.18, 0.093
+    move:b = false
+    highlight:b=no
+    size:r = 5
+   }
+
+text {
+    text:t = "I"
+    align:i = 0
+    pos:p2 = -0.18, 0.063
+    move:b = false
+    highlight:b=no
+    size:r = 5
+   }
+
+text {
+    text:t = "I"
+    align:i = 0
+    pos:p2 = -0.18, 0.033
+    move:b = false
+    highlight:b=no
+    size:r = 5
+   }
+text {
+    text:t = "I"
+    align:i = 0
+    pos:p2 = -0.18, 0.000
+    move:b = false
+    highlight:b=no
+    size:r = 5
+   }
+text {
+    text:t = "I"
+    align:i = 0
+    pos:p2 = -0.18, 0.000
+    move:b = false
+    highlight:b=no
+    size:r = 5
+   }
+text {
+    text:t = "I"
+    align:i = 0
+    pos:p2 = -0.18, -0.033
+    move:b = false
+    highlight:b=no
+    size:r = 5
+   }
+text {
+    text:t = "I"
+    align:i = 0
+    pos:p2 = -0.18, -0.063
+    move:b = false
+    highlight:b=no
+    size:r = 5
+   }
+text {
+    text:t = "I"
+    align:i = 0
+    pos:p2 = -0.18, -0.093
+    move:b = false
+    highlight:b=no
+    size:r = 5
+   }
+text {
+    text:t = "I"
+    align:i = 0
+    pos:p2 = -0.18, -0.123
+    move:b = false
+    highlight:b=no
+    size:r = 5
+   }
+text {
+    text:t = "I"
+    align:i = 0
+    pos:p2 = -0.17, -0.135
+    move:b = false
+    highlight:b=no
+    size:r = 5
+   }
+text {
+    text:t = "I"
+    align:i = 0
+    pos:p2 = -0.18, -0.135
+    move:b = false
+    highlight:b=no
+    size:r = 5
+   }
+
+/////////------------------------------------
+
+text {
+    text:t = "I"
+    align:i = 0
+    pos:p2 = -0.18, 0.123
+    move:b = false
+    highlight:b=no
+    size:r = 5
+   }
+text {
+    text:t = "I"
+    align:i = 0
+    pos:p2 = -0.18, 0.123
+    move:b = false
+    highlight:b=no
+    size:r = 5
+   }
+text {
+    text:t = "I"
+    align:i = 0
+    pos:p2 = -0.18, 0.123
+    move:b = false
+    highlight:b=no
+    size:r = 5
+   }
+text {
+    text:t = "I"
+    align:i = 0
+    pos:p2 = -0.18, 0.123
+    move:b = false
+    highlight:b=no
+    size:r = 5
+   }
+text {
+    text:t = "I"
+    align:i = 0
+    pos:p2 = -0.18, 0.123
+    move:b = false
+    highlight:b=no
+    size:r = 5
+   }
+text {
+    text:t = "I"
+    align:i = 0
+    pos:p2 = -0.18, 0.123
+    move:b = false
+    highlight:b=no
+    size:r = 5
+   }
+
+//////////
+text {
+    text:t = "I"
+    align:i = 0
+    pos:p2 = -0.17, -0.135
+    move:b = false
+    highlight:b=no
+    size:r = 5
+   }
+text {
+    text:t = "I"
+    align:i = 0
+    pos:p2 = -0.18, -0.135
+    move:b = false
+    highlight:b=no
+    size:r = 5
+   }
+text {
+    text:t = "I"
+    align:i = 0
+    pos:p2 = -0.17, -0.135
+    move:b = false
+    highlight:b=no
+    size:r = 5
+   }
+text {
+    text:t = "I"
+    align:i = 0
+    pos:p2 = -0.18, -0.135
+    move:b = false
+    highlight:b=no
+    size:r = 5
+   }
+text {
+    text:t = "I"
+    align:i = 0
+    pos:p2 = -0.17, -0.135
+    move:b = false
+    highlight:b=no
+    size:r = 5
+   }
+text {
+    text:t = "I"
+    align:i = 0
+    pos:p2 = -0.18, -0.135
+    move:b = false
+    highlight:b=no
+    size:r = 5
+   }
+
+
+
+
+
+
+
+
+
+
+
+////////////////////oothhhheeeeeerrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr
+//////////leftttttttttttttttttttttttttttttttttttttttt
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = -0.285, -0.0521
+    move:b = false
+    highlight:b=no
+    size:r = 17
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = -0.285, -0.0521
+    move:b = false
+    highlight:b=no
+    size:r = 17
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = -0.285, -0.0521
+    move:b = false
+    highlight:b=no
+    size:r = 17
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = -0.285, -0.0521
+    move:b = false
+    highlight:b=no
+    size:r = 17
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = -0.285, -0.0521
+    move:b = false
+    highlight:b=no
+    size:r = 17
+   }
+
+////////-----------------------------
+
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = -0.285, 0.0047
+    move:b = false
+    highlight:b=no
+    size:r = 17
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = -0.285, 0.0047
+    move:b = false
+    highlight:b=no
+    size:r = 17
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = -0.285, 0.0047
+    move:b = false
+    highlight:b=no
+    size:r = 17
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = -0.285, 0.0047
+    move:b = false
+    highlight:b=no
+    size:r = 17
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = -0.285, 0.0047
+    move:b = false
+    highlight:b=no
+    size:r = 17
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = -0.285, 0.0047
+    move:b = false
+    highlight:b=no
+    size:r = 17
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = -0.285, 0.0047
+    move:b = false
+    highlight:b=no
+    size:r = 17
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = -0.285, 0.0047
+    move:b = false
+    highlight:b=no
+    size:r = 17
+   }
+
+
+
+
+
+
+
+
+
+
+
+///////////rriiigggggggggggggggggghhhhhhhhhhhhhhhhhhhhhhhhhhhtttttttttttttttttttttttttttttttt
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.17, -0.0305
+    move:b = false
+    highlight:b=no
+    size:r = 2
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.17, -0.0220
+    move:b = false
+    highlight:b=no
+    size:r = 2
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.17, -0.0135
+    move:b = false
+    highlight:b=no
+    size:r = 2
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.17, -0.0055
+    move:b = false
+    highlight:b=no
+    size:r = 2
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.17, 0.0015
+    move:b = false
+    highlight:b=no
+    size:r = 2
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.17, 0.0085
+    move:b = false
+    highlight:b=no
+    size:r = 2
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.17, 0.017
+    move:b = false
+    highlight:b=no
+    size:r = 2
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.17, 0.0245
+    move:b = false
+    highlight:b=no
+    size:r = 2
+   }
+
+
+
+
+
+
+
+
+
+
+
+/////////////////////////////////tttttttttttttttoooooooooooooooooooooooppppppppppppppppppppppppppppppppppppppppppp
+text {
+    text:t = "┪"
+    align:i = 0
+    pos:p2 = -0.0, -0.165
+    move:b = false
+    highlight:b=no
+    size:r = 2
+   }
+text {
+    text:t = "┪"
+    align:i = 0
+    pos:p2 = -0.0, -0.170
+    move:b = false
+    highlight:b=no
+    size:r = 2
+   }
+text {
+    text:t = "┪"
+    align:i = 0
+    pos:p2 = -0.0, -0.175
+    move:b = false
+    highlight:b=no
+    size:r = 2
+   }
+
+///////
+
+text {
+    text:t = "┪"
+    align:i = 0
+    pos:p2 = -0.05, -0.165
+    move:b = false
+    highlight:b=no
+    size:r = 2
+   }
+text {
+    text:t = "┪"
+    align:i = 0
+    pos:p2 = -0.05, -0.170
+    move:b = false
+    highlight:b=no
+    size:r = 2
+   }
+text {
+    text:t = "┪"
+    align:i = 0
+    pos:p2 = -0.05, -0.175
+    move:b = false
+    highlight:b=no
+    size:r = 2
+   }
+
+//////////
+
+text {
+    text:t = "┪"
+    align:i = 0
+    pos:p2 = -0.02, -0.165
+    move:b = false
+    highlight:b=no
+    size:r = 3
+   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/////////////////////////////////////////////xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx33333333333333333333333333333333333333333333333333333333333333333333
+ ////---------------------------upppppppppppppppppppppppppppppppppppppppppp
+text {
+    text:t = "┪"
+    align:i = 0
+    pos:p2 = 0.06, -0.16
+    move:b = false
+    highlight:b=no
+    size:r = 2
+   }
+text {
+    text:t = "┪"
+    align:i = 0
+    pos:p2 = 0.06, -0.16
+    move:b = false
+    highlight:b=no
+    size:r = 2
+   }
+text {
+    text:t = "┪"
+    align:i = 0
+    pos:p2 = 0.05, -0.16
+    move:b = false
+    highlight:b=no
+    size:r = 2
+   }
+text {
+    text:t = "┪"
+    align:i = 0
+    pos:p2 = 0.04, -0.16
+    move:b = false
+    highlight:b=no
+    size:r = 2
+   }
+text {
+    text:t = "┪"
+    align:i = 0
+    pos:p2 = 0.03, -0.16
+    move:b = false
+    highlight:b=no
+    size:r = 2
+   }
+text {
+    text:t = "┪"
+    align:i = 0
+    pos:p2 = 0.02, -0.16
+    move:b = false
+    highlight:b=no
+    size:r = 2
+   }
+text {
+    text:t = "┪"
+    align:i = 0
+    pos:p2 = 0.01, -0.16
+    move:b = false
+    highlight:b=no
+    size:r = 2
+   }
+text {
+    text:t = "┪"
+    align:i = 0
+    pos:p2 = 0.0, -0.16
+    move:b = false
+    highlight:b=no
+    size:r = 2
+   }
+text {
+    text:t = "┪"
+    align:i = 0
+    pos:p2 = -0.01, -0.16
+    move:b = false
+    highlight:b=no
+    size:r = 2
+   }
+text {
+    text:t = "┪"
+    align:i = 0
+    pos:p2 = -0.02, -0.16
+    move:b = false
+    highlight:b=no
+    size:r = 2
+   }
+text {
+    text:t = "┪"
+    align:i = 0
+    pos:p2 = -0.03, -0.16
+    move:b = false
+    highlight:b=no
+    size:r = 2
+   }
+text {
+    text:t = "┪"
+    align:i = 0
+    pos:p2 = -0.04, -0.16
+    move:b = false
+    highlight:b=no
+    size:r = 2
+   }
+text {
+    text:t = "┪"
+    align:i = 0
+    pos:p2 = -0.05, -0.16
+    move:b = false
+    highlight:b=no
+    size:r = 2
+   }
+text {
+    text:t = "┪"
+    align:i = 0
+    pos:p2 = -0.06, -0.16
+    move:b = false
+    highlight:b=no
+    size:r = 2
+   }
+text {
+    text:t = "┪"
+    align:i = 0
+    pos:p2 = -0.07, -0.16
+    move:b = false
+    highlight:b=no
+    size:r = 2
+   }
+text {
+    text:t = "┪"
+    align:i = 0
+    pos:p2 = -0.08, -0.16
+    move:b = false
+    highlight:b=no
+    size:r = 2
+   }
+text {
+    text:t = "┪"
+    align:i = 0
+    pos:p2 = -0.09, -0.16
+    move:b = false
+    highlight:b=no
+    size:r = 2
+   }
+text {
+    text:t = "┪"
+    align:i = 0
+    pos:p2 = -0.1, -0.16
+    move:b = false
+    highlight:b=no
+    size:r = 2
+   }
+text {
+    text:t = "┪"
+    align:i = 0
+    pos:p2 = -0.11, -0.16
+    move:b = false
+    highlight:b=no
+    size:r = 2
+   }
+text {
+    text:t = "┪"
+    align:i = 0
+    pos:p2 = -0.12, -0.16
+    move:b = false
+    highlight:b=no
+    size:r = 2
+   }
+text {
+    text:t = "┪"
+    align:i = 0
+    pos:p2 = -0.13, -0.16
+    move:b = false
+    highlight:b=no
+    size:r = 2
+   }
+text {
+    text:t = "┪"
+    align:i = 0
+    pos:p2 = -0.14, -0.16
+    move:b = false
+    highlight:b=no
+    size:r = 2
+   }
+text {
+    text:t = "┪"
+    align:i = 0
+    pos:p2 = -0.15, -0.16
+    move:b = false
+    highlight:b=no
+    size:r = 2
+   }
+text {
+    text:t = "┪"
+    align:i = 0
+    pos:p2 = -0.16, -0.16
+    move:b = false
+    highlight:b=no
+    size:r = 2
+   }
+text {
+    text:t = "┪"
+    align:i = 0
+    pos:p2 = -0.16, -0.16
+    move:b = false
+    highlight:b=no
+    size:r = 2
+   }
+text {
+    text:t = "┪"
+    align:i = 0
+    pos:p2 = -0.18, -0.16
+    move:b = false
+    highlight:b=no
+    size:r = 2
+   }
+text {
+    text:t = "┪"
+    align:i = 0
+    pos:p2 = -0.18, -0.16
+    move:b = false
+    highlight:b=no
+    size:r = 2
+   }
+text {
+    text:t = "┪"
+    align:i = 0
+    pos:p2 = -0.18, -0.16
+    move:b = false
+    highlight:b=no
+    size:r = 2
+   }
+
+///////\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+text {
+    text:t = "┤"
+    align:i = 0
+    pos:p2 = 0.1578, -0.073
+    move:b = false
+    highlight:b=no
+    size:r = 1.3
+   }
+text {
+    text:t = "┤"
+    align:i = 0
+    pos:p2 = 0.153, -0.078
+    move:b = false
+    highlight:b=no
+    size:r = 1.3
+   }
+text {
+    text:t = "┤"
+    align:i = 0
+    pos:p2 = 0.148, -0.083
+    move:b = false
+    highlight:b=no
+    size:r = 1.3
+   }
+text {
+    text:t = "┤"
+    align:i = 0
+    pos:p2 = 0.143, -0.088
+    move:b = false
+    highlight:b=no
+    size:r = 1.3
+   }
+text {
+    text:t = "┤"
+    align:i = 0
+    pos:p2 = 0.138, -0.093
+    move:b = false
+    highlight:b=no
+    size:r = 1.3
+   }
+text {
+    text:t = "┤"
+    align:i = 0
+    pos:p2 = 0.133, -0.098
+    move:b = false
+    highlight:b=no
+    size:r = 1.3
+   }
+text {
+    text:t = "┤"
+    align:i = 0
+    pos:p2 = 0.128, -0.103
+    move:b = false
+    highlight:b=no
+    size:r = 1.3
+   }
+text {
+    text:t = "┤"
+    align:i = 0
+    pos:p2 = 0.123, -0.108
+    move:b = false
+    highlight:b=no
+    size:r = 1.3
+   }
+text {
+    text:t = "┤"
+    align:i = 0
+    pos:p2 = 0.118, -0.113
+    move:b = false
+    highlight:b=no
+    size:r = 1.3
+   }
+text {
+    text:t = "┤"
+    align:i = 0
+    pos:p2 = 0.113, -0.118
+    move:b = false
+    highlight:b=no
+    size:r = 1.3
+   }
+text {
+    text:t = "┤"
+    align:i = 0
+    pos:p2 = 0.108, -0.123
+    move:b = false
+    highlight:b=no
+    size:r = 1.3
+   }
+text {
+    text:t = "┤"
+    align:i = 0
+    pos:p2 = 0.103, -0.128
+    move:b = false
+    highlight:b=no
+    size:r = 1.3
+   }
+text {
+    text:t = "┤"
+    align:i = 0
+    pos:p2 = 0.098, -0.133
+    move:b = false
+    highlight:b=no
+    size:r = 1.3
+   }
+text {
+    text:t = "┤"
+    align:i = 0
+    pos:p2 = 0.093, -0.138
+    move:b = false
+    highlight:b=no
+    size:r = 1.3
+   }
+text {
+    text:t = "┤"
+    align:i = 0
+    pos:p2 = 0.088, -0.143
+    move:b = false
+    highlight:b=no
+    size:r = 1.3
+   }
+text {
+    text:t = "┤"
+    align:i = 0
+    pos:p2 = 0.083, -0.148
+    move:b = false
+    highlight:b=no
+    size:r = 1.3
+   }
+text {
+    text:t = "┤"
+    align:i = 0
+    pos:p2 = 0.078, -0.153
+    move:b = false
+    highlight:b=no
+    size:r = 1.3
+   }
+text {
+    text:t = "┤"
+    align:i = 0
+    pos:p2 = 0.074, -0.157
+    move:b = false
+    highlight:b=no
+    size:r = 1.3
+   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+////////iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
+
+text {
+    text:t = "I"
+    align:i = 0
+    pos:p2 = 0.16, -0.056
+    move:b = false
+    highlight:b=no
+    size:r = 3
+   }
+text {
+    text:t = "I"
+    align:i = 0
+    pos:p2 = 0.16, -0.056
+    move:b = false
+    highlight:b=no
+    size:r = 3
+   }
+text {
+    text:t = "I"
+    align:i = 0
+    pos:p2 = 0.16, -0.056
+    move:b = false
+    highlight:b=no
+    size:r = 3
+   }
+text {
+    text:t = "I"
+    align:i = 0
+    pos:p2 = 0.16, -0.05
+    move:b = false
+    highlight:b=no
+    size:r = 3
+   }
+text {
+    text:t = "I"
+    align:i = 0
+    pos:p2 = 0.16, -0.04
+    move:b = false
+    highlight:b=no
+    size:r = 3
+   }
+text {
+    text:t = "I"
+    align:i = 0
+    pos:p2 = 0.16, -0.03
+    move:b = false
+    highlight:b=no
+    size:r = 3
+   }
+text {
+    text:t = "I"
+    align:i = 0
+    pos:p2 = 0.16, -0.02
+    move:b = false
+    highlight:b=no
+    size:r = 3
+   }
+text {
+    text:t = "I"
+    align:i = 0
+    pos:p2 = 0.16, -0.01
+    move:b = false
+    highlight:b=no
+    size:r = 3
+   }
+text {
+    text:t = "I"
+    align:i = 0
+    pos:p2 = 0.16, 0.0
+    move:b = false
+    highlight:b=no
+    size:r = 3
+   }
+text {
+    text:t = "I"
+    align:i = 0
+    pos:p2 = 0.16, 0.01
+    move:b = false
+    highlight:b=no
+    size:r = 3
+   }
+text {
+    text:t = "I"
+    align:i = 0
+    pos:p2 = 0.16, 0.02
+    move:b = false
+    highlight:b=no
+    size:r = 3
+   }
+text {
+    text:t = "I"
+    align:i = 0
+    pos:p2 = 0.16, 0.03
+    move:b = false
+    highlight:b=no
+    size:r = 3
+   }
+text {
+    text:t = "I"
+    align:i = 0
+    pos:p2 = 0.16, 0.04
+    move:b = false
+    highlight:b=no
+    size:r = 3
+   }
+text {
+    text:t = "I"
+    align:i = 0
+    pos:p2 = 0.16, 0.048
+    move:b = false
+    highlight:b=no
+    size:r = 3
+   }
+text {
+    text:t = "I"
+    align:i = 0
+    pos:p2 = 0.16, 0.048
+    move:b = false
+    highlight:b=no
+    size:r = 3
+   }
+text {
+    text:t = "I"
+    align:i = 0
+    pos:p2 = 0.16, 0.048
+    move:b = false
+    highlight:b=no
+    size:r = 3
+   }
+text {
+    text:t = "I"
+    align:i = 0
+    pos:p2 = 0.16, 0.048
+    move:b = false
+    highlight:b=no
+    size:r = 3
+   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+////---------------------------------------------doowwwwwwwwwwwwwnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
+text {
+    text:t = "┪"
+    align:i = 0
+    pos:p2 = 0.06, 0.155
+    move:b = false
+    highlight:b=no
+    size:r = 2
+   }
+text {
+    text:t = "┪"
+    align:i = 0
+    pos:p2 = 0.06, 0.155
+    move:b = false
+    highlight:b=no
+    size:r = 2
+   }
+text {
+    text:t = "┪"
+    align:i = 0
+    pos:p2 = 0.05, 0.155
+    move:b = false
+    highlight:b=no
+    size:r = 2
+   }
+text {
+    text:t = "┪"
+    align:i = 0
+    pos:p2 = 0.05, 0.155
+    move:b = false
+    highlight:b=no
+    size:r = 2
+   }
+text {
+    text:t = "┪"
+    align:i = 0
+    pos:p2 = 0.04, 0.155
+    move:b = false
+    highlight:b=no
+    size:r = 2
+   }
+text {
+    text:t = "┪"
+    align:i = 0
+    pos:p2 = 0.03, 0.155
+    move:b = false
+    highlight:b=no
+    size:r = 2
+   }
+text {
+    text:t = "┪"
+    align:i = 0
+    pos:p2 = 0.02, 0.155
+    move:b = false
+    highlight:b=no
+    size:r = 2
+   }
+text {
+    text:t = "┪"
+    align:i = 0
+    pos:p2 = 0.01, 0.155
+    move:b = false
+    highlight:b=no
+    size:r = 2
+   }
+text {
+    text:t = "┪"
+    align:i = 0
+    pos:p2 = 0.0, 0.155
+    move:b = false
+    highlight:b=no
+    size:r = 2
+   }
+text {
+    text:t = "┪"
+    align:i = 0
+    pos:p2 = -0.01, 0.155
+    move:b = false
+    highlight:b=no
+    size:r = 2
+   }
+text {
+    text:t = "┪"
+    align:i = 0
+    pos:p2 = -0.02, 0.155
+    move:b = false
+    highlight:b=no
+    size:r = 2
+   }
+text {
+    text:t = "┪"
+    align:i = 0
+    pos:p2 = -0.03, 0.155
+    move:b = false
+    highlight:b=no
+    size:r = 2
+   }
+text {
+    text:t = "┪"
+    align:i = 0
+    pos:p2 = -0.04, 0.155
+    move:b = false
+    highlight:b=no
+    size:r = 2
+   }
+text {
+    text:t = "┪"
+    align:i = 0
+    pos:p2 = -0.05, 0.155
+    move:b = false
+    highlight:b=no
+    size:r = 2
+   }
+text {
+    text:t = "┪"
+    align:i = 0
+    pos:p2 = -0.06, 0.155
+    move:b = false
+    highlight:b=no
+    size:r = 2
+   }
+text {
+    text:t = "┪"
+    align:i = 0
+    pos:p2 = -0.07, 0.155
+    move:b = false
+    highlight:b=no
+    size:r = 2
+   }
+text {
+    text:t = "┪"
+    align:i = 0
+    pos:p2 = -0.08, 0.155
+    move:b = false
+    highlight:b=no
+    size:r = 2
+   }
+text {
+    text:t = "┪"
+    align:i = 0
+    pos:p2 = -0.09, 0.155
+    move:b = false
+    highlight:b=no
+    size:r = 2
+   }
+text {
+    text:t = "┪"
+    align:i = 0
+    pos:p2 = -0.1, 0.155
+    move:b = false
+    highlight:b=no
+    size:r = 2
+   }
+text {
+    text:t = "┪"
+    align:i = 0
+    pos:p2 = -0.11, 0.155
+    move:b = false
+    highlight:b=no
+    size:r = 2
+   }
+text {
+    text:t = "┪"
+    align:i = 0
+    pos:p2 = -0.12, 0.155
+    move:b = false
+    highlight:b=no
+    size:r = 2
+   }
+text {
+    text:t = "┪"
+    align:i = 0
+    pos:p2 = -0.13, 0.155
+    move:b = false
+    highlight:b=no
+    size:r = 2
+   }
+text {
+    text:t = "┪"
+    align:i = 0
+    pos:p2 = -0.14, 0.155
+    move:b = false
+    highlight:b=no
+    size:r = 2
+   }
+text {
+    text:t = "┪"
+    align:i = 0
+    pos:p2 = -0.15, 0.155
+    move:b = false
+    highlight:b=no
+    size:r = 2
+   }
+text {
+    text:t = "┪"
+    align:i = 0
+    pos:p2 = -0.16, 0.155
+    move:b = false
+    highlight:b=no
+    size:r = 2
+   }
+text {
+    text:t = "┪"
+    align:i = 0
+    pos:p2 = -0.17, 0.155
+    move:b = false
+    highlight:b=no
+    size:r = 2
+   }
+text {
+    text:t = "┪"
+    align:i = 0
+    pos:p2 = -0.18, 0.155
+    move:b = false
+    highlight:b=no
+    size:r = 2
+   }
+text {
+    text:t = "┪"
+    align:i = 0
+    pos:p2 = -0.18, 0.155
+    move:b = false
+    highlight:b=no
+    size:r = 2
+   }
+text {
+    text:t = "┪"
+    align:i = 0
+    pos:p2 = -0.18, 0.155
+    move:b = false
+    highlight:b=no
+    size:r = 2
+   }
+
+/////////////////////////////////////////////////////////////////
+
+text {
+    text:t = "┤"
+    align:i = 0
+    pos:p2 = 0.1578, 0.07
+    move:b = false
+    highlight:b=no
+    size:r = 1.3
+   }
+text {
+    text:t = "┤"
+    align:i = 0
+    pos:p2 = 0.153, 0.075
+    move:b = false
+    highlight:b=no
+    size:r = 1.3
+   }
+text {
+    text:t = "┤"
+    align:i = 0
+    pos:p2 = 0.148, 0.08
+    move:b = false
+    highlight:b=no
+    size:r = 1.3
+   }
+text {
+    text:t = "┤"
+    align:i = 0
+    pos:p2 = 0.143, 0.085
+    move:b = false
+    highlight:b=no
+    size:r = 1.3
+   }
+text {
+    text:t = "┤"
+    align:i = 0
+    pos:p2 = 0.138, 0.09
+    move:b = false
+    highlight:b=no
+    size:r = 1.3
+   }
+text {
+    text:t = "┤"
+    align:i = 0
+    pos:p2 = 0.133, 0.095
+    move:b = false
+    highlight:b=no
+    size:r = 1.3
+   }
+text {
+    text:t = "┤"
+    align:i = 0
+    pos:p2 = 0.128, 0.1
+    move:b = false
+    highlight:b=no
+    size:r = 1.3
+   }
+text {
+    text:t = "┤"
+    align:i = 0
+    pos:p2 = 0.123, 0.105
+    move:b = false
+    highlight:b=no
+    size:r = 1.3
+   }
+text {
+    text:t = "┤"
+    align:i = 0
+    pos:p2 = 0.118, 0.110
+    move:b = false
+    highlight:b=no
+    size:r = 1.3
+   }
+text {
+    text:t = "┤"
+    align:i = 0
+    pos:p2 = 0.113, 0.115
+    move:b = false
+    highlight:b=no
+    size:r = 1.3
+   }
+text {
+    text:t = "┤"
+    align:i = 0
+    pos:p2 = 0.108, 0.120
+    move:b = false
+    highlight:b=no
+    size:r = 1.3
+   }
+text {
+    text:t = "┤"
+    align:i = 0
+    pos:p2 = 0.103, 0.125
+    move:b = false
+    highlight:b=no
+    size:r = 1.3
+   }
+text {
+    text:t = "┤"
+    align:i = 0
+    pos:p2 = 0.098, 0.130
+    move:b = false
+    highlight:b=no
+    size:r = 1.3
+   }
+text {
+    text:t = "┤"
+    align:i = 0
+    pos:p2 = 0.093, 0.135
+    move:b = false
+    highlight:b=no
+    size:r = 1.3
+   }
+text {
+    text:t = "┤"
+    align:i = 0
+    pos:p2 = 0.088, 0.140
+    move:b = false
+    highlight:b=no
+    size:r = 1.3
+   }
+text {
+    text:t = "┤"
+    align:i = 0
+    pos:p2 = 0.083, 0.145
+    move:b = false
+    highlight:b=no
+    size:r = 1.3
+   }
+text {
+    text:t = "┤"
+    align:i = 0
+    pos:p2 = 0.078, 0.150
+    move:b = false
+    highlight:b=no
+    size:r = 1.3
+   }
+text {
+    text:t = "┤"
+    align:i = 0
+    pos:p2 = 0.074, 0.154
+    move:b = false
+    highlight:b=no
+    size:r = 1.3
+   }
+
+
+
+
+
+
+/////iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii2222222222222222222222222222222222222222222222
+text {
+    text:t = "I"
+    align:i = 0
+    pos:p2 = -0.17, 0.123
+    move:b = false
+    highlight:b=no
+    size:r = 5
+   }
+text {
+    text:t = "I"
+    align:i = 0
+    pos:p2 = -0.17, 0.123
+    move:b = false
+    highlight:b=no
+    size:r = 5
+   }
+text {
+    text:t = "I"
+    align:i = 0
+    pos:p2 = -0.17, 0.093
+    move:b = false
+    highlight:b=no
+    size:r = 5
+   }
+
+text {
+    text:t = "I"
+    align:i = 0
+    pos:p2 = -0.17, 0.063
+    move:b = false
+    highlight:b=no
+    size:r = 5
+   }
+
+text {
+    text:t = "I"
+    align:i = 0
+    pos:p2 = -0.17, 0.033
+    move:b = false
+    highlight:b=no
+    size:r = 5
+   }
+text {
+    text:t = "I"
+    align:i = 0
+    pos:p2 = -0.17, 0.000
+    move:b = false
+    highlight:b=no
+    size:r = 5
+   }
+text {
+    text:t = "I"
+    align:i = 0
+    pos:p2 = -0.17, 0.000
+    move:b = false
+    highlight:b=no
+    size:r = 5
+   }
+text {
+    text:t = "I"
+    align:i = 0
+    pos:p2 = -0.17, -0.033
+    move:b = false
+    highlight:b=no
+    size:r = 5
+   }
+text {
+    text:t = "I"
+    align:i = 0
+    pos:p2 = -0.17, -0.063
+    move:b = false
+    highlight:b=no
+    size:r = 5
+   }
+text {
+    text:t = "I"
+    align:i = 0
+    pos:p2 = -0.17, -0.093
+    move:b = false
+    highlight:b=no
+    size:r = 5
+   }
+text {
+    text:t = "I"
+    align:i = 0
+    pos:p2 = -0.17, -0.123
+    move:b = false
+    highlight:b=no
+    size:r = 5
+   }
+text {
+    text:t = "I"
+    align:i = 0
+    pos:p2 = -0.17, -0.135
+    move:b = false
+    highlight:b=no
+    size:r = 5
+   }
+text {
+    text:t = "I"
+    align:i = 0
+    pos:p2 = -0.17, -0.135
+    move:b = false
+    highlight:b=no
+    size:r = 5
+   }
+
+/////////////////////////////////----------
+
+text {
+    text:t = "I"
+    align:i = 0
+    pos:p2 = -0.17, 0.123
+    move:b = false
+    highlight:b=no
+    size:r = 5
+   }
+text {
+    text:t = "I"
+    align:i = 0
+    pos:p2 = -0.17, 0.123
+    move:b = false
+    highlight:b=no
+    size:r = 5
+   }
+text {
+    text:t = "I"
+    align:i = 0
+    pos:p2 = -0.17, 0.093
+    move:b = false
+    highlight:b=no
+    size:r = 5
+   }
+
+text {
+    text:t = "I"
+    align:i = 0
+    pos:p2 = -0.17, 0.063
+    move:b = false
+    highlight:b=no
+    size:r = 5
+   }
+
+text {
+    text:t = "I"
+    align:i = 0
+    pos:p2 = -0.17, 0.033
+    move:b = false
+    highlight:b=no
+    size:r = 5
+   }
+text {
+    text:t = "I"
+    align:i = 0
+    pos:p2 = -0.17, 0.000
+    move:b = false
+    highlight:b=no
+    size:r = 5
+   }
+text {
+    text:t = "I"
+    align:i = 0
+    pos:p2 = -0.17, 0.000
+    move:b = false
+    highlight:b=no
+    size:r = 5
+   }
+text {
+    text:t = "I"
+    align:i = 0
+    pos:p2 = -0.17, -0.033
+    move:b = false
+    highlight:b=no
+    size:r = 5
+   }
+text {
+    text:t = "I"
+    align:i = 0
+    pos:p2 = -0.17, -0.063
+    move:b = false
+    highlight:b=no
+    size:r = 5
+   }
+text {
+    text:t = "I"
+    align:i = 0
+    pos:p2 = -0.17, -0.093
+    move:b = false
+    highlight:b=no
+    size:r = 5
+   }
+text {
+    text:t = "I"
+    align:i = 0
+    pos:p2 = -0.17, -0.123
+    move:b = false
+    highlight:b=no
+    size:r = 5
+   }
+text {
+    text:t = "I"
+    align:i = 0
+    pos:p2 = -0.17, -0.135
+    move:b = false
+    highlight:b=no
+    size:r = 5
+   }
+text {
+    text:t = "I"
+    align:i = 0
+    pos:p2 = -0.17, -0.135
+    move:b = false
+    highlight:b=no
+    size:r = 5
+   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/////iiiiiiiiiiiiiiiiiiiiiiii33333333333333333333333333333333333333333333333
+text {
+    text:t = "I"
+    align:i = 0
+    pos:p2 = -0.18, 0.123
+    move:b = false
+    highlight:b=no
+    size:r = 5
+   }
+text {
+    text:t = "I"
+    align:i = 0
+    pos:p2 = -0.18, 0.123
+    move:b = false
+    highlight:b=no
+    size:r = 5
+   }
+text {
+    text:t = "I"
+    align:i = 0
+    pos:p2 = -0.18, 0.093
+    move:b = false
+    highlight:b=no
+    size:r = 5
+   }
+
+text {
+    text:t = "I"
+    align:i = 0
+    pos:p2 = -0.18, 0.063
+    move:b = false
+    highlight:b=no
+    size:r = 5
+   }
+
+text {
+    text:t = "I"
+    align:i = 0
+    pos:p2 = -0.18, 0.033
+    move:b = false
+    highlight:b=no
+    size:r = 5
+   }
+text {
+    text:t = "I"
+    align:i = 0
+    pos:p2 = -0.18, 0.000
+    move:b = false
+    highlight:b=no
+    size:r = 5
+   }
+text {
+    text:t = "I"
+    align:i = 0
+    pos:p2 = -0.18, 0.000
+    move:b = false
+    highlight:b=no
+    size:r = 5
+   }
+text {
+    text:t = "I"
+    align:i = 0
+    pos:p2 = -0.18, -0.033
+    move:b = false
+    highlight:b=no
+    size:r = 5
+   }
+text {
+    text:t = "I"
+    align:i = 0
+    pos:p2 = -0.18, -0.063
+    move:b = false
+    highlight:b=no
+    size:r = 5
+   }
+text {
+    text:t = "I"
+    align:i = 0
+    pos:p2 = -0.18, -0.093
+    move:b = false
+    highlight:b=no
+    size:r = 5
+   }
+text {
+    text:t = "I"
+    align:i = 0
+    pos:p2 = -0.18, -0.123
+    move:b = false
+    highlight:b=no
+    size:r = 5
+   }
+text {
+    text:t = "I"
+    align:i = 0
+    pos:p2 = -0.17, -0.135
+    move:b = false
+    highlight:b=no
+    size:r = 5
+   }
+text {
+    text:t = "I"
+    align:i = 0
+    pos:p2 = -0.18, -0.135
+    move:b = false
+    highlight:b=no
+    size:r = 5
+   }
+
+/////////------------------------------------
+
+text {
+    text:t = "I"
+    align:i = 0
+    pos:p2 = -0.18, 0.123
+    move:b = false
+    highlight:b=no
+    size:r = 5
+   }
+text {
+    text:t = "I"
+    align:i = 0
+    pos:p2 = -0.18, 0.123
+    move:b = false
+    highlight:b=no
+    size:r = 5
+   }
+text {
+    text:t = "I"
+    align:i = 0
+    pos:p2 = -0.18, 0.123
+    move:b = false
+    highlight:b=no
+    size:r = 5
+   }
+text {
+    text:t = "I"
+    align:i = 0
+    pos:p2 = -0.18, 0.123
+    move:b = false
+    highlight:b=no
+    size:r = 5
+   }
+text {
+    text:t = "I"
+    align:i = 0
+    pos:p2 = -0.18, 0.123
+    move:b = false
+    highlight:b=no
+    size:r = 5
+   }
+text {
+    text:t = "I"
+    align:i = 0
+    pos:p2 = -0.18, 0.123
+    move:b = false
+    highlight:b=no
+    size:r = 5
+   }
+
+//////////
+text {
+    text:t = "I"
+    align:i = 0
+    pos:p2 = -0.17, -0.135
+    move:b = false
+    highlight:b=no
+    size:r = 5
+   }
+text {
+    text:t = "I"
+    align:i = 0
+    pos:p2 = -0.18, -0.135
+    move:b = false
+    highlight:b=no
+    size:r = 5
+   }
+text {
+    text:t = "I"
+    align:i = 0
+    pos:p2 = -0.17, -0.135
+    move:b = false
+    highlight:b=no
+    size:r = 5
+   }
+text {
+    text:t = "I"
+    align:i = 0
+    pos:p2 = -0.18, -0.135
+    move:b = false
+    highlight:b=no
+    size:r = 5
+   }
+text {
+    text:t = "I"
+    align:i = 0
+    pos:p2 = -0.17, -0.135
+    move:b = false
+    highlight:b=no
+    size:r = 5
+   }
+text {
+    text:t = "I"
+    align:i = 0
+    pos:p2 = -0.18, -0.135
+    move:b = false
+    highlight:b=no
+    size:r = 5
+   }
+
+
+
+
+
+
+
+
+
+
+
+////////////////////oothhhheeeeeerrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr
+//////////leftttttttttttttttttttttttttttttttttttttttt
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = -0.285, -0.0521
+    move:b = false
+    highlight:b=no
+    size:r = 17
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = -0.285, -0.0521
+    move:b = false
+    highlight:b=no
+    size:r = 17
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = -0.285, -0.0521
+    move:b = false
+    highlight:b=no
+    size:r = 17
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = -0.285, -0.0521
+    move:b = false
+    highlight:b=no
+    size:r = 17
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = -0.285, -0.0521
+    move:b = false
+    highlight:b=no
+    size:r = 17
+   }
+
+////////-----------------------------
+
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = -0.285, 0.0047
+    move:b = false
+    highlight:b=no
+    size:r = 17
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = -0.285, 0.0047
+    move:b = false
+    highlight:b=no
+    size:r = 17
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = -0.285, 0.0047
+    move:b = false
+    highlight:b=no
+    size:r = 17
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = -0.285, 0.0047
+    move:b = false
+    highlight:b=no
+    size:r = 17
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = -0.285, 0.0047
+    move:b = false
+    highlight:b=no
+    size:r = 17
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = -0.285, 0.0047
+    move:b = false
+    highlight:b=no
+    size:r = 17
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = -0.285, 0.0047
+    move:b = false
+    highlight:b=no
+    size:r = 17
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = -0.285, 0.0047
+    move:b = false
+    highlight:b=no
+    size:r = 17
+   }
+
+
+
+
+
+
+
+
+
+
+
+///////////rriiigggggggggggggggggghhhhhhhhhhhhhhhhhhhhhhhhhhhtttttttttttttttttttttttttttttttt
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.17, -0.0305
+    move:b = false
+    highlight:b=no
+    size:r = 2
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.17, -0.0220
+    move:b = false
+    highlight:b=no
+    size:r = 2
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.17, -0.0135
+    move:b = false
+    highlight:b=no
+    size:r = 2
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.17, -0.0055
+    move:b = false
+    highlight:b=no
+    size:r = 2
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.17, 0.0015
+    move:b = false
+    highlight:b=no
+    size:r = 2
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.17, 0.0085
+    move:b = false
+    highlight:b=no
+    size:r = 2
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.17, 0.017
+    move:b = false
+    highlight:b=no
+    size:r = 2
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.17, 0.0245
+    move:b = false
+    highlight:b=no
+    size:r = 2
+   }
+
+
+
+
+
+
+
+
+
+
+
+/////////////////////////////////tttttttttttttttoooooooooooooooooooooooppppppppppppppppppppppppppppppppppppppppppp
+text {
+    text:t = "┪"
+    align:i = 0
+    pos:p2 = -0.0, -0.165
+    move:b = false
+    highlight:b=no
+    size:r = 2
+   }
+text {
+    text:t = "┪"
+    align:i = 0
+    pos:p2 = -0.0, -0.170
+    move:b = false
+    highlight:b=no
+    size:r = 2
+   }
+text {
+    text:t = "┪"
+    align:i = 0
+    pos:p2 = -0.0, -0.175
+    move:b = false
+    highlight:b=no
+    size:r = 2
+   }
+
+///////
+
+text {
+    text:t = "┪"
+    align:i = 0
+    pos:p2 = -0.05, -0.165
+    move:b = false
+    highlight:b=no
+    size:r = 2
+   }
+text {
+    text:t = "┪"
+    align:i = 0
+    pos:p2 = -0.05, -0.170
+    move:b = false
+    highlight:b=no
+    size:r = 2
+   }
+text {
+    text:t = "┪"
+    align:i = 0
+    pos:p2 = -0.05, -0.175
+    move:b = false
+    highlight:b=no
+    size:r = 2
+   }
+
+//////////
+
+text {
+    text:t = "┪"
+    align:i = 0
+    pos:p2 = -0.02, -0.165
+    move:b = false
+    highlight:b=no
+    size:r = 3
+   }
+
+
+
+  }
+
+drawLines{
+  line{
+    line:p4=145, 0, -145, 0
+    thousandth:b = true;
+    move:b=no
+  }
+ line{
+    line:p4=0, 145, 0, -145
+    thousandth:b = true;
+    move:b=no
+  }
+ 
+ line { line:p4 = -2, 7, 2, 7; thousandth:b = true; }
+ line { line:p4 = -4, 14, 4, 14; thousandth:b = true; }
+ line { line:p4 = -2, 21, 2, 21; thousandth:b = true; }
+ line { line:p4 = -4, 28, 4, 28; thousandth:b = true; }
+ line { line:p4 = -2, 35, 2, 35; thousandth:b = true; }
+ line { line:p4 = -4, 42, 4, 42; thousandth:b = true; }
+ line { line:p4 = -2, 49, 2, 49; thousandth:b = true; }
+ line { line:p4 = -4, 56, 4, 56; thousandth:b = true; }
+
+
+
+
+
+ line { line:p4 = -2, -7, 2, -7; thousandth:b = true; }
+ line { line:p4 = -4, -14, 4, -14; thousandth:b = true; }
+ line { line:p4 = -2, -21, 2, -21; thousandth:b = true; }
+ line { line:p4 = -4, -28, 4, -28; thousandth:b = true; }
+ line { line:p4 = -2, -35, 2, -35; thousandth:b = true; }
+ line { line:p4 = -4, -42, 4, -42; thousandth:b = true; }
+ line { line:p4 = -2, -49, 2, -49; thousandth:b = true; }
+ line { line:p4 = -4, -56, 4, -56; thousandth:b = true; }
+ 
+
+
+
+
+ line { line:p4 = 7, 2, 7, -2; thousandth:b = true; }
+ line { line:p4 = 14, 4, 14, -4; thousandth:b = true; }
+ line { line:p4 = 21, 2, 21, -2; thousandth:b = true; }
+ line { line:p4 = 28, 4, 28, -4; thousandth:b = true; }
+ line { line:p4 = 35, 2, 35, -2; thousandth:b = true; }
+ line { line:p4 = 42, 4, 42, -4; thousandth:b = true; }
+ line { line:p4 = 49, 2, 49, -2; thousandth:b = true; }
+ line { line:p4 = 56, 4, 56, -4; thousandth:b = true; }
+
+
+
+
+
+ line { line:p4 = -7, 2, -7, -2; thousandth:b = true; }
+ line { line:p4 = -14, 4, -14, -4; thousandth:b = true; }
+ line { line:p4 = -21, 2, -21, -2; thousandth:b = true; }
+ line { line:p4 = -28, 4, -28, -4; thousandth:b = true; }
+ line { line:p4 = -35, 2, -35, -2; thousandth:b = true; }
+ line { line:p4 = -42, 4, -42, -4; thousandth:b = true; }
+ line { line:p4 = -49, 2, -49, -2; thousandth:b = true; }
+ line { line:p4 = -56, 4, -56, -4; thousandth:b = true; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  line{
+    line:p4=145, 0, -145, 0
+    thousandth:b = true;
+    move:b=no
+  }
+ line{
+    line:p4=0, 145, 0, -145
+    thousandth:b = true;
+    move:b=no
+  }
+ 
+ line { line:p4 = -2, 7, 2, 7; thousandth:b = true; }
+ line { line:p4 = -4, 14, 4, 14; thousandth:b = true; }
+ line { line:p4 = -2, 21, 2, 21; thousandth:b = true; }
+ line { line:p4 = -4, 28, 4, 28; thousandth:b = true; }
+ line { line:p4 = -2, 35, 2, 35; thousandth:b = true; }
+ line { line:p4 = -4, 42, 4, 42; thousandth:b = true; }
+ line { line:p4 = -2, 49, 2, 49; thousandth:b = true; }
+ line { line:p4 = -4, 56, 4, 56; thousandth:b = true; }
+
+
+
+
+
+ line { line:p4 = -2, -7, 2, -7; thousandth:b = true; }
+ line { line:p4 = -4, -14, 4, -14; thousandth:b = true; }
+ line { line:p4 = -2, -21, 2, -21; thousandth:b = true; }
+ line { line:p4 = -4, -28, 4, -28; thousandth:b = true; }
+ line { line:p4 = -2, -35, 2, -35; thousandth:b = true; }
+ line { line:p4 = -4, -42, 4, -42; thousandth:b = true; }
+ line { line:p4 = -2, -49, 2, -49; thousandth:b = true; }
+ line { line:p4 = -4, -56, 4, -56; thousandth:b = true; }
+ 
+
+
+
+
+ line { line:p4 = 7, 2, 7, -2; thousandth:b = true; }
+ line { line:p4 = 14, 4, 14, -4; thousandth:b = true; }
+ line { line:p4 = 21, 2, 21, -2; thousandth:b = true; }
+ line { line:p4 = 28, 4, 28, -4; thousandth:b = true; }
+ line { line:p4 = 35, 2, 35, -2; thousandth:b = true; }
+ line { line:p4 = 42, 4, 42, -4; thousandth:b = true; }
+ line { line:p4 = 49, 2, 49, -2; thousandth:b = true; }
+ line { line:p4 = 56, 4, 56, -4; thousandth:b = true; }
+
+
+
+
+
+ line { line:p4 = -7, 2, -7, -2; thousandth:b = true; }
+ line { line:p4 = -14, 4, -14, -4; thousandth:b = true; }
+ line { line:p4 = -21, 2, -21, -2; thousandth:b = true; }
+ line { line:p4 = -28, 4, -28, -4; thousandth:b = true; }
+ line { line:p4 = -35, 2, -35, -2; thousandth:b = true; }
+ line { line:p4 = -42, 4, -42, -4; thousandth:b = true; }
+ line { line:p4 = -49, 2, -49, -2; thousandth:b = true; }
+ line { line:p4 = -56, 4, -56, -4; thousandth:b = true; }
+
+}

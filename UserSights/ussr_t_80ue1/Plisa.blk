@@ -1,0 +1,3251 @@
+crosshairHorVertSize:p2=3, 2
+rangefinderProgressBarColor1:c=0, 255, 0, 64
+rangefinderProgressBarColor2:c=255, 255, 255, 64
+rangefinderTextScale:r=1.7
+rangefinderVerticalOffset:r=520.5
+rangefinderHorizontalOffset:r=-31.3
+fontSizeMult:r=3
+lineSizeMult:r=0.6
+drawCentralLineVert:b=no
+drawCentralLineHorz:b=no
+crosshairDistHorSizeMain:p2=0.03, 0.02
+crosshairDistHorSizeAdditional:p2=0.005, 0.003
+crosshairColor:c = 255,255,255,1000 
+crosshairLightColor:c = 110, 110, 110,1000 
+distanceCorrectionPos:p2=-0.0193, 0.107
+drawDistanceCorrection:b=yes
+thousandth:t = nato
+
+crosshair_distances{
+}
+
+crosshair_hor_ranges{
+}
+
+  drawQuads {
+    quad {  // Simple fixed quadrangle
+      tl:p2 = -160.5, 115.5; // Top left top
+      tr:p2 = -160, 115.5; // Top right top
+      br:p2 = -160, -115.5; // Top right bottom
+      bl:p2 = -160.5, -115.5; // Top left bottom
+      thousandth:b = true;
+    }
+
+    quad {  // Simple fixed quadrangle
+      tl:p2 = 160, 115.5; // Top left top
+      tr:p2 = 160.5, 115.5; // Top right top
+      br:p2 = 160.5, -115.5; // Top right bottom
+      bl:p2 = 160, -115.5; // Top left bottom
+      thousandth:b = true;
+    }
+
+    quad {  // Simple fixed quadrangle
+      tl:p2 = -160.5, 115; // Top left top
+      tr:p2 = 160.5, 115; // Top right top
+      br:p2 = 160.5, 115.5; // Top right bottom
+      bl:p2 = -160.5, 115.5; // Top left bottom
+      thousandth:b = true;
+    }
+
+    quad {  // Simple fixed quadrangle
+      tl:p2 = -160.5, -115.5; // Top left top
+      tr:p2 = 160.5, -115.5; // Top right top
+      br:p2 = 160.5, -115; // Top right bottom
+      bl:p2 = -160.5, -115; // Top left bottom
+      thousandth:b = true;
+    }
+
+
+
+
+
+
+
+
+
+
+  quad {  // Simple fixed quadrangle
+      tl:p2 = -160.5, 115.5; // Top left top
+      tr:p2 = -160, 115.5; // Top right top
+      br:p2 = -160, -115.5; // Top right bottom
+      bl:p2 = -160.5, -115.5; // Top left bottom
+      thousandth:b = true;
+    }
+
+    quad {  // Simple fixed quadrangle
+      tl:p2 = 160, 115.5; // Top left top
+      tr:p2 = 160.5, 115.5; // Top right top
+      br:p2 = 160.5, -115.5; // Top right bottom
+      bl:p2 = 160, -115.5; // Top left bottom
+      thousandth:b = true;
+    }
+
+    quad {  // Simple fixed quadrangle
+      tl:p2 = -160.5, 115; // Top left top
+      tr:p2 = 160.5, 115; // Top right top
+      br:p2 = 160.5, 115.5; // Top right bottom
+      bl:p2 = -160.5, 115.5; // Top left bottom
+      thousandth:b = true;
+    }
+
+    quad {  // Simple fixed quadrangle
+      tl:p2 = -160.5, -115.5; // Top left top
+      tr:p2 = 160.5, -115.5; // Top right top
+      br:p2 = 160.5, -115; // Top right bottom
+      bl:p2 = -160.5, -115; // Top left bottom
+      thousandth:b = true;
+    }
+
+  }
+
+
+
+
+
+
+  drawTexts {
+///boxxxxxxxxxxxxxxxxxxxxxxxxx
+/////och
+ text {
+      text:t = "[" 
+      align:i = 0 
+      pos:p2 = 0.078, 0.0895
+      move:b = no 
+    highlight:b=no
+ center:p2 = 0, -90; 
+      radialCenter:p2 = 8000.0, 0.0;
+      radialAngle:r = 0;
+      radialMoveSpeed:r = 2000.04;
+      moveRadial:b = no;
+      size:r = 0.8 
+    }
+ text {
+      text:t = "[" 
+      align:i = 0 
+      pos:p2 = 0.078, 0.0895
+      move:b = no 
+    highlight:b=no
+ center:p2 = 0, -90; 
+      radialCenter:p2 = 8000.0, 0.0;
+      radialAngle:r = 0;
+      radialMoveSpeed:r = 2000.04;
+      moveRadial:b = no;
+      size:r = 0.8 
+    }
+ text {
+      text:t = "[" 
+      align:i = 0 
+      pos:p2 = 0.079, 0.0895
+      move:b = no 
+    highlight:b=no
+ center:p2 = 0, -90; 
+      radialCenter:p2 = 8000.0, 0.0;
+      radialAngle:r = 0;
+      radialMoveSpeed:r = 2000.04;
+      moveRadial:b = no;
+      size:r = 0.8 
+    }
+//
+ text {
+      text:t = "〓" 
+      align:i = 0 
+      pos:p2 = 0.096, 0.0895
+      move:b = no 
+    highlight:b=no
+ center:p2 = 0, -90; 
+      radialCenter:p2 = 8000.0, 0.0;
+      radialAngle:r = 0;
+      radialMoveSpeed:r = 2000.04;
+      moveRadial:b = no;
+      size:r = 0.8 
+    }
+ text {
+      text:t = "〓" 
+      align:i = 0 
+      pos:p2 = 0.089, 0.0895
+      move:b = no 
+    highlight:b=no
+ center:p2 = 0, -90; 
+      radialCenter:p2 = 8000.0, 0.0;
+      radialAngle:r = 0;
+      radialMoveSpeed:r = 2000.04;
+      moveRadial:b = no;
+      size:r = 0.8 
+    }
+ text {
+      text:t = "〓" 
+      align:i = 0 
+      pos:p2 = 0.084, 0.0895
+      move:b = no 
+    highlight:b=no
+ center:p2 = 0, -90; 
+      radialCenter:p2 = 8000.0, 0.0;
+      radialAngle:r = 0;
+      radialMoveSpeed:r = 2000.04;
+      moveRadial:b = no;
+      size:r = 0.8 
+    }
+
+//--
+ text {
+      text:t = "〓" 
+      align:i = 0 
+      pos:p2 = 0.096, 0.0926
+      move:b = no 
+    highlight:b=no
+ center:p2 = 0, -90; 
+      radialCenter:p2 = 8000.0, 0.0;
+      radialAngle:r = 0;
+      radialMoveSpeed:r = 2000.04;
+      moveRadial:b = no;
+      size:r = 0.8 
+    }
+ text {
+      text:t = "〓" 
+      align:i = 0 
+      pos:p2 = 0.089, 0.0926
+      move:b = no 
+    highlight:b=no
+ center:p2 = 0, -90; 
+      radialCenter:p2 = 8000.0, 0.0;
+      radialAngle:r = 0;
+      radialMoveSpeed:r = 2000.04;
+      moveRadial:b = no;
+      size:r = 0.8 
+    }
+ text {
+      text:t = "〓" 
+      align:i = 0 
+      pos:p2 = 0.084, 0.0926
+      move:b = no 
+    highlight:b=no
+ center:p2 = 0, -90; 
+      radialCenter:p2 = 8000.0, 0.0;
+      radialAngle:r = 0;
+      radialMoveSpeed:r = 2000.04;
+      moveRadial:b = no;
+      size:r = 0.8 
+    }
+//
+ text {
+      text:t = "]" 
+      align:i = 0 
+      pos:p2 = 0.103, 0.0895
+      move:b = no 
+    highlight:b=no
+ center:p2 = 0, -90; 
+      radialCenter:p2 = 8000.0, 0.0;
+      radialAngle:r = 0;
+      radialMoveSpeed:r = 2000.04;
+      moveRadial:b = no;
+      size:r = 0.8
+    }
+ text {
+      text:t = "]" 
+      align:i = 0 
+      pos:p2 = 0.103, 0.0895
+      move:b = no 
+    highlight:b=no
+ center:p2 = 0, -90; 
+      radialCenter:p2 = 8000.0, 0.0;
+      radialAngle:r = 0;
+      radialMoveSpeed:r = 2000.04;
+      moveRadial:b = no;
+      size:r = 0.8
+    }
+ text {
+      text:t = "]" 
+      align:i = 0 
+      pos:p2 = 0.102, 0.0895
+      move:b = no 
+    highlight:b=no
+ center:p2 = 0, -90; 
+      radialCenter:p2 = 8000.0, 0.0;
+      radialAngle:r = 0;
+      radialMoveSpeed:r = 2000.04;
+      moveRadial:b = no;
+      size:r = 0.8
+    }
+
+
+
+
+
+
+//p
+ text {
+      text:t = "[" 
+      align:i = 0 
+      pos:p2 = -0.0505, 0.0895
+      move:b = no 
+    highlight:b=no
+ center:p2 = 0, -90; 
+      radialCenter:p2 = 8000.0, 0.0;
+      radialAngle:r = 0;
+      radialMoveSpeed:r = 2000.04;
+      moveRadial:b = no;
+      size:r = 0.8 
+    }
+ text {
+      text:t = "[" 
+      align:i = 0 
+      pos:p2 = -0.0505, 0.0895
+      move:b = no 
+    highlight:b=no
+ center:p2 = 0, -90; 
+      radialCenter:p2 = 8000.0, 0.0;
+      radialAngle:r = 0;
+      radialMoveSpeed:r = 2000.04;
+      moveRadial:b = no;
+      size:r = 0.8 
+    }
+ text {
+      text:t = "[" 
+      align:i = 0 
+      pos:p2 = -0.050, 0.0895
+      move:b = no 
+    highlight:b=no
+ center:p2 = 0, -90; 
+      radialCenter:p2 = 8000.0, 0.0;
+      radialAngle:r = 0;
+      radialMoveSpeed:r = 2000.04;
+      moveRadial:b = no;
+      size:r = 0.8 
+    }
+//
+ text {
+      text:t = "〓" 
+      align:i = 0 
+      pos:p2 = -0.0447, 0.0895
+      move:b = no 
+    highlight:b=no
+ center:p2 = 0, -90; 
+      radialCenter:p2 = 8000.0, 0.0;
+      radialAngle:r = 0;
+      radialMoveSpeed:r = 2000.04;
+      moveRadial:b = no;
+      size:r = 0.8 
+    }
+//--
+ text {
+      text:t = "〓" 
+      align:i = 0 
+      pos:p2 = -0.0447, 0.0926
+      move:b = no 
+    highlight:b=no
+ center:p2 = 0, -90; 
+      radialCenter:p2 = 8000.0, 0.0;
+      radialAngle:r = 0;
+      radialMoveSpeed:r = 2000.04;
+      moveRadial:b = no;
+      size:r = 0.8 
+    }
+//
+ text {
+      text:t = "]" 
+      align:i = 0 
+      pos:p2 = -0.04, 0.0895
+      move:b = no 
+    highlight:b=no
+ center:p2 = 0, -90; 
+      radialCenter:p2 = 8000.0, 0.0;
+      radialAngle:r = 0;
+      radialMoveSpeed:r = 2000.04;
+      moveRadial:b = no;
+      size:r = 0.8 
+    }
+ text {
+      text:t = "]" 
+      align:i = 0 
+      pos:p2 = -0.04, 0.0895
+      move:b = no 
+    highlight:b=no
+ center:p2 = 0, -90; 
+      radialCenter:p2 = 8000.0, 0.0;
+      radialAngle:r = 0;
+      radialMoveSpeed:r = 2000.04;
+      moveRadial:b = no;
+      size:r = 0.8 
+    }
+ text {
+      text:t = "]" 
+      align:i = 0 
+      pos:p2 = -0.0405, 0.0895
+      move:b = no 
+    highlight:b=no
+ center:p2 = 0, -90; 
+      radialCenter:p2 = 8000.0, 0.0;
+      radialAngle:r = 0;
+      radialMoveSpeed:r = 2000.04;
+      moveRadial:b = no;
+      size:r = 0.8 
+    }
+
+
+
+
+
+
+
+//got
+ text {
+      text:t = "[" 
+      align:i = 0 
+      pos:p2 = -0.114, 0.0895
+      move:b = no 
+    highlight:b=no
+ center:p2 = 0, -90; 
+      radialCenter:p2 = 8000.0, 0.0;
+      radialAngle:r = 0;
+      radialMoveSpeed:r = 2000.04;
+      moveRadial:b = no;
+      size:r = 0.8 
+    }
+ text {
+      text:t = "[" 
+      align:i = 0 
+      pos:p2 = -0.114, 0.0895
+      move:b = no 
+    highlight:b=no
+ center:p2 = 0, -90; 
+      radialCenter:p2 = 8000.0, 0.0;
+      radialAngle:r = 0;
+      radialMoveSpeed:r = 2000.04;
+      moveRadial:b = no;
+      size:r = 0.8 
+    }
+ text {
+      text:t = "[" 
+      align:i = 0 
+      pos:p2 = -0.1135, 0.0895
+      move:b = no 
+    highlight:b=no
+ center:p2 = 0, -90; 
+      radialCenter:p2 = 8000.0, 0.0;
+      radialAngle:r = 0;
+      radialMoveSpeed:r = 2000.04;
+      moveRadial:b = no;
+      size:r = 0.8 
+    }
+
+//
+ text {
+      text:t = "〓" 
+      align:i = 0 
+      pos:p2 = -0.098, 0.0895
+      move:b = no 
+    highlight:b=no
+ center:p2 = 0, -90; 
+      radialCenter:p2 = 8000.0, 0.0;
+      radialAngle:r = 0;
+      radialMoveSpeed:r = 2000.04;
+      moveRadial:b = no;
+      size:r = 0.8 
+    }
+ text {
+      text:t = "〓" 
+      align:i = 0 
+      pos:p2 = -0.104, 0.0895
+      move:b = no 
+    highlight:b=no
+ center:p2 = 0, -90; 
+      radialCenter:p2 = 8000.0, 0.0;
+      radialAngle:r = 0;
+      radialMoveSpeed:r = 2000.04;
+      moveRadial:b = no;
+      size:r = 0.8 
+    }
+ text {
+      text:t = "〓" 
+      align:i = 0 
+      pos:p2 = -0.109, 0.0895
+      move:b = no 
+    highlight:b=no
+ center:p2 = 0, -90; 
+      radialCenter:p2 = 8000.0, 0.0;
+      radialAngle:r = 0;
+      radialMoveSpeed:r = 2000.04;
+      moveRadial:b = no;
+      size:r = 0.8 
+    }
+//--
+ text {
+      text:t = "〓" 
+      align:i = 0 
+      pos:p2 = -0.098, 0.0926
+      move:b = no 
+    highlight:b=no
+ center:p2 = 0, -90; 
+      radialCenter:p2 = 8000.0, 0.0;
+      radialAngle:r = 0;
+      radialMoveSpeed:r = 2000.04;
+      moveRadial:b = no;
+      size:r = 0.8 
+    }
+ text {
+      text:t = "〓" 
+      align:i = 0 
+      pos:p2 = -0.104, 0.0926
+      move:b = no 
+    highlight:b=no
+ center:p2 = 0, -90; 
+      radialCenter:p2 = 8000.0, 0.0;
+      radialAngle:r = 0;
+      radialMoveSpeed:r = 2000.04;
+      moveRadial:b = no;
+      size:r = 0.8 
+    }
+ text {
+      text:t = "〓" 
+      align:i = 0 
+      pos:p2 = -0.109, 0.0926
+      move:b = no 
+    highlight:b=no
+ center:p2 = 0, -90; 
+      radialCenter:p2 = 8000.0, 0.0;
+      radialAngle:r = 0;
+      radialMoveSpeed:r = 2000.04;
+      moveRadial:b = no;
+      size:r = 0.8 
+    }
+
+//
+ text {
+      text:t = "]" 
+      align:i = 0 
+      pos:p2 = -0.092, 0.0895
+      move:b = no 
+    highlight:b=no
+ center:p2 = 0, -90; 
+      radialCenter:p2 = 8000.0, 0.0;
+      radialAngle:r = 0;
+      radialMoveSpeed:r = 2000.04;
+      moveRadial:b = no;
+      size:r = 0.8
+    }
+ text {
+      text:t = "]" 
+      align:i = 0 
+      pos:p2 = -0.092, 0.0895
+      move:b = no 
+    highlight:b=no
+ center:p2 = 0, -90; 
+      radialCenter:p2 = 8000.0, 0.0;
+      radialAngle:r = 0;
+      radialMoveSpeed:r = 2000.04;
+      moveRadial:b = no;
+      size:r = 0.8
+    }
+ text {
+      text:t = "]" 
+      align:i = 0 
+      pos:p2 = -0.0925, 0.0895
+      move:b = no 
+    highlight:b=no
+ center:p2 = 0, -90; 
+      radialCenter:p2 = 8000.0, 0.0;
+      radialAngle:r = 0;
+      radialMoveSpeed:r = 2000.04;
+      moveRadial:b = no;
+      size:r = 0.8
+    }
+
+
+
+
+//distance
+//]]]]]]]]]]]]]]]]]]]
+   text {
+      text:t = "]" 
+      align:i = 0 
+      pos:p2 = 0.056, 0.09
+      move:b = no 
+    highlight:b=no
+ center:p2 = 0, -90; 
+      radialCenter:p2 = 8000.0, 0.0;
+      radialAngle:r = 0;
+      radialMoveSpeed:r = 2000.04;
+      moveRadial:b = yes;
+      size:r = 0.8
+    }
+   text {
+      text:t = "]" 
+      align:i = 0 
+      pos:p2 = 0.056, 0.09
+      move:b = no 
+    highlight:b=no
+ center:p2 = 0, -90; 
+      radialCenter:p2 = 8000.0, 0.0;
+      radialAngle:r = 0;
+      radialMoveSpeed:r = 2000.04;
+      moveRadial:b = yes;
+      size:r = 0.8
+    }
+   text {
+      text:t = "]" 
+      align:i = 0 
+      pos:p2 = 0.055, 0.09
+      move:b = no 
+    highlight:b=no
+ center:p2 = 0, -90; 
+      radialCenter:p2 = 8000.0, 0.0;
+      radialAngle:r = 0;
+      radialMoveSpeed:r = 2000.04;
+      moveRadial:b = yes;
+      size:r = 0.8
+    }
+ 
+
+//up
+   text {
+      text:t = "〓" 
+      align:i = 0 
+      pos:p2 = 0.0495, 0.09
+      move:b = no 
+    highlight:b=no
+ center:p2 = 0, -90; 
+      radialCenter:p2 = 8000.0, 0.0;
+      radialAngle:r = 0;
+      radialMoveSpeed:r = 2000.04;
+      moveRadial:b = yes;
+      size:r = 0.8 
+    }
+   text {
+      text:t = "〓" 
+      align:i = 0 
+      pos:p2 = 0.0475, 0.09
+      move:b = no 
+    highlight:b=no
+ center:p2 = 0, -90; 
+      radialCenter:p2 = 8000.0, 0.0;
+      radialAngle:r = 0;
+      radialMoveSpeed:r = 2000.04;
+      moveRadial:b = yes;
+      size:r = 0.8 
+    }
+   text {
+      text:t = "〓" 
+      align:i = 0 
+      pos:p2 = 0.0395, 0.09
+      move:b = no 
+    highlight:b=no
+ center:p2 = 0, -90; 
+      radialCenter:p2 = 8000.0, 0.0;
+      radialAngle:r = 0;
+      radialMoveSpeed:r = 2000.04;
+      moveRadial:b = yes;
+      size:r = 0.8 
+    }
+   text {
+      text:t = "〓" 
+      align:i = 0 
+      pos:p2 = 0.0355, 0.09
+      move:b = no 
+    highlight:b=no
+ center:p2 = 0, -90; 
+      radialCenter:p2 = 8000.0, 0.0;
+      radialAngle:r = 0;
+      radialMoveSpeed:r = 2000.04;
+      moveRadial:b = yes;
+      size:r = 0.8 
+    }
+   text {
+      text:t = "〓" 
+      align:i = 0 
+      pos:p2 = 0.0295, 0.09
+      move:b = no 
+    highlight:b=no
+ center:p2 = 0, -90; 
+      radialCenter:p2 = 8000.0, 0.0;
+      radialAngle:r = 0;
+      radialMoveSpeed:r = 2000.04;
+      moveRadial:b = yes;
+      size:r = 0.8 
+    }
+   text {
+      text:t = "〓" 
+      align:i = 0 
+      pos:p2 = 0.0255, 0.09
+      move:b = no 
+    highlight:b=no
+ center:p2 = 0, -90; 
+      radialCenter:p2 = 8000.0, 0.0;
+      radialAngle:r = 0;
+      radialMoveSpeed:r = 2000.04;
+      moveRadial:b = yes;
+      size:r = 0.8 
+    }
+   text {
+      text:t = "〓" 
+      align:i = 0 
+      pos:p2 = 0.0195, 0.09
+      move:b = no 
+    highlight:b=no
+ center:p2 = 0, -90; 
+      radialCenter:p2 = 8000.0, 0.0;
+      radialAngle:r = 0;
+      radialMoveSpeed:r = 2000.04;
+      moveRadial:b = yes;
+      size:r = 0.8 
+    }
+   text {
+      text:t = "〓" 
+      align:i = 0 
+      pos:p2 = 0.0155, 0.09
+      move:b = no 
+    highlight:b=no
+ center:p2 = 0, -90; 
+      radialCenter:p2 = 8000.0, 0.0;
+      radialAngle:r = 0;
+      radialMoveSpeed:r = 2000.04;
+      moveRadial:b = yes;
+      size:r = 0.8 
+    }
+   text {
+      text:t = "〓" 
+      align:i = 0 
+      pos:p2 = 0.0095, 0.09
+      move:b = no 
+    highlight:b=no
+ center:p2 = 0, -90; 
+      radialCenter:p2 = 8000.0, 0.0;
+      radialAngle:r = 0;
+      radialMoveSpeed:r = 2000.04;
+      moveRadial:b = yes;
+      size:r = 0.8 
+    }
+   text {
+      text:t = "〓" 
+      align:i = 0 
+      pos:p2 = 0.0055, 0.09
+      move:b = no 
+    highlight:b=no
+ center:p2 = 0, -90; 
+      radialCenter:p2 = 8000.0, 0.0;
+      radialAngle:r = 0;
+      radialMoveSpeed:r = 2000.04;
+      moveRadial:b = yes;
+      size:r = 0.8 
+    }
+   text {
+      text:t = "〓" 
+      align:i = 0 
+      pos:p2 = 0.0000, 0.09
+      move:b = no 
+    highlight:b=no
+ center:p2 = 0, -90; 
+      radialCenter:p2 = 8000.0, 0.0;
+      radialAngle:r = 0;
+      radialMoveSpeed:r = 2000.04;
+      moveRadial:b = yes;
+      size:r = 0.8 
+    }
+   text {
+      text:t = "〓" 
+      align:i = 0 
+      pos:p2 = -0.0055, 0.09
+      move:b = no 
+    highlight:b=no
+ center:p2 = 0, -90; 
+      radialCenter:p2 = 8000.0, 0.0;
+      radialAngle:r = 0;
+      radialMoveSpeed:r = 2000.04;
+      moveRadial:b = yes;
+      size:r = 0.8 
+    }
+   text {
+      text:t = "〓" 
+      align:i = 0 
+      pos:p2 = -0.0095, 0.09
+      move:b = no 
+    highlight:b=no
+ center:p2 = 0, -90; 
+      radialCenter:p2 = 8000.0, 0.0;
+      radialAngle:r = 0;
+      radialMoveSpeed:r = 2000.04;
+      moveRadial:b = yes;
+      size:r = 0.8 
+    }
+   text {
+      text:t = "〓" 
+      align:i = 0 
+      pos:p2 = -0.0135, 0.09
+      move:b = no 
+    highlight:b=no
+ center:p2 = 0, -90; 
+      radialCenter:p2 = 8000.0, 0.0;
+      radialAngle:r = 0;
+      radialMoveSpeed:r = 2000.04;
+      moveRadial:b = yes;
+      size:r = 0.8 
+    }
+   text {
+      text:t = "〓" 
+      align:i = 0 
+      pos:p2 = -0.0140, 0.09
+      move:b = no 
+    highlight:b=no
+ center:p2 = 0, -90; 
+      radialCenter:p2 = 8000.0, 0.0;
+      radialAngle:r = 0;
+      radialMoveSpeed:r = 2000.04;
+      moveRadial:b = yes;
+      size:r = 0.8 
+    }
+
+
+
+//down
+   text {
+      text:t = "〓" 
+      align:i = 0 
+      pos:p2 = 0.0495, 0.09303
+      move:b = no 
+    highlight:b=no
+ center:p2 = 0, -90; 
+      radialCenter:p2 = 8000.0, 0.0;
+      radialAngle:r = 0;
+      radialMoveSpeed:r = 2000.04;
+      moveRadial:b = yes;
+      size:r = 0.8 
+    }
+   text {
+      text:t = "〓" 
+      align:i = 0 
+      pos:p2 = 0.0475, 0.09303
+      move:b = no 
+    highlight:b=no
+ center:p2 = 0, -90; 
+      radialCenter:p2 = 8000.0, 0.0;
+      radialAngle:r = 0;
+      radialMoveSpeed:r = 2000.04;
+      moveRadial:b = yes;
+      size:r = 0.8 
+    }
+   text {
+      text:t = "〓" 
+      align:i = 0 
+      pos:p2 = 0.0395, 0.09303
+      move:b = no 
+    highlight:b=no
+ center:p2 = 0, -90; 
+      radialCenter:p2 = 8000.0, 0.0;
+      radialAngle:r = 0;
+      radialMoveSpeed:r = 2000.04;
+      moveRadial:b = yes;
+      size:r = 0.8 
+    }
+   text {
+      text:t = "〓" 
+      align:i = 0 
+      pos:p2 = 0.0355, 0.09303
+      move:b = no 
+    highlight:b=no
+ center:p2 = 0, -90; 
+      radialCenter:p2 = 8000.0, 0.0;
+      radialAngle:r = 0;
+      radialMoveSpeed:r = 2000.04;
+      moveRadial:b = yes;
+      size:r = 0.8 
+    }
+   text {
+      text:t = "〓" 
+      align:i = 0 
+      pos:p2 = 0.0295, 0.09303
+      move:b = no 
+    highlight:b=no
+ center:p2 = 0, -90; 
+      radialCenter:p2 = 8000.0, 0.0;
+      radialAngle:r = 0;
+      radialMoveSpeed:r = 2000.04;
+      moveRadial:b = yes;
+      size:r = 0.8 
+    }
+   text {
+      text:t = "〓" 
+      align:i = 0 
+      pos:p2 = 0.0255, 0.09303
+      move:b = no 
+    highlight:b=no
+ center:p2 = 0, -90; 
+      radialCenter:p2 = 8000.0, 0.0;
+      radialAngle:r = 0;
+      radialMoveSpeed:r = 2000.04;
+      moveRadial:b = yes;
+      size:r = 0.8 
+    }
+   text {
+      text:t = "〓" 
+      align:i = 0 
+      pos:p2 = 0.0195, 0.09303
+      move:b = no 
+    highlight:b=no
+ center:p2 = 0, -90; 
+      radialCenter:p2 = 8000.0, 0.0;
+      radialAngle:r = 0;
+      radialMoveSpeed:r = 2000.04;
+      moveRadial:b = yes;
+      size:r = 0.8 
+    }
+   text {
+      text:t = "〓" 
+      align:i = 0 
+      pos:p2 = 0.0155, 0.09303
+      move:b = no 
+    highlight:b=no
+ center:p2 = 0, -90; 
+      radialCenter:p2 = 8000.0, 0.0;
+      radialAngle:r = 0;
+      radialMoveSpeed:r = 2000.04;
+      moveRadial:b = yes;
+      size:r = 0.8 
+    }
+   text {
+      text:t = "〓" 
+      align:i = 0 
+      pos:p2 = 0.0095, 0.09303
+      move:b = no 
+    highlight:b=no
+ center:p2 = 0, -90; 
+      radialCenter:p2 = 8000.0, 0.0;
+      radialAngle:r = 0;
+      radialMoveSpeed:r = 2000.04;
+      moveRadial:b = yes;
+      size:r = 0.8 
+    }
+   text {
+      text:t = "〓" 
+      align:i = 0 
+      pos:p2 = 0.0055, 0.09303
+      move:b = no 
+    highlight:b=no
+ center:p2 = 0, -90; 
+      radialCenter:p2 = 8000.0, 0.0;
+      radialAngle:r = 0;
+      radialMoveSpeed:r = 2000.04;
+      moveRadial:b = yes;
+      size:r = 0.8 
+    }
+   text {
+      text:t = "〓" 
+      align:i = 0 
+      pos:p2 = 0.0000, 0.09303
+      move:b = no 
+    highlight:b=no
+ center:p2 = 0, -90; 
+      radialCenter:p2 = 8000.0, 0.0;
+      radialAngle:r = 0;
+      radialMoveSpeed:r = 2000.04;
+      moveRadial:b = yes;
+      size:r = 0.8 
+    }
+   text {
+      text:t = "〓" 
+      align:i = 0 
+      pos:p2 = -0.0055, 0.09303
+      move:b = no 
+    highlight:b=no
+ center:p2 = 0, -90; 
+      radialCenter:p2 = 8000.0, 0.0;
+      radialAngle:r = 0;
+      radialMoveSpeed:r = 2000.04;
+      moveRadial:b = yes;
+      size:r = 0.8 
+    }
+   text {
+      text:t = "〓" 
+      align:i = 0 
+      pos:p2 = -0.0095, 0.09303
+      move:b = no 
+    highlight:b=no
+ center:p2 = 0, -90; 
+      radialCenter:p2 = 8000.0, 0.0;
+      radialAngle:r = 0;
+      radialMoveSpeed:r = 2000.04;
+      moveRadial:b = yes;
+      size:r = 0.8 
+    }
+   text {
+      text:t = "〓" 
+      align:i = 0 
+      pos:p2 = -0.0135, 0.09303
+      move:b = no 
+    highlight:b=no
+ center:p2 = 0, -90; 
+      radialCenter:p2 = 8000.0, 0.0;
+      radialAngle:r = 0;
+      radialMoveSpeed:r = 2000.04;
+      moveRadial:b = yes;
+      size:r = 0.8 
+    }
+   text {
+      text:t = "〓" 
+      align:i = 0 
+      pos:p2 = -0.0140, 0.09303
+      move:b = no 
+    highlight:b=no
+ center:p2 = 0, -90; 
+      radialCenter:p2 = 8000.0, 0.0;
+      radialAngle:r = 0;
+      radialMoveSpeed:r = 2000.04;
+      moveRadial:b = yes;
+      size:r = 0.8 
+    }
+
+
+
+//[[[[[[[[[[[[[[[[[[[[[[[
+   text {
+      text:t = "[" 
+      align:i = 0 
+      pos:p2 = -0.02, 0.09
+      move:b = no 
+    highlight:b=no
+ center:p2 = 0, -90; 
+      radialCenter:p2 = 8000.0, 0.0;
+      radialAngle:r = 0;
+      radialMoveSpeed:r = 2000.04;
+      moveRadial:b = yes;
+      size:r = 0.8
+    }
+   text {
+      text:t = "[" 
+      align:i = 0 
+      pos:p2 = -0.02, 0.09
+      move:b = no 
+    highlight:b=no
+ center:p2 = 0, -90; 
+      radialCenter:p2 = 8000.0, 0.0;
+      radialAngle:r = 0;
+      radialMoveSpeed:r = 2000.04;
+      moveRadial:b = yes;
+      size:r = 0.8
+    }
+   text {
+      text:t = "[" 
+      align:i = 0 
+      pos:p2 = -0.019, 0.09
+      move:b = no 
+    highlight:b=no
+ center:p2 = 0, -90; 
+      radialCenter:p2 = 8000.0, 0.0;
+      radialAngle:r = 0;
+      radialMoveSpeed:r = 2000.04;
+      moveRadial:b = yes;
+      size:r = 0.8
+    }
+
+
+
+
+
+
+
+
+///////////////xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx----------------------2222222222222222222222222222222222
+///boxxxxxxxxxxxxxxxxxxxxxxxxx
+/////och
+ text {
+      text:t = "[" 
+      align:i = 0 
+      pos:p2 = 0.078, 0.0895
+      move:b = no 
+    highlight:b=no
+ center:p2 = 0, -90; 
+      radialCenter:p2 = 8000.0, 0.0;
+      radialAngle:r = 0;
+      radialMoveSpeed:r = 2000.04;
+      moveRadial:b = no;
+      size:r = 0.8 
+    }
+ text {
+      text:t = "[" 
+      align:i = 0 
+      pos:p2 = 0.078, 0.0895
+      move:b = no 
+    highlight:b=no
+ center:p2 = 0, -90; 
+      radialCenter:p2 = 8000.0, 0.0;
+      radialAngle:r = 0;
+      radialMoveSpeed:r = 2000.04;
+      moveRadial:b = no;
+      size:r = 0.8 
+    }
+ text {
+      text:t = "[" 
+      align:i = 0 
+      pos:p2 = 0.079, 0.0895
+      move:b = no 
+    highlight:b=no
+ center:p2 = 0, -90; 
+      radialCenter:p2 = 8000.0, 0.0;
+      radialAngle:r = 0;
+      radialMoveSpeed:r = 2000.04;
+      moveRadial:b = no;
+      size:r = 0.8 
+    }
+//
+ text {
+      text:t = "〓" 
+      align:i = 0 
+      pos:p2 = 0.096, 0.0895
+      move:b = no 
+    highlight:b=no
+ center:p2 = 0, -90; 
+      radialCenter:p2 = 8000.0, 0.0;
+      radialAngle:r = 0;
+      radialMoveSpeed:r = 2000.04;
+      moveRadial:b = no;
+      size:r = 0.8 
+    }
+ text {
+      text:t = "〓" 
+      align:i = 0 
+      pos:p2 = 0.089, 0.0895
+      move:b = no 
+    highlight:b=no
+ center:p2 = 0, -90; 
+      radialCenter:p2 = 8000.0, 0.0;
+      radialAngle:r = 0;
+      radialMoveSpeed:r = 2000.04;
+      moveRadial:b = no;
+      size:r = 0.8 
+    }
+ text {
+      text:t = "〓" 
+      align:i = 0 
+      pos:p2 = 0.084, 0.0895
+      move:b = no 
+    highlight:b=no
+ center:p2 = 0, -90; 
+      radialCenter:p2 = 8000.0, 0.0;
+      radialAngle:r = 0;
+      radialMoveSpeed:r = 2000.04;
+      moveRadial:b = no;
+      size:r = 0.8 
+    }
+
+//--
+ text {
+      text:t = "〓" 
+      align:i = 0 
+      pos:p2 = 0.096, 0.0926
+      move:b = no 
+    highlight:b=no
+ center:p2 = 0, -90; 
+      radialCenter:p2 = 8000.0, 0.0;
+      radialAngle:r = 0;
+      radialMoveSpeed:r = 2000.04;
+      moveRadial:b = no;
+      size:r = 0.8 
+    }
+ text {
+      text:t = "〓" 
+      align:i = 0 
+      pos:p2 = 0.089, 0.0926
+      move:b = no 
+    highlight:b=no
+ center:p2 = 0, -90; 
+      radialCenter:p2 = 8000.0, 0.0;
+      radialAngle:r = 0;
+      radialMoveSpeed:r = 2000.04;
+      moveRadial:b = no;
+      size:r = 0.8 
+    }
+ text {
+      text:t = "〓" 
+      align:i = 0 
+      pos:p2 = 0.084, 0.0926
+      move:b = no 
+    highlight:b=no
+ center:p2 = 0, -90; 
+      radialCenter:p2 = 8000.0, 0.0;
+      radialAngle:r = 0;
+      radialMoveSpeed:r = 2000.04;
+      moveRadial:b = no;
+      size:r = 0.8 
+    }
+//
+ text {
+      text:t = "]" 
+      align:i = 0 
+      pos:p2 = 0.103, 0.0895
+      move:b = no 
+    highlight:b=no
+ center:p2 = 0, -90; 
+      radialCenter:p2 = 8000.0, 0.0;
+      radialAngle:r = 0;
+      radialMoveSpeed:r = 2000.04;
+      moveRadial:b = no;
+      size:r = 0.8
+    }
+ text {
+      text:t = "]" 
+      align:i = 0 
+      pos:p2 = 0.103, 0.0895
+      move:b = no 
+    highlight:b=no
+ center:p2 = 0, -90; 
+      radialCenter:p2 = 8000.0, 0.0;
+      radialAngle:r = 0;
+      radialMoveSpeed:r = 2000.04;
+      moveRadial:b = no;
+      size:r = 0.8
+    }
+ text {
+      text:t = "]" 
+      align:i = 0 
+      pos:p2 = 0.102, 0.0895
+      move:b = no 
+    highlight:b=no
+ center:p2 = 0, -90; 
+      radialCenter:p2 = 8000.0, 0.0;
+      radialAngle:r = 0;
+      radialMoveSpeed:r = 2000.04;
+      moveRadial:b = no;
+      size:r = 0.8
+    }
+
+
+
+
+
+
+//p
+ text {
+      text:t = "[" 
+      align:i = 0 
+      pos:p2 = -0.0505, 0.0895
+      move:b = no 
+    highlight:b=no
+ center:p2 = 0, -90; 
+      radialCenter:p2 = 8000.0, 0.0;
+      radialAngle:r = 0;
+      radialMoveSpeed:r = 2000.04;
+      moveRadial:b = no;
+      size:r = 0.8 
+    }
+ text {
+      text:t = "[" 
+      align:i = 0 
+      pos:p2 = -0.0505, 0.0895
+      move:b = no 
+    highlight:b=no
+ center:p2 = 0, -90; 
+      radialCenter:p2 = 8000.0, 0.0;
+      radialAngle:r = 0;
+      radialMoveSpeed:r = 2000.04;
+      moveRadial:b = no;
+      size:r = 0.8 
+    }
+ text {
+      text:t = "[" 
+      align:i = 0 
+      pos:p2 = -0.050, 0.0895
+      move:b = no 
+    highlight:b=no
+ center:p2 = 0, -90; 
+      radialCenter:p2 = 8000.0, 0.0;
+      radialAngle:r = 0;
+      radialMoveSpeed:r = 2000.04;
+      moveRadial:b = no;
+      size:r = 0.8 
+    }
+//
+ text {
+      text:t = "〓" 
+      align:i = 0 
+      pos:p2 = -0.0447, 0.0895
+      move:b = no 
+    highlight:b=no
+ center:p2 = 0, -90; 
+      radialCenter:p2 = 8000.0, 0.0;
+      radialAngle:r = 0;
+      radialMoveSpeed:r = 2000.04;
+      moveRadial:b = no;
+      size:r = 0.8 
+    }
+//--
+ text {
+      text:t = "〓" 
+      align:i = 0 
+      pos:p2 = -0.0447, 0.0926
+      move:b = no 
+    highlight:b=no
+ center:p2 = 0, -90; 
+      radialCenter:p2 = 8000.0, 0.0;
+      radialAngle:r = 0;
+      radialMoveSpeed:r = 2000.04;
+      moveRadial:b = no;
+      size:r = 0.8 
+    }
+//
+ text {
+      text:t = "]" 
+      align:i = 0 
+      pos:p2 = -0.04, 0.0895
+      move:b = no 
+    highlight:b=no
+ center:p2 = 0, -90; 
+      radialCenter:p2 = 8000.0, 0.0;
+      radialAngle:r = 0;
+      radialMoveSpeed:r = 2000.04;
+      moveRadial:b = no;
+      size:r = 0.8 
+    }
+ text {
+      text:t = "]" 
+      align:i = 0 
+      pos:p2 = -0.04, 0.0895
+      move:b = no 
+    highlight:b=no
+ center:p2 = 0, -90; 
+      radialCenter:p2 = 8000.0, 0.0;
+      radialAngle:r = 0;
+      radialMoveSpeed:r = 2000.04;
+      moveRadial:b = no;
+      size:r = 0.8 
+    }
+ text {
+      text:t = "]" 
+      align:i = 0 
+      pos:p2 = -0.0405, 0.0895
+      move:b = no 
+    highlight:b=no
+ center:p2 = 0, -90; 
+      radialCenter:p2 = 8000.0, 0.0;
+      radialAngle:r = 0;
+      radialMoveSpeed:r = 2000.04;
+      moveRadial:b = no;
+      size:r = 0.8 
+    }
+
+
+
+
+
+
+
+//got
+ text {
+      text:t = "[" 
+      align:i = 0 
+      pos:p2 = -0.114, 0.0895
+      move:b = no 
+    highlight:b=no
+ center:p2 = 0, -90; 
+      radialCenter:p2 = 8000.0, 0.0;
+      radialAngle:r = 0;
+      radialMoveSpeed:r = 2000.04;
+      moveRadial:b = no;
+      size:r = 0.8 
+    }
+ text {
+      text:t = "[" 
+      align:i = 0 
+      pos:p2 = -0.114, 0.0895
+      move:b = no 
+    highlight:b=no
+ center:p2 = 0, -90; 
+      radialCenter:p2 = 8000.0, 0.0;
+      radialAngle:r = 0;
+      radialMoveSpeed:r = 2000.04;
+      moveRadial:b = no;
+      size:r = 0.8 
+    }
+ text {
+      text:t = "[" 
+      align:i = 0 
+      pos:p2 = -0.1135, 0.0895
+      move:b = no 
+    highlight:b=no
+ center:p2 = 0, -90; 
+      radialCenter:p2 = 8000.0, 0.0;
+      radialAngle:r = 0;
+      radialMoveSpeed:r = 2000.04;
+      moveRadial:b = no;
+      size:r = 0.8 
+    }
+
+//
+ text {
+      text:t = "〓" 
+      align:i = 0 
+      pos:p2 = -0.098, 0.0895
+      move:b = no 
+    highlight:b=no
+ center:p2 = 0, -90; 
+      radialCenter:p2 = 8000.0, 0.0;
+      radialAngle:r = 0;
+      radialMoveSpeed:r = 2000.04;
+      moveRadial:b = no;
+      size:r = 0.8 
+    }
+ text {
+      text:t = "〓" 
+      align:i = 0 
+      pos:p2 = -0.104, 0.0895
+      move:b = no 
+    highlight:b=no
+ center:p2 = 0, -90; 
+      radialCenter:p2 = 8000.0, 0.0;
+      radialAngle:r = 0;
+      radialMoveSpeed:r = 2000.04;
+      moveRadial:b = no;
+      size:r = 0.8 
+    }
+ text {
+      text:t = "〓" 
+      align:i = 0 
+      pos:p2 = -0.109, 0.0895
+      move:b = no 
+    highlight:b=no
+ center:p2 = 0, -90; 
+      radialCenter:p2 = 8000.0, 0.0;
+      radialAngle:r = 0;
+      radialMoveSpeed:r = 2000.04;
+      moveRadial:b = no;
+      size:r = 0.8 
+    }
+//--
+ text {
+      text:t = "〓" 
+      align:i = 0 
+      pos:p2 = -0.098, 0.0926
+      move:b = no 
+    highlight:b=no
+ center:p2 = 0, -90; 
+      radialCenter:p2 = 8000.0, 0.0;
+      radialAngle:r = 0;
+      radialMoveSpeed:r = 2000.04;
+      moveRadial:b = no;
+      size:r = 0.8 
+    }
+ text {
+      text:t = "〓" 
+      align:i = 0 
+      pos:p2 = -0.104, 0.0926
+      move:b = no 
+    highlight:b=no
+ center:p2 = 0, -90; 
+      radialCenter:p2 = 8000.0, 0.0;
+      radialAngle:r = 0;
+      radialMoveSpeed:r = 2000.04;
+      moveRadial:b = no;
+      size:r = 0.8 
+    }
+ text {
+      text:t = "〓" 
+      align:i = 0 
+      pos:p2 = -0.109, 0.0926
+      move:b = no 
+    highlight:b=no
+ center:p2 = 0, -90; 
+      radialCenter:p2 = 8000.0, 0.0;
+      radialAngle:r = 0;
+      radialMoveSpeed:r = 2000.04;
+      moveRadial:b = no;
+      size:r = 0.8 
+    }
+
+//
+ text {
+      text:t = "]" 
+      align:i = 0 
+      pos:p2 = -0.092, 0.0895
+      move:b = no 
+    highlight:b=no
+ center:p2 = 0, -90; 
+      radialCenter:p2 = 8000.0, 0.0;
+      radialAngle:r = 0;
+      radialMoveSpeed:r = 2000.04;
+      moveRadial:b = no;
+      size:r = 0.8
+    }
+ text {
+      text:t = "]" 
+      align:i = 0 
+      pos:p2 = -0.092, 0.0895
+      move:b = no 
+    highlight:b=no
+ center:p2 = 0, -90; 
+      radialCenter:p2 = 8000.0, 0.0;
+      radialAngle:r = 0;
+      radialMoveSpeed:r = 2000.04;
+      moveRadial:b = no;
+      size:r = 0.8
+    }
+ text {
+      text:t = "]" 
+      align:i = 0 
+      pos:p2 = -0.0925, 0.0895
+      move:b = no 
+    highlight:b=no
+ center:p2 = 0, -90; 
+      radialCenter:p2 = 8000.0, 0.0;
+      radialAngle:r = 0;
+      radialMoveSpeed:r = 2000.04;
+      moveRadial:b = no;
+      size:r = 0.8
+    }
+
+
+
+
+//distance
+//]]]]]]]]]]]]]]]]]]]
+   text {
+      text:t = "]" 
+      align:i = 0 
+      pos:p2 = 0.056, 0.09
+      move:b = no 
+    highlight:b=no
+ center:p2 = 0, -90; 
+      radialCenter:p2 = 8000.0, 0.0;
+      radialAngle:r = 0;
+      radialMoveSpeed:r = 2000.04;
+      moveRadial:b = yes;
+      size:r = 0.8
+    }
+   text {
+      text:t = "]" 
+      align:i = 0 
+      pos:p2 = 0.056, 0.09
+      move:b = no 
+    highlight:b=no
+ center:p2 = 0, -90; 
+      radialCenter:p2 = 8000.0, 0.0;
+      radialAngle:r = 0;
+      radialMoveSpeed:r = 2000.04;
+      moveRadial:b = yes;
+      size:r = 0.8
+    }
+   text {
+      text:t = "]" 
+      align:i = 0 
+      pos:p2 = 0.055, 0.09
+      move:b = no 
+    highlight:b=no
+ center:p2 = 0, -90; 
+      radialCenter:p2 = 8000.0, 0.0;
+      radialAngle:r = 0;
+      radialMoveSpeed:r = 2000.04;
+      moveRadial:b = yes;
+      size:r = 0.8
+    }
+ 
+
+//up
+   text {
+      text:t = "〓" 
+      align:i = 0 
+      pos:p2 = 0.0495, 0.09
+      move:b = no 
+    highlight:b=no
+ center:p2 = 0, -90; 
+      radialCenter:p2 = 8000.0, 0.0;
+      radialAngle:r = 0;
+      radialMoveSpeed:r = 2000.04;
+      moveRadial:b = yes;
+      size:r = 0.8 
+    }
+   text {
+      text:t = "〓" 
+      align:i = 0 
+      pos:p2 = 0.0475, 0.09
+      move:b = no 
+    highlight:b=no
+ center:p2 = 0, -90; 
+      radialCenter:p2 = 8000.0, 0.0;
+      radialAngle:r = 0;
+      radialMoveSpeed:r = 2000.04;
+      moveRadial:b = yes;
+      size:r = 0.8 
+    }
+   text {
+      text:t = "〓" 
+      align:i = 0 
+      pos:p2 = 0.0395, 0.09
+      move:b = no 
+    highlight:b=no
+ center:p2 = 0, -90; 
+      radialCenter:p2 = 8000.0, 0.0;
+      radialAngle:r = 0;
+      radialMoveSpeed:r = 2000.04;
+      moveRadial:b = yes;
+      size:r = 0.8 
+    }
+   text {
+      text:t = "〓" 
+      align:i = 0 
+      pos:p2 = 0.0355, 0.09
+      move:b = no 
+    highlight:b=no
+ center:p2 = 0, -90; 
+      radialCenter:p2 = 8000.0, 0.0;
+      radialAngle:r = 0;
+      radialMoveSpeed:r = 2000.04;
+      moveRadial:b = yes;
+      size:r = 0.8 
+    }
+   text {
+      text:t = "〓" 
+      align:i = 0 
+      pos:p2 = 0.0295, 0.09
+      move:b = no 
+    highlight:b=no
+ center:p2 = 0, -90; 
+      radialCenter:p2 = 8000.0, 0.0;
+      radialAngle:r = 0;
+      radialMoveSpeed:r = 2000.04;
+      moveRadial:b = yes;
+      size:r = 0.8 
+    }
+   text {
+      text:t = "〓" 
+      align:i = 0 
+      pos:p2 = 0.0255, 0.09
+      move:b = no 
+    highlight:b=no
+ center:p2 = 0, -90; 
+      radialCenter:p2 = 8000.0, 0.0;
+      radialAngle:r = 0;
+      radialMoveSpeed:r = 2000.04;
+      moveRadial:b = yes;
+      size:r = 0.8 
+    }
+   text {
+      text:t = "〓" 
+      align:i = 0 
+      pos:p2 = 0.0195, 0.09
+      move:b = no 
+    highlight:b=no
+ center:p2 = 0, -90; 
+      radialCenter:p2 = 8000.0, 0.0;
+      radialAngle:r = 0;
+      radialMoveSpeed:r = 2000.04;
+      moveRadial:b = yes;
+      size:r = 0.8 
+    }
+   text {
+      text:t = "〓" 
+      align:i = 0 
+      pos:p2 = 0.0155, 0.09
+      move:b = no 
+    highlight:b=no
+ center:p2 = 0, -90; 
+      radialCenter:p2 = 8000.0, 0.0;
+      radialAngle:r = 0;
+      radialMoveSpeed:r = 2000.04;
+      moveRadial:b = yes;
+      size:r = 0.8 
+    }
+   text {
+      text:t = "〓" 
+      align:i = 0 
+      pos:p2 = 0.0095, 0.09
+      move:b = no 
+    highlight:b=no
+ center:p2 = 0, -90; 
+      radialCenter:p2 = 8000.0, 0.0;
+      radialAngle:r = 0;
+      radialMoveSpeed:r = 2000.04;
+      moveRadial:b = yes;
+      size:r = 0.8 
+    }
+   text {
+      text:t = "〓" 
+      align:i = 0 
+      pos:p2 = 0.0055, 0.09
+      move:b = no 
+    highlight:b=no
+ center:p2 = 0, -90; 
+      radialCenter:p2 = 8000.0, 0.0;
+      radialAngle:r = 0;
+      radialMoveSpeed:r = 2000.04;
+      moveRadial:b = yes;
+      size:r = 0.8 
+    }
+   text {
+      text:t = "〓" 
+      align:i = 0 
+      pos:p2 = 0.0000, 0.09
+      move:b = no 
+    highlight:b=no
+ center:p2 = 0, -90; 
+      radialCenter:p2 = 8000.0, 0.0;
+      radialAngle:r = 0;
+      radialMoveSpeed:r = 2000.04;
+      moveRadial:b = yes;
+      size:r = 0.8 
+    }
+   text {
+      text:t = "〓" 
+      align:i = 0 
+      pos:p2 = -0.0055, 0.09
+      move:b = no 
+    highlight:b=no
+ center:p2 = 0, -90; 
+      radialCenter:p2 = 8000.0, 0.0;
+      radialAngle:r = 0;
+      radialMoveSpeed:r = 2000.04;
+      moveRadial:b = yes;
+      size:r = 0.8 
+    }
+   text {
+      text:t = "〓" 
+      align:i = 0 
+      pos:p2 = -0.0095, 0.09
+      move:b = no 
+    highlight:b=no
+ center:p2 = 0, -90; 
+      radialCenter:p2 = 8000.0, 0.0;
+      radialAngle:r = 0;
+      radialMoveSpeed:r = 2000.04;
+      moveRadial:b = yes;
+      size:r = 0.8 
+    }
+   text {
+      text:t = "〓" 
+      align:i = 0 
+      pos:p2 = -0.0135, 0.09
+      move:b = no 
+    highlight:b=no
+ center:p2 = 0, -90; 
+      radialCenter:p2 = 8000.0, 0.0;
+      radialAngle:r = 0;
+      radialMoveSpeed:r = 2000.04;
+      moveRadial:b = yes;
+      size:r = 0.8 
+    }
+   text {
+      text:t = "〓" 
+      align:i = 0 
+      pos:p2 = -0.0140, 0.09
+      move:b = no 
+    highlight:b=no
+ center:p2 = 0, -90; 
+      radialCenter:p2 = 8000.0, 0.0;
+      radialAngle:r = 0;
+      radialMoveSpeed:r = 2000.04;
+      moveRadial:b = yes;
+      size:r = 0.8 
+    }
+
+
+
+//down
+   text {
+      text:t = "〓" 
+      align:i = 0 
+      pos:p2 = 0.0495, 0.09303
+      move:b = no 
+    highlight:b=no
+ center:p2 = 0, -90; 
+      radialCenter:p2 = 8000.0, 0.0;
+      radialAngle:r = 0;
+      radialMoveSpeed:r = 2000.04;
+      moveRadial:b = yes;
+      size:r = 0.8 
+    }
+   text {
+      text:t = "〓" 
+      align:i = 0 
+      pos:p2 = 0.0475, 0.09303
+      move:b = no 
+    highlight:b=no
+ center:p2 = 0, -90; 
+      radialCenter:p2 = 8000.0, 0.0;
+      radialAngle:r = 0;
+      radialMoveSpeed:r = 2000.04;
+      moveRadial:b = yes;
+      size:r = 0.8 
+    }
+   text {
+      text:t = "〓" 
+      align:i = 0 
+      pos:p2 = 0.0395, 0.09303
+      move:b = no 
+    highlight:b=no
+ center:p2 = 0, -90; 
+      radialCenter:p2 = 8000.0, 0.0;
+      radialAngle:r = 0;
+      radialMoveSpeed:r = 2000.04;
+      moveRadial:b = yes;
+      size:r = 0.8 
+    }
+   text {
+      text:t = "〓" 
+      align:i = 0 
+      pos:p2 = 0.0355, 0.09303
+      move:b = no 
+    highlight:b=no
+ center:p2 = 0, -90; 
+      radialCenter:p2 = 8000.0, 0.0;
+      radialAngle:r = 0;
+      radialMoveSpeed:r = 2000.04;
+      moveRadial:b = yes;
+      size:r = 0.8 
+    }
+   text {
+      text:t = "〓" 
+      align:i = 0 
+      pos:p2 = 0.0295, 0.09303
+      move:b = no 
+    highlight:b=no
+ center:p2 = 0, -90; 
+      radialCenter:p2 = 8000.0, 0.0;
+      radialAngle:r = 0;
+      radialMoveSpeed:r = 2000.04;
+      moveRadial:b = yes;
+      size:r = 0.8 
+    }
+   text {
+      text:t = "〓" 
+      align:i = 0 
+      pos:p2 = 0.0255, 0.09303
+      move:b = no 
+    highlight:b=no
+ center:p2 = 0, -90; 
+      radialCenter:p2 = 8000.0, 0.0;
+      radialAngle:r = 0;
+      radialMoveSpeed:r = 2000.04;
+      moveRadial:b = yes;
+      size:r = 0.8 
+    }
+   text {
+      text:t = "〓" 
+      align:i = 0 
+      pos:p2 = 0.0195, 0.09303
+      move:b = no 
+    highlight:b=no
+ center:p2 = 0, -90; 
+      radialCenter:p2 = 8000.0, 0.0;
+      radialAngle:r = 0;
+      radialMoveSpeed:r = 2000.04;
+      moveRadial:b = yes;
+      size:r = 0.8 
+    }
+   text {
+      text:t = "〓" 
+      align:i = 0 
+      pos:p2 = 0.0155, 0.09303
+      move:b = no 
+    highlight:b=no
+ center:p2 = 0, -90; 
+      radialCenter:p2 = 8000.0, 0.0;
+      radialAngle:r = 0;
+      radialMoveSpeed:r = 2000.04;
+      moveRadial:b = yes;
+      size:r = 0.8 
+    }
+   text {
+      text:t = "〓" 
+      align:i = 0 
+      pos:p2 = 0.0095, 0.09303
+      move:b = no 
+    highlight:b=no
+ center:p2 = 0, -90; 
+      radialCenter:p2 = 8000.0, 0.0;
+      radialAngle:r = 0;
+      radialMoveSpeed:r = 2000.04;
+      moveRadial:b = yes;
+      size:r = 0.8 
+    }
+   text {
+      text:t = "〓" 
+      align:i = 0 
+      pos:p2 = 0.0055, 0.09303
+      move:b = no 
+    highlight:b=no
+ center:p2 = 0, -90; 
+      radialCenter:p2 = 8000.0, 0.0;
+      radialAngle:r = 0;
+      radialMoveSpeed:r = 2000.04;
+      moveRadial:b = yes;
+      size:r = 0.8 
+    }
+   text {
+      text:t = "〓" 
+      align:i = 0 
+      pos:p2 = 0.0000, 0.09303
+      move:b = no 
+    highlight:b=no
+ center:p2 = 0, -90; 
+      radialCenter:p2 = 8000.0, 0.0;
+      radialAngle:r = 0;
+      radialMoveSpeed:r = 2000.04;
+      moveRadial:b = yes;
+      size:r = 0.8 
+    }
+   text {
+      text:t = "〓" 
+      align:i = 0 
+      pos:p2 = -0.0055, 0.09303
+      move:b = no 
+    highlight:b=no
+ center:p2 = 0, -90; 
+      radialCenter:p2 = 8000.0, 0.0;
+      radialAngle:r = 0;
+      radialMoveSpeed:r = 2000.04;
+      moveRadial:b = yes;
+      size:r = 0.8 
+    }
+   text {
+      text:t = "〓" 
+      align:i = 0 
+      pos:p2 = -0.0095, 0.09303
+      move:b = no 
+    highlight:b=no
+ center:p2 = 0, -90; 
+      radialCenter:p2 = 8000.0, 0.0;
+      radialAngle:r = 0;
+      radialMoveSpeed:r = 2000.04;
+      moveRadial:b = yes;
+      size:r = 0.8 
+    }
+   text {
+      text:t = "〓" 
+      align:i = 0 
+      pos:p2 = -0.0135, 0.09303
+      move:b = no 
+    highlight:b=no
+ center:p2 = 0, -90; 
+      radialCenter:p2 = 8000.0, 0.0;
+      radialAngle:r = 0;
+      radialMoveSpeed:r = 2000.04;
+      moveRadial:b = yes;
+      size:r = 0.8 
+    }
+   text {
+      text:t = "〓" 
+      align:i = 0 
+      pos:p2 = -0.0140, 0.09303
+      move:b = no 
+    highlight:b=no
+ center:p2 = 0, -90; 
+      radialCenter:p2 = 8000.0, 0.0;
+      radialAngle:r = 0;
+      radialMoveSpeed:r = 2000.04;
+      moveRadial:b = yes;
+      size:r = 0.8 
+    }
+
+
+
+//[[[[[[[[[[[[[[[[[[[[[[[
+   text {
+      text:t = "[" 
+      align:i = 0 
+      pos:p2 = -0.02, 0.09
+      move:b = no 
+    highlight:b=no
+ center:p2 = 0, -90; 
+      radialCenter:p2 = 8000.0, 0.0;
+      radialAngle:r = 0;
+      radialMoveSpeed:r = 2000.04;
+      moveRadial:b = yes;
+      size:r = 0.8
+    }
+   text {
+      text:t = "[" 
+      align:i = 0 
+      pos:p2 = -0.02, 0.09
+      move:b = no 
+    highlight:b=no
+ center:p2 = 0, -90; 
+      radialCenter:p2 = 8000.0, 0.0;
+      radialAngle:r = 0;
+      radialMoveSpeed:r = 2000.04;
+      moveRadial:b = yes;
+      size:r = 0.8
+    }
+   text {
+      text:t = "[" 
+      align:i = 0 
+      pos:p2 = -0.019, 0.09
+      move:b = no 
+    highlight:b=no
+ center:p2 = 0, -90; 
+      radialCenter:p2 = 8000.0, 0.0;
+      radialAngle:r = 0;
+      radialMoveSpeed:r = 2000.04;
+      moveRadial:b = yes;
+      size:r = 0.8
+    }
+
+
+
+
+
+
+
+
+
+///teeeeeeeeeeeeeeeeexxxxxxxxxxxxxxxxxxxxxxtttttttttttttttttttttttttttt
+    text {
+      text:t = "0 0 0 0" 
+      align:i = 0 
+      pos:p2 = 15.3, 75.4
+      move:b = no 
+      thousandth:b = yes 
+      size:r = 0.825
+    highlight:b=yes
+     center:p2 = 0, -90; 
+      radialCenter:p2 = 8000.0, 0.0;
+      radialAngle:r = 0;
+      radialMoveSpeed:r = 2000.04;
+      moveRadial:b = yes;
+      thousandth:b = true;
+    }
+
+
+    text {
+      text:t = "ОСН" 
+      align:i = 0 
+      pos:p2 = 74.85, 75.3
+      move:b = no 
+      thousandth:b = yes 
+      size:r = 0.8 
+    highlight:b=yes
+     center:p2 = 0, -90; 
+      radialCenter:p2 = 8000.0, 0.0;
+      radialAngle:r = 0;
+      radialMoveSpeed:r = 2000.04;
+      moveRadial:b = no;
+      thousandth:b = true;
+    }
+    text {
+      text:t = "П" 
+      align:i = 0 
+      pos:p2 = -37.45, 75.3
+      move:b = no 
+      thousandth:b = yes 
+      size:r = 0.8
+    highlight:b=yes
+     center:p2 = 0, -90; 
+      radialCenter:p2 = 8000.0, 0.0;
+      radialAngle:r = 0;
+      radialMoveSpeed:r = 2000.04;
+      moveRadial:b = no;
+      thousandth:b = true;
+    }
+    text {
+      text:t = "ГОТ" 
+      align:i = 0 
+      pos:p2 = -85, 75.3
+      move:b = no 
+      thousandth:b = yes 
+      size:r = 0.8
+    highlight:b=yes
+     center:p2 = 0, -90; 
+      radialCenter:p2 = 8000.0, 0.0;
+      radialAngle:r = 0;
+      radialMoveSpeed:r = 2000.04;
+      moveRadial:b = no;
+      thousandth:b = true;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//SQUAREeeeeeeeeeeeeeeeeeeeeeeeee
+//bottommmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = -0.35, 0.21
+    move:b = false
+    highlight:b=no
+    size:r = 14
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = -0.25, 0.21
+    move:b = false
+    highlight:b=no
+    size:r = 14
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = -0.15, 0.21
+    move:b = false
+    highlight:b=no
+    size:r = 14
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = -0.05, 0.21
+    move:b = false
+    highlight:b=no
+    size:r = 14
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.00, 0.21
+    move:b = false
+    highlight:b=no
+    size:r = 14
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.05, 0.21
+    move:b = false
+    highlight:b=no
+    size:r = 14
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.15, 0.21
+    move:b = false
+    highlight:b=no
+    size:r = 14
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.25, 0.21
+    move:b = false
+    highlight:b=no
+    size:r = 14
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.35, 0.21
+    move:b = false
+    highlight:b=no
+    size:r = 14
+   }
+
+/////////////////////////////
+
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = -0.35, 0.27
+    move:b = false
+    highlight:b=no
+    size:r = 14
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = -0.25, 0.27
+    move:b = false
+    highlight:b=no
+    size:r = 14
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = -0.15, 0.27
+    move:b = false
+    highlight:b=no
+    size:r = 14
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = -0.05, 0.27
+    move:b = false
+    highlight:b=no
+    size:r = 14
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.05, 0.27
+    move:b = false
+    highlight:b=no
+    size:r = 14
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.15, 0.27
+    move:b = false
+    highlight:b=no
+    size:r = 14
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.25, 0.27
+    move:b = false
+    highlight:b=no
+    size:r = 14
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.35, 0.27
+    move:b = false
+    highlight:b=no
+    size:r = 14
+   }
+
+
+
+
+//toooooooooooooopppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppp
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = -0.35, -0.25
+    move:b = false
+    highlight:b=no
+    size:r = 14
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = -0.25, -0.25
+    move:b = false
+    highlight:b=no
+    size:r = 14
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = -0.15, -0.25
+    move:b = false
+    highlight:b=no
+    size:r = 14
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = -0.05, -0.25
+    move:b = false
+    highlight:b=no
+    size:r = 14
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.00, -0.25
+    move:b = false
+    highlight:b=no
+    size:r = 14
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.05, -0.25
+    move:b = false
+    highlight:b=no
+    size:r = 14
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.15, -0.25
+    move:b = false
+    highlight:b=no
+    size:r = 14
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.25, -0.25
+    move:b = false
+    highlight:b=no
+    size:r = 14
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.35, -0.25
+    move:b = false
+    highlight:b=no
+    size:r = 14
+   }
+
+////////////////////////////////////////
+
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = -0.35, -0.31
+    move:b = false
+    highlight:b=no
+    size:r = 14
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = -0.25, -0.31
+    move:b = false
+    highlight:b=no
+    size:r = 14
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = -0.15, -0.31
+    move:b = false
+    highlight:b=no
+    size:r = 14
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = -0.05, -0.31
+    move:b = false
+    highlight:b=no
+    size:r = 14
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.05, -0.31
+    move:b = false
+    highlight:b=no
+    size:r = 14
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.15, -0.31
+    move:b = false
+    highlight:b=no
+    size:r = 14
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.25, -0.31
+    move:b = false
+    highlight:b=no
+    size:r = 14
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.35, -0.31
+    move:b = false
+    highlight:b=no
+    size:r = 14
+   }
+
+
+
+
+
+
+
+//leeeeeeeeeeefffffffffffffffffffftttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttt
+text {
+    text:t = "]"
+    align:i = 0
+    pos:p2 = -0.216, -0.20
+    move:b = false
+    highlight:b=no
+    size:r = 12
+   }
+text {
+    text:t = "]"
+    align:i = 0
+    pos:p2 = -0.216, -0.15
+    move:b = false
+    highlight:b=no
+    size:r = 12
+   }
+text {
+    text:t = "]"
+    align:i = 0
+    pos:p2 = -0.216, -0.10
+    move:b = false
+    highlight:b=no
+    size:r = 12
+   }
+text {
+    text:t = "]"
+    align:i = 0
+    pos:p2 = -0.216, -0.05
+    move:b = false
+    highlight:b=no
+    size:r = 12
+   }
+text {
+    text:t = "]"
+    align:i = 0
+    pos:p2 = -0.216, 0.00
+    move:b = false
+    highlight:b=no
+    size:r = 12
+   }
+text {
+    text:t = "]"
+    align:i = 0
+    pos:p2 = -0.216, 0.05
+    move:b = false
+    highlight:b=no
+    size:r = 12
+   }
+text {
+    text:t = "]"
+    align:i = 0
+    pos:p2 = -0.216, 0.10
+    move:b = false
+    highlight:b=no
+    size:r = 12
+   }
+text {
+    text:t = "]"
+    align:i = 0
+    pos:p2 = -0.216, 0.15
+    move:b = false
+    highlight:b=no
+    size:r = 12
+   }
+
+///////////////////
+
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = -0.3, -0.10
+    move:b = false
+    highlight:b=no
+    size:r = 12
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = -0.3, -0.05
+    move:b = false
+    highlight:b=no
+    size:r = 12
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = -0.3, 0.00
+    move:b = false
+    highlight:b=no
+    size:r = 12
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = -0.3, 0.05
+    move:b = false
+    highlight:b=no
+    size:r = 12
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = -0.3, 0.10
+    move:b = false
+    highlight:b=no
+    size:r = 12
+   }
+
+
+//riiiiiiiiiggggggggggggggggggggggghhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhttttttttttttttttttttttttttttttttttttttt
+text {
+    text:t = "["
+    align:i = 0
+    pos:p2 = 0.216, -0.20
+    move:b = false
+    highlight:b=no
+    size:r = 12
+   }
+text {
+    text:t = "["
+    align:i = 0
+    pos:p2 = 0.216, -0.15
+    move:b = false
+    highlight:b=no
+    size:r = 12
+   }
+text {
+    text:t = "["
+    align:i = 0
+    pos:p2 = 0.216, -0.10
+    move:b = false
+    highlight:b=no
+    size:r = 12
+   }
+text {
+    text:t = "["
+    align:i = 0
+    pos:p2 = 0.216, -0.05
+    move:b = false
+    highlight:b=no
+    size:r = 12
+   }
+text {
+    text:t = "["
+    align:i = 0
+    pos:p2 = 0.216, 0.00
+    move:b = false
+    highlight:b=no
+    size:r = 12
+   }
+text {
+    text:t = "["
+    align:i = 0
+    pos:p2 = 0.216, 0.05
+    move:b = false
+    highlight:b=no
+    size:r = 12
+   }
+text {
+    text:t = "["
+    align:i = 0
+    pos:p2 = 0.216, 0.10
+    move:b = false
+    highlight:b=no
+    size:r = 12
+   }
+text {
+    text:t = "["
+    align:i = 0
+    pos:p2 = 0.216, 0.15
+    move:b = false
+    highlight:b=no
+    size:r = 12
+   }
+
+///////////////////
+
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.3, -0.10
+    move:b = false
+    highlight:b=no
+    size:r = 12
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.3, -0.05
+    move:b = false
+    highlight:b=no
+    size:r = 12
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.3, 0.00
+    move:b = false
+    highlight:b=no
+    size:r = 12
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.3, 0.05
+    move:b = false
+    highlight:b=no
+    size:r = 12
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.3, 0.10
+    move:b = false
+    highlight:b=no
+    size:r = 12
+   }
+
+
+
+
+
+
+
+
+
+
+
+////////////////////////////////////////////////////////////////////////////xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx22222222222222222222222222222
+//bottommmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = -0.35, 0.21
+    move:b = false
+    highlight:b=no
+    size:r = 14
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = -0.25, 0.21
+    move:b = false
+    highlight:b=no
+    size:r = 14
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = -0.15, 0.21
+    move:b = false
+    highlight:b=no
+    size:r = 14
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = -0.05, 0.21
+    move:b = false
+    highlight:b=no
+    size:r = 14
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.00, 0.21
+    move:b = false
+    highlight:b=no
+    size:r = 14
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.05, 0.21
+    move:b = false
+    highlight:b=no
+    size:r = 14
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.15, 0.21
+    move:b = false
+    highlight:b=no
+    size:r = 14
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.25, 0.21
+    move:b = false
+    highlight:b=no
+    size:r = 14
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.35, 0.21
+    move:b = false
+    highlight:b=no
+    size:r = 14
+   }
+
+/////////////////////////////
+
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = -0.35, 0.27
+    move:b = false
+    highlight:b=no
+    size:r = 14
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = -0.25, 0.27
+    move:b = false
+    highlight:b=no
+    size:r = 14
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = -0.15, 0.27
+    move:b = false
+    highlight:b=no
+    size:r = 14
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = -0.05, 0.27
+    move:b = false
+    highlight:b=no
+    size:r = 14
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.05, 0.27
+    move:b = false
+    highlight:b=no
+    size:r = 14
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.15, 0.27
+    move:b = false
+    highlight:b=no
+    size:r = 14
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.25, 0.27
+    move:b = false
+    highlight:b=no
+    size:r = 14
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.35, 0.27
+    move:b = false
+    highlight:b=no
+    size:r = 14
+   }
+
+
+
+
+//toooooooooooooopppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppp
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = -0.35, -0.25
+    move:b = false
+    highlight:b=no
+    size:r = 14
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = -0.25, -0.25
+    move:b = false
+    highlight:b=no
+    size:r = 14
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = -0.15, -0.25
+    move:b = false
+    highlight:b=no
+    size:r = 14
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = -0.05, -0.25
+    move:b = false
+    highlight:b=no
+    size:r = 14
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.00, -0.25
+    move:b = false
+    highlight:b=no
+    size:r = 14
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.05, -0.25
+    move:b = false
+    highlight:b=no
+    size:r = 14
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.15, -0.25
+    move:b = false
+    highlight:b=no
+    size:r = 14
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.25, -0.25
+    move:b = false
+    highlight:b=no
+    size:r = 14
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.35, -0.25
+    move:b = false
+    highlight:b=no
+    size:r = 14
+   }
+
+////////////////////////////////////////
+
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = -0.35, -0.31
+    move:b = false
+    highlight:b=no
+    size:r = 14
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = -0.25, -0.31
+    move:b = false
+    highlight:b=no
+    size:r = 14
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = -0.15, -0.31
+    move:b = false
+    highlight:b=no
+    size:r = 14
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = -0.05, -0.31
+    move:b = false
+    highlight:b=no
+    size:r = 14
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.05, -0.31
+    move:b = false
+    highlight:b=no
+    size:r = 14
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.15, -0.31
+    move:b = false
+    highlight:b=no
+    size:r = 14
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.25, -0.31
+    move:b = false
+    highlight:b=no
+    size:r = 14
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.35, -0.31
+    move:b = false
+    highlight:b=no
+    size:r = 14
+   }
+
+
+
+
+
+
+
+//leeeeeeeeeeefffffffffffffffffffftttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttt
+text {
+    text:t = "]"
+    align:i = 0
+    pos:p2 = -0.216, -0.20
+    move:b = false
+    highlight:b=no
+    size:r = 12
+   }
+text {
+    text:t = "]"
+    align:i = 0
+    pos:p2 = -0.216, -0.15
+    move:b = false
+    highlight:b=no
+    size:r = 12
+   }
+text {
+    text:t = "]"
+    align:i = 0
+    pos:p2 = -0.216, -0.10
+    move:b = false
+    highlight:b=no
+    size:r = 12
+   }
+text {
+    text:t = "]"
+    align:i = 0
+    pos:p2 = -0.216, -0.05
+    move:b = false
+    highlight:b=no
+    size:r = 12
+   }
+text {
+    text:t = "]"
+    align:i = 0
+    pos:p2 = -0.216, 0.00
+    move:b = false
+    highlight:b=no
+    size:r = 12
+   }
+text {
+    text:t = "]"
+    align:i = 0
+    pos:p2 = -0.216, 0.05
+    move:b = false
+    highlight:b=no
+    size:r = 12
+   }
+text {
+    text:t = "]"
+    align:i = 0
+    pos:p2 = -0.216, 0.10
+    move:b = false
+    highlight:b=no
+    size:r = 12
+   }
+text {
+    text:t = "]"
+    align:i = 0
+    pos:p2 = -0.216, 0.15
+    move:b = false
+    highlight:b=no
+    size:r = 12
+   }
+
+
+//riiiiiiiiiggggggggggggggggggggggghhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhttttttttttttttttttttttttttttttttttttttt
+text {
+    text:t = "["
+    align:i = 0
+    pos:p2 = 0.216, -0.20
+    move:b = false
+    highlight:b=no
+    size:r = 12
+   }
+text {
+    text:t = "["
+    align:i = 0
+    pos:p2 = 0.216, -0.15
+    move:b = false
+    highlight:b=no
+    size:r = 12
+   }
+text {
+    text:t = "["
+    align:i = 0
+    pos:p2 = 0.216, -0.10
+    move:b = false
+    highlight:b=no
+    size:r = 12
+   }
+text {
+    text:t = "["
+    align:i = 0
+    pos:p2 = 0.216, -0.05
+    move:b = false
+    highlight:b=no
+    size:r = 12
+   }
+text {
+    text:t = "["
+    align:i = 0
+    pos:p2 = 0.216, 0.00
+    move:b = false
+    highlight:b=no
+    size:r = 12
+   }
+text {
+    text:t = "["
+    align:i = 0
+    pos:p2 = 0.216, 0.05
+    move:b = false
+    highlight:b=no
+    size:r = 12
+   }
+text {
+    text:t = "["
+    align:i = 0
+    pos:p2 = 0.216, 0.10
+    move:b = false
+    highlight:b=no
+    size:r = 12
+   }
+text {
+    text:t = "["
+    align:i = 0
+    pos:p2 = 0.216, 0.15
+    move:b = false
+    highlight:b=no
+    size:r = 12
+   }
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+drawLines{
+//sight reticle
+  line{
+    line:p4=-23, 0, 23, 0
+    move:b=no
+thousandth:b = yes
+  }
+
+  line{
+    line:p4=26, 0, 32, 0
+    move:b=no
+thousandth:b = yes
+  }
+
+  line{
+    line:p4=-26, 0, -32, 0
+    move:b=no
+thousandth:b = yes
+  }
+
+  line{
+    line:p4=0, -13, 0, 13
+    move:b=no
+thousandth:b = yes
+  }
+
+  line{
+    line:p4=0, -15, 0, -19
+    move:b=no
+thousandth:b = yes
+  }
+
+  line{
+    line:p4=0, 15, 0, 19
+    move:b=no
+thousandth:b = yes
+  }
+
+
+
+
+
+
+
+
+
+
+
+//indicators frames
+// Distance
+  line{
+    line:p4=-16.5, 71.3, 47, 71.3
+    move:b=no
+thousandth:b = yes
+  }
+
+  line{
+    line:p4=-16.5, 81.3, 47, 81.3
+    move:b=no
+thousandth:b = yes
+  }
+////
+  line{
+    line:p4=-16.5, 71.3, -16.5, 81.3
+    move:b=no
+thousandth:b = yes
+  }
+
+  line{
+    line:p4=47, 71.3, 47, 81.3
+    move:b=no
+thousandth:b = yes
+  }
+//--------------------------------
+  line{
+    line:p4=-16.5, 71.4, 47, 71.4
+    move:b=no
+thousandth:b = yes
+  }
+
+  line{
+    line:p4=-16.5, 81.2, 47, 81.2
+    move:b=no
+thousandth:b = yes
+  }
+////
+  line{
+    line:p4=-16.6, 71.3, -16.6, 81.3
+    move:b=no
+thousandth:b = yes
+  }
+
+  line{
+    line:p4=46.9, 71.3, 46.9, 81.3
+    move:b=no
+thousandth:b = yes
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/////xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx2222222222222222222222222222222222222222222222222
+//sight reticle
+  line{
+    line:p4=-23, 0, 23, 0
+    move:b=no
+thousandth:b = yes
+  }
+
+  line{
+    line:p4=26, 0, 32, 0
+    move:b=no
+thousandth:b = yes
+  }
+
+  line{
+    line:p4=-26, 0, -32, 0
+    move:b=no
+thousandth:b = yes
+  }
+
+  line{
+    line:p4=0, -13, 0, 13
+    move:b=no
+thousandth:b = yes
+  }
+
+  line{
+    line:p4=0, -15, 0, -19
+    move:b=no
+thousandth:b = yes
+  }
+
+  line{
+    line:p4=0, 15, 0, 19
+    move:b=no
+thousandth:b = yes
+  }
+
+
+
+
+
+
+
+
+
+
+
+//indicators frames
+// Distance
+  line{
+    line:p4=-16.5, 71.3, 47, 71.3
+    move:b=no
+thousandth:b = yes
+  }
+
+  line{
+    line:p4=-16.5, 81.3, 47, 81.3
+    move:b=no
+thousandth:b = yes
+  }
+////
+  line{
+    line:p4=-16.5, 71.3, -16.5, 81.3
+    move:b=no
+thousandth:b = yes
+  }
+
+  line{
+    line:p4=47, 71.3, 47, 81.3
+    move:b=no
+thousandth:b = yes
+  }
+//--------------------------------
+  line{
+    line:p4=-16.5, 71.4, 47, 71.4
+    move:b=no
+thousandth:b = yes
+  }
+
+  line{
+    line:p4=-16.5, 81.2, 47, 81.2
+    move:b=no
+thousandth:b = yes
+  }
+////
+  line{
+    line:p4=-16.6, 71.3, -16.6, 81.3
+    move:b=no
+thousandth:b = yes
+  }
+
+  line{
+    line:p4=46.9, 71.3, 46.9, 81.3
+    move:b=no
+thousandth:b = yes
+  }
+
+
+
+
+}

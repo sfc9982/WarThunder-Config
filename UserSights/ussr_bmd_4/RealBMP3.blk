@@ -1,0 +1,171 @@
+rangefinderProgressBarColor1:c=255, 255, 255, 255
+rangefinderProgressBarColor2:c=0, 0, 0, 255
+rangefinderTextScale:r=1.0
+rangefinderVerticalOffset:r=1.6
+rangefinderHorizontalOffset:r=55
+fontSizeMult:r=0.35
+lineSizeMult:r=1.0
+drawCentralLineVert:b=no
+drawCentralLineHorz:b=no
+drawDistanceCorrection:b=yes
+distanceCorrectionPos:p2=-0.1, -0.05
+drawSightMask:b=yes
+crosshairDistHorSizeMain:p2=0, 0
+crosshairHorVertSize:p2=0.5, 0.5
+crosshairDistHorSizeAdditional:p2=0.007, 0.0025
+rangefinderUseThousandth:b=yes
+crosshair_hor_ranges{}
+crosshairColor:c = 0, 0, 0, 255
+crosshairLightColor:c = 220, 255, 0, 255
+
+// ballistic range indicators
+drawUpward:b = no
+distancePos:p2 = 0.0,0
+move:b = yes
+crosshairDistHorSizeMain:p2 = 0,0
+textPos:p2 = 0.010, 0
+textAlign:i = 1
+textShift:r = 0
+drawAdditionalLines:b = no
+crosshairDistHorSizeAdditional:p2 = 0.0,0.0
+drawDistanceCorrection:b = no
+
+crosshair_distances{
+}
+drawLines{		
+line{ 			//горизонтальные линии
+line:p4= 250.7, 0, -250, 0
+move:b=yes
+thousandth:b=yes
+}
+line{
+line:p4= -250.7, 0, 250, 0
+move:b=yes
+thousandth:b=yes
+}
+line{ 			//вертикальные линии
+line:p4= 0, 0, 0, -5
+move:b=yes
+thousandth:b=yes
+}
+line{
+line:p4= -3, 0, -3, -5
+move:b=yes
+thousandth:b=yes
+}
+line{
+line:p4= -6, 0, -6, -5
+move:b=yes
+thousandth:b=yes
+}
+line{
+line:p4= -9, 0, -9, -5
+move:b=yes
+thousandth:b=yes
+}
+line{
+line:p4= 3, 0, 3, -5
+move:b=yes
+thousandth:b=yes
+}
+line{
+line:p4= 6, 0, 6, -5
+move:b=yes
+thousandth:b=yes
+}
+line{
+line:p4= 9, 0, 9, -5
+move:b=yes
+thousandth:b=yes
+}
+line{			//центральное перекрестье
+line:p4= 0, 0, -0.5, 1
+move:b=no
+thousandth:b=yes
+}
+line{
+line:p4= 0, 0, 0.5, 1
+move:b=no
+thousandth:b=yes
+}			//дополнительные черточки
+line{
+line:p4= -3, 2.35, 0.0, 2.35
+move:b=yes
+thousandth:b=yes
+}
+line{
+line:p4= -3, 6.2, 0.0, 6.2
+move:b=yes
+thousandth:b=yes
+}
+line{
+line:p4= -3, 10.0, 0.0, 10.0
+move:b=yes
+thousandth:b=yes
+}   			//Основные риски
+line{
+line:p4= -6.0, 4.3, 0.0, 4.3
+move:b=yes
+thousandth:b=yes
+}
+line{
+line:p4= -6.0, 8.3, 0.0, 8.3
+move:b=yes
+thousandth:b=yes
+}
+line{
+line:p4= -6.0, 12.3, 0.0, 12.3
+move:b=yes
+thousandth:b=yes
+}
+}
+
+drawCircles{
+	circle {
+	segment:p2 = 0, 360;
+	pos:p2 = 0, 0;
+	diameter:r = 60;
+	size:r = 3.0;
+	move:b = no
+	thousandth:b = yes;
+	}
+}
+
+drawTexts{
+	text{
+	text:t = "30"
+	align:i = 0
+	pos:p2 = 0, -12
+	move:b = yes
+	thousandth:b = yes
+	size:r = 2.5
+	highlight:b=yes
+	}
+	text{
+	text:t = "10"
+	align:i = 0
+	pos:p2 = -8, 4.1
+	move:b = yes
+	thousandth:b = yes
+	size:r = 1.5
+	highlight:b=yes
+	}	
+	text{
+	text:t = "20"
+	align:i = 0
+	pos:p2 = -8, 8.2
+	move:b = yes
+	thousandth:b = yes
+	size:r = 1.5
+	highlight:b=yes
+	}
+	text{
+	text:t = "30"
+	align:i = 0
+	pos:p2 = -8, 12.3
+	move:b = yes
+	thousandth:b = yes
+	size:r = 1.5
+	highlight:b=yes
+	}
+}

@@ -1,0 +1,166 @@
+crosshairHorVertSize:p2=0, 0
+rangefinderProgressBarColor1:c=0, 255, 0, 0
+rangefinderProgressBarColor2:c=0, 255, 0, 0
+rangefinderTextScale:r=1.0
+rangefinderVerticalOffset:r=-21.5
+rangefinderHorizontalOffset:r=-70
+fontSizeMult:r=0.8
+lineSizeMult:r= 0.8
+drawCentralLineVert:b=no
+drawCentralLineHorz:b=no
+crosshairDistHorSizeMain:p2=0.03, 0.02
+crosshairDistHorSizeAdditional:p2=0.005, 0.003
+distanceCorrectionPos:p2= 0.015, 0.107
+drawDistanceCorrection:b=yes
+
+crosshairColor:c =  255,255,255
+crosshairLightColor:c = 0,0,0
+
+
+
+
+crosshair_distances{
+}
+
+crosshair_hor_ranges{
+}
+
+drawLines{
+
+
+
+
+
+//l
+//r
+line { line:p4 = 21, 23.5, 21, 19.5; thousandth:b = true; }
+line { line:p4 = 3, 23.5, 3, 19.5; thousandth:b = true; }
+//l
+line { line:p4 = -3, 23.5, -3, 19.5; thousandth:b = true; }
+line { line:p4 = -15, 23.5, -15, 19.5; thousandth:b = true; }
+
+//-
+//r
+line { line:p4 = 21, 23.5, 3, 23.5; thousandth:b = true; }
+line { line:p4 = 21, 19.5, 3, 19.5; thousandth:b = true; }
+//l
+line { line:p4 = -15, 23.5, -3, 23.5; thousandth:b = true; }
+line { line:p4 = -15, 19.5, -3, 19.5; thousandth:b = true; }
+
+
+
+
+//+
+line { line:p4 = 0, -5, 0, 5; thousandth:b = true; }
+line { line:p4 = 0.05, -5, 0.05, 5; thousandth:b = true; }
+line { line:p4 = -0.05, -5, -0.05, 5; thousandth:b = true; }
+
+line { line:p4 = -9, 0, 9, 0 ; thousandth:b = true; }
+line { line:p4 = -9, 0.05, 9, 0.05 ; thousandth:b = true; }
+line { line:p4 = -9, -0.05, 9, -0.05 ; thousandth:b = true; }
+
+//:- -
+
+line { line:p4 = 0.1, -9, 0.1, -13; thousandth:b = true; }
+line { line:p4 = 0, -9, 0, -13; thousandth:b = true; }
+line { line:p4 = -0.1, -9, -0.1, -13; thousandth:b = true; }
+
+line { line:p4 = 0.1, 9, 0.1, 13; thousandth:b = true; }
+line { line:p4 = 0, 9, 0, 13; thousandth:b = true; }
+line { line:p4 = -0.1, 9, -0.1, 13; thousandth:b = true; }
+
+
+line { line:p4 = -13, 0, -20, 0; thousandth:b = true; }
+line { line:p4 = -13, 0.1, -20, 0.1; thousandth:b = true; }
+line { line:p4 = -13, -0.1, -20, -0.1; thousandth:b = true; }
+
+line { line:p4 = 13, 0, 20, 0; thousandth:b = true; }
+line { line:p4 = 13, 0.1, 20, 0.1; thousandth:b = true; }
+line { line:p4 = 13, -0.1, 20, -0.1; thousandth:b = true; }
+
+
+//zoom spuare
+//zoom left down
+
+
+line { line:p4 = -33, 18, -33, 28; thousandth:b = true; }
+line { line:p4 = -32.92, 18, -32.92, 28; thousandth:b = true; }
+line { line:p4 = -32.94, 18, -32.94, 28; thousandth:b = true; }
+
+line { line:p4 = -33, 28, -23, 28; thousandth:b = true; }
+line { line:p4 = -33, 27.92, -23, 27.92; thousandth:b = true; }
+line { line:p4 = -33, 27.94, -23, 27.94; thousandth:b = true; }
+
+
+//zoom right down
+line { line:p4 = 33, 28, 23, 28; thousandth:b = true; }
+line { line:p4 = 33, 27.92, 23, 27.92; thousandth:b = true; }
+line { line:p4 = 33, 27.94, 23, 27.94; thousandth:b = true; }
+
+line { line:p4 = 33, 28, 33, 18; thousandth:b = true; }
+line { line:p4 = 32.92, 28, 32.92, 18; thousandth:b = true; }
+line { line:p4 = 32.94, 28, 32.94, 18; thousandth:b = true; }
+
+
+//zoom right up
+
+line { line:p4 = 33, -28, 33, -18; thousandth:b = true; }
+line { line:p4 = 32.92, -28, 32.92, -18; thousandth:b = true; }
+line { line:p4 = 32.94, -28, 32.94, -18; thousandth:b = true; }
+
+
+line { line:p4 = 33, -28, 23, -28; thousandth:b = true; }
+line { line:p4 = 33, -27.92, 23, -27.92; thousandth:b = true; }
+line { line:p4 = 33, -27.94, 23, -27.94; thousandth:b = true; }
+
+
+//zoom left up
+
+line { line:p4 = -33, -28, -23, -28; thousandth:b = true; }
+line { line:p4 = -33, -27.92, -23, -27.92; thousandth:b = true; }
+line { line:p4 = -33, -27.94, -23, -27.94; thousandth:b = true; }
+
+
+line { line:p4 = -33, -28, -33, -18; thousandth:b = true; }
+line { line:p4 = -33, -27.9, -32.92, -18; thousandth:b = true; }
+line { line:p4 = -33, -27.95, -32.94, -18; thousandth:b = true; }
+
+
+
+//no zoom
+
+
+line { line:p4 = 95, 65, 70, 65; thousandth:b = true; }
+line { line:p4 = 95, 65.2, 70, 65.2; thousandth:b = true; }
+
+line { line:p4 = 95, 65.2, 95.2, 40; thousandth:b = true; }
+line { line:p4 = 95, 65, 95.2, 40; thousandth:b = true; }
+
+
+line { line:p4 = -95, 65, -70, 65; thousandth:b = true; }
+line { line:p4 = -95, 65.2, -70, 65.2; thousandth:b = true; }
+
+line { line:p4 = -95, 65.2, -95.2, 40; thousandth:b = true; }
+line { line:p4 = -95, 65, -95.2, 40; thousandth:b = true; }
+
+
+
+line { line:p4 = -95, -65, -70, -65; thousandth:b = true; }
+line { line:p4 = -95, -65.2, -70, -65.2; thousandth:b = true; }
+
+line { line:p4 = -95, -65.2, -95.2, -40; thousandth:b = true; }
+line { line:p4 = -95, -65, -95.2, -40; thousandth:b = true; }
+
+
+line { line:p4 = 95, -65, 70, -65; thousandth:b = true; }
+line { line:p4 = 95, -65.2, 70, -65.2; thousandth:b = true; }
+
+line { line:p4 = 95, -65.2, 95.2, -40; thousandth:b = true; }
+line { line:p4 = 95, -65, 95.2, -40; thousandth:b = true; }
+
+
+
+
+
+}
+

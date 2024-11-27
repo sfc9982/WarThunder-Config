@@ -1,0 +1,4649 @@
+crosshairHorVertSize:p2=3, 2
+rangefinderProgressBarColor1:c=0, 255, 0, 64
+rangefinderProgressBarColor2:c=255, 255, 255, 64
+rangefinderTextScale:r= 0.7
+rangefinderUseThousandth:b=yes
+rangefinderVerticalOffset:r= -30
+rangefinderHorizontalOffset:r= -150
+drawCentralLineVert:b=no
+drawCentralLineHorz:b=no
+fontSizeMult:r = 2
+lineSizeMult:r = 1.5
+drawSightMask:b=yes
+crosshairDistHorSizeMain:p2=0.03, 0.02
+crosshairDistHorSizeAdditional:p2= 0.00, 0.00
+distanceCorrectionPos:p2= 0.07, 0.151
+drawDistanceCorrection:b=yes
+crosshairColor:c = 255,255,255,1000 
+crosshairLightColor:c = 237, 234, 222,1000 
+
+crosshair_distances{}
+
+crosshair_hor_ranges {}
+
+
+drawLines{
+//small square
+ line{
+    line:p4= 3.5, 3.05, 2.15, 3.05
+    move:b = no
+    size:r = 5
+    thousandth:b = true
+  }
+ line{
+    line:p4= 3.5, 3.0, 3.5, 1.65
+    move:b=no
+    thousandth:b = true
+  } 
+
+
+ line{
+    line:p4= 3.5, -3.05, 2.15, -3.05
+    move:b = no
+    size:r = 5
+    thousandth:b = true
+  }
+ line{
+    line:p4= 3.5, -3.0, 3.5, -1.65
+    move:b=no
+    thousandth:b = true
+  }  
+
+
+ line{
+    line:p4= -3.5, 3.05, -2.15, 3.05
+    move:b = no
+    size:r = 5
+    thousandth:b = true
+  }
+ line{
+    line:p4= -3.5, 3.0, -3.5, 1.65
+    move:b=no
+    thousandth:b = true
+  } 
+
+
+ line{
+    line:p4= -3.5, -3.05, -2.15, -3.05
+    move:b = no
+    size:r = 5
+    thousandth:b = true
+  }
+ line{
+    line:p4= -3.5, -3.0, -3.5, -1.65
+    move:b=no
+    thousandth:b = true
+  } 
+
+
+ line{
+    line:p4= 0.0, 0.0, 0.0, 0.65
+    move:b=no
+    thousandth:b = true
+  } 
+ line{
+    line:p4= 0.0, 1.175, 0.0, 1.825
+    move:b=no
+    thousandth:b = true
+  } 
+ line{
+    line:p4= 0.0, 2.35, 0.0, 3.00
+    move:b=no
+    thousandth:b = true
+  } 
+
+
+//big square
+line{
+    line:p4= -4, -30, 4, -30
+    move:b = no
+    size:r = 5
+    thousandth:b = true
+  } line{
+    line:p4= 20, -30, 12, -30
+    move:b = no
+    size:r = 5
+    thousandth:b = true
+  } line{
+    line:p4= -20, -30, -12, -30
+    move:b = no
+    size:r = 5
+    thousandth:b = true
+  }
+////
+line{
+    line:p4= -4, 30, 4, 30
+    move:b = no
+    size:r = 5
+    thousandth:b = true
+  } line{
+    line:p4= 20, 30, 12, 30
+    move:b = no
+    size:r = 5
+    thousandth:b = true
+  } line{
+    line:p4= -20, 30, -12, 30
+    move:b = no
+    size:r = 5
+    thousandth:b = true
+  }
+//////
+ line{
+    line:p4= 30, 4, 30, -4
+    move:b = no
+    size:r = 5
+    thousandth:b = true
+  } line{
+    line:p4= 30, 12, 30, 20
+    move:b = no
+    size:r = 5
+    thousandth:b = true
+  } line{
+    line:p4= 30, -12, 30, -20
+    move:b = no
+    size:r = 5
+    thousandth:b = true
+  }
+/////
+ line{
+    line:p4= -30, 4, -30, -4
+    move:b = no
+    size:r = 5
+    thousandth:b = true
+  } line{
+    line:p4= -30, 12, -30, 20
+    move:b = no
+    size:r = 5
+    thousandth:b = true
+  } line{
+    line:p4= -30, -12, -30, -20
+    move:b = no
+    size:r = 5
+    thousandth:b = true
+  }
+
+/////////////////////////////////////////////==================
+ line{
+    line:p4= 28, -30, 30, -30
+    move:b = no
+    size:r = 5
+    thousandth:b = true
+  } line{
+    line:p4= 30, -30, 30, -28
+    move:b = no
+    size:r = 5
+    thousandth:b = true
+  }
+//
+ line{
+    line:p4= 28, 30, 30, 30
+    move:b = no
+    size:r = 5
+    thousandth:b = true
+  } line{
+    line:p4= 30, 30, 30, 28
+    move:b = no
+    size:r = 5
+    thousandth:b = true
+  }
+
+////
+
+ line{
+    line:p4= -28, -30, -30, -30
+    move:b = no
+    size:r = 5
+    thousandth:b = true
+  } line{
+    line:p4= -30, -30, -30, -28
+    move:b = no
+    size:r = 5
+    thousandth:b = true
+  }
+//
+ line{
+    line:p4= -28, 30, -30, 30
+    move:b = no
+    size:r = 5
+    thousandth:b = true
+  } line{
+    line:p4= -30, 30, -30, 28
+    move:b = no
+    size:r = 5
+    thousandth:b = true
+  }
+
+
+
+
+
+
+
+
+
+
+
+////////////////xxxxxxxxxxxxxxxxxxxxxxxxxx222222222222222222222222222222222222222
+//small square
+ line{
+    line:p4= 3.5, 3.05, 2.15, 3.05
+    move:b = no
+    size:r = 5
+    thousandth:b = true
+  }
+ line{
+    line:p4= 3.5, 3.0, 3.5, 1.65
+    move:b=no
+    thousandth:b = true
+  } 
+
+
+ line{
+    line:p4= 3.5, -3.05, 2.15, -3.05
+    move:b = no
+    size:r = 5
+    thousandth:b = true
+  }
+ line{
+    line:p4= 3.5, -3.0, 3.5, -1.65
+    move:b=no
+    thousandth:b = true
+  }  
+
+
+ line{
+    line:p4= -3.5, 3.05, -2.15, 3.05
+    move:b = no
+    size:r = 5
+    thousandth:b = true
+  }
+ line{
+    line:p4= -3.5, 3.0, -3.5, 1.65
+    move:b=no
+    thousandth:b = true
+  } 
+
+
+ line{
+    line:p4= -3.5, -3.05, -2.15, -3.05
+    move:b = no
+    size:r = 5
+    thousandth:b = true
+  }
+ line{
+    line:p4= -3.5, -3.0, -3.5, -1.65
+    move:b=no
+    thousandth:b = true
+  } 
+
+
+ line{
+    line:p4= 0.0, 0.0, 0.0, 0.65
+    move:b=no
+    thousandth:b = true
+  } 
+ line{
+    line:p4= 0.0, 1.175, 0.0, 1.825
+    move:b=no
+    thousandth:b = true
+  } 
+ line{
+    line:p4= 0.0, 2.35, 0.0, 3.00
+    move:b=no
+    thousandth:b = true
+  } 
+
+
+//big square
+line{
+    line:p4= -4, -30, 4, -30
+    move:b = no
+    size:r = 5
+    thousandth:b = true
+  } line{
+    line:p4= 20, -30, 12, -30
+    move:b = no
+    size:r = 5
+    thousandth:b = true
+  } line{
+    line:p4= -20, -30, -12, -30
+    move:b = no
+    size:r = 5
+    thousandth:b = true
+  }
+////
+line{
+    line:p4= -4, 30, 4, 30
+    move:b = no
+    size:r = 5
+    thousandth:b = true
+  } line{
+    line:p4= 20, 30, 12, 30
+    move:b = no
+    size:r = 5
+    thousandth:b = true
+  } line{
+    line:p4= -20, 30, -12, 30
+    move:b = no
+    size:r = 5
+    thousandth:b = true
+  }
+//////
+ line{
+    line:p4= 30, 4, 30, -4
+    move:b = no
+    size:r = 5
+    thousandth:b = true
+  } line{
+    line:p4= 30, 12, 30, 20
+    move:b = no
+    size:r = 5
+    thousandth:b = true
+  } line{
+    line:p4= 30, -12, 30, -20
+    move:b = no
+    size:r = 5
+    thousandth:b = true
+  }
+/////
+ line{
+    line:p4= -30, 4, -30, -4
+    move:b = no
+    size:r = 5
+    thousandth:b = true
+  } line{
+    line:p4= -30, 12, -30, 20
+    move:b = no
+    size:r = 5
+    thousandth:b = true
+  } line{
+    line:p4= -30, -12, -30, -20
+    move:b = no
+    size:r = 5
+    thousandth:b = true
+  }
+
+/////////////////////////////////////////////==================
+ line{
+    line:p4= 28, -30, 30, -30
+    move:b = no
+    size:r = 5
+    thousandth:b = true
+  } line{
+    line:p4= 30, -30, 30, -28
+    move:b = no
+    size:r = 5
+    thousandth:b = true
+  }
+//
+ line{
+    line:p4= 28, 30, 30, 30
+    move:b = no
+    size:r = 5
+    thousandth:b = true
+  } line{
+    line:p4= 30, 30, 30, 28
+    move:b = no
+    size:r = 5
+    thousandth:b = true
+  }
+
+////
+
+ line{
+    line:p4= -28, -30, -30, -30
+    move:b = no
+    size:r = 5
+    thousandth:b = true
+  } line{
+    line:p4= -30, -30, -30, -28
+    move:b = no
+    size:r = 5
+    thousandth:b = true
+  }
+//
+ line{
+    line:p4= -28, 30, -30, 30
+    move:b = no
+    size:r = 5
+    thousandth:b = true
+  } line{
+    line:p4= -30, 30, -30, 28
+    move:b = no
+    size:r = 5
+    thousandth:b = true
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/////////////xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx3333333333333333333333333333333333333333
+//small square
+ line{
+    line:p4= 3.5, 3.05, 2.15, 3.05
+    move:b = no
+    size:r = 5
+    thousandth:b = true
+  }
+ line{
+    line:p4= 3.5, 3.0, 3.5, 1.65
+    move:b=no
+    thousandth:b = true
+  } 
+
+
+ line{
+    line:p4= 3.5, -3.05, 2.15, -3.05
+    move:b = no
+    size:r = 5
+    thousandth:b = true
+  }
+ line{
+    line:p4= 3.5, -3.0, 3.5, -1.65
+    move:b=no
+    thousandth:b = true
+  }  
+
+
+ line{
+    line:p4= -3.5, 3.05, -2.15, 3.05
+    move:b = no
+    size:r = 5
+    thousandth:b = true
+  }
+ line{
+    line:p4= -3.5, 3.0, -3.5, 1.65
+    move:b=no
+    thousandth:b = true
+  } 
+
+
+ line{
+    line:p4= -3.5, -3.05, -2.15, -3.05
+    move:b = no
+    size:r = 5
+    thousandth:b = true
+  }
+ line{
+    line:p4= -3.5, -3.0, -3.5, -1.65
+    move:b=no
+    thousandth:b = true
+  } 
+
+
+ line{
+    line:p4= 0.0, 0.0, 0.0, 0.65
+    move:b=no
+    thousandth:b = true
+  } 
+ line{
+    line:p4= 0.0, 1.175, 0.0, 1.825
+    move:b=no
+    thousandth:b = true
+  } 
+ line{
+    line:p4= 0.0, 2.35, 0.0, 3.00
+    move:b=no
+    thousandth:b = true
+  } 
+
+
+//big square
+line{
+    line:p4= -4, -30, 4, -30
+    move:b = no
+    size:r = 5
+    thousandth:b = true
+  } line{
+    line:p4= 20, -30, 12, -30
+    move:b = no
+    size:r = 5
+    thousandth:b = true
+  } line{
+    line:p4= -20, -30, -12, -30
+    move:b = no
+    size:r = 5
+    thousandth:b = true
+  }
+////
+line{
+    line:p4= -4, 30, 4, 30
+    move:b = no
+    size:r = 5
+    thousandth:b = true
+  } line{
+    line:p4= 20, 30, 12, 30
+    move:b = no
+    size:r = 5
+    thousandth:b = true
+  } line{
+    line:p4= -20, 30, -12, 30
+    move:b = no
+    size:r = 5
+    thousandth:b = true
+  }
+//////
+ line{
+    line:p4= 30, 4, 30, -4
+    move:b = no
+    size:r = 5
+    thousandth:b = true
+  } line{
+    line:p4= 30, 12, 30, 20
+    move:b = no
+    size:r = 5
+    thousandth:b = true
+  } line{
+    line:p4= 30, -12, 30, -20
+    move:b = no
+    size:r = 5
+    thousandth:b = true
+  }
+/////
+ line{
+    line:p4= -30, 4, -30, -4
+    move:b = no
+    size:r = 5
+    thousandth:b = true
+  } line{
+    line:p4= -30, 12, -30, 20
+    move:b = no
+    size:r = 5
+    thousandth:b = true
+  } line{
+    line:p4= -30, -12, -30, -20
+    move:b = no
+    size:r = 5
+    thousandth:b = true
+  }
+
+/////////////////////////////////////////////==================
+ line{
+    line:p4= 28, -30, 30, -30
+    move:b = no
+    size:r = 5
+    thousandth:b = true
+  } line{
+    line:p4= 30, -30, 30, -28
+    move:b = no
+    size:r = 5
+    thousandth:b = true
+  }
+//
+ line{
+    line:p4= 28, 30, 30, 30
+    move:b = no
+    size:r = 5
+    thousandth:b = true
+  } line{
+    line:p4= 30, 30, 30, 28
+    move:b = no
+    size:r = 5
+    thousandth:b = true
+  }
+
+////
+
+ line{
+    line:p4= -28, -30, -30, -30
+    move:b = no
+    size:r = 5
+    thousandth:b = true
+  } line{
+    line:p4= -30, -30, -30, -28
+    move:b = no
+    size:r = 5
+    thousandth:b = true
+  }
+//
+ line{
+    line:p4= -28, 30, -30, 30
+    move:b = no
+    size:r = 5
+    thousandth:b = true
+  } line{
+    line:p4= -30, 30, -30, 28
+    move:b = no
+    size:r = 5
+    thousandth:b = true
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+  drawQuads {
+//square
+  quad {  // Simple fixed quadrangle
+      tl:p2 = -71, 44.85; // Top left top
+      tr:p2 = -71.35, 44.85; // Top right top
+      br:p2 = -71.35, -44.85; // Top right bottom
+      bl:p2 = -71, -44.85; // Top left bottom
+      thousandth:b = true;
+    }
+
+    quad {  // Simple fixed quadrangle
+      tl:p2 = 71, 44.85; // Top left top
+      tr:p2 = 71.35, 44.85; // Top right top
+      br:p2 = 71.35, -44.85; // Top right bottom
+      bl:p2 = 71, -44.85; // Top left bottom
+      thousandth:b = true;
+    }
+
+    quad {  // Simple fixed quadrangle
+      tl:p2 = -71.35, 44.85; // Top left top
+      tr:p2 = 71.35, 44.85; // Top right top
+      br:p2 = 71.35, 44.5; // Top right bottom
+      bl:p2 = -71.35, 44.5; // Top left bottom
+      thousandth:b = true;
+    }
+
+    quad {  // Simple fixed quadrangle
+      tl:p2 = -71.35, -44.5; // Top left top
+      tr:p2 = 71.35, -44.5; // Top right top
+      br:p2 = 71.35, -44.85; // Top right bottom
+      bl:p2 = -71.35, -44.85; // Top left bottom
+      thousandth:b = true;
+    }
+
+
+
+
+
+
+
+
+////2222222222222222222222222222222222222222222222222222222
+//square
+  quad {  // Simple fixed quadrangle
+      tl:p2 = -71, 44.85; // Top left top
+      tr:p2 = -71.35, 44.85; // Top right top
+      br:p2 = -71.35, -44.85; // Top right bottom
+      bl:p2 = -71, -44.85; // Top left bottom
+      thousandth:b = true;
+    }
+
+    quad {  // Simple fixed quadrangle
+      tl:p2 = 71, 44.85; // Top left top
+      tr:p2 = 71.35, 44.85; // Top right top
+      br:p2 = 71.35, -44.85; // Top right bottom
+      bl:p2 = 71, -44.85; // Top left bottom
+      thousandth:b = true;
+    }
+
+    quad {  // Simple fixed quadrangle
+      tl:p2 = -71.35, 44.85; // Top left top
+      tr:p2 = 71.35, 44.85; // Top right top
+      br:p2 = 71.35, 44.5; // Top right bottom
+      bl:p2 = -71.35, 44.5; // Top left bottom
+      thousandth:b = true;
+    }
+
+    quad {  // Simple fixed quadrangle
+      tl:p2 = -71.35, -44.5; // Top left top
+      tr:p2 = 71.35, -44.5; // Top right top
+      br:p2 = 71.35, -44.85; // Top right bottom
+      bl:p2 = -71.35, -44.85; // Top left bottom
+      thousandth:b = true;
+    }
+
+
+
+
+
+
+
+
+///333333333333333333333333333333333333333333333333333333333333333333333333
+//square
+  quad {  // Simple fixed quadrangle
+      tl:p2 = -71, 44.85; // Top left top
+      tr:p2 = -71.35, 44.85; // Top right top
+      br:p2 = -71.35, -44.85; // Top right bottom
+      bl:p2 = -71, -44.85; // Top left bottom
+      thousandth:b = true;
+    }
+
+    quad {  // Simple fixed quadrangle
+      tl:p2 = 71, 44.85; // Top left top
+      tr:p2 = 71.35, 44.85; // Top right top
+      br:p2 = 71.35, -44.85; // Top right bottom
+      bl:p2 = 71, -44.85; // Top left bottom
+      thousandth:b = true;
+    }
+
+    quad {  // Simple fixed quadrangle
+      tl:p2 = -71.35, 44.85; // Top left top
+      tr:p2 = 71.35, 44.85; // Top right top
+      br:p2 = 71.35, 44.5; // Top right bottom
+      bl:p2 = -71.35, 44.5; // Top left bottom
+      thousandth:b = true;
+    }
+
+    quad {  // Simple fixed quadrangle
+      tl:p2 = -71.35, -44.5; // Top left top
+      tr:p2 = 71.35, -44.5; // Top right top
+      br:p2 = 71.35, -44.85; // Top right bottom
+      bl:p2 = -71.35, -44.85; // Top left bottom
+      thousandth:b = true;
+    }
+
+
+
+}
+
+
+
+
+
+
+
+drawTexts{
+//TTTTOOOOOOOOOOOPPPPPPPPPPPPPPPPPPPPPPPP
+text {
+    text:t = "["
+    align:i = 0
+    pos:p2 = -0.0115, -0.2316
+    move:b = false
+    highlight:b=yes
+    size:r = 3
+   }
+text {
+    text:t = "["
+    align:i = 0
+    pos:p2 = -0.0115, -0.2316
+    move:b = false
+    highlight:b=yes
+    size:r = 3
+   }
+text {
+    text:t = "["
+    align:i = 0
+    pos:p2 = -0.0115, -0.2316
+    move:b = false
+    highlight:b=yes
+    size:r = 3
+   }
+text {
+    text:t = "["
+    align:i = 0
+    pos:p2 = -0.0115, -0.2316
+    move:b = false
+    highlight:b=yes
+    size:r = 3
+   }
+text {
+    text:t = "["
+    align:i = 0
+    pos:p2 = -0.0115, -0.2316
+    move:b = false
+    highlight:b=yes
+    size:r = 3
+   }
+text {
+    text:t = "["
+    align:i = 0
+    pos:p2 = -0.0115, -0.2316
+    move:b = false
+    highlight:b=yes
+    size:r = 3
+   }
+text {
+    text:t = "["
+    align:i = 0
+    pos:p2 = -0.0115, -0.2316
+    move:b = false
+    highlight:b=yes
+    size:r = 3
+   }
+text {
+    text:t = "["
+    align:i = 0
+    pos:p2 = -0.0115, -0.2316
+    move:b = false
+    highlight:b=yes
+    size:r = 3
+   }
+text {
+    text:t = "["
+    align:i = 0
+    pos:p2 = -0.0115, -0.2316
+    move:b = false
+    highlight:b=yes
+    size:r = 3
+   }
+text {
+    text:t = "["
+    align:i = 0
+    pos:p2 = -0.0115, -0.2316
+    move:b = false
+    highlight:b=yes
+    size:r = 3
+   }
+text {
+    text:t = "["
+    align:i = 0
+    pos:p2 = -0.0115, -0.2316
+    move:b = false
+    highlight:b=yes
+    size:r = 3
+   }
+text {
+    text:t = "["
+    align:i = 0
+    pos:p2 = -0.0115, -0.2316
+    move:b = false
+    highlight:b=yes
+    size:r = 3
+   }
+text {
+    text:t = "["
+    align:i = 0
+    pos:p2 = -0.0115, -0.2316
+    move:b = false
+    highlight:b=yes
+    size:r = 3
+   }
+text {
+    text:t = "["
+    align:i = 0
+    pos:p2 = -0.0115, -0.2316
+    move:b = false
+    highlight:b=yes
+    size:r = 3
+   }
+text {
+    text:t = "["
+    align:i = 0
+    pos:p2 = -0.0115, -0.2316
+    move:b = false
+    highlight:b=yes
+    size:r = 3
+   }
+text {
+    text:t = "["
+    align:i = 0
+    pos:p2 = -0.0115, -0.2316
+    move:b = false
+    highlight:b=yes
+    size:r = 3
+   }
+////////
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.0135, -0.2284
+    move:b = false
+    highlight:b=yes
+    size:r = 4
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.0135, -0.2284
+    move:b = false
+    highlight:b=yes
+    size:r = 4
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.0135, -0.2284
+    move:b = false
+    highlight:b=yes
+    size:r = 4
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.0135, -0.24
+    move:b = false
+    highlight:b=yes
+    size:r = 4
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.03, -0.24
+    move:b = false
+    highlight:b=yes
+    size:r = 5.5
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.03, -0.24
+    move:b = false
+    highlight:b=yes
+    size:r = 5.5
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.07, -0.24
+    move:b = false
+    highlight:b=yes
+    size:r = 5.5
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.09, -0.24
+    move:b = false
+    highlight:b=yes
+    size:r = 5.5
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.10, -0.24
+    move:b = false
+    highlight:b=yes
+    size:r = 5.5
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.13, -0.24
+    move:b = false
+    highlight:b=yes
+    size:r = 5.5
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.10, -0.24
+    move:b = false
+    highlight:b=yes
+    size:r = 5.5
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.15, -0.24
+    move:b = false
+    highlight:b=yes
+    size:r = 5.5
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.18, -0.24
+    move:b = false
+    highlight:b=yes
+    size:r = 5.5
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.20, -0.24
+    move:b = false
+    highlight:b=yes
+    size:r = 5.5
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.23, -0.24
+    move:b = false
+    highlight:b=yes
+    size:r = 5.5
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.25, -0.24
+    move:b = false
+    highlight:b=yes
+    size:r = 5.5
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.28, -0.24
+    move:b = false
+    highlight:b=yes
+    size:r = 5.5
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.30, -0.24
+    move:b = false
+    highlight:b=yes
+    size:r = 5.5
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.32, -0.24
+    move:b = false
+    highlight:b=yes
+    size:r = 5.5
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.32, -0.24
+    move:b = false
+    highlight:b=yes
+    size:r = 5.5
+   }
+
+
+
+
+
+
+
+
+
+
+//BOOOOOOOOTTTTTTTTOOOOOOOOOOOOOOOOOOOMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+//tiiiiiiimmeeeeeeeeeeeeeeeeeeee
+text {
+    text:t = "["
+    align:i = 0
+    pos:p2 = 0.09, 0.2123
+    move:b = false
+    highlight:b=yes
+    size:r = 3
+   }
+text {
+    text:t = "["
+    align:i = 0
+    pos:p2 = 0.09, 0.2123
+    move:b = false
+    highlight:b=yes
+    size:r = 3
+   }
+text {
+    text:t = "["
+    align:i = 0
+    pos:p2 = 0.09, 0.2123
+    move:b = false
+    highlight:b=yes
+    size:r = 3
+   }
+text {
+    text:t = "["
+    align:i = 0
+    pos:p2 = 0.09, 0.2123
+    move:b = false
+    highlight:b=yes
+    size:r = 3
+   }
+text {
+    text:t = "["
+    align:i = 0
+    pos:p2 = 0.09, 0.2123
+    move:b = false
+    highlight:b=yes
+    size:r = 3
+   }
+///////
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.125, 0.225
+    move:b = false
+    highlight:b=yes
+    size:r = 5.5
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.125, 0.225
+    move:b = false
+    highlight:b=yes
+    size:r = 5.5
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.125, 0.225
+    move:b = false
+    highlight:b=yes
+    size:r = 5.5
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.15, 0.225
+    move:b = false
+    highlight:b=yes
+    size:r = 5.5
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.18, 0.225
+    move:b = false
+    highlight:b=yes
+    size:r = 5.5
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.20, 0.225
+    move:b = false
+    highlight:b=yes
+    size:r = 5.5
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.23, 0.225
+    move:b = false
+    highlight:b=yes
+    size:r = 5.5
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.25, 0.225
+    move:b = false
+    highlight:b=yes
+    size:r = 5.5
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.28, 0.225
+    move:b = false
+    highlight:b=yes
+    size:r = 5.5
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.30, 0.225
+    move:b = false
+    highlight:b=yes
+    size:r = 5.5
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.32, 0.225
+    move:b = false
+    highlight:b=yes
+    size:r = 5.5
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.32, 0.225
+    move:b = false
+    highlight:b=yes
+    size:r = 5.5
+   }
+
+
+
+
+
+
+
+
+//tktctaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+text {
+    text:t = "]"
+    align:i = 0
+    pos:p2 = -0.002, 0.2123
+    move:b = false
+    highlight:b=yes
+    size:r = 3
+   }
+text {
+    text:t = "]"
+    align:i = 0
+    pos:p2 = -0.002, 0.2123
+    move:b = false
+    highlight:b=yes
+    size:r = 3
+   }
+text {
+    text:t = "]"
+    align:i = 0
+    pos:p2 = -0.002, 0.2123
+    move:b = false
+    highlight:b=yes
+    size:r = 3
+   }
+text {
+    text:t = "]"
+    align:i = 0
+    pos:p2 = -0.002, 0.2123
+    move:b = false
+    highlight:b=yes
+    size:r = 3
+   }
+text {
+    text:t = "]"
+    align:i = 0
+    pos:p2 = -0.002, 0.2123
+    move:b = false
+    highlight:b=yes
+    size:r = 3
+   }
+/////
+text {
+    text:t = "["
+    align:i = 0
+    pos:p2 = -0.135, 0.2123
+    move:b = false
+    highlight:b=yes
+    size:r = 3
+   }
+text {
+    text:t = "["
+    align:i = 0
+    pos:p2 = -0.135, 0.2123
+    move:b = false
+    highlight:b=yes
+    size:r = 3
+   }
+text {
+    text:t = "["
+    align:i = 0
+    pos:p2 = -0.135, 0.2123
+    move:b = false
+    highlight:b=yes
+    size:r = 3
+   }
+text {
+    text:t = "["
+    align:i = 0
+    pos:p2 = -0.135, 0.2123
+    move:b = false
+    highlight:b=yes
+    size:r = 3
+   }
+text {
+    text:t = "["
+    align:i = 0
+    pos:p2 = -0.135, 0.2123
+    move:b = false
+    highlight:b=yes
+    size:r = 3
+   }
+////////////
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = -0.04, 0.225
+    move:b = false
+    highlight:b=yes
+    size:r = 5.5
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = -0.1, 0.225
+    move:b = false
+    highlight:b=yes
+    size:r = 5.5
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = -0.04, 0.225
+    move:b = false
+    highlight:b=yes
+    size:r = 5.5
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = -0.1, 0.225
+    move:b = false
+    highlight:b=yes
+    size:r = 5.5
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = -0.04, 0.225
+    move:b = false
+    highlight:b=yes
+    size:r = 5.5
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = -0.1, 0.225
+    move:b = false
+    highlight:b=yes
+    size:r = 5.5
+   }
+
+
+
+
+
+
+
+
+//tttaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+text {
+    text:t = "]"
+    align:i = 0
+    pos:p2 = -0.245, 0.2123
+    move:b = false
+    highlight:b=yes
+    size:r = 3
+   }
+text {
+    text:t = "]"
+    align:i = 0
+    pos:p2 = -0.245, 0.2123
+    move:b = false
+    highlight:b=yes
+    size:r = 3
+   }
+text {
+    text:t = "]"
+    align:i = 0
+    pos:p2 = -0.245, 0.2123
+    move:b = false
+    highlight:b=yes
+    size:r = 3
+   }
+text {
+    text:t = "]"
+    align:i = 0
+    pos:p2 = -0.245, 0.2123
+    move:b = false
+    highlight:b=yes
+    size:r = 3
+   }
+text {
+    text:t = "]"
+    align:i = 0
+    pos:p2 = -0.245, 0.2123
+    move:b = false
+    highlight:b=yes
+    size:r = 3
+   }
+/////
+text {
+    text:t = "["
+    align:i = 0
+    pos:p2 = -0.2945, 0.2123
+    move:b = false
+    highlight:b=yes
+    size:r = 3
+   }
+text {
+    text:t = "["
+    align:i = 0
+    pos:p2 = -0.2945, 0.2123
+    move:b = false
+    highlight:b=yes
+    size:r = 3
+   }
+text {
+    text:t = "["
+    align:i = 0
+    pos:p2 = -0.2945, 0.2123
+    move:b = false
+    highlight:b=yes
+    size:r = 3
+   }
+text {
+    text:t = "["
+    align:i = 0
+    pos:p2 = -0.2945, 0.2123
+    move:b = false
+    highlight:b=yes
+    size:r = 3
+   }
+text {
+    text:t = "["
+    align:i = 0
+    pos:p2 = -0.2945, 0.2123
+    move:b = false
+    highlight:b=yes
+    size:r = 3
+   }
+//////////////////////////
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = -0.271, 0.2174
+    move:b = false
+    highlight:b=yes
+    size:r = 4
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = -0.271, 0.2174
+    move:b = false
+    highlight:b=yes
+    size:r = 4
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = -0.271, 0.2174
+    move:b = false
+    highlight:b=yes
+    size:r = 4
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = -0.271, 0.235
+    move:b = false
+    highlight:b=yes
+    size:r = 4
+   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//////////////////////////22222222222222222222222222222222222222222222222222222222222222222222222222222
+//TTTTOOOOOOOOOOOPPPPPPPPPPPPPPPPPPPPPPPP
+text {
+    text:t = "["
+    align:i = 0
+    pos:p2 = -0.0115, -0.2316
+    move:b = false
+    highlight:b=yes
+    size:r = 3
+   }
+text {
+    text:t = "["
+    align:i = 0
+    pos:p2 = -0.0115, -0.2316
+    move:b = false
+    highlight:b=yes
+    size:r = 3
+   }
+text {
+    text:t = "["
+    align:i = 0
+    pos:p2 = -0.0115, -0.2316
+    move:b = false
+    highlight:b=yes
+    size:r = 3
+   }
+text {
+    text:t = "["
+    align:i = 0
+    pos:p2 = -0.0115, -0.2316
+    move:b = false
+    highlight:b=yes
+    size:r = 3
+   }
+text {
+    text:t = "["
+    align:i = 0
+    pos:p2 = -0.0115, -0.2316
+    move:b = false
+    highlight:b=yes
+    size:r = 3
+   }
+text {
+    text:t = "["
+    align:i = 0
+    pos:p2 = -0.0115, -0.2316
+    move:b = false
+    highlight:b=yes
+    size:r = 3
+   }
+text {
+    text:t = "["
+    align:i = 0
+    pos:p2 = -0.0115, -0.2316
+    move:b = false
+    highlight:b=yes
+    size:r = 3
+   }
+text {
+    text:t = "["
+    align:i = 0
+    pos:p2 = -0.0115, -0.2316
+    move:b = false
+    highlight:b=yes
+    size:r = 3
+   }
+text {
+    text:t = "["
+    align:i = 0
+    pos:p2 = -0.0115, -0.2316
+    move:b = false
+    highlight:b=yes
+    size:r = 3
+   }
+text {
+    text:t = "["
+    align:i = 0
+    pos:p2 = -0.0115, -0.2316
+    move:b = false
+    highlight:b=yes
+    size:r = 3
+   }
+text {
+    text:t = "["
+    align:i = 0
+    pos:p2 = -0.0115, -0.2316
+    move:b = false
+    highlight:b=yes
+    size:r = 3
+   }
+text {
+    text:t = "["
+    align:i = 0
+    pos:p2 = -0.0115, -0.2316
+    move:b = false
+    highlight:b=yes
+    size:r = 3
+   }
+text {
+    text:t = "["
+    align:i = 0
+    pos:p2 = -0.0115, -0.2316
+    move:b = false
+    highlight:b=yes
+    size:r = 3
+   }
+text {
+    text:t = "["
+    align:i = 0
+    pos:p2 = -0.0115, -0.2316
+    move:b = false
+    highlight:b=yes
+    size:r = 3
+   }
+text {
+    text:t = "["
+    align:i = 0
+    pos:p2 = -0.0115, -0.2316
+    move:b = false
+    highlight:b=yes
+    size:r = 3
+   }
+text {
+    text:t = "["
+    align:i = 0
+    pos:p2 = -0.0115, -0.2316
+    move:b = false
+    highlight:b=yes
+    size:r = 3
+   }
+////////
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.0135, -0.2284
+    move:b = false
+    highlight:b=yes
+    size:r = 4
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.0135, -0.2284
+    move:b = false
+    highlight:b=yes
+    size:r = 4
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.0135, -0.2284
+    move:b = false
+    highlight:b=yes
+    size:r = 4
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.0135, -0.24
+    move:b = false
+    highlight:b=yes
+    size:r = 4
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.03, -0.24
+    move:b = false
+    highlight:b=yes
+    size:r = 5.5
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.03, -0.24
+    move:b = false
+    highlight:b=yes
+    size:r = 5.5
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.07, -0.24
+    move:b = false
+    highlight:b=yes
+    size:r = 5.5
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.09, -0.24
+    move:b = false
+    highlight:b=yes
+    size:r = 5.5
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.10, -0.24
+    move:b = false
+    highlight:b=yes
+    size:r = 5.5
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.13, -0.24
+    move:b = false
+    highlight:b=yes
+    size:r = 5.5
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.10, -0.24
+    move:b = false
+    highlight:b=yes
+    size:r = 5.5
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.15, -0.24
+    move:b = false
+    highlight:b=yes
+    size:r = 5.5
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.18, -0.24
+    move:b = false
+    highlight:b=yes
+    size:r = 5.5
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.20, -0.24
+    move:b = false
+    highlight:b=yes
+    size:r = 5.5
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.23, -0.24
+    move:b = false
+    highlight:b=yes
+    size:r = 5.5
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.25, -0.24
+    move:b = false
+    highlight:b=yes
+    size:r = 5.5
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.28, -0.24
+    move:b = false
+    highlight:b=yes
+    size:r = 5.5
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.30, -0.24
+    move:b = false
+    highlight:b=yes
+    size:r = 5.5
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.32, -0.24
+    move:b = false
+    highlight:b=yes
+    size:r = 5.5
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.32, -0.24
+    move:b = false
+    highlight:b=yes
+    size:r = 5.5
+   }
+
+
+
+
+
+
+
+
+
+
+//BOOOOOOOOTTTTTTTTOOOOOOOOOOOOOOOOOOOMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+//tiiiiiiimmeeeeeeeeeeeeeeeeeeee
+text {
+    text:t = "["
+    align:i = 0
+    pos:p2 = 0.09, 0.2123
+    move:b = false
+    highlight:b=yes
+    size:r = 3
+   }
+text {
+    text:t = "["
+    align:i = 0
+    pos:p2 = 0.09, 0.2123
+    move:b = false
+    highlight:b=yes
+    size:r = 3
+   }
+text {
+    text:t = "["
+    align:i = 0
+    pos:p2 = 0.09, 0.2123
+    move:b = false
+    highlight:b=yes
+    size:r = 3
+   }
+text {
+    text:t = "["
+    align:i = 0
+    pos:p2 = 0.09, 0.2123
+    move:b = false
+    highlight:b=yes
+    size:r = 3
+   }
+text {
+    text:t = "["
+    align:i = 0
+    pos:p2 = 0.09, 0.2123
+    move:b = false
+    highlight:b=yes
+    size:r = 3
+   }
+///////
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.125, 0.225
+    move:b = false
+    highlight:b=yes
+    size:r = 5.5
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.125, 0.225
+    move:b = false
+    highlight:b=yes
+    size:r = 5.5
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.125, 0.225
+    move:b = false
+    highlight:b=yes
+    size:r = 5.5
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.15, 0.225
+    move:b = false
+    highlight:b=yes
+    size:r = 5.5
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.18, 0.225
+    move:b = false
+    highlight:b=yes
+    size:r = 5.5
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.20, 0.225
+    move:b = false
+    highlight:b=yes
+    size:r = 5.5
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.23, 0.225
+    move:b = false
+    highlight:b=yes
+    size:r = 5.5
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.25, 0.225
+    move:b = false
+    highlight:b=yes
+    size:r = 5.5
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.28, 0.225
+    move:b = false
+    highlight:b=yes
+    size:r = 5.5
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.30, 0.225
+    move:b = false
+    highlight:b=yes
+    size:r = 5.5
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.32, 0.225
+    move:b = false
+    highlight:b=yes
+    size:r = 5.5
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.32, 0.225
+    move:b = false
+    highlight:b=yes
+    size:r = 5.5
+   }
+
+
+
+
+
+
+
+
+//tktctaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+text {
+    text:t = "]"
+    align:i = 0
+    pos:p2 = -0.002, 0.2123
+    move:b = false
+    highlight:b=yes
+    size:r = 3
+   }
+text {
+    text:t = "]"
+    align:i = 0
+    pos:p2 = -0.002, 0.2123
+    move:b = false
+    highlight:b=yes
+    size:r = 3
+   }
+text {
+    text:t = "]"
+    align:i = 0
+    pos:p2 = -0.002, 0.2123
+    move:b = false
+    highlight:b=yes
+    size:r = 3
+   }
+text {
+    text:t = "]"
+    align:i = 0
+    pos:p2 = -0.002, 0.2123
+    move:b = false
+    highlight:b=yes
+    size:r = 3
+   }
+text {
+    text:t = "]"
+    align:i = 0
+    pos:p2 = -0.002, 0.2123
+    move:b = false
+    highlight:b=yes
+    size:r = 3
+   }
+/////
+text {
+    text:t = "["
+    align:i = 0
+    pos:p2 = -0.135, 0.2123
+    move:b = false
+    highlight:b=yes
+    size:r = 3
+   }
+text {
+    text:t = "["
+    align:i = 0
+    pos:p2 = -0.135, 0.2123
+    move:b = false
+    highlight:b=yes
+    size:r = 3
+   }
+text {
+    text:t = "["
+    align:i = 0
+    pos:p2 = -0.135, 0.2123
+    move:b = false
+    highlight:b=yes
+    size:r = 3
+   }
+text {
+    text:t = "["
+    align:i = 0
+    pos:p2 = -0.135, 0.2123
+    move:b = false
+    highlight:b=yes
+    size:r = 3
+   }
+text {
+    text:t = "["
+    align:i = 0
+    pos:p2 = -0.135, 0.2123
+    move:b = false
+    highlight:b=yes
+    size:r = 3
+   }
+////////////
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = -0.04, 0.225
+    move:b = false
+    highlight:b=yes
+    size:r = 5.5
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = -0.1, 0.225
+    move:b = false
+    highlight:b=yes
+    size:r = 5.5
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = -0.04, 0.225
+    move:b = false
+    highlight:b=yes
+    size:r = 5.5
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = -0.1, 0.225
+    move:b = false
+    highlight:b=yes
+    size:r = 5.5
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = -0.04, 0.225
+    move:b = false
+    highlight:b=yes
+    size:r = 5.5
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = -0.1, 0.225
+    move:b = false
+    highlight:b=yes
+    size:r = 5.5
+   }
+
+
+
+
+
+
+
+
+//tttaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+text {
+    text:t = "]"
+    align:i = 0
+    pos:p2 = -0.245, 0.2123
+    move:b = false
+    highlight:b=yes
+    size:r = 3
+   }
+text {
+    text:t = "]"
+    align:i = 0
+    pos:p2 = -0.245, 0.2123
+    move:b = false
+    highlight:b=yes
+    size:r = 3
+   }
+text {
+    text:t = "]"
+    align:i = 0
+    pos:p2 = -0.245, 0.2123
+    move:b = false
+    highlight:b=yes
+    size:r = 3
+   }
+text {
+    text:t = "]"
+    align:i = 0
+    pos:p2 = -0.245, 0.2123
+    move:b = false
+    highlight:b=yes
+    size:r = 3
+   }
+text {
+    text:t = "]"
+    align:i = 0
+    pos:p2 = -0.245, 0.2123
+    move:b = false
+    highlight:b=yes
+    size:r = 3
+   }
+/////
+text {
+    text:t = "["
+    align:i = 0
+    pos:p2 = -0.2945, 0.2123
+    move:b = false
+    highlight:b=yes
+    size:r = 3
+   }
+text {
+    text:t = "["
+    align:i = 0
+    pos:p2 = -0.2945, 0.2123
+    move:b = false
+    highlight:b=yes
+    size:r = 3
+   }
+text {
+    text:t = "["
+    align:i = 0
+    pos:p2 = -0.2945, 0.2123
+    move:b = false
+    highlight:b=yes
+    size:r = 3
+   }
+text {
+    text:t = "["
+    align:i = 0
+    pos:p2 = -0.2945, 0.2123
+    move:b = false
+    highlight:b=yes
+    size:r = 3
+   }
+text {
+    text:t = "["
+    align:i = 0
+    pos:p2 = -0.2945, 0.2123
+    move:b = false
+    highlight:b=yes
+    size:r = 3
+   }
+//////////////////////////
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = -0.271, 0.2174
+    move:b = false
+    highlight:b=yes
+    size:r = 4
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = -0.271, 0.2174
+    move:b = false
+    highlight:b=yes
+    size:r = 4
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = -0.271, 0.2174
+    move:b = false
+    highlight:b=yes
+    size:r = 4
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = -0.271, 0.235
+    move:b = false
+    highlight:b=yes
+    size:r = 4
+   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//////////////////////////////////////////333333333333333333333333333333333333333333333333333333333333333333333333
+//TTTTOOOOOOOOOOOPPPPPPPPPPPPPPPPPPPPPPPP
+text {
+    text:t = "["
+    align:i = 0
+    pos:p2 = -0.0115, -0.2316
+    move:b = false
+    highlight:b=yes
+    size:r = 3
+   }
+text {
+    text:t = "["
+    align:i = 0
+    pos:p2 = -0.0115, -0.2316
+    move:b = false
+    highlight:b=yes
+    size:r = 3
+   }
+text {
+    text:t = "["
+    align:i = 0
+    pos:p2 = -0.0115, -0.2316
+    move:b = false
+    highlight:b=yes
+    size:r = 3
+   }
+text {
+    text:t = "["
+    align:i = 0
+    pos:p2 = -0.0115, -0.2316
+    move:b = false
+    highlight:b=yes
+    size:r = 3
+   }
+text {
+    text:t = "["
+    align:i = 0
+    pos:p2 = -0.0115, -0.2316
+    move:b = false
+    highlight:b=yes
+    size:r = 3
+   }
+text {
+    text:t = "["
+    align:i = 0
+    pos:p2 = -0.0115, -0.2316
+    move:b = false
+    highlight:b=yes
+    size:r = 3
+   }
+text {
+    text:t = "["
+    align:i = 0
+    pos:p2 = -0.0115, -0.2316
+    move:b = false
+    highlight:b=yes
+    size:r = 3
+   }
+text {
+    text:t = "["
+    align:i = 0
+    pos:p2 = -0.0115, -0.2316
+    move:b = false
+    highlight:b=yes
+    size:r = 3
+   }
+text {
+    text:t = "["
+    align:i = 0
+    pos:p2 = -0.0115, -0.2316
+    move:b = false
+    highlight:b=yes
+    size:r = 3
+   }
+text {
+    text:t = "["
+    align:i = 0
+    pos:p2 = -0.0115, -0.2316
+    move:b = false
+    highlight:b=yes
+    size:r = 3
+   }
+text {
+    text:t = "["
+    align:i = 0
+    pos:p2 = -0.0115, -0.2316
+    move:b = false
+    highlight:b=yes
+    size:r = 3
+   }
+text {
+    text:t = "["
+    align:i = 0
+    pos:p2 = -0.0115, -0.2316
+    move:b = false
+    highlight:b=yes
+    size:r = 3
+   }
+text {
+    text:t = "["
+    align:i = 0
+    pos:p2 = -0.0115, -0.2316
+    move:b = false
+    highlight:b=yes
+    size:r = 3
+   }
+text {
+    text:t = "["
+    align:i = 0
+    pos:p2 = -0.0115, -0.2316
+    move:b = false
+    highlight:b=yes
+    size:r = 3
+   }
+text {
+    text:t = "["
+    align:i = 0
+    pos:p2 = -0.0115, -0.2316
+    move:b = false
+    highlight:b=yes
+    size:r = 3
+   }
+text {
+    text:t = "["
+    align:i = 0
+    pos:p2 = -0.0115, -0.2316
+    move:b = false
+    highlight:b=yes
+    size:r = 3
+   }
+////////
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.0135, -0.2284
+    move:b = false
+    highlight:b=yes
+    size:r = 4
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.0135, -0.2284
+    move:b = false
+    highlight:b=yes
+    size:r = 4
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.0135, -0.2284
+    move:b = false
+    highlight:b=yes
+    size:r = 4
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.0135, -0.24
+    move:b = false
+    highlight:b=yes
+    size:r = 4
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.03, -0.24
+    move:b = false
+    highlight:b=yes
+    size:r = 5.5
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.03, -0.24
+    move:b = false
+    highlight:b=yes
+    size:r = 5.5
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.07, -0.24
+    move:b = false
+    highlight:b=yes
+    size:r = 5.5
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.09, -0.24
+    move:b = false
+    highlight:b=yes
+    size:r = 5.5
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.10, -0.24
+    move:b = false
+    highlight:b=yes
+    size:r = 5.5
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.13, -0.24
+    move:b = false
+    highlight:b=yes
+    size:r = 5.5
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.10, -0.24
+    move:b = false
+    highlight:b=yes
+    size:r = 5.5
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.15, -0.24
+    move:b = false
+    highlight:b=yes
+    size:r = 5.5
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.18, -0.24
+    move:b = false
+    highlight:b=yes
+    size:r = 5.5
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.20, -0.24
+    move:b = false
+    highlight:b=yes
+    size:r = 5.5
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.23, -0.24
+    move:b = false
+    highlight:b=yes
+    size:r = 5.5
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.25, -0.24
+    move:b = false
+    highlight:b=yes
+    size:r = 5.5
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.28, -0.24
+    move:b = false
+    highlight:b=yes
+    size:r = 5.5
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.30, -0.24
+    move:b = false
+    highlight:b=yes
+    size:r = 5.5
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.32, -0.24
+    move:b = false
+    highlight:b=yes
+    size:r = 5.5
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.32, -0.24
+    move:b = false
+    highlight:b=yes
+    size:r = 5.5
+   }
+
+
+
+
+
+
+
+
+
+
+//BOOOOOOOOTTTTTTTTOOOOOOOOOOOOOOOOOOOMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+//tiiiiiiimmeeeeeeeeeeeeeeeeeeee
+text {
+    text:t = "["
+    align:i = 0
+    pos:p2 = 0.09, 0.2123
+    move:b = false
+    highlight:b=yes
+    size:r = 3
+   }
+text {
+    text:t = "["
+    align:i = 0
+    pos:p2 = 0.09, 0.2123
+    move:b = false
+    highlight:b=yes
+    size:r = 3
+   }
+text {
+    text:t = "["
+    align:i = 0
+    pos:p2 = 0.09, 0.2123
+    move:b = false
+    highlight:b=yes
+    size:r = 3
+   }
+text {
+    text:t = "["
+    align:i = 0
+    pos:p2 = 0.09, 0.2123
+    move:b = false
+    highlight:b=yes
+    size:r = 3
+   }
+text {
+    text:t = "["
+    align:i = 0
+    pos:p2 = 0.09, 0.2123
+    move:b = false
+    highlight:b=yes
+    size:r = 3
+   }
+///////
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.125, 0.225
+    move:b = false
+    highlight:b=yes
+    size:r = 5.5
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.125, 0.225
+    move:b = false
+    highlight:b=yes
+    size:r = 5.5
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.125, 0.225
+    move:b = false
+    highlight:b=yes
+    size:r = 5.5
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.15, 0.225
+    move:b = false
+    highlight:b=yes
+    size:r = 5.5
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.18, 0.225
+    move:b = false
+    highlight:b=yes
+    size:r = 5.5
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.20, 0.225
+    move:b = false
+    highlight:b=yes
+    size:r = 5.5
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.23, 0.225
+    move:b = false
+    highlight:b=yes
+    size:r = 5.5
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.25, 0.225
+    move:b = false
+    highlight:b=yes
+    size:r = 5.5
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.28, 0.225
+    move:b = false
+    highlight:b=yes
+    size:r = 5.5
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.30, 0.225
+    move:b = false
+    highlight:b=yes
+    size:r = 5.5
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.32, 0.225
+    move:b = false
+    highlight:b=yes
+    size:r = 5.5
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.32, 0.225
+    move:b = false
+    highlight:b=yes
+    size:r = 5.5
+   }
+
+
+
+
+
+
+
+
+//tktctaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+text {
+    text:t = "]"
+    align:i = 0
+    pos:p2 = -0.002, 0.2123
+    move:b = false
+    highlight:b=yes
+    size:r = 3
+   }
+text {
+    text:t = "]"
+    align:i = 0
+    pos:p2 = -0.002, 0.2123
+    move:b = false
+    highlight:b=yes
+    size:r = 3
+   }
+text {
+    text:t = "]"
+    align:i = 0
+    pos:p2 = -0.002, 0.2123
+    move:b = false
+    highlight:b=yes
+    size:r = 3
+   }
+text {
+    text:t = "]"
+    align:i = 0
+    pos:p2 = -0.002, 0.2123
+    move:b = false
+    highlight:b=yes
+    size:r = 3
+   }
+text {
+    text:t = "]"
+    align:i = 0
+    pos:p2 = -0.002, 0.2123
+    move:b = false
+    highlight:b=yes
+    size:r = 3
+   }
+/////
+text {
+    text:t = "["
+    align:i = 0
+    pos:p2 = -0.135, 0.2123
+    move:b = false
+    highlight:b=yes
+    size:r = 3
+   }
+text {
+    text:t = "["
+    align:i = 0
+    pos:p2 = -0.135, 0.2123
+    move:b = false
+    highlight:b=yes
+    size:r = 3
+   }
+text {
+    text:t = "["
+    align:i = 0
+    pos:p2 = -0.135, 0.2123
+    move:b = false
+    highlight:b=yes
+    size:r = 3
+   }
+text {
+    text:t = "["
+    align:i = 0
+    pos:p2 = -0.135, 0.2123
+    move:b = false
+    highlight:b=yes
+    size:r = 3
+   }
+text {
+    text:t = "["
+    align:i = 0
+    pos:p2 = -0.135, 0.2123
+    move:b = false
+    highlight:b=yes
+    size:r = 3
+   }
+////////////
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = -0.04, 0.225
+    move:b = false
+    highlight:b=yes
+    size:r = 5.5
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = -0.1, 0.225
+    move:b = false
+    highlight:b=yes
+    size:r = 5.5
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = -0.04, 0.225
+    move:b = false
+    highlight:b=yes
+    size:r = 5.5
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = -0.1, 0.225
+    move:b = false
+    highlight:b=yes
+    size:r = 5.5
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = -0.04, 0.225
+    move:b = false
+    highlight:b=yes
+    size:r = 5.5
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = -0.1, 0.225
+    move:b = false
+    highlight:b=yes
+    size:r = 5.5
+   }
+
+
+
+
+
+
+
+
+//tttaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+text {
+    text:t = "]"
+    align:i = 0
+    pos:p2 = -0.245, 0.2123
+    move:b = false
+    highlight:b=yes
+    size:r = 3
+   }
+text {
+    text:t = "]"
+    align:i = 0
+    pos:p2 = -0.245, 0.2123
+    move:b = false
+    highlight:b=yes
+    size:r = 3
+   }
+text {
+    text:t = "]"
+    align:i = 0
+    pos:p2 = -0.245, 0.2123
+    move:b = false
+    highlight:b=yes
+    size:r = 3
+   }
+text {
+    text:t = "]"
+    align:i = 0
+    pos:p2 = -0.245, 0.2123
+    move:b = false
+    highlight:b=yes
+    size:r = 3
+   }
+text {
+    text:t = "]"
+    align:i = 0
+    pos:p2 = -0.245, 0.2123
+    move:b = false
+    highlight:b=yes
+    size:r = 3
+   }
+/////
+text {
+    text:t = "["
+    align:i = 0
+    pos:p2 = -0.2945, 0.2123
+    move:b = false
+    highlight:b=yes
+    size:r = 3
+   }
+text {
+    text:t = "["
+    align:i = 0
+    pos:p2 = -0.2945, 0.2123
+    move:b = false
+    highlight:b=yes
+    size:r = 3
+   }
+text {
+    text:t = "["
+    align:i = 0
+    pos:p2 = -0.2945, 0.2123
+    move:b = false
+    highlight:b=yes
+    size:r = 3
+   }
+text {
+    text:t = "["
+    align:i = 0
+    pos:p2 = -0.2945, 0.2123
+    move:b = false
+    highlight:b=yes
+    size:r = 3
+   }
+text {
+    text:t = "["
+    align:i = 0
+    pos:p2 = -0.2945, 0.2123
+    move:b = false
+    highlight:b=yes
+    size:r = 3
+   }
+//////////////////////////
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = -0.271, 0.2174
+    move:b = false
+    highlight:b=yes
+    size:r = 4
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = -0.271, 0.2174
+    move:b = false
+    highlight:b=yes
+    size:r = 4
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = -0.271, 0.2174
+    move:b = false
+    highlight:b=yes
+    size:r = 4
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = -0.271, 0.235
+    move:b = false
+    highlight:b=yes
+    size:r = 4
+   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//TEEEEEEEEEEEEEEEEXXXXXXXXXXXXXXXXXXXXXXXXXXXXXTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT
+text {
+    text:t = "К: ТВ        ВИН: 11       39М: 1.00        PЦ: 13"
+    align:i = 0
+    pos:p2 = 0.17, -0.211
+    move:b = false
+    highlight:b=no
+    size:r = 1.1
+   }
+text {
+    text:t = "TTA                        TK       TC       TA                   10.08.2020    09:20:30    00-00"
+    align:i = 0
+    pos:p2 = 0.0275, 0.208
+    move:b = false
+    highlight:b=no
+    size:r = 1.1
+   }
+text {
+    text:t = "TПВ"
+    align:i = 0
+    pos:p2 = -0.1915, 0.208
+    move:b = false
+    highlight:b=yes
+    size:r = 1.1
+   }
+text {
+    text:t = "TПВ"
+    align:i = 0
+    pos:p2 = -0.1915, 0.208
+    move:b = false
+    highlight:b=yes
+    size:r = 1.1
+   }
+
+
+
+
+
+
+
+
+
+//SQUAREEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE
+//bottommmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = -0.3, 0.309
+    move:b = false
+    highlight:b=no
+    size:r = 17
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = -0.2, 0.309
+    move:b = false
+    highlight:b=no
+    size:r = 17
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = -0.1, 0.309
+    move:b = false
+    highlight:b=no
+    size:r = 17
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.0, 0.309
+    move:b = false
+    highlight:b=no
+    size:r = 17
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.1, 0.309
+    move:b = false
+    highlight:b=no
+    size:r = 17
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.2, 0.309
+    move:b = false
+    highlight:b=no
+    size:r = 17
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.3, 0.309
+    move:b = false
+    highlight:b=no
+    size:r = 17
+   }
+
+///////------------------------------------------------------------
+
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = -0.3, 0.369
+    move:b = false
+    highlight:b=no
+    size:r = 17
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = -0.2, 0.369
+    move:b = false
+    highlight:b=no
+    size:r = 17
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = -0.1, 0.369
+    move:b = false
+    highlight:b=no
+    size:r = 17
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.0, 0.369
+    move:b = false
+    highlight:b=no
+    size:r = 17
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.1, 0.369
+    move:b = false
+    highlight:b=no
+    size:r = 17
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.2, 0.369
+    move:b = false
+    highlight:b=no
+    size:r = 17
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.3, 0.369
+    move:b = false
+    highlight:b=no
+    size:r = 17
+   }
+
+
+
+
+
+
+////////ttttttttttttttttoooooooooooooooooooooopppppppppppppppppppppppppppppppppppppppppp
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = -0.3, -0.356
+    move:b = false
+    highlight:b=no
+    size:r = 17
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = -0.2, -0.356
+    move:b = false
+    highlight:b=no
+    size:r = 17
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = -0.1, -0.356
+    move:b = false
+    highlight:b=no
+    size:r = 17
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.0, -0.356
+    move:b = false
+    highlight:b=no
+    size:r = 17
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.1, -0.356
+    move:b = false
+    highlight:b=no
+    size:r = 17
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.2, -0.356
+    move:b = false
+    highlight:b=no
+    size:r = 17
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.3, -0.356
+    move:b = false
+    highlight:b=no
+    size:r = 17
+   }
+
+///////------------------------------------------------------------
+
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = -0.3, -0.416
+    move:b = false
+    highlight:b=no
+    size:r = 17
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = -0.2, -0.416
+    move:b = false
+    highlight:b=no
+    size:r = 17
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = -0.1, -0.416
+    move:b = false
+    highlight:b=no
+    size:r = 17
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.0, -0.416
+    move:b = false
+    highlight:b=no
+    size:r = 17
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.1, -0.416
+    move:b = false
+    highlight:b=no
+    size:r = 17
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.2, -0.416
+    move:b = false
+    highlight:b=no
+    size:r = 17
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.3, -0.416
+    move:b = false
+    highlight:b=no
+    size:r = 17
+   }
+
+
+
+
+
+
+
+
+///riigggggggggghhhhhhhhhhhhhhhhhhttttttttttttttttttttttttttttttttttttt
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.44, -0.2
+    move:b = false
+    highlight:b=no
+    size:r = 10
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.44, -0.15
+    move:b = false
+    highlight:b=no
+    size:r = 10
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.44, -0.1
+    move:b = false
+    highlight:b=no
+    size:r = 10
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.44, -0.05
+    move:b = false
+    highlight:b=no
+    size:r = 10
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.44, -0.0
+    move:b = false
+    highlight:b=no
+    size:r = 10
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.44, 0.05
+    move:b = false
+    highlight:b=no
+    size:r = 10
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.44, 0.1
+    move:b = false
+    highlight:b=no
+    size:r = 10
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.44, 0.15
+    move:b = false
+    highlight:b=no
+    size:r = 10
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.44, 0.2
+    move:b = false
+    highlight:b=no
+    size:r = 10
+   }
+
+//[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[
+
+text {
+    text:t = "["
+    align:i = 0
+    pos:p2 = 0.374, -0.2
+    move:b = false
+    highlight:b=no
+    size:r = 10
+   }
+text {
+    text:t = "["
+    align:i = 0
+    pos:p2 = 0.374, -0.2
+    move:b = false
+    highlight:b=no
+    size:r = 10
+   }
+text {
+    text:t = "["
+    align:i = 0
+    pos:p2 = 0.374, -0.15
+    move:b = false
+    highlight:b=no
+    size:r = 10
+   }
+text {
+    text:t = "["
+    align:i = 0
+    pos:p2 = 0.374, -0.1
+    move:b = false
+    highlight:b=no
+    size:r = 10
+   }
+text {
+    text:t = "["
+    align:i = 0
+    pos:p2 = 0.374, -0.05
+    move:b = false
+    highlight:b=no
+    size:r = 10
+   }
+text {
+    text:t = "["
+    align:i = 0
+    pos:p2 = 0.374, 0.0
+    move:b = false
+    highlight:b=no
+    size:r = 10
+   }
+text {
+    text:t = "["
+    align:i = 0
+    pos:p2 = 0.374, 0.05
+    move:b = false
+    highlight:b=no
+    size:r = 10
+   }
+text {
+    text:t = "["
+    align:i = 0
+    pos:p2 = 0.374, 0.1
+    move:b = false
+    highlight:b=no
+    size:r = 10
+   }
+text {
+    text:t = "["
+    align:i = 0
+    pos:p2 = 0.374, 0.15
+    move:b = false
+    highlight:b=no
+    size:r = 10
+   }
+text {
+    text:t = "["
+    align:i = 0
+    pos:p2 = 0.374, 0.20
+    move:b = false
+    highlight:b=no
+    size:r = 10
+   }
+text {
+    text:t = "["
+    align:i = 0
+    pos:p2 = 0.374, 0.25
+    move:b = false
+    highlight:b=no
+    size:r = 10
+   }
+
+
+
+
+
+
+
+/////leeeeeeeeffffffffffffffffffftttttttttttttttttttttttttttttttttttttttttt
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = -0.44, -0.2
+    move:b = false
+    highlight:b=no
+    size:r = 10
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = -0.44, -0.15
+    move:b = false
+    highlight:b=no
+    size:r = 10
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = -0.44, -0.1
+    move:b = false
+    highlight:b=no
+    size:r = 10
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = -0.44, -0.05
+    move:b = false
+    highlight:b=no
+    size:r = 10
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = -0.44, -0.0
+    move:b = false
+    highlight:b=no
+    size:r = 10
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = -0.44, 0.05
+    move:b = false
+    highlight:b=no
+    size:r = 10
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = -0.44, 0.1
+    move:b = false
+    highlight:b=no
+    size:r = 10
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = -0.44, 0.15
+    move:b = false
+    highlight:b=no
+    size:r = 10
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = -0.44, 0.2
+    move:b = false
+    highlight:b=no
+    size:r = 10
+   }
+
+//]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+
+text {
+    text:t = "]"
+    align:i = 0
+    pos:p2 = -0.374, -0.2
+    move:b = false
+    highlight:b=no
+    size:r = 10
+   }
+text {
+    text:t = "]"
+    align:i = 0
+    pos:p2 = -0.374, -0.15
+    move:b = false
+    highlight:b=no
+    size:r = 10
+   }
+text {
+    text:t = "]"
+    align:i = 0
+    pos:p2 = -0.374, -0.1
+    move:b = false
+    highlight:b=no
+    size:r = 10
+   }
+text {
+    text:t = "]"
+    align:i = 0
+    pos:p2 = -0.374, -0.05
+    move:b = false
+    highlight:b=no
+    size:r = 10
+   }
+text {
+    text:t = "]"
+    align:i = 0
+    pos:p2 = -0.374, 0.0
+    move:b = false
+    highlight:b=no
+    size:r = 10
+   }
+text {
+    text:t = "]"
+    align:i = 0
+    pos:p2 = -0.374, 0.05
+    move:b = false
+    highlight:b=no
+    size:r = 10
+   }
+text {
+    text:t = "]"
+    align:i = 0
+    pos:p2 = -0.374, 0.1
+    move:b = false
+    highlight:b=no
+    size:r = 10
+   }
+text {
+    text:t = "]"
+    align:i = 0
+    pos:p2 = -0.374, 0.15
+    move:b = false
+    highlight:b=no
+    size:r = 10
+   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+////xxxxxxxxxxxxxxxxxxxxxxxxx2222222222222222222222222222222222222222222222222222
+//bottommmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = -0.3, 0.309
+    move:b = false
+    highlight:b=no
+    size:r = 17
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = -0.2, 0.309
+    move:b = false
+    highlight:b=no
+    size:r = 17
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = -0.1, 0.309
+    move:b = false
+    highlight:b=no
+    size:r = 17
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.0, 0.309
+    move:b = false
+    highlight:b=no
+    size:r = 17
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.1, 0.309
+    move:b = false
+    highlight:b=no
+    size:r = 17
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.2, 0.309
+    move:b = false
+    highlight:b=no
+    size:r = 17
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.3, 0.309
+    move:b = false
+    highlight:b=no
+    size:r = 17
+   }
+
+///////------------------------------------------------------------
+
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = -0.3, 0.369
+    move:b = false
+    highlight:b=no
+    size:r = 17
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = -0.2, 0.369
+    move:b = false
+    highlight:b=no
+    size:r = 17
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = -0.1, 0.369
+    move:b = false
+    highlight:b=no
+    size:r = 17
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.0, 0.369
+    move:b = false
+    highlight:b=no
+    size:r = 17
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.1, 0.369
+    move:b = false
+    highlight:b=no
+    size:r = 17
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.2, 0.369
+    move:b = false
+    highlight:b=no
+    size:r = 17
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.3, 0.369
+    move:b = false
+    highlight:b=no
+    size:r = 17
+   }
+
+
+
+
+
+
+////////ttttttttttttttttoooooooooooooooooooooopppppppppppppppppppppppppppppppppppppppppp
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = -0.3, -0.356
+    move:b = false
+    highlight:b=no
+    size:r = 17
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = -0.2, -0.356
+    move:b = false
+    highlight:b=no
+    size:r = 17
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = -0.1, -0.356
+    move:b = false
+    highlight:b=no
+    size:r = 17
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.0, -0.356
+    move:b = false
+    highlight:b=no
+    size:r = 17
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.1, -0.356
+    move:b = false
+    highlight:b=no
+    size:r = 17
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.2, -0.356
+    move:b = false
+    highlight:b=no
+    size:r = 17
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.3, -0.356
+    move:b = false
+    highlight:b=no
+    size:r = 17
+   }
+
+///////------------------------------------------------------------
+
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = -0.3, -0.416
+    move:b = false
+    highlight:b=no
+    size:r = 17
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = -0.2, -0.416
+    move:b = false
+    highlight:b=no
+    size:r = 17
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = -0.1, -0.416
+    move:b = false
+    highlight:b=no
+    size:r = 17
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.0, -0.416
+    move:b = false
+    highlight:b=no
+    size:r = 17
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.1, -0.416
+    move:b = false
+    highlight:b=no
+    size:r = 17
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.2, -0.416
+    move:b = false
+    highlight:b=no
+    size:r = 17
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.3, -0.416
+    move:b = false
+    highlight:b=no
+    size:r = 17
+   }
+
+
+
+
+
+
+
+
+///riigggggggggghhhhhhhhhhhhhhhhhhttttttttttttttttttttttttttttttttttttt
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.44, -0.2
+    move:b = false
+    highlight:b=no
+    size:r = 10
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.44, -0.15
+    move:b = false
+    highlight:b=no
+    size:r = 10
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.44, -0.1
+    move:b = false
+    highlight:b=no
+    size:r = 10
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.44, -0.05
+    move:b = false
+    highlight:b=no
+    size:r = 10
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.44, -0.0
+    move:b = false
+    highlight:b=no
+    size:r = 10
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.44, 0.05
+    move:b = false
+    highlight:b=no
+    size:r = 10
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.44, 0.1
+    move:b = false
+    highlight:b=no
+    size:r = 10
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.44, 0.15
+    move:b = false
+    highlight:b=no
+    size:r = 10
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.44, 0.2
+    move:b = false
+    highlight:b=no
+    size:r = 10
+   }
+
+//[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[
+
+text {
+    text:t = "["
+    align:i = 0
+    pos:p2 = 0.374, -0.2
+    move:b = false
+    highlight:b=no
+    size:r = 10
+   }
+text {
+    text:t = "["
+    align:i = 0
+    pos:p2 = 0.374, -0.2
+    move:b = false
+    highlight:b=no
+    size:r = 10
+   }
+text {
+    text:t = "["
+    align:i = 0
+    pos:p2 = 0.374, -0.15
+    move:b = false
+    highlight:b=no
+    size:r = 10
+   }
+text {
+    text:t = "["
+    align:i = 0
+    pos:p2 = 0.374, -0.1
+    move:b = false
+    highlight:b=no
+    size:r = 10
+   }
+text {
+    text:t = "["
+    align:i = 0
+    pos:p2 = 0.374, -0.05
+    move:b = false
+    highlight:b=no
+    size:r = 10
+   }
+text {
+    text:t = "["
+    align:i = 0
+    pos:p2 = 0.374, 0.0
+    move:b = false
+    highlight:b=no
+    size:r = 10
+   }
+text {
+    text:t = "["
+    align:i = 0
+    pos:p2 = 0.374, 0.05
+    move:b = false
+    highlight:b=no
+    size:r = 10
+   }
+text {
+    text:t = "["
+    align:i = 0
+    pos:p2 = 0.374, 0.1
+    move:b = false
+    highlight:b=no
+    size:r = 10
+   }
+text {
+    text:t = "["
+    align:i = 0
+    pos:p2 = 0.374, 0.15
+    move:b = false
+    highlight:b=no
+    size:r = 10
+   }
+
+
+
+
+
+
+
+
+/////leeeeeeeeffffffffffffffffffftttttttttttttttttttttttttttttttttttttttttt
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = -0.44, -0.2
+    move:b = false
+    highlight:b=no
+    size:r = 10
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = -0.44, -0.15
+    move:b = false
+    highlight:b=no
+    size:r = 10
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = -0.44, -0.1
+    move:b = false
+    highlight:b=no
+    size:r = 10
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = -0.44, -0.05
+    move:b = false
+    highlight:b=no
+    size:r = 10
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = -0.44, -0.0
+    move:b = false
+    highlight:b=no
+    size:r = 10
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = -0.44, 0.05
+    move:b = false
+    highlight:b=no
+    size:r = 10
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = -0.44, 0.1
+    move:b = false
+    highlight:b=no
+    size:r = 10
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = -0.44, 0.15
+    move:b = false
+    highlight:b=no
+    size:r = 10
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = -0.44, 0.2
+    move:b = false
+    highlight:b=no
+    size:r = 10
+   }
+
+//]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+
+text {
+    text:t = "]"
+    align:i = 0
+    pos:p2 = -0.374, -0.2
+    move:b = false
+    highlight:b=no
+    size:r = 10
+   }
+text {
+    text:t = "]"
+    align:i = 0
+    pos:p2 = -0.374, -0.15
+    move:b = false
+    highlight:b=no
+    size:r = 10
+   }
+text {
+    text:t = "]"
+    align:i = 0
+    pos:p2 = -0.374, -0.1
+    move:b = false
+    highlight:b=no
+    size:r = 10
+   }
+text {
+    text:t = "]"
+    align:i = 0
+    pos:p2 = -0.374, -0.05
+    move:b = false
+    highlight:b=no
+    size:r = 10
+   }
+text {
+    text:t = "]"
+    align:i = 0
+    pos:p2 = -0.374, 0.0
+    move:b = false
+    highlight:b=no
+    size:r = 10
+   }
+text {
+    text:t = "]"
+    align:i = 0
+    pos:p2 = -0.374, 0.05
+    move:b = false
+    highlight:b=no
+    size:r = 10
+   }
+text {
+    text:t = "]"
+    align:i = 0
+    pos:p2 = -0.374, 0.1
+    move:b = false
+    highlight:b=no
+    size:r = 10
+   }
+text {
+    text:t = "]"
+    align:i = 0
+    pos:p2 = -0.374, 0.15
+    move:b = false
+    highlight:b=no
+    size:r = 10
+   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//////////////////////xxxxxxxxxxxxxxxxxxxxxxxxxxx3333333333333333333333333333333333333
+//bottommmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = -0.3, 0.309
+    move:b = false
+    highlight:b=no
+    size:r = 17
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = -0.2, 0.309
+    move:b = false
+    highlight:b=no
+    size:r = 17
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = -0.1, 0.309
+    move:b = false
+    highlight:b=no
+    size:r = 17
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.0, 0.309
+    move:b = false
+    highlight:b=no
+    size:r = 17
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.1, 0.309
+    move:b = false
+    highlight:b=no
+    size:r = 17
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.2, 0.309
+    move:b = false
+    highlight:b=no
+    size:r = 17
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.3, 0.309
+    move:b = false
+    highlight:b=no
+    size:r = 17
+   }
+
+///////------------------------------------------------------------
+
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = -0.3, 0.369
+    move:b = false
+    highlight:b=no
+    size:r = 17
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = -0.2, 0.369
+    move:b = false
+    highlight:b=no
+    size:r = 17
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = -0.1, 0.369
+    move:b = false
+    highlight:b=no
+    size:r = 17
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.0, 0.369
+    move:b = false
+    highlight:b=no
+    size:r = 17
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.1, 0.369
+    move:b = false
+    highlight:b=no
+    size:r = 17
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.2, 0.369
+    move:b = false
+    highlight:b=no
+    size:r = 17
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.3, 0.369
+    move:b = false
+    highlight:b=no
+    size:r = 17
+   }
+
+
+
+
+
+
+////////ttttttttttttttttoooooooooooooooooooooopppppppppppppppppppppppppppppppppppppppppp
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = -0.3, -0.356
+    move:b = false
+    highlight:b=no
+    size:r = 17
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = -0.2, -0.356
+    move:b = false
+    highlight:b=no
+    size:r = 17
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = -0.1, -0.356
+    move:b = false
+    highlight:b=no
+    size:r = 17
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.0, -0.356
+    move:b = false
+    highlight:b=no
+    size:r = 17
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.1, -0.356
+    move:b = false
+    highlight:b=no
+    size:r = 17
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.2, -0.356
+    move:b = false
+    highlight:b=no
+    size:r = 17
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.3, -0.356
+    move:b = false
+    highlight:b=no
+    size:r = 17
+   }
+
+///////------------------------------------------------------------
+
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = -0.3, -0.416
+    move:b = false
+    highlight:b=no
+    size:r = 17
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = -0.2, -0.416
+    move:b = false
+    highlight:b=no
+    size:r = 17
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = -0.1, -0.416
+    move:b = false
+    highlight:b=no
+    size:r = 17
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.0, -0.416
+    move:b = false
+    highlight:b=no
+    size:r = 17
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.1, -0.416
+    move:b = false
+    highlight:b=no
+    size:r = 17
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.2, -0.416
+    move:b = false
+    highlight:b=no
+    size:r = 17
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.3, -0.416
+    move:b = false
+    highlight:b=no
+    size:r = 17
+   }
+
+
+
+
+
+
+
+
+///riigggggggggghhhhhhhhhhhhhhhhhhttttttttttttttttttttttttttttttttttttt
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.44, -0.2
+    move:b = false
+    highlight:b=no
+    size:r = 10
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.44, -0.15
+    move:b = false
+    highlight:b=no
+    size:r = 10
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.44, -0.1
+    move:b = false
+    highlight:b=no
+    size:r = 10
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.44, -0.05
+    move:b = false
+    highlight:b=no
+    size:r = 10
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.44, -0.0
+    move:b = false
+    highlight:b=no
+    size:r = 10
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.44, 0.05
+    move:b = false
+    highlight:b=no
+    size:r = 10
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.44, 0.1
+    move:b = false
+    highlight:b=no
+    size:r = 10
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.44, 0.15
+    move:b = false
+    highlight:b=no
+    size:r = 10
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.44, 0.2
+    move:b = false
+    highlight:b=no
+    size:r = 10
+   }
+
+//[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[
+
+text {
+    text:t = "["
+    align:i = 0
+    pos:p2 = 0.374, -0.2
+    move:b = false
+    highlight:b=no
+    size:r = 10
+   }
+text {
+    text:t = "["
+    align:i = 0
+    pos:p2 = 0.374, -0.15
+    move:b = false
+    highlight:b=no
+    size:r = 10
+   }
+text {
+    text:t = "["
+    align:i = 0
+    pos:p2 = 0.374, -0.1
+    move:b = false
+    highlight:b=no
+    size:r = 10
+   }
+text {
+    text:t = "["
+    align:i = 0
+    pos:p2 = 0.374, -0.05
+    move:b = false
+    highlight:b=no
+    size:r = 10
+   }
+text {
+    text:t = "["
+    align:i = 0
+    pos:p2 = 0.374, 0.0
+    move:b = false
+    highlight:b=no
+    size:r = 10
+   }
+text {
+    text:t = "["
+    align:i = 0
+    pos:p2 = 0.374, 0.05
+    move:b = false
+    highlight:b=no
+    size:r = 10
+   }
+text {
+    text:t = "["
+    align:i = 0
+    pos:p2 = 0.374, 0.1
+    move:b = false
+    highlight:b=no
+    size:r = 10
+   }
+text {
+    text:t = "["
+    align:i = 0
+    pos:p2 = 0.374, 0.15
+    move:b = false
+    highlight:b=no
+    size:r = 10
+   }
+
+
+
+
+
+
+
+
+/////leeeeeeeeffffffffffffffffffftttttttttttttttttttttttttttttttttttttttttt
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = -0.44, -0.2
+    move:b = false
+    highlight:b=no
+    size:r = 10
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = -0.44, -0.15
+    move:b = false
+    highlight:b=no
+    size:r = 10
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = -0.44, -0.1
+    move:b = false
+    highlight:b=no
+    size:r = 10
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = -0.44, -0.05
+    move:b = false
+    highlight:b=no
+    size:r = 10
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = -0.44, -0.0
+    move:b = false
+    highlight:b=no
+    size:r = 10
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = -0.44, 0.05
+    move:b = false
+    highlight:b=no
+    size:r = 10
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = -0.44, 0.1
+    move:b = false
+    highlight:b=no
+    size:r = 10
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = -0.44, 0.15
+    move:b = false
+    highlight:b=no
+    size:r = 10
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = -0.44, 0.2
+    move:b = false
+    highlight:b=no
+    size:r = 10
+   }
+
+//]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+
+text {
+    text:t = "]"
+    align:i = 0
+    pos:p2 = -0.374, -0.2
+    move:b = false
+    highlight:b=no
+    size:r = 10
+   }
+text {
+    text:t = "]"
+    align:i = 0
+    pos:p2 = -0.374, -0.15
+    move:b = false
+    highlight:b=no
+    size:r = 10
+   }
+text {
+    text:t = "]"
+    align:i = 0
+    pos:p2 = -0.374, -0.1
+    move:b = false
+    highlight:b=no
+    size:r = 10
+   }
+text {
+    text:t = "]"
+    align:i = 0
+    pos:p2 = -0.374, -0.05
+    move:b = false
+    highlight:b=no
+    size:r = 10
+   }
+text {
+    text:t = "]"
+    align:i = 0
+    pos:p2 = -0.374, 0.0
+    move:b = false
+    highlight:b=no
+    size:r = 10
+   }
+text {
+    text:t = "]"
+    align:i = 0
+    pos:p2 = -0.374, 0.05
+    move:b = false
+    highlight:b=no
+    size:r = 10
+   }
+text {
+    text:t = "]"
+    align:i = 0
+    pos:p2 = -0.374, 0.1
+    move:b = false
+    highlight:b=no
+    size:r = 10
+   }
+text {
+    text:t = "]"
+    align:i = 0
+    pos:p2 = -0.374, 0.15
+    move:b = false
+    highlight:b=no
+    size:r = 10
+   }
+
+
+
+
+
+
+
+
+
+
+}

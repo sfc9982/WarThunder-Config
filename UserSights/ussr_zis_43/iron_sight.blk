@@ -1,0 +1,495 @@
+thousandth:t=“ussr”
+crosshairHorVertSize:p2=2,5, 5
+rangefinderProgressBarColor1:c=0, 255, 0, 64
+rangefinderProgressBarColor2:c=255, 255, 255, 64
+rangefinderTextScale:r=0.5
+rangefinderVerticalOffset:r=15
+rangefinderHorizontalOffset:r=15
+fontSizeMult:r=3
+lineSizeMult:r=1
+drawCentralLineVert:b=no
+drawCentralLineHorz:b=no
+crosshairDistHorSizeMain:p2=0.03, 0.02
+crosshairDistHorSizeAdditional:p2=0.005, 0.003
+crosshairColor:c = 10, 15, 10, 1000
+crosshairLightColor:c = 5, 15, 5, 1000
+distanceCorrectionPos:p2=-0.15, 0.035
+drawDistanceCorrection:b=yes
+applyCorrectionToGun:b=yes
+
+
+crosshair_distances{
+
+}
+
+crosshair_hor_ranges{
+
+}
+
+
+
+
+drawQuads {
+    quad {  
+      tl:p2 = -00, 0; // Top left top
+      tr:p2 = 00, 0; // Top right top
+      br:p2 = 02, 10; // Top right bottom
+      bl:p2 = -02, 10; // Top left bottom
+      thousandth:b = yes;
+    }
+    quad {  
+      tl:p2 = -55, 10; // Top left top
+      tr:p2 = 55, 10; // Top right top
+      br:p2 = 55, 15; // Top right bottom
+      bl:p2 = -55, 15; // Top left bottom
+      thousandth:b = yes;
+    }
+    quad {  
+      tl:p2 = -53, 15; // Top left top
+      tr:p2 = 53, 15; // Top right top
+      br:p2 = 53, 75; // Top right bottom
+      bl:p2 = -53, 75; // Top left bottom
+      thousandth:b = yes;
+    }
+    quad {  
+      tl:p2 = -80, 70; // Top left top
+      tr:p2 = 80, 70; // Top right top
+      br:p2 = 80, 75; // Top right bottom
+      bl:p2 = -80, 75; // Top left bottom
+      thousandth:b = yes;
+    }
+    quad {  
+      tl:p2 = -80, -05; // Top left top
+      tr:p2 = -75, -05; // Top right top
+      br:p2 = -75, 75; // Top right bottom
+      bl:p2 = -80, 75; // Top left bottom
+      thousandth:b = yes;
+    }
+    quad {  
+      tl:p2 = 80, -05; // Top left top
+      tr:p2 = 75, -05; // Top right top
+      br:p2 = 75, 75; // Top right bottom
+      bl:p2 = 80, 75; // Top left bottom
+      thousandth:b = yes;
+    }
+    quad {  
+      tl:p2 = -70, 75; // Top left top
+      tr:p2 = 70, 75; // Top right top
+      br:p2 = 70, 85; // Top right bottom
+      bl:p2 = -70, 85; // Top left bottom
+      thousandth:b = yes;
+    }
+    quad {  
+      tl:p2 = -90, 85; // Top left top
+      tr:p2 = 90, 85; // Top right top
+      br:p2 = 90, 385; // Top right bottom
+      bl:p2 = -90, 385; // Top left bottom
+      thousandth:b = yes;
+    }
+    quad {  
+      tl:p2 = -120, 95; // Top left top
+      tr:p2 = 120, 95; // Top right top
+      br:p2 = 120, 385; // Top right bottom
+      bl:p2 = -120, 385; // Top left bottom
+      thousandth:b = yes;
+    }
+    quad {  
+      tl:p2 = -250, 175; // Top left top
+      tr:p2 = 250, 175; // Top right top
+      br:p2 = 250, 385; // Top right bottom
+      bl:p2 = -250, 385; // Top left bottom
+      thousandth:b = yes;
+    }
+//////////////////////////////////
+    quad {  
+      tl:p2 = -00, 0; // Top left top
+      tr:p2 = 00, 0; // Top right top
+      br:p2 = 02, 10; // Top right bottom
+      bl:p2 = -02, 10; // Top left bottom
+      thousandth:b = yes;
+    }
+    quad {  
+      tl:p2 = -55, 10; // Top left top
+      tr:p2 = 55, 10; // Top right top
+      br:p2 = 55, 15; // Top right bottom
+      bl:p2 = -55, 15; // Top left bottom
+      thousandth:b = yes;
+    }
+    quad {  
+      tl:p2 = -53, 15; // Top left top
+      tr:p2 = 53, 15; // Top right top
+      br:p2 = 53, 75; // Top right bottom
+      bl:p2 = -53, 75; // Top left bottom
+      thousandth:b = yes;
+    }
+    quad {  
+      tl:p2 = -80, 70; // Top left top
+      tr:p2 = 80, 70; // Top right top
+      br:p2 = 80, 75; // Top right bottom
+      bl:p2 = -80, 75; // Top left bottom
+      thousandth:b = yes;
+    }
+    quad {  
+      tl:p2 = -80, -05; // Top left top
+      tr:p2 = -75, -05; // Top right top
+      br:p2 = -75, 75; // Top right bottom
+      bl:p2 = -80, 75; // Top left bottom
+      thousandth:b = yes;
+    }
+    quad {  
+      tl:p2 = 80, -05; // Top left top
+      tr:p2 = 75, -05; // Top right top
+      br:p2 = 75, 75; // Top right bottom
+      bl:p2 = 80, 75; // Top left bottom
+      thousandth:b = yes;
+    }
+    quad {  
+      tl:p2 = -70, 75; // Top left top
+      tr:p2 = 70, 75; // Top right top
+      br:p2 = 70, 85; // Top right bottom
+      bl:p2 = -70, 85; // Top left bottom
+      thousandth:b = yes;
+    }
+    quad {  
+      tl:p2 = -90, 85; // Top left top
+      tr:p2 = 90, 85; // Top right top
+      br:p2 = 90, 385; // Top right bottom
+      bl:p2 = -90, 385; // Top left bottom
+      thousandth:b = yes;
+    }
+    quad {  
+      tl:p2 = -120, 95; // Top left top
+      tr:p2 = 120, 95; // Top right top
+      br:p2 = 120, 385; // Top right bottom
+      bl:p2 = -120, 385; // Top left bottom
+      thousandth:b = yes;
+    }
+    quad {  
+      tl:p2 = -250, 175; // Top left top
+      tr:p2 = 250, 175; // Top right top
+      br:p2 = 250, 385; // Top right bottom
+      bl:p2 = -250, 385; // Top left bottom
+      thousandth:b = yes;
+    }
+}
+
+
+
+
+
+drawLines{
+  line{
+    line:p4=02, 10, 00, 00
+    thousandth:b = true;
+    move:b=no
+  }
+  line{
+    line:p4=-02, 10, 00, 00
+    thousandth:b = true;
+    move:b=no
+  }
+/////
+  line{
+    line:p4=55, 10, -55, 10
+    thousandth:b = true;
+    move:b=no
+  }
+  line{
+    line:p4=55, 10.5, -55, 10.5
+    thousandth:b = true;
+    move:b=no
+  }
+  line{
+    line:p4=55, 15, -55, 15
+    thousandth:b = true;
+    move:b=no
+  }
+  line{
+    line:p4=55, 14.5, -55, 14.5
+    thousandth:b = true;
+    move:b=no
+  }
+  line{
+    line:p4=55, 10, 55, 15
+    thousandth:b = true;
+    move:b=no
+  }
+  line{
+    line:p4=54.5, 10, 54.5, 15
+    thousandth:b = true;
+    move:b=no
+  }
+  line{
+    line:p4=-55, 10, -55, 15
+    thousandth:b = true;
+    move:b=no
+  }
+  line{
+    line:p4=-54.5, 10, -54.5, 15
+    thousandth:b = true;
+    move:b=no
+  }
+  line{
+    line:p4=53, 10, 53, 75
+    thousandth:b = true;
+    move:b=no
+  }
+  line{
+    line:p4=-53, 10, -53, 75
+    thousandth:b = true;
+    move:b=no
+  }
+///////
+  line{
+    line:p4=80, 70, -80, 70
+    thousandth:b = true;
+    move:b=no
+  }
+  line{
+    line:p4=80, 70.5, -80, 70.5
+    thousandth:b = true;
+    move:b=no
+  }
+  line{
+    line:p4=80, 74.5, -80, 74.5
+    thousandth:b = true;
+    move:b=no
+  }
+  line{
+    line:p4=80, 75, -80, 75
+    thousandth:b = true;
+    move:b=no
+  }
+  line{
+    line:p4=-80, -05, -80, 75
+    thousandth:b = true;
+    move:b=no
+  }
+  line{
+    line:p4=-79.5, -05, -79.5, 75
+    thousandth:b = true;
+    move:b=no
+  }
+  line{
+    line:p4=-75, -05, -75, 75
+    thousandth:b = true;
+    move:b=no
+  }
+  line{
+    line:p4=-74.5, -05, -74.5, 75
+    thousandth:b = true;
+    move:b=no
+  }
+  line{
+    line:p4=-80, -05, -75, -05
+    thousandth:b = true;
+    move:b=no
+  }
+  line{
+    line:p4=80, -05, 80, 75
+    thousandth:b = true;
+    move:b=no
+  }
+  line{
+    line:p4=79.5, -05, 79.5, 75
+    thousandth:b = true;
+    move:b=no
+  }
+  line{
+    line:p4=75, -05, 75, 75
+    thousandth:b = true;
+    move:b=no
+  }
+  line{
+    line:p4=74.5, -05, 74.5, 75
+    thousandth:b = true;
+    move:b=no
+  }
+  line{
+    line:p4=80, -05, 75, -05
+    thousandth:b = true;
+    move:b=no
+  }
+///////////
+  line{
+    line:p4=-70, 70, -70, 85
+    thousandth:b = true;
+    move:b=no
+  }
+  line{
+    line:p4=-69.5, 70, -69.5, 85
+    thousandth:b = true;
+    move:b=no
+  }
+  line{
+    line:p4=70, 70, 70, 85
+    thousandth:b = true;
+    move:b=no
+  }
+  line{
+    line:p4=69.5, 70, 69.5, 85
+    thousandth:b = true;
+    move:b=no
+  }
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+  line{
+    line:p4=02, 10, 00, 00
+    thousandth:b = true;
+    move:b=no
+  }
+  line{
+    line:p4=-02, 10, 00, 00
+    thousandth:b = true;
+    move:b=no
+  }
+/////
+  line{
+    line:p4=55, 10, -55, 10
+    thousandth:b = true;
+    move:b=no
+  }
+  line{
+    line:p4=55, 10.5, -55, 10.5
+    thousandth:b = true;
+    move:b=no
+  }
+  line{
+    line:p4=55, 15, -55, 15
+    thousandth:b = true;
+    move:b=no
+  }
+  line{
+    line:p4=55, 14.5, -55, 14.5
+    thousandth:b = true;
+    move:b=no
+  }
+  line{
+    line:p4=55, 10, 55, 15
+    thousandth:b = true;
+    move:b=no
+  }
+  line{
+    line:p4=54.5, 10, 54.5, 15
+    thousandth:b = true;
+    move:b=no
+  }
+  line{
+    line:p4=-55, 10, -55, 15
+    thousandth:b = true;
+    move:b=no
+  }
+  line{
+    line:p4=-54.5, 10, -54.5, 15
+    thousandth:b = true;
+    move:b=no
+  }
+  line{
+    line:p4=53, 10, 53, 75
+    thousandth:b = true;
+    move:b=no
+  }
+  line{
+    line:p4=-53, 10, -53, 75
+    thousandth:b = true;
+    move:b=no
+  }
+///////
+  line{
+    line:p4=80, 70, -80, 70
+    thousandth:b = true;
+    move:b=no
+  }
+  line{
+    line:p4=80, 70.5, -80, 70.5
+    thousandth:b = true;
+    move:b=no
+  }
+  line{
+    line:p4=80, 74.5, -80, 74.5
+    thousandth:b = true;
+    move:b=no
+  }
+  line{
+    line:p4=80, 75, -80, 75
+    thousandth:b = true;
+    move:b=no
+  }
+  line{
+    line:p4=-80, -05, -80, 75
+    thousandth:b = true;
+    move:b=no
+  }
+  line{
+    line:p4=-79.5, -05, -79.5, 75
+    thousandth:b = true;
+    move:b=no
+  }
+  line{
+    line:p4=-75, -05, -75, 75
+    thousandth:b = true;
+    move:b=no
+  }
+  line{
+    line:p4=-74.5, -05, -74.5, 75
+    thousandth:b = true;
+    move:b=no
+  }
+  line{
+    line:p4=-80, -05, -75, -05
+    thousandth:b = true;
+    move:b=no
+  }
+  line{
+    line:p4=80, -05, 80, 75
+    thousandth:b = true;
+    move:b=no
+  }
+  line{
+    line:p4=79.5, -05, 79.5, 75
+    thousandth:b = true;
+    move:b=no
+  }
+  line{
+    line:p4=75, -05, 75, 75
+    thousandth:b = true;
+    move:b=no
+  }
+  line{
+    line:p4=74.5, -05, 74.5, 75
+    thousandth:b = true;
+    move:b=no
+  }
+  line{
+    line:p4=80, -05, 75, -05
+    thousandth:b = true;
+    move:b=no
+  }
+///////////
+  line{
+    line:p4=-70, 70, -70, 85
+    thousandth:b = true;
+    move:b=no
+  }
+  line{
+    line:p4=-69.5, 70, -69.5, 85
+    thousandth:b = true;
+    move:b=no
+  }
+  line{
+    line:p4=70, 70, 70, 85
+    thousandth:b = true;
+    move:b=no
+  }
+  line{
+    line:p4=69.5, 70, 69.5, 85
+    thousandth:b = true;
+    move:b=no
+  }
+}
+
+
+
+drawCircles {  
+}

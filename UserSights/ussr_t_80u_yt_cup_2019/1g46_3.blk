@@ -1,0 +1,1395 @@
+﻿crosshairDistHorSizeMain:p2=0, 0
+crosshairDistHorSizeAdditional:p2=0.007, 0.004
+crosshairHorVertSize:p2=0.4, 0.3
+crosshairColor:c = 0,0,0
+crosshairLightColor:c = 255,160,0
+
+rangefinderProgressBarColor1:c=239, 48, 56, 64
+rangefinderProgressBarColor2:c=0, 0, 0, 0
+
+rangefinderVerticalOffset:r=12.5
+rangefinderHorizontalOffset:r=61.5
+rangefinderTextScale:r=0.7
+distanceCorrectionPos:p2= -0.155, -0.0785
+
+autoSightDistanceCorrection:b=yes
+drawDistanceCorrection:b=yes
+drawCentralLineVert:b=no
+drawCentralLineHorz:b=no
+
+thousandth:t = “ussr”
+
+
+                                                      // Прицел дальномер 1Г46
+
+
+
+// Толщина прицельной сетки
+                                lineSizeMult:r = 1.0
+
+// Размер шрифта поправок
+                                fontSizeMult:r = 0.6
+
+
+
+
+drawLines{
+
+                          // Центральная прицельная марка
+
+    line { line:p4 = -1.7,   0,  -0.7,  0; thousandth:b = true; move:b = no;}
+    line { line:p4 =  1.7,   0,   0.7,  0; thousandth:b = true; move:b = no;}
+
+        line { line:p4 = -1.7,   0,  1.7,  0; thousandth:b = true; move:b = yes; radialMoveSpeed:r = -1.00 ; move:b = Yes; moveRadial:b = Yes; radialCenter:p2 = 5000, 0; }
+        line { line:p4 = -1.7,   0,  1.7,  0; thousandth:b = true; move:b = yes; radialMoveSpeed:r = -1.00 ; move:b = Yes; moveRadial:b = Yes; radialCenter:p2 = 5000, 0; }
+
+    line { line:p4 = -0.0, 0.0, -0.75,  1.8; thousandth:b = true; move:b = no;}
+    line { line:p4 =  0.0, 0.0,  0.75,  1.8; thousandth:b = true; move:b = no;}
+
+    	    line { line:p4 = 0,  250,  0,  0; thousandth:b = true; move:b = no;}
+
+    // Основные пулеметные поправки
+
+        line { line:p4 = -1.50,  3.44,   -0.25,  3.44; thousandth:b = true; move:b = no;}
+         line { line:p4 = -0.75,  4.67,   -0.25,  4.67; thousandth:b = true; move:b = no;}
+        line { line:p4 = -1.50,  6.17,   -0.25,  6.17; thousandth:b = true; move:b = no;}
+         line { line:p4 = -0.75,  7.94,   -0.25,  7.94; thousandth:b = true; move:b = no;}
+        line { line:p4 = -1.50,  10.00,   -0.25,  10.00; thousandth:b = true; move:b = no;}
+         line { line:p4 = -0.75,  12.20,   -0.25,  12.20; thousandth:b = true; move:b = no;}
+        line { line:p4 = -1.50,  15.00,   -0.25,  15.00; thousandth:b = true; move:b = no;}
+         line { line:p4 = -0.75,  18.00,   -0.25,  18.00; thousandth:b = true; move:b = no;}
+        line { line:p4 = -1.50,  21.44,   -0.25,  21.44; thousandth:b = true; move:b = no;}
+         line { line:p4 = -0.75,  25.44,   -0.25,  25.44; thousandth:b = true; move:b = no;}
+        line { line:p4 = -1.50,  30.14,   -0.25,  30.14; thousandth:b = true; move:b = no;}
+         line { line:p4 = -0.75,  34.84,   -0.25,  34.84; thousandth:b = true; move:b = no;}
+        line { line:p4 = -1.50,  40.24,   -0.25,  40.24; thousandth:b = true; move:b = no;}
+
+    // Пулеметные поправки (Параллакс)
+
+// Штрих к 0,5
+    	line { line:p4 = 14,   7.2,  14,   8.0;  thousandth:b = true; move:b = no;}
+// Штрих к 1
+    	line { line:p4 = 6,    4.5,   6,   3.7;  thousandth:b = true; move:b = no;}
+// Штрих к 2
+    	line { line:p4 = 2,    3.3,   2,   2.5;  thousandth:b = true; move:b = no;}
+
+    // Промежуточные линии от 1 до 0,5
+
+        line { line:p4 = 8.40,   4.50,   6.65,  3.80; thousandth:b = true; move:b = no;}
+        line { line:p4 = 10.95,  5.70,   9.20,  4.90; thousandth:b = true; move:b = no;}
+        line { line:p4 = 13.50,  6.90,  11.75,  6.10; thousandth:b = true; move:b = no;}
+
+    // Линия между 2 и 1
+        line { line:p4 = 5.40,   3.25,   2.60,  2.60; thousandth:b = true; move:b = no;}
+
+    // Линия между 2 и "3"
+        line { line:p4 = 1.60,   2.50,   1.00,  2.60; thousandth:b = true; move:b = no;}
+
+    // Косой штрих "3"
+    	line { line:p4 = 1.0,  3.6,  0.7,  2.9; thousandth:b = true; move:b = no;}
+
+    // Шкала боковых поправок (Тысячные).
+
+    	line { line:p4 = 2,    0.6,   2,   0; thousandth:b = true; radialMoveSpeed:r = -1.00 ; move:b = Yes; moveRadial:b = Yes; radialCenter:p2 = 5000, 0; }
+    	line { line:p4 = 4,    1.2,   4,   0; thousandth:b = true; radialMoveSpeed:r = -1.00 ; move:b = Yes; moveRadial:b = Yes; radialCenter:p2 = 5000, 0; }
+    	line { line:p4 = 6,    0.6,   6,   0; thousandth:b = true; radialMoveSpeed:r = -1.00 ; move:b = Yes; moveRadial:b = Yes; radialCenter:p2 = 5000, 0; }
+
+    line { line:p4 =  8.0,   0.0,  8.4,  1.2; thousandth:b = true; radialMoveSpeed:r = -1.00 ; move:b = Yes; moveRadial:b = Yes; radialCenter:p2 = 5000, 0; }
+    line { line:p4 =  8.0,   0.0,  7.6,  1.2; thousandth:b = true; radialMoveSpeed:r = -1.00 ; move:b = Yes; moveRadial:b = Yes; radialCenter:p2 = 5000, 0; }
+
+    	line { line:p4 = 10,   0.6,   10,  0; thousandth:b = true; radialMoveSpeed:r = -1.00 ; move:b = Yes; moveRadial:b = Yes; radialCenter:p2 = 5000, 0; }
+    	line { line:p4 = 12,   1.2,   12,  0; thousandth:b = true; radialMoveSpeed:r = -1.00 ; move:b = Yes; moveRadial:b = Yes; radialCenter:p2 = 5000, 0; }
+    	line { line:p4 = 14,   0.6,   14,  0; thousandth:b = true; radialMoveSpeed:r = -1.00 ; move:b = Yes; moveRadial:b = Yes; radialCenter:p2 = 5000, 0; }
+
+    line { line:p4 = 16.0,  0.0,  16.4,  1.2; thousandth:b = true; radialMoveSpeed:r = -1.00 ; move:b = Yes; moveRadial:b = Yes; radialCenter:p2 = 5000, 0; }
+    line { line:p4 = 16.0,  0.0,  15.6,  1.2; thousandth:b = true; radialMoveSpeed:r = -1.00 ; move:b = Yes; moveRadial:b = Yes; radialCenter:p2 = 5000, 0; }
+
+    	line { line:p4 = -2,   0.6,   -2,  0; thousandth:b = true; radialMoveSpeed:r = -1.00 ; move:b = Yes; moveRadial:b = Yes; radialCenter:p2 = 5000, 0; }
+    	line { line:p4 = -4,   1.2,   -4,  0; thousandth:b = true; radialMoveSpeed:r = -1.00 ; move:b = Yes; moveRadial:b = Yes; radialCenter:p2 = 5000, 0; }
+    	line { line:p4 = -6,   0.6,   -6,  0; thousandth:b = true; radialMoveSpeed:r = -1.00 ; move:b = Yes; moveRadial:b = Yes; radialCenter:p2 = 5000, 0; }
+
+    line { line:p4 =  -8.0,  0.0, -8.4,  1.2; thousandth:b = true; radialMoveSpeed:r = -1.00 ; move:b = Yes; moveRadial:b = Yes; radialCenter:p2 = 5000, 0; }
+    line { line:p4 =  -8.0,  0.0, -7.6,  1.2; thousandth:b = true; radialMoveSpeed:r = -1.00 ; move:b = Yes; moveRadial:b = Yes; radialCenter:p2 = 5000, 0; }
+
+    	line { line:p4 = -10,  0.6,  -10,  0; thousandth:b = true; radialMoveSpeed:r = -1.00 ; move:b = Yes; moveRadial:b = Yes; radialCenter:p2 = 5000, 0; }
+    	line { line:p4 = -12,  1.2,  -12,  0; thousandth:b = true; radialMoveSpeed:r = -1.00 ; move:b = Yes; moveRadial:b = Yes; radialCenter:p2 = 5000, 0; }
+    	line { line:p4 = -14,  0.6,  -14,  0; thousandth:b = true; radialMoveSpeed:r = -1.00 ; move:b = Yes; moveRadial:b = Yes; radialCenter:p2 = 5000, 0; }
+
+    line { line:p4 = -16.0, 0.0, -16.4,  1.2; thousandth:b = true; radialMoveSpeed:r = -1.00 ; move:b = Yes; moveRadial:b = Yes; radialCenter:p2 = 5000, 0; }
+    line { line:p4 = -16.0, 0.0, -15.6,  1.2; thousandth:b = true; radialMoveSpeed:r = -1.00 ; move:b = Yes; moveRadial:b = Yes; radialCenter:p2 = 5000, 0; }
+
+    // Верхняя планка шкалы вводимых поправок основного орудия
+
+    line { line:p4 = -44, -27.08, 44, -27.08; thousandth:b = true; move:b = yes;}
+
+    // Нижняя планка дальномерной шкалы (По высоте Kpz-70).
+
+    line { line:p4 = -9.0,   9.0,  -31.5,  9.0; thousandth:b = true; move:b = no;}
+
+    // Верхняя риска дальномерной шкалы для: 3000м ( Сначала | потом __ ). 
+
+             line { line:p4 = -9.15,   7.92,  -9.15,  7.04; thousandth:b = true; move:b = no;}
+        line { line:p4 = -9.1,   8.22,  -9.7,  8.20; thousandth:b = true; move:b = no;}
+
+// 28
+             line { line:p4 =  -11,   7.83,  -11,  6.93; thousandth:b = true; move:b = no;}
+        line { line:p4 = -10.4,   8.14,  -11.6,  8.10; thousandth:b = true; move:b = no;}
+
+// 26
+             line { line:p4 =  -13,   7.72,  -13,  6.87; thousandth:b = true; move:b = no;}
+        line { line:p4 = -12.4,   8.06,  -13.6,  8.00; thousandth:b = true; move:b = no;}
+
+// 24
+             line { line:p4 =  -15,   7.62,  -15,  6.72; thousandth:b = true; move:b = no;}
+        line { line:p4 = -14.4,   7.98,  -15.6,  7.92; thousandth:b = true; move:b = no;}
+
+// 22
+             line { line:p4 =  -17,   7.56,  -17,  6.71; thousandth:b = true; move:b = no;}
+        line { line:p4 = -16.4,   7.90,  -17.6,  7.84; thousandth:b = true; move:b = no;}
+
+// 20
+             line { line:p4 =  -19,   7.43,  -19,  6.53; thousandth:b = true; move:b = no;}
+        line { line:p4 = -18.4,   7.80,  -19.6,  7.72; thousandth:b = true; move:b = no;}
+
+// 18
+             line { line:p4 =  -21,   7.25,  -21,  6.40; thousandth:b = true; move:b = no;}
+        line { line:p4 = -20.4,   7.64,  -21.6,  7.55; thousandth:b = true; move:b = no;}
+
+// 16
+             line { line:p4 =  -23,   7.10,  -23,  6.20; thousandth:b = true; move:b = no;}
+        line { line:p4 = -22.4,   7.51,  -23.6,  7.40; thousandth:b = true; move:b = no;}
+
+// 14
+             line { line:p4 =  -25,   6.85,  -25,  6.00; thousandth:b = true; move:b = no;}
+        line { line:p4 = -24.4,   7.29,  -25.6,  7.15; thousandth:b = true; move:b = no;}
+
+// 12
+             line { line:p4 =  -27,   6.60,  -27,  5.70; thousandth:b = true; move:b = no;}
+        line { line:p4 = -26.4,   7.06,  -27.6,  6.90; thousandth:b = true; move:b = no;}
+
+// 10
+             line { line:p4 =  -29,   6.25,  -29,  5.40; thousandth:b = true; move:b = no;}
+        line { line:p4 = -28.4,   6.75,  -29.6,  6.55; thousandth:b = true; move:b = no;}
+
+// 8
+             line { line:p4 =  -31.4,   5.7,  -31.4,  4.8; thousandth:b = true; move:b = no;}
+        line { line:p4 = -30.4,   6.25,  -31.4,  6.00; thousandth:b = true; move:b = no;}
+
+    // Шкала поправок для ОФ снаряда (Литера О).
+
+        line { line:p4 = 6.5,   -27.00,  8.7,  -27.00; thousandth:b = true; }
+        line { line:p4 = 6.5,   -29.82,  8.7,  -29.82; thousandth:b = true; }
+        line { line:p4 = 6.5,   -32.25,  8.7,  -32.25; thousandth:b = true; }
+        line { line:p4 = 6.5,   -34.90,  8.7,  -34.90; thousandth:b = true; }
+        line { line:p4 = 6.5,   -37.58,  8.7,  -37.58; thousandth:b = true; }
+        line { line:p4 = 6.5,   -40.30,  8.7,  -40.30; thousandth:b = true; }
+        line { line:p4 = 6.5,   -42.90,  8.7,  -42.90; thousandth:b = true; }
+        line { line:p4 = 6.5,   -45.58,  8.7,  -45.58; thousandth:b = true; }
+        line { line:p4 = 6.5,   -48.25,  8.7,  -48.25; thousandth:b = true; }
+        line { line:p4 = 6.5,   -50.95,  8.7,  -50.95; thousandth:b = true; }
+        line { line:p4 = 6.5,   -53.68,  8.7,  -53.68; thousandth:b = true; }
+
+    // Промежуточные значения
+
+        line { line:p4 = 6.9,   -27.90,  8.1,  -27.90; thousandth:b = true; }
+        line { line:p4 = 6.7,   -28.55,  8.3,  -28.55; thousandth:b = true; }
+        line { line:p4 = 6.9,   -29.15,  8.1,  -29.15; thousandth:b = true; }
+        line { line:p4 = 6.9,   -30.45,  8.1,  -30.45; thousandth:b = true; }
+        line { line:p4 = 6.7,   -31.00,  8.3,  -31.00; thousandth:b = true; }
+        line { line:p4 = 6.9,   -31.70,  8.1,  -31.70; thousandth:b = true; }
+        line { line:p4 = 6.9,   -32.95,  8.1,  -32.95; thousandth:b = true; }
+        line { line:p4 = 6.7,   -33.55,  8.3,  -33.55; thousandth:b = true; }
+        line { line:p4 = 6.9,   -34.26,  8.1,  -34.26; thousandth:b = true; }
+        line { line:p4 = 6.9,   -35.68,  8.1,  -35.68; thousandth:b = true; }
+        line { line:p4 = 6.7,   -36.30,  8.3,  -36.30; thousandth:b = true; }
+        line { line:p4 = 6.9,   -36.98,  8.1,  -36.98; thousandth:b = true; }
+        line { line:p4 = 6.9,   -38.22,  8.1,  -38.22; thousandth:b = true; }
+        line { line:p4 = 6.7,   -38.95,  8.3,  -38.95; thousandth:b = true; }
+        line { line:p4 = 6.9,   -39.62,  8.1,  -39.62; thousandth:b = true; }
+        line { line:p4 = 6.9,   -40.95,  8.1,  -40.95; thousandth:b = true; }
+        line { line:p4 = 6.7,   -41.62,  8.3,  -41.62; thousandth:b = true; }
+        line { line:p4 = 6.9,   -42.30,  8.1,  -42.30; thousandth:b = true; }
+        line { line:p4 = 6.9,   -43.55,  8.1,  -43.55; thousandth:b = true; }
+        line { line:p4 = 6.7,   -44.25,  8.3,  -44.25; thousandth:b = true; }
+        line { line:p4 = 6.9,   -44.80,  8.1,  -44.80; thousandth:b = true; }
+        line { line:p4 = 6.9,   -46.20,  8.1,  -46.20; thousandth:b = true; }
+        line { line:p4 = 6.7,   -46.85,  8.3,  -46.85; thousandth:b = true; }
+        line { line:p4 = 6.9,   -47.50,  8.1,  -47.50; thousandth:b = true; }
+        line { line:p4 = 6.9,   -48.90,  8.1,  -48.90; thousandth:b = true; }
+        line { line:p4 = 6.7,   -49.58,  8.3,  -49.58; thousandth:b = true; }
+        line { line:p4 = 6.9,   -50.30,  8.1,  -50.30; thousandth:b = true; }
+        line { line:p4 = 6.9,   -51.65,  8.1,  -51.65; thousandth:b = true; }
+        line { line:p4 = 6.7,   -52.30,  8.3,  -52.30; thousandth:b = true; }
+        line { line:p4 = 6.9,   -52.90,  8.1,  -52.90; thousandth:b = true; }
+
+    // Шкала поправок для КС снаряда (Литера К).
+
+        line { line:p4 = 17.4,   -27.00,  19.6,  -27.00; thousandth:b = true; }
+        line { line:p4 = 17.4,   -29.45,  19.6,  -29.45; thousandth:b = true; }
+        line { line:p4 = 17.4,   -31.80,  19.6,  -31.80; thousandth:b = true; }
+        line { line:p4 = 17.4,   -34.15,  19.6,  -34.15; thousandth:b = true; }
+        line { line:p4 = 17.4,   -36.40,  19.6,  -36.40; thousandth:b = true; }
+        line { line:p4 = 17.4,   -38.75,  19.6,  -38.75; thousandth:b = true; }
+        line { line:p4 = 17.4,   -41.15,  19.6,  -41.15; thousandth:b = true; }
+        line { line:p4 = 17.4,   -43.50,  19.6,  -43.50; thousandth:b = true; }
+
+    // Промежуточные значения
+
+        line { line:p4 = 17.9,   -27.70,  19.1,  -27.70; thousandth:b = true; }
+        line { line:p4 = 17.7,   -28.25,  19.3,  -28.25; thousandth:b = true; }
+        line { line:p4 = 17.9,   -28.90,  19.1,  -28.90; thousandth:b = true; }
+        line { line:p4 = 17.9,   -30.05,  19.1,  -30.05; thousandth:b = true; }
+        line { line:p4 = 17.7,   -30.55,  19.3,  -30.55; thousandth:b = true; }
+        line { line:p4 = 17.9,   -31.18,  19.1,  -31.18; thousandth:b = true; }
+        line { line:p4 = 17.9,   -32.31,  19.1,  -32.31; thousandth:b = true; }
+        line { line:p4 = 17.7,   -32.95,  19.3,  -32.95; thousandth:b = true; }
+        line { line:p4 = 17.9,   -33.52,  19.1,  -33.52; thousandth:b = true; }
+        line { line:p4 = 17.9,   -34.70,  19.1,  -34.70; thousandth:b = true; }
+        line { line:p4 = 17.7,   -35.20,  19.3,  -35.20; thousandth:b = true; }
+        line { line:p4 = 17.9,   -35.74,  19.1,  -35.74; thousandth:b = true; }
+        line { line:p4 = 17.9,   -36.92,  19.1,  -36.92; thousandth:b = true; }
+        line { line:p4 = 17.7,   -37.55,  19.3,  -37.55; thousandth:b = true; }
+        line { line:p4 = 17.9,   -38.15,  19.1,  -38.15; thousandth:b = true; }
+        line { line:p4 = 17.9,   -39.38,  19.1,  -39.38; thousandth:b = true; }
+        line { line:p4 = 17.7,   -39.90,  19.3,  -39.90; thousandth:b = true; }
+        line { line:p4 = 17.9,   -40.45,  19.1,  -40.45; thousandth:b = true; }
+        line { line:p4 = 17.9,   -41.70,  19.1,  -41.70; thousandth:b = true; }
+        line { line:p4 = 17.7,   -42.30,  19.3,  -42.30; thousandth:b = true; }
+        line { line:p4 = 17.9,   -42.90,  19.1,  -42.90; thousandth:b = true; }
+        line { line:p4 = 17.9,   -44.10,  19.1,  -44.10; thousandth:b = true; }
+        line { line:p4 = 17.7,   -44.65,  19.3,  -44.65; thousandth:b = true; }
+
+    // Шкала поправок БОПС
+
+// 0
+        line { line:p4 = -20.9,   -27.00,  -22.1,  -27.00; thousandth:b = true; }
+// 200
+        line { line:p4 = -19.6,   -27.40,  -20.6,  -27.40; thousandth:b = true; }
+// 400
+        line { line:p4 = -18.1,   -27.72,  -19.3,  -27.72; thousandth:b = true; }
+// 600
+        line { line:p4 = -16.8,   -28.00,  -17.8,  -28.00; thousandth:b = true; }
+// 800
+        line { line:p4 = -15.3,   -28.36,  -16.5,  -28.36; thousandth:b = true; }
+// 1000
+        line { line:p4 = -14.0,   -28.66,  -15.0,  -28.66; thousandth:b = true; }
+// 1200
+        line { line:p4 = -12.5,   -28.96,  -13.7,  -28.96; thousandth:b = true; }
+// 1400
+        line { line:p4 = -11.2,   -29.26,  -12.2,  -29.26; thousandth:b = true; }
+// 1600
+        line { line:p4 = -9.7,    -29.56,  -10.9,  -29.56; thousandth:b = true; }
+// 1800
+        line { line:p4 = -8.4,    -29.84,  -9.4,   -29.84; thousandth:b = true; }
+// 2000
+        line { line:p4 = -6.9,    -30.14,  -8.1,   -30.14; thousandth:b = true; }
+// 2200
+        line { line:p4 = -5.6,    -30.45,  -6.6,   -30.45; thousandth:b = true; }
+// 2400
+        line { line:p4 = -4.1,    -30.76,  -5.3,   -30.76; thousandth:b = true; }
+// 2600
+        line { line:p4 = -2.8,    -31.06,  -3.8,   -31.06; thousandth:b = true; }
+// 2800
+        line { line:p4 = -1.3,    -31.35,  -2.5,   -31.35; thousandth:b = true; }
+// 3000
+        line { line:p4 =  0.11,   -31.70,  -1.11,  -31.70; thousandth:b = true; }
+
+    // Контроль СУО (Решетка).
+
+    	     line { line:p4 = 12.3,   -16.4,   12.3,  -14.4; thousandth:b = true; move:b = yes;}
+
+        line { line:p4 = 13.3,   -16.1,  15.3,  -16.1; thousandth:b = true; move:b = yes;}
+        line { line:p4 = 13.3,   -14.8,  15.3,  -14.8; thousandth:b = true; move:b = yes;}
+
+        line { line:p4 = 9.3,   -16.1,  11.3,  -16.1; thousandth:b = true; move:b = yes;}
+        line { line:p4 = 9.3,   -14.8,  11.3,  -14.8; thousandth:b = true; move:b = yes;}
+}
+
+    // Реалистичный угол обзора (Можно удалить).
+
+drawCircles {
+        circle{ segment:p2 = 0.0, 360.0; pos:p2 = 0.0, 0.0; diameter:r = 2.45; size:r = 200; move:b = no; }
+        circle{ segment:p2 = 0.0, 360.0; pos:p2 = 0.0, 0.0; diameter:r = 2.45; size:r = 200; move:b = no; }
+        circle{ segment:p2 = 0.0, 360.0; pos:p2 = 0.0, 0.0; diameter:r = 2.45; size:r = 200; move:b = no; }
+        circle{ segment:p2 = 0.0, 360.0; pos:p2 = 0.0, 0.0; diameter:r = 2.45; size:r = 200; move:b = no; }
+        circle{ segment:p2 = 0.0, 360.0; pos:p2 = 0.0, 0.0; diameter:r = 2.65; size:r = 300; move:b = no; }
+        circle{ segment:p2 = 0.0, 360.0; pos:p2 = 0.0, 0.0; diameter:r = 2.85; size:r = 300; move:b = no; }
+        circle{ segment:p2 = 0.0, 360.0; pos:p2 = 0.0, 0.0; diameter:r = 2.95; size:r = 200; move:b = no; }
+        circle{ segment:p2 = 0.0, 360.0; pos:p2 = 0.0, 0.0; diameter:r = 3.05; size:r = 200; move:b = no; }
+        circle{ segment:p2 = 0.0, 360.0; pos:p2 = 0.0, 0.0; diameter:r = 3.15; size:r = 200; move:b = no; }
+        circle{ segment:p2 = 0.0, 360.0; pos:p2 = 0.0, 0.0; diameter:r = 3.15; size:r = 200; move:b = no; }
+        circle{ segment:p2 = 0.0, 360.0; pos:p2 = 0.0, 0.0; diameter:r = 3.15; size:r = 200; move:b = no; }
+        circle{ segment:p2 = 0.0, 360.0; pos:p2 = 0.0, 0.0; diameter:r = 3.15; size:r = 200; move:b = no; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        circle{ segment:p2 = 0.0, 360.0; pos:p2 = 0.0, 0.0; diameter:r = 2.45; size:r = 200; move:b = no; }
+        circle{ segment:p2 = 0.0, 360.0; pos:p2 = 0.0, 0.0; diameter:r = 2.45; size:r = 200; move:b = no; }
+        circle{ segment:p2 = 0.0, 360.0; pos:p2 = 0.0, 0.0; diameter:r = 2.45; size:r = 200; move:b = no; }
+        circle{ segment:p2 = 0.0, 360.0; pos:p2 = 0.0, 0.0; diameter:r = 2.45; size:r = 200; move:b = no; }
+        circle{ segment:p2 = 0.0, 360.0; pos:p2 = 0.0, 0.0; diameter:r = 2.65; size:r = 300; move:b = no; }
+        circle{ segment:p2 = 0.0, 360.0; pos:p2 = 0.0, 0.0; diameter:r = 2.85; size:r = 300; move:b = no; }
+        circle{ segment:p2 = 0.0, 360.0; pos:p2 = 0.0, 0.0; diameter:r = 2.95; size:r = 200; move:b = no; }
+        circle{ segment:p2 = 0.0, 360.0; pos:p2 = 0.0, 0.0; diameter:r = 3.05; size:r = 200; move:b = no; }
+        circle{ segment:p2 = 0.0, 360.0; pos:p2 = 0.0, 0.0; diameter:r = 3.15; size:r = 200; move:b = no; }
+        circle{ segment:p2 = 0.0, 360.0; pos:p2 = 0.0, 0.0; diameter:r = 3.15; size:r = 200; move:b = no; }
+        circle{ segment:p2 = 0.0, 360.0; pos:p2 = 0.0, 0.0; diameter:r = 3.15; size:r = 200; move:b = no; }
+        circle{ segment:p2 = 0.0, 360.0; pos:p2 = 0.0, 0.0; diameter:r = 3.15; size:r = 200; move:b = no; }
+
+
+}
+
+    // Цифровые значения дальномерной шкалы
+
+drawTexts {
+// Laser
+//////////////////////////////////////////////////////////rightttttttttttt
+text {
+    text:t = "/"
+    align:i = 0
+    pos:p2 = 0.825, 0.585
+    move:b = false
+    highlight:b=no
+    size:r = 7
+   }
+text {
+    text:t = "/"
+    align:i = 0
+    pos:p2 = 0.825, 0.585
+    move:b = false
+    highlight:b=no
+    size:r = 7
+   }
+text {
+    text:t = "/"
+    align:i = 0
+    pos:p2 = 0.825, 0.585
+    move:b = false
+    highlight:b=no
+    size:r = 7
+   }
+text {
+    text:t = "/"
+    align:i = 0
+    pos:p2 = 0.825, 0.585
+    move:b = false
+    highlight:b=no
+    size:r = 7
+   }
+text {
+    text:t = "/"
+    align:i = 0
+    pos:p2 = 0.835, 0.585
+    move:b = false
+    highlight:b=no
+    size:r = 7
+   }
+text {
+    text:t = "/"
+    align:i = 0
+    pos:p2 = 0.835, 0.585
+    move:b = false
+    highlight:b=no
+    size:r = 7
+   }
+text {
+    text:t = "/"
+    align:i = 0
+    pos:p2 = 0.845, 0.585
+    move:b = false
+    highlight:b=no
+    size:r = 7
+   }
+text {
+    text:t = "/"
+    align:i = 0
+    pos:p2 = 0.855, 0.585
+    move:b = false
+    highlight:b=no
+    size:r = 7
+   }
+text {
+    text:t = "/"
+    align:i = 0
+    pos:p2 = 0.855, 0.585
+    move:b = false
+    highlight:b=no
+    size:r = 7
+   }
+//////////////////////////////
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.91, 0.6005
+    move:b = false
+    highlight:b=no
+    size:r = 10
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.91, 0.605
+    move:b = false
+    highlight:b=no
+    size:r = 10
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.92, 0.6005
+    move:b = false
+    highlight:b=no
+    size:r = 10
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.92, 0.6005
+    move:b = false
+    highlight:b=no
+    size:r = 10
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.90, 0.63
+    move:b = false
+    highlight:b=no
+    size:r = 10
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.90, 0.636
+    move:b = false
+    highlight:b=no
+    size:r = 10
+   }
+
+
+
+
+
+
+
+//\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\leftttttttttttttttttt
+text {
+    text:t = "\"
+    align:i = 0
+    pos:p2 = -0.825, 0.585
+    move:b = false
+    highlight:b=no
+    size:r = 7
+   }
+text {
+    text:t = "\"
+    align:i = 0
+    pos:p2 = -0.825, 0.585
+    move:b = false
+    highlight:b=no
+    size:r = 7
+   }
+text {
+    text:t = "\"
+    align:i = 0
+    pos:p2 = -0.825, 0.585
+    move:b = false
+    highlight:b=no
+    size:r = 7
+   }
+text {
+    text:t = "\"
+    align:i = 0
+    pos:p2 = -0.825, 0.585
+    move:b = false
+    highlight:b=no
+    size:r = 7
+   }
+text {
+    text:t = "\"
+    align:i = 0
+    pos:p2 = -0.835, 0.585
+    move:b = false
+    highlight:b=no
+    size:r = 7
+   }
+text {
+    text:t = "\"
+    align:i = 0
+    pos:p2 = -0.835, 0.585
+    move:b = false
+    highlight:b=no
+    size:r = 7
+   }
+text {
+    text:t = "\"
+    align:i = 0
+    pos:p2 = -0.845, 0.585
+    move:b = false
+    highlight:b=no
+    size:r = 7
+   }
+text {
+    text:t = "\"
+    align:i = 0
+    pos:p2 = -0.845, 0.585
+    move:b = false
+    highlight:b=no
+    size:r = 7
+   }
+text {
+    text:t = "\"
+    align:i = 0
+    pos:p2 = -0.855, 0.585
+    move:b = false
+    highlight:b=no
+    size:r = 7
+   }
+text {
+    text:t = "\"
+    align:i = 0
+    pos:p2 = -0.855, 0.585
+    move:b = false
+    highlight:b=no
+    size:r = 7
+   }
+/////////////////////////////////
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = -0.92, 0.6005
+    move:b = false
+    highlight:b=no
+    size:r = 10
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = -0.92, 0.6005
+    move:b = false
+    highlight:b=no
+    size:r = 10
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = -0.93, 0.6005
+    move:b = false
+    highlight:b=no
+    size:r = 10
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = -0.93, 0.6005
+    move:b = false
+    highlight:b=no
+    size:r = 10
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = -0.91, 0.636
+    move:b = false
+    highlight:b=no
+    size:r = 10
+   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+//-------------------------------------------------------------------------------------------------------------
+//uuuuuuuuuuuuuuuuuuuuuuuuuuppppppppppppppppppp
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.00, 0.74
+    move:b = false
+    highlight:b=no
+    size:r = 17
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.10, 0.74
+    move:b = false
+    highlight:b=no
+    size:r = 17
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.20, 0.74
+    move:b = false
+    highlight:b=no
+    size:r = 17
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.30, 0.74
+    move:b = false
+    highlight:b=no
+    size:r = 17
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.40, 0.74
+    move:b = false
+    highlight:b=no
+    size:r = 17
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.50, 0.74
+    move:b = false
+    highlight:b=no
+    size:r = 17
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.60, 0.74
+    move:b = false
+    highlight:b=no
+    size:r = 17
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.70, 0.74
+    move:b = false
+    highlight:b=no
+    size:r = 17
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.80, 0.74
+    move:b = false
+    highlight:b=no
+    size:r = 17
+   }
+/////////////////////////
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = -0.10, 0.74
+    move:b = false
+    highlight:b=no
+    size:r = 17
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = -0.20, 0.74
+    move:b = false
+    highlight:b=no
+    size:r = 17
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = -0.30, 0.74
+    move:b = false
+    highlight:b=no
+    size:r = 17
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = -0.40, 0.74
+    move:b = false
+    highlight:b=no
+    size:r = 17
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = -0.50, 0.74
+    move:b = false
+    highlight:b=no
+    size:r = 17
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = -0.60, 0.74
+    move:b = false
+    highlight:b=no
+    size:r = 17
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = -0.70, 0.74
+    move:b = false
+    highlight:b=no
+    size:r = 17
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = -0.80, 0.74
+    move:b = false
+    highlight:b=no
+    size:r = 17
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = -0.90, 0.74
+    move:b = false
+    highlight:b=no
+    size:r = 17
+   }
+
+
+
+
+
+//dooooooooooowwwwwwwwwwwwwwwwnnnnnnnnnnnnnnnnnnn
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.00, 0.80
+    move:b = false
+    highlight:b=no
+    size:r = 17
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.10, 0.80
+    move:b = false
+    highlight:b=no
+    size:r = 17
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.20, 0.80
+    move:b = false
+    highlight:b=no
+    size:r = 17
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.30, 0.80
+    move:b = false
+    highlight:b=no
+    size:r = 17
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.40, 0.80
+    move:b = false
+    highlight:b=no
+    size:r = 17
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.50, 0.80
+    move:b = false
+    highlight:b=no
+    size:r = 17
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.60, 0.80
+    move:b = false
+    highlight:b=no
+    size:r = 17
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.70, 0.80
+    move:b = false
+    highlight:b=no
+    size:r = 17
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = 0.80, 0.80
+    move:b = false
+    highlight:b=no
+    size:r = 17
+   }
+/////////////////////////
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = -0.10, 0.80
+    move:b = false
+    highlight:b=no
+    size:r = 17
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = -0.20, 0.80
+    move:b = false
+    highlight:b=no
+    size:r = 17
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = -0.30, 0.80
+    move:b = false
+    highlight:b=no
+    size:r = 17
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = -0.40, 0.80
+    move:b = false
+    highlight:b=no
+    size:r = 17
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = -0.50, 0.80
+    move:b = false
+    highlight:b=no
+    size:r = 17
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = -0.60, 0.80
+    move:b = false
+    highlight:b=no
+    size:r = 17
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = -0.70, 0.80
+    move:b = false
+    highlight:b=no
+    size:r = 17
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = -0.80, 0.80
+    move:b = false
+    highlight:b=no
+    size:r = 17
+   }
+text {
+    text:t = "〓"
+    align:i = 0
+    pos:p2 = -0.90, 0.80
+    move:b = false
+    highlight:b=no
+    size:r = 17
+   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Text
+text {
+text:t = "28"
+align:i = 0
+pos:p2 = -11.0, 5.7
+move:b = no
+thousandth:b = yes
+size:r = 0.55
+highlight:b = yes
+}
+text {
+text:t = "24"
+align:i = 0
+pos:p2 = -15.0, 5.6
+move:b = no
+thousandth:b = yes
+size:r = 0.55
+highlight:b = yes
+}
+text {
+text:t = "20"
+align:i = 0
+pos:p2 = -19.0, 5.4
+move:b = no
+thousandth:b = yes
+size:r = 0.55
+highlight:b = yes
+}
+text {
+text:t = "16"
+align:i = 0
+pos:p2 = -23.0, 5.1
+move:b = no
+thousandth:b = yes
+size:r = 0.55
+highlight:b = yes
+}
+text {
+text:t = "12"
+align:i = 0
+pos:p2 = -27.0, 4.6
+move:b = no
+thousandth:b = yes
+size:r = 0.55
+highlight:b = yes
+}
+text {
+text:t = "8"
+align:i = 0
+pos:p2 = -31.4, 3.7
+move:b = no
+thousandth:b = yes
+size:r = 0.55
+highlight:b = yes
+}
+text {
+text:t = "2,5"
+align:i = 0
+pos:p2 = -31.0, 10.05
+move:b = no
+thousandth:b = yes
+size:r = 0.6
+highlight:b = yes
+}
+
+    // Цифры пулеметных шкал
+
+text {
+text:t = "П"
+align:i = 0
+pos:p2 = 1.5, 7.5
+move:b = no
+thousandth:b = yes
+size:r = 0.55
+highlight:b = yes
+}
+text {
+text:t = "4"
+align:i = 0
+pos:p2 = -2.6, 3.44
+move:b = no
+thousandth:b = yes
+size:r = 0.55
+highlight:b = yes
+}
+text {
+text:t = "6"
+align:i = 0
+pos:p2 = -2.6, 6.17
+move:b = no
+thousandth:b = yes
+size:r = 0.55
+highlight:b = yes
+}
+text {
+text:t = "8"
+align:i = 0
+pos:p2 = -2.6, 10.00
+move:b = no
+thousandth:b = yes
+size:r = 0.55
+highlight:b = yes
+}
+text {
+text:t = "10"
+align:i = 0
+pos:p2 = -2.85, 15.00
+move:b = no
+thousandth:b = yes
+size:r = 0.55
+highlight:b = yes
+}
+text {
+text:t = "12"
+align:i = 0
+pos:p2 = -2.85, 21.44
+move:b = no
+thousandth:b = yes
+size:r = 0.55
+highlight:b = yes
+}
+text {
+text:t = "14"
+align:i = 0
+pos:p2 = -2.85, 30.14
+move:b = no
+thousandth:b = yes
+size:r = 0.6
+highlight:b = yes
+}
+text {
+text:t = "16"
+align:i = 0
+pos:p2 = -2.85, 40.24
+move:b = no
+thousandth:b = yes
+size:r = 0.55
+highlight:b = yes
+}
+text {
+text:t = "0,5"
+align:i = 0
+pos:p2 = 14.0, 8.8
+move:b = no
+thousandth:b = yes
+size:r = 0.55
+highlight:b = yes
+}
+text {
+text:t = "1"
+align:i = 0
+pos:p2 = 6.0, 5.3
+move:b = no
+thousandth:b = yes
+size:r = 0.55
+highlight:b = yes
+}
+text {
+text:t = "2"
+align:i = 0
+pos:p2 = 2.0, 4.1
+move:b = no
+thousandth:b = yes
+size:r = 0.55
+highlight:b = yes
+}
+
+    // Орудийные поправки (Осколочный снаряд)
+
+text {
+text:t = "О"
+align:i = 0
+pos:p2 = 7.6, -25.15
+move:b = no
+thousandth:b = yes
+size:r = 0.6
+highlight:b = yes
+}
+text {
+text:t = "0"
+align:i = 0
+pos:p2 = 5.2, -27.0
+move:b = no
+thousandth:b = yes
+size:r = 0.55
+highlight:b = yes
+}
+text {
+text:t = "4"
+align:i = 0
+pos:p2 = 9.6, -29.82
+move:b = no
+thousandth:b = yes
+size:r = 0.55
+highlight:b = yes
+}
+text {
+text:t = "8"
+align:i = 0
+pos:p2 = 5.2, -32.25
+move:b = no
+thousandth:b = yes
+size:r = 0.55
+highlight:b = yes
+}
+text {
+text:t = "12"
+align:i = 0
+pos:p2 = 10.0, -34.90
+move:b = no
+thousandth:b = yes
+size:r = 0.55
+highlight:b = yes
+}
+text {
+text:t = "16"
+align:i = 0
+pos:p2 = 4.9, -37.58
+move:b = no
+thousandth:b = yes
+size:r = 0.55
+highlight:b = yes
+}
+text {
+text:t = "20"
+align:i = 0
+pos:p2 = 10.0, -40.30
+move:b = no
+thousandth:b = yes
+size:r = 0.55
+highlight:b = yes
+}
+text {
+text:t = "24"
+align:i = 0
+pos:p2 = 4.9, -42.90
+move:b = no
+thousandth:b = yes
+size:r = 0.55
+highlight:b = yes
+}
+text {
+text:t = "28"
+align:i = 0
+pos:p2 = 10.0, -45.58
+move:b = no
+thousandth:b = yes
+size:r = 0.55
+highlight:b = yes
+}
+text {
+text:t = "32"
+align:i = 0
+pos:p2 = 4.9, -48.25
+move:b = no
+thousandth:b = yes
+size:r = 0.55
+highlight:b = yes
+}
+text {
+text:t = "36"
+align:i = 0
+pos:p2 = 10.0, -50.95
+move:b = no
+thousandth:b = yes
+size:r = 0.55
+highlight:b = yes
+}
+text {
+text:t = "40"
+align:i = 0
+pos:p2 = 4.9, -53.68
+move:b = no
+thousandth:b = yes
+size:r = 0.55
+highlight:b = yes
+}
+
+    // Орудийные поправки (Кумулятивный снаряд)
+
+text {
+text:t = "Н"
+align:i = 0
+pos:p2 = 18.5, -25.15
+move:b = no
+thousandth:b = yes
+size:r = 0.6
+highlight:b = yes
+}
+text {
+text:t = "0"
+align:i = 0
+pos:p2 = 16.3, -27.0
+move:b = no
+thousandth:b = yes
+size:r = 0.55
+highlight:b = yes
+}
+text {
+text:t = "4"
+align:i = 0
+pos:p2 = 20.7, -29.45
+move:b = no
+thousandth:b = yes
+size:r = 0.55
+highlight:b = yes
+}
+text {
+text:t = "8"
+align:i = 0
+pos:p2 = 16.3, -31.80
+move:b = no
+thousandth:b = yes
+size:r = 0.55
+highlight:b = yes
+}
+text {
+text:t = "12"
+align:i = 0
+pos:p2 = 21.0, -34.15
+move:b = no
+thousandth:b = yes
+size:r = 0.55
+highlight:b = yes
+}
+text {
+text:t = "16"
+align:i = 0
+pos:p2 = 16.0, -36.40
+move:b = no
+thousandth:b = yes
+size:r = 0.55
+highlight:b = yes
+}
+text {
+text:t = "20"
+align:i = 0
+pos:p2 = 21.0, -38.75
+move:b = no
+thousandth:b = yes
+size:r = 0.55
+highlight:b = yes
+}
+text {
+text:t = "24"
+align:i = 0
+pos:p2 = 16.0, -41.15
+move:b = no
+thousandth:b = yes
+size:r = 0.55
+highlight:b = yes
+}
+text {
+text:t = "28"
+align:i = 0
+pos:p2 = 21.0, -43.50
+move:b = no
+thousandth:b = yes
+size:r = 0.55
+highlight:b = yes
+}
+
+    // Орудийные поправки (Подкалиберный снаряд)
+
+
+text {
+text:t = "Б"
+align:i = 0
+pos:p2 = -21.6, -25.15
+move:b = no
+thousandth:b = yes
+size:r = 0.6
+highlight:b = yes
+}
+text {
+text:t = "0"
+align:i = 0
+pos:p2 = -21.5, -28.0
+move:b = no
+thousandth:b = yes
+size:r = 0.55
+highlight:b = yes
+}
+text {
+text:t = "4"
+align:i = 0
+pos:p2 = -18.7, -28.72
+move:b = no
+thousandth:b = yes
+size:r = 0.55
+highlight:b = yes
+}
+text {
+text:t = "8"
+align:i = 0
+pos:p2 = -15.9, -29.36
+move:b = no
+thousandth:b = yes
+size:r = 0.55
+highlight:b = yes
+}
+text {
+text:t = "12"
+align:i = 0
+pos:p2 = -13.1, -29.96
+move:b = no
+thousandth:b = yes
+size:r = 0.55
+highlight:b = yes
+}
+text {
+text:t = "16"
+align:i = 0
+pos:p2 = -10.3, -30.56
+move:b = no
+thousandth:b = yes
+size:r = 0.55
+highlight:b = yes
+}
+text {
+text:t = "20"
+align:i = 0
+pos:p2 = -7.5, -31.14
+move:b = no
+thousandth:b = yes
+size:r = 0.55
+highlight:b = yes
+}
+text {
+text:t = "24"
+align:i = 0
+pos:p2 = -4.7, -31.76
+move:b = no
+thousandth:b = yes
+size:r = 0.55
+highlight:b = yes
+}
+text {
+text:t = "28"
+align:i = 0
+pos:p2 = -1.9, -32.35
+move:b = no
+thousandth:b = yes
+size:r = 0.55
+highlight:b = yes
+}
+}
+
+    // Поправки основного орудия
+crosshair_distances{}
+
+    // Тысячные на горизонтальной линии прицела:
+crosshair_hor_ranges{}

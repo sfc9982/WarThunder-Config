@@ -1,0 +1,294 @@
+ matchExpClass {
+ ussr_bt_5:b = yes
+ ussr_bt_7_1937:b = yes
+ ussr_bt_7_m:b = yes
+ ussr_rbt_5:b = yes
+ ussr_smk:b = yes
+ ussr_t_26_1940:b = yes
+ ussr_t_26_1940_1st_GvTbr:b = yes
+ ussr_t_26E:b = yes
+ ussr_t_35:b = yes
+ ussr_t_50:b = yes
+ ussr_t_70_1942:b = yes
+ ussr_t_80:b = yes
+ ussr_t_126sp:b = yes
+ ussr_ba_11:b = yes
+ }
+
+
+
+
+rangefinderProgressBarColor1:c=0, 255, 0, 64
+rangefinderProgressBarColor2:c=255, 255, 255, 64
+rangefinderTextScale:r=0.7
+rangefinderVerticalOffset:r=5
+rangefinderHorizontalOffset:r=5
+fontSizeMult:r=1.0
+lineSizeMult:r=1.35
+drawCentralLineVert:b=yes
+drawCentralLineHorz:b=yes; applyCorrectionToGun:b=no
+crosshairDistHorSizeMain:p2=0.03, 0.02
+crosshairDistHorSizeAdditional:p2=0.005, 0.003
+    crosshairColor:c = 0,0,0
+    crosshairLightColor:c = 255,160,0
+distanceCorrectionPos:p2=-0.2, -0.05
+drawDistanceCorrection:b=no; move:b=no
+thousandth:t=“ussr”
+
+crosshair_distances{
+}
+
+crosshair_hor_ranges{
+}
+
+
+
+
+
+
+
+ drawCircles { 
+        circle {segment:p2 = 0.0, 360.0; pos:p2 = 0.0, 0.0; diameter:r = 1.4; size:r = 150; move:b = no;}
+        circle {segment:p2 = 0.0, 360.0; pos:p2 = 0.0, 0.0; diameter:r = 1.4; size:r = 150; move:b = no;}
+        circle {segment:p2 = 0.0, 360.0; pos:p2 = 0.0, 0.0; diameter:r = 1.4; size:r = 150; move:b = no;}
+        circle {segment:p2 = 0.0, 360.0; pos:p2 = 0.0, 0.0; diameter:r = 1.6; size:r = 250; move:b = no;}
+        circle {segment:p2 = 0.0, 360.0; pos:p2 = 0.0, 0.0; diameter:r = 1.7; size:r = 250; move:b = no;}
+        circle {segment:p2 = 0.0, 360.0; pos:p2 = 0.0, 0.0; diameter:r = 1.8; size:r = 150; move:b = no;}
+        circle {segment:p2 = 0.0, 360.0; pos:p2 = 0.0, 0.0; diameter:r = 1.9; size:r = 150; move:b = no;}
+        circle {segment:p2 = 0.0, 360.0; pos:p2 = 0.0, 0.0; diameter:r = 1.9; size:r = 150; move:b = no;}
+        circle {segment:p2 = 0.0, 360.0; pos:p2 = 0.0, 0.0; diameter:r = 1.9; size:r = 150; move:b = no;}
+
+
+
+
+
+        circle {segment:p2 = 0.0, 360.0; pos:p2 = 0.0, 0.0; diameter:r = 1.4; size:r = 150; move:b = no;}
+        circle {segment:p2 = 0.0, 360.0; pos:p2 = 0.0, 0.0; diameter:r = 1.4; size:r = 150; move:b = no;}
+        circle {segment:p2 = 0.0, 360.0; pos:p2 = 0.0, 0.0; diameter:r = 1.4; size:r = 150; move:b = no;}
+        circle {segment:p2 = 0.0, 360.0; pos:p2 = 0.0, 0.0; diameter:r = 1.6; size:r = 250; move:b = no;}
+        circle {segment:p2 = 0.0, 360.0; pos:p2 = 0.0, 0.0; diameter:r = 1.7; size:r = 250; move:b = no;}
+        circle {segment:p2 = 0.0, 360.0; pos:p2 = 0.0, 0.0; diameter:r = 1.8; size:r = 150; move:b = no;}
+        circle {segment:p2 = 0.0, 360.0; pos:p2 = 0.0, 0.0; diameter:r = 1.9; size:r = 150; move:b = no;}
+        circle {segment:p2 = 0.0, 360.0; pos:p2 = 0.0, 0.0; diameter:r = 1.9; size:r = 150; move:b = no;}
+        circle {segment:p2 = 0.0, 360.0; pos:p2 = 0.0, 0.0; diameter:r = 1.9; size:r = 150; move:b = no;}
+
+
+
+}
+
+
+
+
+
+
+
+ballistics{
+  bullet{
+    bulletType:t = "aphebc_tank"
+    speed:r = 1760.0
+    drawAdditionalLines:b = no
+    drawDistanceCorrection:b = no
+    distanceCorrectionPos:p2 = -0.20, -0.05
+    distanceStretch:r = 1.0
+    distancePos:p2 = 0.0, 0.0
+    crosshairDistHorSizeMain:p2 = 0.124, 0.124
+    crosshairDistHorSizeAdditional:p2 = 0.005, 0.005
+    textPos:p2 = 0.014, 0.0
+    textAlign:i = 0
+	move:b=no
+
+    crosshair_distances{ 
+        distance{
+            textPos:p2=0.145, 0.0
+		    distance:p3=200, 0.0, 0.124
+		}
+        distance{
+            textPos:p2=0.145, 0.0
+		    distance:p3=400, 0.0, 0.124
+		}
+		distance{
+            textPos:p2=-0.123, 0.0
+		    distance:p3=600.0, 0.0, 0.124
+		}
+		distance{
+            textPos:p2=0.145, 0.0
+            distance:p3=800.0, 0.0, 0.124
+		}
+		distance{
+            textPos:p2=-0.123, 0.0
+            distance:p3=1000.0, 0.0, 0.124
+	   }
+    }
+  }
+}
+
+
+drawTexts{
+  text { move:b = no; highlight:b = true; size:r = 0.5; align:i = 0; text:t = "4"; pos:p2 = 0.0895, 0.0095; }
+  text { move:b = no; highlight:b = true; size:r = 0.5; align:i = 0; text:t = "8"; pos:p2 = 0.0895, 0.0205; }
+  text { move:b = no; highlight:b = true; size:r = 0.5; align:i = 0; text:t = "6"; pos:p2 = -0.0895, 0.0150; }
+  text { move:b = no; highlight:b = true; size:r = 0.5; align:i = 0; text:t = "10"; pos:p2 = -0.0915, 0.0262; }
+
+
+
+
+
+  text { move:b = no; highlight:b = true; size:r = 0.5; align:i = 0; text:t = "0"; pos:p2 = 0.00005, 0.033; }
+  text { move:b = no; highlight:b = true; size:r = 0.5; align:i = 0; text:t = "8"; pos:p2 = 0.014, 0.033; }
+  text { move:b = no; highlight:b = true; size:r = 0.5; align:i = 0; text:t = "16"; pos:p2 = 0.028, 0.033; }
+  text { move:b = no; highlight:b = true; size:r = 0.5; align:i = 0; text:t = "24"; pos:p2 = 0.042, 0.033; }
+  text { move:b = no; highlight:b = true; size:r = 0.5; align:i = 0; text:t = "32"; pos:p2 = 0.056, 0.033; }
+  text { move:b = no; highlight:b = true; size:r = 0.5; align:i = 0; text:t = "40"; pos:p2 = 0.070, 0.033; }
+  text { move:b = no; highlight:b = true; size:r = 0.5; align:i = 0; text:t = "48"; pos:p2 = 0.084, 0.033; }
+
+  text { move:b = no; highlight:b = true; size:r = 0.5; align:i = 0; text:t = "8"; pos:p2 = -0.014, 0.033; }
+  text { move:b = no; highlight:b = true; size:r = 0.5; align:i = 0; text:t = "16"; pos:p2 = -0.028, 0.033; }
+  text { move:b = no; highlight:b = true; size:r = 0.5; align:i = 0; text:t = "24"; pos:p2 = -0.042, 0.033; }
+  text { move:b = no; highlight:b = true; size:r = 0.5; align:i = 0; text:t = "32"; pos:p2 = -0.056, 0.033; }
+  text { move:b = no; highlight:b = true; size:r = 0.5; align:i = 0; text:t = "40"; pos:p2 = -0.070, 0.033; }
+  text { move:b = no; highlight:b = true; size:r = 0.5; align:i = 0; text:t = "48"; pos:p2 = -0.084, 0.033; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  text { move:b = no; highlight:b = true; size:r = 0.5; align:i = 0; text:t = "4"; pos:p2 = 0.0895, 0.0095; }
+  text { move:b = no; highlight:b = true; size:r = 0.5; align:i = 0; text:t = "8"; pos:p2 = 0.0895, 0.0205; }
+  text { move:b = no; highlight:b = true; size:r = 0.5; align:i = 0; text:t = "6"; pos:p2 = -0.0895, 0.0150; }
+  text { move:b = no; highlight:b = true; size:r = 0.5; align:i = 0; text:t = "10"; pos:p2 = -0.0915, 0.0262; }
+
+
+
+
+
+  text { move:b = no; highlight:b = true; size:r = 0.5; align:i = 0; text:t = "0"; pos:p2 = 0.00005, 0.033; }
+  text { move:b = no; highlight:b = true; size:r = 0.5; align:i = 0; text:t = "8"; pos:p2 = 0.014, 0.033; }
+  text { move:b = no; highlight:b = true; size:r = 0.5; align:i = 0; text:t = "16"; pos:p2 = 0.028, 0.033; }
+  text { move:b = no; highlight:b = true; size:r = 0.5; align:i = 0; text:t = "24"; pos:p2 = 0.042, 0.033; }
+  text { move:b = no; highlight:b = true; size:r = 0.5; align:i = 0; text:t = "32"; pos:p2 = 0.056, 0.033; }
+  text { move:b = no; highlight:b = true; size:r = 0.5; align:i = 0; text:t = "40"; pos:p2 = 0.070, 0.033; }
+  text { move:b = no; highlight:b = true; size:r = 0.5; align:i = 0; text:t = "48"; pos:p2 = 0.084, 0.033; }
+
+  text { move:b = no; highlight:b = true; size:r = 0.5; align:i = 0; text:t = "8"; pos:p2 = -0.014, 0.033; }
+  text { move:b = no; highlight:b = true; size:r = 0.5; align:i = 0; text:t = "16"; pos:p2 = -0.028, 0.033; }
+  text { move:b = no; highlight:b = true; size:r = 0.5; align:i = 0; text:t = "24"; pos:p2 = -0.042, 0.033; }
+  text { move:b = no; highlight:b = true; size:r = 0.5; align:i = 0; text:t = "32"; pos:p2 = -0.056, 0.033; }
+  text { move:b = no; highlight:b = true; size:r = 0.5; align:i = 0; text:t = "40"; pos:p2 = -0.070, 0.033; }
+  text { move:b = no; highlight:b = true; size:r = 0.5; align:i = 0; text:t = "48"; pos:p2 = -0.084, 0.033; }
+    }
+
+    drawLines{
+	  line{
+        line:p4=-0.084, 0.005, 0.084, 0.005
+		thousandth:b=no; move:b=no; }
+	  line{
+        line:p4=-0.084, 0.0103, 0.084, 0.0103
+		thousandth:b=no; move:b=no; }			
+	  line{
+        line:p4=-0.084, 0.0155, 0.084, 0.0155
+		thousandth:b=no; move:b=no; }	
+	  line{
+        line:p4=-0.084, 0.021, 0.084, 0.021
+		thousandth:b=no; move:b=no; }
+	  line{
+        line:p4=-0.084, 0.027, 0.084, 0.027
+		thousandth:b=no; move:b=no; }
+
+
+
+
+
+
+
+	  line{
+        line:p4=0.007, 0, 0.007, 0.027
+		 move:b=no; }
+	  line{
+        line:p4=0.014, 0, 0.014, 0.027
+		 move:b=no; }
+	  line{
+        line:p4=0.021, 0, 0.021, 0.027
+		 move:b=no; }
+	  line{
+        line:p4=0.028, 0, 0.028, 0.027
+		 move:b=no; }
+	  line{
+        line:p4=0.035, 0, 0.035, 0.027
+		 move:b=no; }
+	  line{
+        line:p4=0.042, 0, 0.042, 0.027
+		 move:b=no; }
+	  line{
+        line:p4=0.049, 0, 0.049, 0.027
+		 move:b=no; }
+	  line{
+        line:p4=0.056, 0, 0.056, 0.027
+		 move:b=no; }
+	  line{
+        line:p4=0.063, 0, 0.063, 0.027
+		 move:b=no; }
+	  line{
+        line:p4=0.070, 0, 0.07, 0.027
+		 move:b=no; }
+	  line{
+        line:p4=0.077, 0, 0.077, 0.027
+		 move:b=no; }
+	  line{
+        line:p4=0.084, 0, 0.084, 0.027
+		 move:b=no; }
+
+
+
+/////////////////////////////////
+
+
+
+	  line{
+        line:p4=-0.007, 0, -0.007, 0.027
+		 move:b=no; }
+	  line{
+        line:p4=-0.014, 0, -0.014, 0.027
+		 move:b=no; }
+	  line{
+        line:p4=-0.021, 0, -0.021, 0.027
+		 move:b=no; }
+	  line{
+        line:p4=-0.028, 0, -0.028, 0.027
+		 move:b=no; }
+	  line{
+        line:p4=-0.035, 0, -0.035, 0.027
+		 move:b=no; }
+	  line{
+        line:p4=-0.042, 0, -0.042, 0.027
+		 move:b=no; }
+	  line{
+        line:p4=-0.049, 0, -0.049, 0.027
+		 move:b=no; }
+	  line{
+        line:p4=-0.056, 0, -0.056, 0.027
+		 move:b=no; }
+	  line{
+        line:p4=-0.063, 0, -0.063, 0.027
+		 move:b=no; }
+	  line{
+        line:p4=-0.070, 0, -0.07, 0.027
+		 move:b=no; }
+	  line{
+        line:p4=-0.077, 0, -0.077, 0.027
+		 move:b=no; }
+	  line{
+        line:p4=-0.084, 0, -0.084, 0.027
+		 move:b=no; }
+    }

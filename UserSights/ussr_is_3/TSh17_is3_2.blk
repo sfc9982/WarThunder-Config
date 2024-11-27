@@ -1,0 +1,424 @@
+
+ 
+ 
+  thousandth:t=“real”
+ crosshairHorVertSize:p2=0.0, 0.0
+    rangefinderProgressBarColor1:c=0, 255, 0, 64
+    rangefinderProgressBarColor2:c=255, 255, 255, 64
+    rangefinderTextScale:r=0.7
+    rangefinderVerticalOffset:r=5
+    rangefinderHorizontalOffset:r=15.0
+    fontSizeMult:r=1.015
+    lineSizeMult:r=1.7
+    drawCentralLineVert:b=no
+    drawCentralLineHorz:b=no; applyCorrectionToGun:b=no
+    crosshairDistHorSizeMain:p2=0.03, 0.02
+    crosshairDistHorSizeAdditional:p2=0.005, 0.003
+    crosshairColor:c = 0,0,0
+    crosshairLightColor:c = 255,160,0
+    distanceCorrectionPos:p2=-0.2, -0.05
+    drawDistanceCorrection:b=no; move:b=yes
+
+    ballistics{
+
+      bullet{
+	    bulletType:t="he_frag_tank"
+        speed:r=795.0
+        drawAdditionalLines:b=no
+        drawDistanceCorrection:b=no; move:b=yes
+        distanceCorrectionPos:p2=0.15, -0.15
+        distancePos:p2=0.0425, -0.1
+		drawUpward:b=yes
+        textPos:p2=0.0245, 0.0
+        textShift:r=0.0
+        textAlign:i=2
+        crosshairDistHorSizeMain:p2=0.021, 0.021
+        crosshairDistHorSizeAdditional:p2=0.00, 0.0
+
+
+        crosshair_distances{
+		    distance:p3=200.0, 2.0, 0.0
+            distance:p3=600.0, 6.0, 0.0
+            distance:p3=1000.0, 10.0, 0.0
+            distance:p3=1400.0, 14.0, 0.0
+            distance:p3=1800.0, 18.0, 0.0
+		    distance:p3=2200.0, 22.0, 0.0
+		    distance:p3=2600.0, 26.0, 0.0
+		    distance:p3=3000.0, 30.0, 0.0
+	  	    distance:p3=3400.0, 34.0, 0.0
+		    distance:p3=3800.0, 38.0, 0.0
+		    distance:p3=4200.0, 42.0, 0.0
+		    distance:p3=4600.0, 46.0, 0.0
+		    distance:p3=5000.0, 50.0, 0.0
+		  
+        }
+      }
+bullet{
+	    bulletType:t="he_frag_tank"
+        speed:r=795.0
+        drawAdditionalLines:b=no
+        drawDistanceCorrection:b=no; move:b=yes
+        distanceCorrectionPos:p2=0.15, -0.15
+        distancePos:p2=0.0425, -0.1
+		drawUpward:b=yes
+        textPos:p2=0.0, 0.0
+        textShift:r=0.0
+        textAlign:i=1
+        crosshairDistHorSizeMain:p2=0.021, 0.021
+        crosshairDistHorSizeAdditional:p2=0.00, 0.0
+
+
+        crosshair_distances{
+		    distance:p3=5.0, .9, 0.0
+            distance:p3=400.0, 4.0, 0.0
+            distance:p3=800.0, 8.0, 0.0
+            distance:p3=1200.0, 12.0, 0.0
+            distance:p3=1600.0, 16.0, 0.0
+            distance:p3=2000.0, 20.0, 0.0
+		    distance:p3=2400.0, 24.0, 0.0
+		    distance:p3=2800.0, 28.0, 0.0
+		    distance:p3=3200.0, 32.0, 0.0
+	  	    distance:p3=3600.0, 36.0, 0.0
+		    distance:p3=4000.0, 40.0, 0.0
+		    distance:p3=4400.0, 44.0, 0.0
+		    distance:p3=4800.0, 48.0, 0.0
+		  
+        }
+      }
+
+
+
+
+
+
+	  
+	  bullet{
+        bulletType:t="aphebc_tank"
+        speed:r=795.0
+        drawAdditionalLines:b=no
+        drawDistanceCorrection:b=no; move:b=yes
+        distanceCorrectionPos:p2=0.15, -0.15
+        drawUpward:b=yes
+        distancePos:p2=0.1542, -0.1
+        textAlign:i=1
+        textPos:p2=0.012, 0.0
+        textShift:r=0.0
+        crosshairDistHorSizeMain:p2=0.014, 0.014
+        crosshairDistHorSizeAdditional:p2=0.0, 0.0
+
+        crosshair_distances{
+            distance:p3=110.0, 0.0, 0.0
+            distance:p3=300.0, 0.0, 0.0
+            distance:p3=500.0, 0.0, 0.0
+            distance:p3=700.0, 0.0, 0.0
+            distance:p3=900.0, 0.0, 0.0
+            distance:p3=1100.0, 0.0, 0.0
+            distance:p3=1300.0, 0.0, 0.0
+            distance:p3=1500.0, 0.0, 0.0
+            distance:p3=1700.0, 0.0, 0.0
+            distance:p3=1900.0, 0.0, 0.0
+            distance:p3=2100.0, 0.0, 0.0
+            distance:p3=2300.0, 0.0, 0.0
+            distance:p3=2500.0, 0.0, 0.0
+            distance:p3=2700.0, 0.0, 0.0
+            distance:p3=2900.0, 0.0, 0.0
+            distance:p3=3100.0, 0.0, 0.0
+            distance:p3=3300.0, 0.0, 0.0
+            distance:p3=3500.0, 0.0, 0.0
+            distance:p3=3700.0, 0.0, 0.0
+            distance:p3=3900.0, 0.0, 0.0
+            distance:p3=4100.0, 0.0, 0.0
+            distance:p3=4300.0, 0.0, 0.0
+            distance:p3=4500.0, 0.0, 0.0
+            distance:p3=4700.0, 0.0, 0.0
+            distance:p3=4900.0, 0.0, 0.0
+        }
+      }
+		
+	  bullet{
+        bulletType:t="aphebc_tank"
+        speed:r=795.0
+        drawAdditionalLines:b=no
+        drawDistanceCorrection:b=no; move:b=yes
+        distanceCorrectionPos:p2=0.15, -0.15
+        drawUpward:b=yes
+        distancePos:p2=0.1512, -0.1
+        textAlign:i=2
+        textPos:p2=0.026, 0.0
+        textShift:r=0.5
+        crosshairDistHorSizeMain:p2=0.015, 0.015
+        crosshairDistHorSizeAdditional:p2=0.0, 0.0
+
+        crosshair_distances{
+             distance:p3=200.0, 2.0, 0.0
+            distance:p3=600.0, 6.0, 0.0
+            distance:p3=1000.0, 10.0, 0.0
+            distance:p3=1400.0, 14.0, 0.0
+            distance:p3=1800.0, 18.0, 0.0
+		    distance:p3=2200.0, 22.0, 0.0
+		    distance:p3=2600.0, 26.0, 0.0
+		    distance:p3=3000.0, 30.0, 0.0
+	  	    distance:p3=3400.0, 34.0, 0.0
+		    distance:p3=3800.0, 38.0, 0.0
+		    distance:p3=4200.0, 42.0, 0.0
+		    distance:p3=4600.0, 46.0, 0.0
+		    distance:p3=5000.0, 50.0, 0.0
+          
+        }
+      }
+bullet{
+        bulletType:t="aphebc_tank"
+        speed:r=795.0
+        drawAdditionalLines:b=no
+        drawDistanceCorrection:b=no; move:b=yes
+        distanceCorrectionPos:p2=0.15, -0.15
+        drawUpward:b=yes
+        distancePos:p2=0.1512, -0.1
+        textAlign:i=1
+        textPos:p2=0.0, 0.0
+        textShift:r=0.5
+        crosshairDistHorSizeMain:p2=0.015, 0.015
+        crosshairDistHorSizeAdditional:p2=0.0, 0.0
+
+        crosshair_distances{
+           distance:p3=5.0, .9, 0.0
+            distance:p3=400.0, 4.0, 0.0
+            distance:p3=800.0, 8.0, 0.0
+            distance:p3=1200.0, 12.0, 0.0
+            distance:p3=1600.0, 16.0, 0.0
+            distance:p3=2000.0, 20.0, 0.0
+		    distance:p3=2400.0, 24.0, 0.0
+		    distance:p3=2800.0, 28.0, 0.0
+		    distance:p3=3200.0, 32.0, 0.0
+	  	    distance:p3=3600.0, 36.0, 0.0
+		    distance:p3=4000.0, 40.0, 0.0
+		    distance:p3=4400.0, 44.0, 0.0
+		    distance:p3=4800.0, 48.0, 0.0
+          
+        }
+      }
+
+
+
+
+
+
+
+	
+     bullet{
+	    triggerGroup:t="coaxial"	
+        bulletType:t="ap_i_ball"
+        speed:r=817.5
+        drawAdditionalLines:b=no
+        drawDistanceCorrection:b=no; move:b=yes
+        distanceCorrectionPos:p2=0.15, -0.15
+        distancePos:p2=-0.145, -0.1
+		drawUpward:b=yes
+        textAlign:i=1
+        textPos:p2=-0.0005, 0.0
+        textShift:r=0.5
+        crosshairDistHorSizeMain:p2=0.015, 0.015
+        crosshairDistHorSizeAdditional:p2=0.00, 0.0
+
+        crosshair_distances{
+
+		distance:p3=5.0, .9, 0.0
+            distance:p3=600.0, 6.0, 0.0
+            distance:p3=1000.0, 10.0, 0.0
+            distance:p3=1500.0, 15.0, 0.0
+        }
+      }	 
+  bullet{
+	    triggerGroup:t="coaxial"	
+        bulletType:t="ap_i_ball"
+        speed:r=817.5
+        drawAdditionalLines:b=no
+        drawDistanceCorrection:b=no; move:b=yes
+        distanceCorrectionPos:p2=0.15, -0.15
+        distancePos:p2=-0.145, -0.1
+		drawUpward:b=yes
+        textAlign:i=2
+        textPos:p2=0.027, 0.0
+        textShift:r=0.5
+        crosshairDistHorSizeMain:p2=0.015, 0.015
+        crosshairDistHorSizeAdditional:p2=0.00, 0.0
+
+        crosshair_distances{
+            distance:p3=400.0, 4.0, 0.0
+            distance:p3=800.0, 8.0, 0.0
+            distance:p3=1200.0, 12.0, 0.0
+        }
+      }	 	  	  
+    }
+
+    crosshair_hor_ranges{
+    }
+
+
+
+
+ drawCircles { 
+
+        circle {segment:p2 = 0.0, 360.0; pos:p2 = 0.0, 0.0; diameter:r = 1.55; size:r = 150; move:b = no;}
+        circle {segment:p2 = 0.0, 360.0; pos:p2 = 0.0, 0.0; diameter:r = 1.65; size:r = 150; move:b = no;}
+        circle {segment:p2 = 0.0, 360.0; pos:p2 = 0.0, 0.0; diameter:r = 1.75; size:r = 150; move:b = no;}
+        circle {segment:p2 = 0.0, 360.0; pos:p2 = 0.0, 0.0; diameter:r = 1.85; size:r = 150; move:b = no;}
+        circle {segment:p2 = 0.0, 360.0; pos:p2 = 0.0, 0.0; diameter:r = 1.95; size:r = 150; move:b = no;}
+
+
+
+
+        circle {segment:p2 = 0.0, 360.0; pos:p2 = 0.0, 0.0; diameter:r = 1.55; size:r = 150; move:b = no;}
+        circle {segment:p2 = 0.0, 360.0; pos:p2 = 0.0, 0.0; diameter:r = 1.65; size:r = 150; move:b = no;}
+        circle {segment:p2 = 0.0, 360.0; pos:p2 = 0.0, 0.0; diameter:r = 1.75; size:r = 150; move:b = no;}
+        circle {segment:p2 = 0.0, 360.0; pos:p2 = 0.0, 0.0; diameter:r = 1.85; size:r = 150; move:b = no;}
+        circle {segment:p2 = 0.0, 360.0; pos:p2 = 0.0, 0.0; diameter:r = 1.95; size:r = 150; move:b = no;}
+
+       
+}
+	
+	
+	drawTexts{
+  text { move:b = true; highlight:b = true; size:r = 0.9; align:i = 0; text:t = "ПГ3"; pos:p2 = -0.147, -0.085; }
+  text { move:b = true; highlight:b = true; size:r = 0.9; align:i = 0; text:t = "ПГП"; pos:p2 = -0.0318, -0.085; }
+  text { move:b = true; highlight:b = true; size:r = 0.9; align:i = 0; text:t = "ДТ"; pos:p2 = 0.148, -0.085; }
+
+
+
+  text { move:b = true; highlight:b = true; size:r = 0.9; align:i = 0; text:t = "ПГ3"; pos:p2 = -0.147, -0.085; }
+  text { move:b = true; highlight:b = true; size:r = 0.9; align:i = 0; text:t = "ПГП"; pos:p2 = -0.0318, -0.085; }
+  text { move:b = true; highlight:b = true; size:r = 0.9; align:i = 0; text:t = "ДТ"; pos:p2 = 0.148, -0.085; }
+    }
+  
+
+	
+	
+    
+    drawLines{
+	
+	  line{
+        line:p4=-1.0, -0.1015, 1.0, -0.1015
+      }
+	
+	  line{
+        line:p4=0.0, 2, 0.0, 40
+		thousandth:b=yes; move:b=yes; }
+	
+	  line{
+        line:p4=0.0, 0.0, -3.75, 6.5
+		thousandth:b=yes; move:b=yes; }
+	  
+	  line{
+        line:p4=0.0, 0.0, 3.75, 6.5
+		thousandth:b=yes; move:b=yes; }
+
+	
+	
+	
+
+	  line{
+        line:p4=8, 0.0, 7, 2
+		thousandth:b=yes; move:b=yes; }
+	  
+	  line{
+        line:p4=8, 0.0, 9, 2
+		thousandth:b=yes; move:b=yes; }
+	  
+	  line{
+        line:p4=16, 0.0, 17, 2
+		thousandth:b=yes; move:b=yes; }
+	  
+	  line{
+        line:p4=16, 0.0, 15, 2
+		thousandth:b=yes; move:b=yes; }
+	  
+	  line{
+        line:p4=24, 0.0, 23, 2
+		thousandth:b=yes; move:b=yes; }
+	  
+	  line{
+        line:p4=24, 0.0, 25, 2
+		thousandth:b=yes; move:b=yes; }
+	  
+	  line{
+        line:p4=32, 0.0, 31, 2
+		thousandth:b=yes; move:b=yes; }
+	  
+	  line{
+        line:p4=32, 0.0, 33, 2
+		thousandth:b=yes; move:b=yes; }
+		
+		
+	  
+	  line{
+        line:p4=-8, 0.0, -7, 2
+		thousandth:b=yes; move:b=yes; }
+	  
+	  line{
+        line:p4=-8, 0.0, -9, 2
+		thousandth:b=yes; move:b=yes; }
+	  
+	  line{
+        line:p4=-16, 0.0, -17, 2
+		thousandth:b=yes; move:b=yes; }
+	  
+	  line{
+        line:p4=-16, 0.0, -15, 2
+		thousandth:b=yes; move:b=yes; }
+	  
+	  line{
+        line:p4=-24, 0.0, -23, 2
+		thousandth:b=yes; move:b=yes; }
+	  
+	  line{
+        line:p4=-24, 0.0, -25, 2
+		thousandth:b=yes; move:b=yes; }
+	  
+	  line{
+        line:p4=-32, 0.0, -31, 2
+		thousandth:b=yes; move:b=yes; }
+	  
+	  line{
+        line:p4=-32, 0.0, -33, 2
+		thousandth:b=yes; move:b=yes; }
+	  
+		
+		
+		
+	  line{
+        line:p4=-4, 0.0, -4, 1
+		thousandth:b=yes; move:b=yes; }
+		
+	  line{
+        line:p4=-12, 0.0, -12, 1
+		thousandth:b=yes; move:b=yes; }
+		
+	  line{
+        line:p4=-20, 0.0, -20, 1
+		thousandth:b=yes; move:b=yes; }
+		
+	  line{
+        line:p4=-28, 0.0, -28, 1
+		thousandth:b=yes; move:b=yes; }
+		
+	  line{
+        line:p4=4, 0.0, 4, 1
+		thousandth:b=yes; move:b=yes; }
+		
+	  line{
+        line:p4=12, 0.0, 12, 1
+		thousandth:b=yes; move:b=yes; }
+		
+	  line{
+        line:p4=20, 0.0, 20, 1
+		thousandth:b=yes; move:b=yes; }
+		
+	  line{
+        line:p4=28, 0.0, 28, 1
+		thousandth:b=yes; move:b=yes; }
+	  
+	  
+	  
+	
+
+    }

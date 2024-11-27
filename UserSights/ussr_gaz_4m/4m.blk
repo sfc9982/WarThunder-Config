@@ -1,0 +1,1708 @@
+thousandth:t=“ussr”
+crosshairHorVertSize:p2=2,5, 5
+rangefinderProgressBarColor1:c=0, 255, 0, 64
+rangefinderProgressBarColor2:c=255, 255, 255, 64
+rangefinderTextScale:r=0.3
+rangefinderVerticalOffset:r=15
+rangefinderHorizontalOffset:r=20
+fontSizeMult:r=3
+lineSizeMult:r=5
+drawCentralLineVert:b=no
+drawCentralLineHorz:b=no
+crosshairDistHorSizeMain:p2=0.03, 0.02
+crosshairDistHorSizeAdditional:p2=0.005, 0.003
+crosshairColor:c = 10, 15, 10, 1000
+crosshairLightColor:c = 5, 15, 5, 1000
+distanceCorrectionPos:p2=-0.2, -0.05
+drawDistanceCorrection:b=no
+applyCorrectionToGun:b=no
+
+
+crosshair_distances{
+
+}
+
+crosshair_hor_ranges{
+
+}
+
+
+
+
+drawQuads {
+    quad {  
+      tl:p2 = 192, -8; // Top left top
+      tr:p2 = 215, -8; // Top right top
+      br:p2 = 215, 8; // Top right bottom
+      bl:p2 = 192, 8; // Top left bottom
+      thousandth:b = yes;
+    }
+  quad {  
+      tl:p2 = -192, -8; // Top left top
+      tr:p2 = -215, -8; // Top right top
+      br:p2 = -215, 8; // Top right bottom
+      bl:p2 = -192, 8; // Top left bottom
+      thousandth:b = yes;
+    }
+//
+ quad {  
+      tl:p2 = -25, 270; // Top left top
+      tr:p2 = 25, 270; // Top right top
+      br:p2 = 25, 380; // Top right bottom
+      bl:p2 = -25, 380; // Top left bottom
+      thousandth:b = yes;
+    }
+//^
+  quad {  
+      tl:p2 = -203, 235; // Top left top
+      tr:p2 = -235, 235; // Top right top
+      br:p2 = -235, 320; // Top right bottom
+      bl:p2 = -203, 320; // Top left bottom
+      thousandth:b = yes;
+    }
+ quad {  
+      tl:p2 = -203, 235; // Top left top
+      tr:p2 = -235, 235; // Top right top
+      br:p2 = -219, 210; // Top right bottom
+      bl:p2 = -219, 210; // Top left bottom
+      thousandth:b = yes;
+    }
+
+
+
+
+
+
+//------------------------------
+    quad {  
+      tl:p2 = 192, -8; // Top left top
+      tr:p2 = 215, -8; // Top right top
+      br:p2 = 215, 8; // Top right bottom
+      bl:p2 = 192, 8; // Top left bottom
+      thousandth:b = yes;
+    }
+  quad {  
+      tl:p2 = -192, -8; // Top left top
+      tr:p2 = -215, -8; // Top right top
+      br:p2 = -215, 8; // Top right bottom
+      bl:p2 = -192, 8; // Top left bottom
+      thousandth:b = yes;
+    }
+//
+ quad {  
+      tl:p2 = -25, 270; // Top left top
+      tr:p2 = 25, 270; // Top right top
+      br:p2 = 25, 380; // Top right bottom
+      bl:p2 = -25, 380; // Top left bottom
+      thousandth:b = yes;
+    }
+//^
+  quad {  
+      tl:p2 = -203, 235; // Top left top
+      tr:p2 = -235, 235; // Top right top
+      br:p2 = -235, 320; // Top right bottom
+      bl:p2 = -203, 320; // Top left bottom
+      thousandth:b = yes;
+    }
+ quad {  
+      tl:p2 = -203, 235; // Top left top
+      tr:p2 = -235, 235; // Top right top
+      br:p2 = -219, 210; // Top right bottom
+      bl:p2 = -219, 210; // Top left bottom
+      thousandth:b = yes;
+    }
+
+
+
+
+
+}
+
+
+
+
+
+drawLines{
+//sight
+  line{
+    line:p4=-21, 0, -210, 0
+    thousandth:b = true;
+    move:b=no
+  }
+line{
+    line:p4=21, 0, 210, 0
+    thousandth:b = true;
+    move:b=no
+  }
+line{
+    line:p4=0, 21, 0, 189
+    thousandth:b = true;
+    move:b=no
+  }
+line{
+    line:p4=0, -21, 0, -189
+    thousandth:b = true;
+    move:b=no
+  }
+
+//khung 
+ line{
+    line:p4=198, 150, 198, -10
+    thousandth:b = true;
+    move:b=no
+  }
+ line{
+    line:p4=199, 150, 199, -10
+    thousandth:b = true;
+    move:b=no
+  }
+ line{
+    line:p4=200, 150, 200, -10
+    thousandth:b = true;
+    move:b=no
+  }
+line{
+    line:p4=201, 150, 201, -10
+    thousandth:b = true;
+    move:b=no
+  }
+ line{
+    line:p4=202, 150, 202, -10
+    thousandth:b = true;
+    move:b=no
+  }
+
+
+///////////////////
+
+
+ line{
+    line:p4=-198, 150, -198, -10
+    thousandth:b = true;
+    move:b=no
+  }
+ line{
+    line:p4=-199, 150, -199, -10
+    thousandth:b = true;
+    move:b=no
+  }
+ line{
+    line:p4=-200, 150, -200, -10
+    thousandth:b = true;
+    move:b=no
+  }
+line{
+    line:p4=-201, 150, -201, -10
+    thousandth:b = true;
+    move:b=no
+  }
+ line{
+    line:p4=-202, 150, -202, -10
+    thousandth:b = true;
+    move:b=no
+  }
+
+////////////////////
+  line{
+    line:p4=150, 198, -150, 198
+    thousandth:b = true;
+    move:b=no
+  }
+  line{
+    line:p4=150, 199, -150, 199
+    thousandth:b = true;
+    move:b=no
+  }
+  line{
+    line:p4=150, 200, -150, 200
+    thousandth:b = true;
+    move:b=no
+  }
+  line{
+    line:p4=150, 201, -150, 201
+    thousandth:b = true;
+    move:b=no
+  }
+  line{
+    line:p4=150, 202, -150, 202
+    thousandth:b = true;
+    move:b=no
+  }
+
+////////////
+ line{
+    line:p4=-1, 199, -1, 350
+    thousandth:b = true;
+    move:b=no
+  }
+ line{
+    line:p4=-2, 199, -2, 350
+    thousandth:b = true;
+    move:b=no
+  }
+ line{
+    line:p4=-3, 199, -3, 350
+    thousandth:b = true;
+    move:b=no
+  }
+ line{
+    line:p4=-4, 199, -4, 350
+    thousandth:b = true;
+    move:b=no
+  }
+ line{
+    line:p4=-5, 199, -5, 350
+    thousandth:b = true;
+    move:b=no
+  }
+ line{
+    line:p4=0, 199, 0, 350
+    thousandth:b = true;
+    move:b=no
+  }
+ line{
+    line:p4=1, 199, 1, 350
+    thousandth:b = true;
+    move:b=no
+  }
+ line{
+    line:p4=2, 199, 2, 350
+    thousandth:b = true;
+    move:b=no
+  }
+ line{
+    line:p4=3, 199, 3, 350
+    thousandth:b = true;
+    move:b=no
+  }
+ line{
+    line:p4=4, 199, 4, 350
+    thousandth:b = true;
+    move:b=no
+  }
+ line{
+    line:p4=5, 199, 5, 350
+    thousandth:b = true;
+    move:b=no
+  }
+
+
+
+/////iiiiiiiii
+
+ line{
+    line:p4=-217, 250, -217, -7
+    thousandth:b = true;
+    move:b=no
+  }
+ line{
+    line:p4=-218, 250, -218, -7
+    thousandth:b = true;
+    move:b=no
+  }
+ line{
+    line:p4=-219, 250, -219, -7
+    thousandth:b = true;
+    move:b=no
+  }
+ line{
+    line:p4=-220, 250, -220, -7
+    thousandth:b = true;
+    move:b=no
+  }
+ line{
+    line:p4=-221, 250, -221, -7
+    thousandth:b = true;
+    move:b=no
+  }
+
+
+
+
+
+
+
+
+
+
+///-------------------222222222222222222222222222222222222222222
+//sight
+  line{
+    line:p4=-21, 0, -210, 0
+    thousandth:b = true;
+    move:b=no
+  }
+line{
+    line:p4=21, 0, 210, 0
+    thousandth:b = true;
+    move:b=no
+  }
+line{
+    line:p4=0, 21, 0, 189
+    thousandth:b = true;
+    move:b=no
+  }
+line{
+    line:p4=0, -21, 0, -189
+    thousandth:b = true;
+    move:b=no
+  }
+
+//khung 
+ line{
+    line:p4=198, 150, 198, -10
+    thousandth:b = true;
+    move:b=no
+  }
+ line{
+    line:p4=199, 150, 199, -10
+    thousandth:b = true;
+    move:b=no
+  }
+ line{
+    line:p4=200, 150, 200, -10
+    thousandth:b = true;
+    move:b=no
+  }
+line{
+    line:p4=201, 150, 201, -10
+    thousandth:b = true;
+    move:b=no
+  }
+ line{
+    line:p4=202, 150, 202, -10
+    thousandth:b = true;
+    move:b=no
+  }
+
+
+///////////////////
+
+
+ line{
+    line:p4=-198, 150, -198, -10
+    thousandth:b = true;
+    move:b=no
+  }
+ line{
+    line:p4=-199, 150, -199, -10
+    thousandth:b = true;
+    move:b=no
+  }
+ line{
+    line:p4=-200, 150, -200, -10
+    thousandth:b = true;
+    move:b=no
+  }
+line{
+    line:p4=-201, 150, -201, -10
+    thousandth:b = true;
+    move:b=no
+  }
+ line{
+    line:p4=-202, 150, -202, -10
+    thousandth:b = true;
+    move:b=no
+  }
+
+////////////////////
+  line{
+    line:p4=150, 198, -150, 198
+    thousandth:b = true;
+    move:b=no
+  }
+  line{
+    line:p4=150, 199, -150, 199
+    thousandth:b = true;
+    move:b=no
+  }
+  line{
+    line:p4=150, 200, -150, 200
+    thousandth:b = true;
+    move:b=no
+  }
+  line{
+    line:p4=150, 201, -150, 201
+    thousandth:b = true;
+    move:b=no
+  }
+  line{
+    line:p4=150, 202, -150, 202
+    thousandth:b = true;
+    move:b=no
+  }
+
+////////////
+ line{
+    line:p4=-1, 199, -1, 350
+    thousandth:b = true;
+    move:b=no
+  }
+ line{
+    line:p4=-2, 199, -2, 350
+    thousandth:b = true;
+    move:b=no
+  }
+ line{
+    line:p4=-3, 199, -3, 350
+    thousandth:b = true;
+    move:b=no
+  }
+ line{
+    line:p4=-4, 199, -4, 350
+    thousandth:b = true;
+    move:b=no
+  }
+ line{
+    line:p4=-5, 199, -5, 350
+    thousandth:b = true;
+    move:b=no
+  }
+ line{
+    line:p4=0, 199, 0, 350
+    thousandth:b = true;
+    move:b=no
+  }
+ line{
+    line:p4=1, 199, 1, 350
+    thousandth:b = true;
+    move:b=no
+  }
+ line{
+    line:p4=2, 199, 2, 350
+    thousandth:b = true;
+    move:b=no
+  }
+ line{
+    line:p4=3, 199, 3, 350
+    thousandth:b = true;
+    move:b=no
+  }
+ line{
+    line:p4=4, 199, 4, 350
+    thousandth:b = true;
+    move:b=no
+  }
+ line{
+    line:p4=5, 199, 5, 350
+    thousandth:b = true;
+    move:b=no
+  }
+
+
+
+/////iiiiiiiii
+
+ line{
+    line:p4=-217, 250, -217, -7
+    thousandth:b = true;
+    move:b=no
+  }
+ line{
+    line:p4=-218, 250, -218, -7
+    thousandth:b = true;
+    move:b=no
+  }
+ line{
+    line:p4=-219, 250, -219, -7
+    thousandth:b = true;
+    move:b=no
+  }
+ line{
+    line:p4=-220, 250, -220, -7
+    thousandth:b = true;
+    move:b=no
+  }
+ line{
+    line:p4=-221, 250, -221, -7
+    thousandth:b = true;
+    move:b=no
+  }
+
+
+
+
+
+
+
+
+//////////-------------------------------------3333333333333333333333333333333333333333333
+//sight
+  line{
+    line:p4=-21, 0, -210, 0
+    thousandth:b = true;
+    move:b=no
+  }
+line{
+    line:p4=21, 0, 210, 0
+    thousandth:b = true;
+    move:b=no
+  }
+line{
+    line:p4=0, 21, 0, 189
+    thousandth:b = true;
+    move:b=no
+  }
+line{
+    line:p4=0, -21, 0, -189
+    thousandth:b = true;
+    move:b=no
+  }
+
+//khung 
+ line{
+    line:p4=198, 150, 198, -10
+    thousandth:b = true;
+    move:b=no
+  }
+ line{
+    line:p4=199, 150, 199, -10
+    thousandth:b = true;
+    move:b=no
+  }
+ line{
+    line:p4=200, 150, 200, -10
+    thousandth:b = true;
+    move:b=no
+  }
+line{
+    line:p4=201, 150, 201, -10
+    thousandth:b = true;
+    move:b=no
+  }
+ line{
+    line:p4=202, 150, 202, -10
+    thousandth:b = true;
+    move:b=no
+  }
+
+
+///////////////////
+
+
+ line{
+    line:p4=-198, 150, -198, -10
+    thousandth:b = true;
+    move:b=no
+  }
+ line{
+    line:p4=-199, 150, -199, -10
+    thousandth:b = true;
+    move:b=no
+  }
+ line{
+    line:p4=-200, 150, -200, -10
+    thousandth:b = true;
+    move:b=no
+  }
+line{
+    line:p4=-201, 150, -201, -10
+    thousandth:b = true;
+    move:b=no
+  }
+ line{
+    line:p4=-202, 150, -202, -10
+    thousandth:b = true;
+    move:b=no
+  }
+
+////////////////////
+  line{
+    line:p4=150, 198, -150, 198
+    thousandth:b = true;
+    move:b=no
+  }
+  line{
+    line:p4=150, 199, -150, 199
+    thousandth:b = true;
+    move:b=no
+  }
+  line{
+    line:p4=150, 200, -150, 200
+    thousandth:b = true;
+    move:b=no
+  }
+  line{
+    line:p4=150, 201, -150, 201
+    thousandth:b = true;
+    move:b=no
+  }
+  line{
+    line:p4=150, 202, -150, 202
+    thousandth:b = true;
+    move:b=no
+  }
+
+////////////
+ line{
+    line:p4=-1, 199, -1, 350
+    thousandth:b = true;
+    move:b=no
+  }
+ line{
+    line:p4=-2, 199, -2, 350
+    thousandth:b = true;
+    move:b=no
+  }
+ line{
+    line:p4=-3, 199, -3, 350
+    thousandth:b = true;
+    move:b=no
+  }
+ line{
+    line:p4=-4, 199, -4, 350
+    thousandth:b = true;
+    move:b=no
+  }
+ line{
+    line:p4=-5, 199, -5, 350
+    thousandth:b = true;
+    move:b=no
+  }
+ line{
+    line:p4=0, 199, 0, 350
+    thousandth:b = true;
+    move:b=no
+  }
+ line{
+    line:p4=1, 199, 1, 350
+    thousandth:b = true;
+    move:b=no
+  }
+ line{
+    line:p4=2, 199, 2, 350
+    thousandth:b = true;
+    move:b=no
+  }
+ line{
+    line:p4=3, 199, 3, 350
+    thousandth:b = true;
+    move:b=no
+  }
+ line{
+    line:p4=4, 199, 4, 350
+    thousandth:b = true;
+    move:b=no
+  }
+ line{
+    line:p4=5, 199, 5, 350
+    thousandth:b = true;
+    move:b=no
+  }
+
+
+
+/////iiiiiiiii
+
+ line{
+    line:p4=-217, 250, -217, -7
+    thousandth:b = true;
+    move:b=no
+  }
+ line{
+    line:p4=-218, 250, -218, -7
+    thousandth:b = true;
+    move:b=no
+  }
+ line{
+    line:p4=-219, 250, -219, -7
+    thousandth:b = true;
+    move:b=no
+  }
+ line{
+    line:p4=-220, 250, -220, -7
+    thousandth:b = true;
+    move:b=no
+  }
+ line{
+    line:p4=-221, 250, -221, -7
+    thousandth:b = true;
+    move:b=no
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//////-------------------------------4444444444444444444444444444444444444444444444444444444
+//sight
+  line{
+    line:p4=-21, 0, -210, 0
+    thousandth:b = true;
+    move:b=no
+  }
+line{
+    line:p4=21, 0, 210, 0
+    thousandth:b = true;
+    move:b=no
+  }
+line{
+    line:p4=0, 21, 0, 189
+    thousandth:b = true;
+    move:b=no
+  }
+line{
+    line:p4=0, -21, 0, -189
+    thousandth:b = true;
+    move:b=no
+  }
+
+//khung 
+ line{
+    line:p4=198, 150, 198, -10
+    thousandth:b = true;
+    move:b=no
+  }
+ line{
+    line:p4=199, 150, 199, -10
+    thousandth:b = true;
+    move:b=no
+  }
+ line{
+    line:p4=200, 150, 200, -10
+    thousandth:b = true;
+    move:b=no
+  }
+line{
+    line:p4=201, 150, 201, -10
+    thousandth:b = true;
+    move:b=no
+  }
+ line{
+    line:p4=202, 150, 202, -10
+    thousandth:b = true;
+    move:b=no
+  }
+
+
+///////////////////
+
+
+ line{
+    line:p4=-198, 150, -198, -10
+    thousandth:b = true;
+    move:b=no
+  }
+ line{
+    line:p4=-199, 150, -199, -10
+    thousandth:b = true;
+    move:b=no
+  }
+ line{
+    line:p4=-200, 150, -200, -10
+    thousandth:b = true;
+    move:b=no
+  }
+line{
+    line:p4=-201, 150, -201, -10
+    thousandth:b = true;
+    move:b=no
+  }
+ line{
+    line:p4=-202, 150, -202, -10
+    thousandth:b = true;
+    move:b=no
+  }
+
+////////////////////
+  line{
+    line:p4=150, 198, -150, 198
+    thousandth:b = true;
+    move:b=no
+  }
+  line{
+    line:p4=150, 199, -150, 199
+    thousandth:b = true;
+    move:b=no
+  }
+  line{
+    line:p4=150, 200, -150, 200
+    thousandth:b = true;
+    move:b=no
+  }
+  line{
+    line:p4=150, 201, -150, 201
+    thousandth:b = true;
+    move:b=no
+  }
+  line{
+    line:p4=150, 202, -150, 202
+    thousandth:b = true;
+    move:b=no
+  }
+
+////////////
+ line{
+    line:p4=-1, 199, -1, 350
+    thousandth:b = true;
+    move:b=no
+  }
+ line{
+    line:p4=-2, 199, -2, 350
+    thousandth:b = true;
+    move:b=no
+  }
+ line{
+    line:p4=-3, 199, -3, 350
+    thousandth:b = true;
+    move:b=no
+  }
+ line{
+    line:p4=-4, 199, -4, 350
+    thousandth:b = true;
+    move:b=no
+  }
+ line{
+    line:p4=-5, 199, -5, 350
+    thousandth:b = true;
+    move:b=no
+  }
+ line{
+    line:p4=0, 199, 0, 350
+    thousandth:b = true;
+    move:b=no
+  }
+ line{
+    line:p4=1, 199, 1, 350
+    thousandth:b = true;
+    move:b=no
+  }
+ line{
+    line:p4=2, 199, 2, 350
+    thousandth:b = true;
+    move:b=no
+  }
+ line{
+    line:p4=3, 199, 3, 350
+    thousandth:b = true;
+    move:b=no
+  }
+ line{
+    line:p4=4, 199, 4, 350
+    thousandth:b = true;
+    move:b=no
+  }
+ line{
+    line:p4=5, 199, 5, 350
+    thousandth:b = true;
+    move:b=no
+  }
+
+
+
+/////iiiiiiiii
+
+ line{
+    line:p4=-217, 250, -217, -7
+    thousandth:b = true;
+    move:b=no
+  }
+ line{
+    line:p4=-218, 250, -218, -7
+    thousandth:b = true;
+    move:b=no
+  }
+ line{
+    line:p4=-219, 250, -219, -7
+    thousandth:b = true;
+    move:b=no
+  }
+ line{
+    line:p4=-220, 250, -220, -7
+    thousandth:b = true;
+    move:b=no
+  }
+ line{
+    line:p4=-221, 250, -221, -7
+    thousandth:b = true;
+    move:b=no
+  }
+
+
+
+
+
+
+
+
+///////////-------------------------------------------------------------55555555555555555555555555555555
+//sight
+  line{
+    line:p4=-21, 0, -210, 0
+    thousandth:b = true;
+    move:b=no
+  }
+line{
+    line:p4=21, 0, 210, 0
+    thousandth:b = true;
+    move:b=no
+  }
+line{
+    line:p4=0, 21, 0, 189
+    thousandth:b = true;
+    move:b=no
+  }
+line{
+    line:p4=0, -21, 0, -189
+    thousandth:b = true;
+    move:b=no
+  }
+
+//khung 
+ line{
+    line:p4=198, 150, 198, -10
+    thousandth:b = true;
+    move:b=no
+  }
+ line{
+    line:p4=199, 150, 199, -10
+    thousandth:b = true;
+    move:b=no
+  }
+ line{
+    line:p4=200, 150, 200, -10
+    thousandth:b = true;
+    move:b=no
+  }
+line{
+    line:p4=201, 150, 201, -10
+    thousandth:b = true;
+    move:b=no
+  }
+ line{
+    line:p4=202, 150, 202, -10
+    thousandth:b = true;
+    move:b=no
+  }
+
+
+///////////////////
+
+
+ line{
+    line:p4=-198, 150, -198, -10
+    thousandth:b = true;
+    move:b=no
+  }
+ line{
+    line:p4=-199, 150, -199, -10
+    thousandth:b = true;
+    move:b=no
+  }
+ line{
+    line:p4=-200, 150, -200, -10
+    thousandth:b = true;
+    move:b=no
+  }
+line{
+    line:p4=-201, 150, -201, -10
+    thousandth:b = true;
+    move:b=no
+  }
+ line{
+    line:p4=-202, 150, -202, -10
+    thousandth:b = true;
+    move:b=no
+  }
+
+////////////////////
+  line{
+    line:p4=150, 198, -150, 198
+    thousandth:b = true;
+    move:b=no
+  }
+  line{
+    line:p4=150, 199, -150, 199
+    thousandth:b = true;
+    move:b=no
+  }
+  line{
+    line:p4=150, 200, -150, 200
+    thousandth:b = true;
+    move:b=no
+  }
+  line{
+    line:p4=150, 201, -150, 201
+    thousandth:b = true;
+    move:b=no
+  }
+  line{
+    line:p4=150, 202, -150, 202
+    thousandth:b = true;
+    move:b=no
+  }
+
+////////////
+ line{
+    line:p4=-1, 199, -1, 350
+    thousandth:b = true;
+    move:b=no
+  }
+ line{
+    line:p4=-2, 199, -2, 350
+    thousandth:b = true;
+    move:b=no
+  }
+ line{
+    line:p4=-3, 199, -3, 350
+    thousandth:b = true;
+    move:b=no
+  }
+ line{
+    line:p4=-4, 199, -4, 350
+    thousandth:b = true;
+    move:b=no
+  }
+ line{
+    line:p4=-5, 199, -5, 350
+    thousandth:b = true;
+    move:b=no
+  }
+ line{
+    line:p4=0, 199, 0, 350
+    thousandth:b = true;
+    move:b=no
+  }
+ line{
+    line:p4=1, 199, 1, 350
+    thousandth:b = true;
+    move:b=no
+  }
+ line{
+    line:p4=2, 199, 2, 350
+    thousandth:b = true;
+    move:b=no
+  }
+ line{
+    line:p4=3, 199, 3, 350
+    thousandth:b = true;
+    move:b=no
+  }
+ line{
+    line:p4=4, 199, 4, 350
+    thousandth:b = true;
+    move:b=no
+  }
+ line{
+    line:p4=5, 199, 5, 350
+    thousandth:b = true;
+    move:b=no
+  }
+
+
+
+/////iiiiiiiii
+
+ line{
+    line:p4=-217, 250, -217, -7
+    thousandth:b = true;
+    move:b=no
+  }
+ line{
+    line:p4=-218, 250, -218, -7
+    thousandth:b = true;
+    move:b=no
+  }
+ line{
+    line:p4=-219, 250, -219, -7
+    thousandth:b = true;
+    move:b=no
+  }
+ line{
+    line:p4=-220, 250, -220, -7
+    thousandth:b = true;
+    move:b=no
+  }
+ line{
+    line:p4=-221, 250, -221, -7
+    thousandth:b = true;
+    move:b=no
+  }
+
+
+
+
+
+
+
+}
+drawCircles {
+//khung
+//right
+    circle {
+      segment:p2 = -3.0, 93.0; // Sector of a circle
+      pos:p2 = 152.7, 152.7; // Position
+      diameter:r = 90; // Diameter. If thousandth=yes, then in thousandths
+      size:r = 4.3; // Line Thickness
+      thousandth:b = true;
+      move:b = no;
+ 
+    }
+    circle {
+      segment:p2 = 0.0, 90.0; // Sector of a circle
+      pos:p2 = 149.0, 149.0; // Position
+      diameter:r = 100; // Diameter. If thousandth=yes, then in thousandths
+      size:r = 3.5; // Line Thickness
+      thousandth:b = true;
+      move:b = no;
+ 
+    }
+    circle {
+      segment:p2 = 0.0, 90.0; // Sector of a circle
+      pos:p2 = 150.0, 150; // Position
+      diameter:r = 100; // Diameter. If thousandth=yes, then in thousandths
+      size:r = 3.5; // Line Thickness
+      thousandth:b = true;
+      move:b = no;
+ 
+    }
+ circle {
+      segment:p2 = 0.0, 95.0; // Sector of a circle
+      pos:p2 = 151.0, 151; // Position
+      diameter:r = 100; // Diameter. If thousandth=yes, then in thousandths
+      size:r = 3.5; // Line Thickness
+      thousandth:b = true;
+      move:b = no;
+ 
+    }
+ circle {
+      segment:p2 = -5, 95.0; // Sector of a circle
+      pos:p2 = 152.0, 152.0; // Position
+      diameter:r = 100; // Diameter. If thousandth=yes, then in thousandths
+      size:r = 4.5; // Line Thickness
+      thousandth:b = true;
+      move:b = no;
+ 
+    }
+
+
+//left
+    circle {
+      segment:p2 = 268.0, 362.0; // Sector of a circle
+      pos:p2 = -152.7, 152.7; // Position
+      diameter:r = 90; // Diameter. If thousandth=yes, then in thousandths
+      size:r = 4.3; // Line Thickness
+      thousandth:b = true;
+      move:b = no;
+ 
+    }
+    circle {
+      segment:p2 = 270.0, 360.0; // Sector of a circle
+      pos:p2 = -149.0, 149.0; // Position
+      diameter:r = 100; // Diameter. If thousandth=yes, then in thousandths
+      size:r = 3.5; // Line Thickness
+      thousandth:b = true;
+      move:b = no;
+ 
+    }
+    circle {
+      segment:p2 = 270.0, 360.0; // Sector of a circle
+      pos:p2 = -150.0, 150; // Position
+      diameter:r = 100; // Diameter. If thousandth=yes, then in thousandths
+      size:r = 3.5; // Line Thickness
+      thousandth:b = true;
+      move:b = no;
+ 
+    }
+ circle {
+      segment:p2 = 270.0, 360.0; // Sector of a circle
+      pos:p2 = -151.0, 151; // Position
+      diameter:r = 100; // Diameter. If thousandth=yes, then in thousandths
+      size:r = 3.5; // Line Thickness
+      thousandth:b = true;
+      move:b = no;
+ 
+    }
+ circle {
+      segment:p2 = 265.0, 365.0; // Sector of a circle
+      pos:p2 = -152.0, 152.0; // Position
+      diameter:r = 100; // Diameter. If thousandth=yes, then in thousandths
+      size:r = 4.5; // Line Thickness
+      thousandth:b = true;
+      move:b = no;
+ 
+    }
+
+
+
+
+//sight------------------------
+  circle {
+      segment:p2 = 0.0, 360.0; // Sector of a circle
+      pos:p2 = 0.0, 0.0; // Position
+      diameter:r = 25; // Diameter. If thousandth=yes, then in thousandths
+      size:r = 5; // Line Thickness
+      thousandth:b = true;
+      move:b = no;
+    }
+  circle {
+      segment:p2 = 0.0, 360.0; // Sector of a circle
+      pos:p2 = 0.0, 0.0; // Position
+      diameter:r = 25; // Diameter. If thousandth=yes, then in thousandths
+      size:r = 5; // Line Thickness
+      thousandth:b = true;
+      move:b = no;
+    }
+  circle {
+      segment:p2 = 0.0, 360.0; // Sector of a circle
+      pos:p2 = 0.0, 0.0; // Position
+      diameter:r = 30; // Diameter. If thousandth=yes, then in thousandths
+      size:r = 5; // Line Thickness
+      thousandth:b = true;
+      move:b = no;
+    }
+  circle {
+      segment:p2 = 0.0, 360.0; // Sector of a circle
+      pos:p2 = 0.0, 0.0; // Position
+      diameter:r = 35; // Diameter. If thousandth=yes, then in thousandths
+      size:r = 5; // Line Thickness
+      thousandth:b = true;
+      move:b = no;
+    }
+    circle {
+      segment:p2 = 0.0, 360.0; // Sector of a circle
+      pos:p2 = 0.0, 0.0; // Position
+      diameter:r = 40; // Diameter. If thousandth=yes, then in thousandths
+      size:r = 5; // Line Thickness
+      thousandth:b = true;
+      move:b = no;
+    }
+  circle {
+      segment:p2 = 0.0, 360.0; // Sector of a circle
+      pos:p2 = 0.0, 0.0; // Position
+      diameter:r = 40; // Diameter. If thousandth=yes, then in thousandths
+      size:r = 5; // Line Thickness
+      thousandth:b = true;
+      move:b = no;
+    }
+
+    circle {
+      segment:p2 = 0.0, 360.0; // Sector of a circle
+      pos:p2 = 0.0, 0.0; // Position
+      diameter:r = 145; // Diameter. If thousandth=yes, then in thousandths
+      size:r = 5; // Line Thickness
+      thousandth:b = true;
+      move:b = no;
+    }
+
+    circle {
+      segment:p2 = 0.0, 360.0; // Sector of a circle
+      pos:p2 = 0.0, 0.0; // Position
+      diameter:r = 260; // Diameter. If thousandth=yes, then in thousandths
+      size:r = 5; // Line Thickness
+      thousandth:b = true;
+      move:b = no;
+    }
+
+    circle {
+      segment:p2 = 0.0, 360.0; // Sector of a circle
+      pos:p2 = 0.0, 0.0; // Position
+      diameter:r = 380; // Diameter. If thousandth=yes, then in thousandths
+      size:r = 5; // Line Thickness
+      thousandth:b = true;
+      move:b = no;
+    }
+
+
+
+
+
+
+
+    
+ 
+
+
+
+
+
+    
+/////-------------------------------------222222222222222222222222222222222222222222222222
+//khung
+//right
+    circle {
+      segment:p2 = -3.0, 93.0; // Sector of a circle
+      pos:p2 = 152.7, 152.7; // Position
+      diameter:r = 90; // Diameter. If thousandth=yes, then in thousandths
+      size:r = 4.3; // Line Thickness
+      thousandth:b = true;
+      move:b = no;
+ 
+    }
+    circle {
+      segment:p2 = 0.0, 90.0; // Sector of a circle
+      pos:p2 = 149.0, 149.0; // Position
+      diameter:r = 100; // Diameter. If thousandth=yes, then in thousandths
+      size:r = 3.5; // Line Thickness
+      thousandth:b = true;
+      move:b = no;
+ 
+    }
+    circle {
+      segment:p2 = 0.0, 90.0; // Sector of a circle
+      pos:p2 = 150.0, 150; // Position
+      diameter:r = 100; // Diameter. If thousandth=yes, then in thousandths
+      size:r = 3.5; // Line Thickness
+      thousandth:b = true;
+      move:b = no;
+ 
+    }
+ circle {
+      segment:p2 = 0.0, 95.0; // Sector of a circle
+      pos:p2 = 151.0, 151; // Position
+      diameter:r = 100; // Diameter. If thousandth=yes, then in thousandths
+      size:r = 3.5; // Line Thickness
+      thousandth:b = true;
+      move:b = no;
+ 
+    }
+ circle {
+      segment:p2 = -5, 95.0; // Sector of a circle
+      pos:p2 = 152.0, 152.0; // Position
+      diameter:r = 100; // Diameter. If thousandth=yes, then in thousandths
+      size:r = 4.5; // Line Thickness
+      thousandth:b = true;
+      move:b = no;
+ 
+    }
+
+
+//left
+    circle {
+      segment:p2 = 268.0, 362.0; // Sector of a circle
+      pos:p2 = -152.7, 152.7; // Position
+      diameter:r = 90; // Diameter. If thousandth=yes, then in thousandths
+      size:r = 4.3; // Line Thickness
+      thousandth:b = true;
+      move:b = no;
+ 
+    }
+    circle {
+      segment:p2 = 270.0, 360.0; // Sector of a circle
+      pos:p2 = -149.0, 149.0; // Position
+      diameter:r = 100; // Diameter. If thousandth=yes, then in thousandths
+      size:r = 3.5; // Line Thickness
+      thousandth:b = true;
+      move:b = no;
+ 
+    }
+    circle {
+      segment:p2 = 270.0, 360.0; // Sector of a circle
+      pos:p2 = -150.0, 150; // Position
+      diameter:r = 100; // Diameter. If thousandth=yes, then in thousandths
+      size:r = 3.5; // Line Thickness
+      thousandth:b = true;
+      move:b = no;
+ 
+    }
+ circle {
+      segment:p2 = 270.0, 360.0; // Sector of a circle
+      pos:p2 = -151.0, 151; // Position
+      diameter:r = 100; // Diameter. If thousandth=yes, then in thousandths
+      size:r = 3.5; // Line Thickness
+      thousandth:b = true;
+      move:b = no;
+ 
+    }
+ circle {
+      segment:p2 = 265.0, 365.0; // Sector of a circle
+      pos:p2 = -152.0, 152.0; // Position
+      diameter:r = 100; // Diameter. If thousandth=yes, then in thousandths
+      size:r = 4.5; // Line Thickness
+      thousandth:b = true;
+      move:b = no;
+ 
+    }
+
+
+
+
+//sight------------------------
+  circle {
+      segment:p2 = 0.0, 360.0; // Sector of a circle
+      pos:p2 = 0.0, 0.0; // Position
+      diameter:r = 25; // Diameter. If thousandth=yes, then in thousandths
+      size:r = 5; // Line Thickness
+      thousandth:b = true;
+      move:b = no;
+    }
+  circle {
+      segment:p2 = 0.0, 360.0; // Sector of a circle
+      pos:p2 = 0.0, 0.0; // Position
+      diameter:r = 25; // Diameter. If thousandth=yes, then in thousandths
+      size:r = 5; // Line Thickness
+      thousandth:b = true;
+      move:b = no;
+    }
+  circle {
+      segment:p2 = 0.0, 360.0; // Sector of a circle
+      pos:p2 = 0.0, 0.0; // Position
+      diameter:r = 30; // Diameter. If thousandth=yes, then in thousandths
+      size:r = 5; // Line Thickness
+      thousandth:b = true;
+      move:b = no;
+    }
+  circle {
+      segment:p2 = 0.0, 360.0; // Sector of a circle
+      pos:p2 = 0.0, 0.0; // Position
+      diameter:r = 35; // Diameter. If thousandth=yes, then in thousandths
+      size:r = 5; // Line Thickness
+      thousandth:b = true;
+      move:b = no;
+    }
+    circle {
+      segment:p2 = 0.0, 360.0; // Sector of a circle
+      pos:p2 = 0.0, 0.0; // Position
+      diameter:r = 40; // Diameter. If thousandth=yes, then in thousandths
+      size:r = 5; // Line Thickness
+      thousandth:b = true;
+      move:b = no;
+    }
+  circle {
+      segment:p2 = 0.0, 360.0; // Sector of a circle
+      pos:p2 = 0.0, 0.0; // Position
+      diameter:r = 40; // Diameter. If thousandth=yes, then in thousandths
+      size:r = 5; // Line Thickness
+      thousandth:b = true;
+      move:b = no;
+    }
+
+    circle {
+      segment:p2 = 0.0, 360.0; // Sector of a circle
+      pos:p2 = 0.0, 0.0; // Position
+      diameter:r = 145; // Diameter. If thousandth=yes, then in thousandths
+      size:r = 5; // Line Thickness
+      thousandth:b = true;
+      move:b = no;
+    }
+
+    circle {
+      segment:p2 = 0.0, 360.0; // Sector of a circle
+      pos:p2 = 0.0, 0.0; // Position
+      diameter:r = 260; // Diameter. If thousandth=yes, then in thousandths
+      size:r = 5; // Line Thickness
+      thousandth:b = true;
+      move:b = no;
+    }
+
+    circle {
+      segment:p2 = 0.0, 360.0; // Sector of a circle
+      pos:p2 = 0.0, 0.0; // Position
+      diameter:r = 380; // Diameter. If thousandth=yes, then in thousandths
+      size:r = 5; // Line Thickness
+      thousandth:b = true;
+      move:b = no;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//////--------------------------------------------------33333333333333333333333333333333333333333333333333333
+//khung
+//right
+    circle {
+      segment:p2 = -3.0, 93.0; // Sector of a circle
+      pos:p2 = 152.7, 152.7; // Position
+      diameter:r = 90; // Diameter. If thousandth=yes, then in thousandths
+      size:r = 4.3; // Line Thickness
+      thousandth:b = true;
+      move:b = no;
+ 
+    }
+    circle {
+      segment:p2 = 0.0, 90.0; // Sector of a circle
+      pos:p2 = 149.0, 149.0; // Position
+      diameter:r = 100; // Diameter. If thousandth=yes, then in thousandths
+      size:r = 3.5; // Line Thickness
+      thousandth:b = true;
+      move:b = no;
+ 
+    }
+    circle {
+      segment:p2 = 0.0, 90.0; // Sector of a circle
+      pos:p2 = 150.0, 150; // Position
+      diameter:r = 100; // Diameter. If thousandth=yes, then in thousandths
+      size:r = 3.5; // Line Thickness
+      thousandth:b = true;
+      move:b = no;
+ 
+    }
+ circle {
+      segment:p2 = 0.0, 95.0; // Sector of a circle
+      pos:p2 = 151.0, 151; // Position
+      diameter:r = 100; // Diameter. If thousandth=yes, then in thousandths
+      size:r = 3.5; // Line Thickness
+      thousandth:b = true;
+      move:b = no;
+ 
+    }
+ circle {
+      segment:p2 = -5, 95.0; // Sector of a circle
+      pos:p2 = 152.0, 152.0; // Position
+      diameter:r = 100; // Diameter. If thousandth=yes, then in thousandths
+      size:r = 4.5; // Line Thickness
+      thousandth:b = true;
+      move:b = no;
+ 
+    }
+
+
+//left
+    circle {
+      segment:p2 = 268.0, 362.0; // Sector of a circle
+      pos:p2 = -152.7, 152.7; // Position
+      diameter:r = 90; // Diameter. If thousandth=yes, then in thousandths
+      size:r = 4.3; // Line Thickness
+      thousandth:b = true;
+      move:b = no;
+ 
+    }
+    circle {
+      segment:p2 = 270.0, 360.0; // Sector of a circle
+      pos:p2 = -149.0, 149.0; // Position
+      diameter:r = 100; // Diameter. If thousandth=yes, then in thousandths
+      size:r = 3.5; // Line Thickness
+      thousandth:b = true;
+      move:b = no;
+ 
+    }
+    circle {
+      segment:p2 = 270.0, 360.0; // Sector of a circle
+      pos:p2 = -150.0, 150; // Position
+      diameter:r = 100; // Diameter. If thousandth=yes, then in thousandths
+      size:r = 3.5; // Line Thickness
+      thousandth:b = true;
+      move:b = no;
+ 
+    }
+ circle {
+      segment:p2 = 270.0, 360.0; // Sector of a circle
+      pos:p2 = -151.0, 151; // Position
+      diameter:r = 100; // Diameter. If thousandth=yes, then in thousandths
+      size:r = 3.5; // Line Thickness
+      thousandth:b = true;
+      move:b = no;
+ 
+    }
+ circle {
+      segment:p2 = 265.0, 365.0; // Sector of a circle
+      pos:p2 = -152.0, 152.0; // Position
+      diameter:r = 100; // Diameter. If thousandth=yes, then in thousandths
+      size:r = 4.5; // Line Thickness
+      thousandth:b = true;
+      move:b = no;
+ 
+    }
+
+
+
+
+//sight------------------------
+  circle {
+      segment:p2 = 0.0, 360.0; // Sector of a circle
+      pos:p2 = 0.0, 0.0; // Position
+      diameter:r = 25; // Diameter. If thousandth=yes, then in thousandths
+      size:r = 5; // Line Thickness
+      thousandth:b = true;
+      move:b = no;
+    }
+  circle {
+      segment:p2 = 0.0, 360.0; // Sector of a circle
+      pos:p2 = 0.0, 0.0; // Position
+      diameter:r = 25; // Diameter. If thousandth=yes, then in thousandths
+      size:r = 5; // Line Thickness
+      thousandth:b = true;
+      move:b = no;
+    }
+  circle {
+      segment:p2 = 0.0, 360.0; // Sector of a circle
+      pos:p2 = 0.0, 0.0; // Position
+      diameter:r = 30; // Diameter. If thousandth=yes, then in thousandths
+      size:r = 5; // Line Thickness
+      thousandth:b = true;
+      move:b = no;
+    }
+  circle {
+      segment:p2 = 0.0, 360.0; // Sector of a circle
+      pos:p2 = 0.0, 0.0; // Position
+      diameter:r = 35; // Diameter. If thousandth=yes, then in thousandths
+      size:r = 5; // Line Thickness
+      thousandth:b = true;
+      move:b = no;
+    }
+    circle {
+      segment:p2 = 0.0, 360.0; // Sector of a circle
+      pos:p2 = 0.0, 0.0; // Position
+      diameter:r = 40; // Diameter. If thousandth=yes, then in thousandths
+      size:r = 5; // Line Thickness
+      thousandth:b = true;
+      move:b = no;
+    }
+  circle {
+      segment:p2 = 0.0, 360.0; // Sector of a circle
+      pos:p2 = 0.0, 0.0; // Position
+      diameter:r = 40; // Diameter. If thousandth=yes, then in thousandths
+      size:r = 5; // Line Thickness
+      thousandth:b = true;
+      move:b = no;
+    }
+
+    circle {
+      segment:p2 = 0.0, 360.0; // Sector of a circle
+      pos:p2 = 0.0, 0.0; // Position
+      diameter:r = 145; // Diameter. If thousandth=yes, then in thousandths
+      size:r = 5; // Line Thickness
+      thousandth:b = true;
+      move:b = no;
+    }
+
+    circle {
+      segment:p2 = 0.0, 360.0; // Sector of a circle
+      pos:p2 = 0.0, 0.0; // Position
+      diameter:r = 260; // Diameter. If thousandth=yes, then in thousandths
+      size:r = 5; // Line Thickness
+      thousandth:b = true;
+      move:b = no;
+    }
+
+    circle {
+      segment:p2 = 0.0, 360.0; // Sector of a circle
+      pos:p2 = 0.0, 0.0; // Position
+      diameter:r = 380; // Diameter. If thousandth=yes, then in thousandths
+      size:r = 5; // Line Thickness
+      thousandth:b = true;
+      move:b = no;
+    }
+
+
+
+
+
+
+  
+}
