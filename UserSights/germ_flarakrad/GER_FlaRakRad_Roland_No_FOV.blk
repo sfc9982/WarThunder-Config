@@ -1,0 +1,97 @@
+
+///Created by Caff///
+
+rangefinderProgressBarColor1:c=0, 0, 0, 0
+rangefinderProgressBarColor2:c=0, 0, 0, 0
+rangefinderTextScale:r=0.7
+rangefinderVerticalOffset:r=0.03
+rangefinderHorizontalOffset:r=27
+drawDistanceCorrection:b=no
+distanceCorrectionPos:p2=1.0, 1.0
+applyCorrectionToGun:b=no
+fontSizeMult:r=1.0
+lineSizeMult:r=1.5
+drawCentralLineVert:b=no;
+drawCentralLineHorz:b=no
+crosshairDistHorSizeMain:p2=0.03, 0.02
+crosshairDistHorSizeAdditional:p2=0.005, 0.003
+crosshairColor:c = 0, 0, 0, 0
+crosshairLightColor:c = 153, 255, 204, 255
+thousandth:t=“nato”
+
+crosshair_distances{}
+
+crosshair_hor_ranges{}
+
+drawCircles {
+
+circle{
+      segment:p2 = 20.0, 340.0
+      pos:p2 = 0.0, 0.0
+      diameter:r = 50.0
+      size:r = 1.5
+      move:b = no
+      thousandth:b = yes
+    }
+  }
+
+drawLines{
+
+//TOP
+  line{
+    line:p4=0, -4.5, 0, -30
+    move:b=no
+    thousandth:b=yes
+  }
+  
+//RIGHT  
+  line{
+    line:p4=4, 0, 30, 0
+    move:b=no
+    thousandth:b=yes
+  }
+  
+//LEFT
+  line{
+    line:p4=-4, 0, -30, 0
+    move:b=no
+    thousandth:b=yes
+  } 
+
+//CENTER TOP
+line{ 
+    line:p4= -2.5, -8.3, 2.5, -8.3
+    move:b=no
+    thousandth:b=yes
+  }
+
+//CENTER LEFT
+ line{ 
+    line:p4= -8.3, -2.5, -8.3, 2.5
+    move:b=no
+    thousandth:b=yes
+  }
+
+//CENTER RIGHT
+  line{ 
+    line:p4= 8.3, 2.5, 8.3, -2.5
+    move:b=no
+    thousandth:b=yes
+  }
+
+//ANGLED BOTTOM RIGHT
+  line{
+    line:p4=0, 0, 21.3, 21.3
+    move:b=no
+    thousandth:b=yes
+  } 
+
+//ANGLED BOTTOM RIGHT
+  line{
+    line:p4=-21.3, 21.3, 0, 0
+    move:b=no
+    thousandth:b=yes
+  }
+}
+
+

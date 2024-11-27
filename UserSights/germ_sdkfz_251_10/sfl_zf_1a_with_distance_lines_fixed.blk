@@ -1,0 +1,284 @@
+crosshairHorVertSize:p2=3, 2
+rangefinderProgressBarColor1:c=0, 255, 0, 64
+rangefinderProgressBarColor2:c=255, 255, 255, 64
+rangefinderTextScale:r=0.7
+rangefinderVerticalOffset:r=0.03
+rangefinderHorizontalOffset:r=-31
+fontSizeMult:r=1
+lineSizeMult:r=1.2
+drawCentralLineVert:b=no
+drawCentralLineHorz:b=no
+crosshairDistHorSizeMain:p2=0.01, 0.01
+crosshairDistHorSizeAdditional:p2=0.005, 0.003
+distanceCorrectionPos:p2=-0.2, -0.05
+drawDistanceCorrection:b=no
+drawAdditionalLines:b=no
+textPos:p2=-0.004, 0.0
+distancePos:p2=-0.18, 0.0
+thousandth:t=“real”
+applyCorrectionToGun:b=no
+
+    crosshair_distances{
+      distance:p3 = 200, 0, 0.001
+      distance:p3 = 400, 4, 0.001
+      distance:p3 = 600, 0, 0.001
+      distance:p3 = 800, 8, 0.001
+      distance:p3 = 1000, 0, 0.001
+      distance:p3 = 1200, 12, 0.001
+      distance:p3 = 1400, 0, 0.001
+      distance:p3 = 1600, 16, 0.001
+      distance:p3 = 1800, 0, 0.001
+      distance:p3 = 2000, 20, 0.001
+      distance:p3 = 2200, 0, 0.001
+      distance:p3 = 2400, 24, 0.001
+      distance:p3 = 2600, 0, 0.001
+      distance:p3 = 2800, 28, 0.001
+      distance:p3 = 3000, 0, 0.001
+      distance:p3 = 3200, 32, 0.001
+      distance:p3 = 3400, 0, 0.001
+      distance:p3 = 3600, 36, 0.001
+      distance:p3 = 3800, 0, 0.001
+      distance:p3 = 4000, 40, 0.001
+    }
+
+crosshair_hor_ranges{
+}
+
+drawLines{
+   
+  line{ line:p4=0.15, 0.00, 0.22, 0.00; move:b=yes; }
+   
+   
+  line{
+    line:p4=0, 0, 160, 160
+    move:b=yes
+	thousandth:b=yes
+  }
+  
+  line{
+    line:p4=0, 0, -160, 160
+    move:b=yes
+	thousandth:b=yes
+  }
+
+  
+  
+  
+  line{
+    line:p4=2, 0, 2, 1
+    move:b=yes
+	thousandth:b=yes
+  }
+  
+  line{
+    line:p4=6, 0, 6, 1
+    move:b=yes
+	thousandth:b=yes
+  }
+  
+  line{
+    line:p4=10, 0, 10, 1
+    move:b=yes
+	thousandth:b=yes
+  }
+  
+  
+  line{
+    line:p4=-2, 0, -2, 1
+    move:b=yes
+	thousandth:b=yes
+  }
+  
+  line{
+    line:p4=-6, 0, -6, 1
+    move:b=yes
+	thousandth:b=yes
+  }
+  
+  line{
+    line:p4=-10, 0, -10, 1
+    move:b=yes
+	thousandth:b=yes
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  line{
+    line:p4=0, 12, 0, 1000
+    move:b=yes
+	thousandth:b=yes
+  }
+  
+  line{
+    line:p4=0, -24, 0, -1000
+    move:b=yes
+	thousandth:b=yes
+  }
+
+  
+  
+  
+  line{
+    line:p4=4, 0, 3, 2
+    move:b=yes
+	thousandth:b=yes
+  }
+  
+  line{
+    line:p4=4, 0, 5, 2
+    move:b=yes
+	thousandth:b=yes
+  }
+  
+  line{
+    line:p4=3, 2, 3.5, 2
+    move:b=yes
+	thousandth:b=yes
+  }
+  
+  line{
+    line:p4=5, 2, 4.5, 2
+    move:b=yes
+	thousandth:b=yes
+  }
+
+  
+  
+  
+  line{
+    line:p4=8, 0, 9, 2
+    move:b=yes
+	thousandth:b=yes
+  }
+  
+  line{
+    line:p4=8, 0, 7, 2
+    move:b=yes
+	thousandth:b=yes
+  }
+
+  line{
+    line:p4=7, 2, 7.5, 2
+    move:b=yes
+	thousandth:b=yes
+  }
+  
+  line{
+    line:p4=9, 2, 8.5, 2
+    move:b=yes
+	thousandth:b=yes
+  }
+  
+  
+  
+  
+  line{
+    line:p4=12, 0, 11, 2
+    move:b=yes
+	thousandth:b=yes
+  }
+  
+  line{
+    line:p4=12, 0, 13, 2
+    move:b=yes
+	thousandth:b=yes
+  }
+  
+  line{
+    line:p4=11, 2, 11.5, 2
+    move:b=yes
+	thousandth:b=yes
+  }
+  
+  line{
+    line:p4=13, 2, 12.5, 2
+    move:b=yes
+	thousandth:b=yes
+  }
+  
+  
+
+  line{
+    line:p4=-4, 0, -3, 2
+    move:b=yes
+	thousandth:b=yes
+  }
+  
+  line{
+    line:p4=-4, 0, -5, 2
+    move:b=yes
+	thousandth:b=yes
+  }
+  
+    
+  line{
+    line:p4=-3, 2, -3.5, 2
+    move:b=yes
+	thousandth:b=yes
+  }
+  
+  line{
+    line:p4=-5, 2, -4.5, 2
+    move:b=yes
+	thousandth:b=yes
+  }
+  
+  
+  
+  line{
+    line:p4=-8, 0, -9, 2
+    move:b=yes
+	thousandth:b=yes
+  }
+  
+  line{
+    line:p4=-8, 0, -7, 2
+    move:b=yes
+	thousandth:b=yes
+  }
+  
+  line{
+    line:p4=-7, 2, -7.5, 2
+    move:b=yes
+	thousandth:b=yes
+  }
+  
+  line{
+    line:p4=-9, 2, -8.5, 2
+    move:b=yes
+	thousandth:b=yes
+  }
+
+  
+  
+  
+  line{
+    line:p4=-12, 0, -11, 2
+    move:b=yes
+	thousandth:b=yes
+  }
+  
+  line{
+    line:p4=-12, 0, -13, 2
+    move:b=yes
+	thousandth:b=yes
+  }
+  
+  line{
+    line:p4=-11, 2, -11.5, 2
+    move:b=yes
+	thousandth:b=yes
+  }
+  
+  line{
+    line:p4=-13, 2, -12.5, 2
+    move:b=yes
+	thousandth:b=yes
+  }
+}

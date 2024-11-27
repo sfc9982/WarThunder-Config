@@ -1,0 +1,50 @@
+crosshairHorVertSize:p2=3, 2
+rangefinderProgressBarColor1:c=0, 255, 0, 64
+rangefinderProgressBarColor2:c=255, 255, 255, 64
+rangefinderTextScale:r=0.7
+rangefinderVerticalOffset:r=-0.286
+rangefinderHorizontalOffset:r=-31
+fontSizeMult:r=0.8
+lineSizeMult:r=1.2
+drawCentralLineVert:b=no
+drawCentralLineHorz:b=no
+crosshairDistHorSizeMain:p2=0.03, 0.02
+crosshairDistHorSizeAdditional:p2=0.005, 0.003
+distanceCorrectionPos:p2=-0.08, 0.15
+drawDistanceCorrection:b=yes
+thousandth:t = nato
+
+crosshair_distances{
+}
+
+crosshair_hor_ranges{
+}
+
+drawLines{
+  
+ 
+  
+ line { line:p4 = -0.25, 0, -1, 0;  thousandth:b = true; move:b = false; }
+ line { line:p4 = 0.25, 0, 1, 0;  thousandth:b = true; move:b = false; } 
+ line { line:p4 = 0, 0.25, 0, 1;  thousandth:b = true; move:b = false; } 
+ line { line:p4 = 0, -0.25, 0, -1;  thousandth:b = true; move:b = false; } 
+
+ line { line:p4 = 2.5, 0, 5, 0; thousandth:b = true; move:b = false; }
+ line { line:p4 = 7.45, 0, 7.55, 0; thousandth:b = true; move:b = false; }
+ line { line:p4 = 10, 0, 15, 0; thousandth:b = true; move:b = false; }
+ line { line:p4 = -2.5, 0, -5, 0; thousandth:b = true; move:b = false; }
+ line { line:p4 = -7.45, 0, -7.55, 0; thousandth:b = true; move:b = false; }
+ line { line:p4 = -10, 0, -15, 0; thousandth:b = true; move:b = false; }
+ line { line:p4 = -2.5, -2, -7.5, -2; thousandth:b = true; move:b = false; }
+ line { line:p4 = 2.5, 2, 7.5, 2; thousandth:b = true; move:b = false; }
+ line { line:p4 = -2.5, 2, -7.5, 2; thousandth:b = true; move:b = false; }
+ line { line:p4 = 2.5, -2, 7.5, -2; thousandth:b = true; move:b = false; }
+
+  line { line:p4 = 0, 2, 0, 4; thousandth:b = true; move:b = false; }
+  line { line:p4 = 0, 6, 0, 8; thousandth:b = true; move:b = false; }
+  line { line:p4 = 0, -2, 0, -4; thousandth:b = true; move:b = false; }
+  line { line:p4 = 0, -6, 0, -8; thousandth:b = true; move:b = false; }
+}
+
+drawCircles {
+  }

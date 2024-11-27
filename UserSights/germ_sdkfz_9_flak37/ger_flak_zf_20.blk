@@ -1,0 +1,112 @@
+crosshairHorVertSize:p2=3, 2
+rangefinderProgressBarColor1:c=0, 255, 0, 64
+rangefinderProgressBarColor2:c=255, 255, 255, 64
+rangefinderTextScale:r=0.7
+rangefinderUseThousandth:b=no
+rangefinderVerticalOffset:r=0.1
+rangefinderHorizontalOffset:r=90
+fontSizeMult:r=0.7
+lineSizeMult:r=1.3
+drawCentralLineVert:b=no
+drawCentralLineHorz:b=no
+drawSightMask:b=yes
+crosshairDistHorSizeMain:p2=0.03, 0.02
+crosshairDistHorSizeAdditional:p2=0.005, 0.003
+distanceCorrectionPos:p2=-0.2, -0.085
+drawDistanceCorrection:b=yes
+thousandth:t = “real”
+
+crosshair_distances{
+}
+
+crosshair_hor_ranges{
+/*  range:p2=-32, 32
+  range:p2=-28, 0
+  range:p2=-24, 24
+  range:p2=-20, 0
+  range:p2=-16, 16
+  range:p2=-12, 0
+  range:p2=-8, 8
+  range:p2=-4, 0
+  range:p2=4, 0
+  range:p2=8, 8
+  range:p2=12, 0
+  range:p2=16, 16
+  range:p2=20, 0
+  range:p2=24, 24
+  range:p2=28, 0
+  range:p2=32, 32*/
+}
+
+drawLines{
+  line{
+    line:p4=10, 0, 10000, 0
+    move:b=no
+	thousandth:b = yes
+  }
+  
+  line{
+    line:p4=-10, 0, -10000, 0
+    move:b=no
+	thousandth:b = yes
+  }
+  
+  line{
+    line:p4=0, 10, 0, 10000
+    move:b=no
+	thousandth:b = yes
+  }
+  
+  line{
+    line:p4=0, -10, 0, -10000
+    move:b=no
+	thousandth:b = yes
+  }
+  
+  line{
+    line:p4=0, 0, 3, 5
+    move:b=no
+	thousandth:b = yes
+  }
+  
+  line{
+    line:p4=-3, 5, 0, 0
+    move:b=no
+	thousandth:b = yes
+  }
+}
+
+
+drawQuads{
+    quad{ 
+      tl:p2 = -40, -2 // Top left top
+      tr:p2 = -4000, -2 // Top right top
+      br:p2 = -4000, 2 // Top right bottom
+      bl:p2 = -40, 2 // Top left bottom
+      thousandth:b = true
+    }
+	
+	quad{ 
+      tl:p2 = 40, -2 // Top left top
+      tr:p2 = 4000, -2 // Top right top
+      br:p2 = 4000, 2 // Top right bottom
+      bl:p2 = 40, 2 // Top left bottom
+      thousandth:b = true
+    }
+	
+	quad{ 
+      tl:p2 =  -2, -40 // Top left top
+      tr:p2 =  -2, -4000 // Top right top
+      br:p2 =  2, -4000 // Top right bottom
+      bl:p2 =  2, -40 // Top left bottom
+      thousandth:b = true
+    }
+	
+	quad{ 
+      tl:p2 = -2, 40 // Top left top
+      tr:p2 = -2, 4000 // Top right top
+      br:p2 = 2, 4000 // Top right bottom
+      bl:p2 = 2, 40 // Top left bottom
+      thousandth:b = true
+    }
+}

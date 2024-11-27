@@ -1,0 +1,194 @@
+
+///Created by Caff///
+
+thousandth:t=“nato”
+rangefinderProgressBarColor1:c=0, 0, 0, 0
+rangefinderProgressBarColor2:c=0, 0, 0, 0
+rangefinderTextScale:r=0.7
+rangefinderVerticalOffset:r=-32.0
+rangefinderHorizontalOffset:r=-15
+fontSizeMult:r=1.5
+lineSizeMult:r=1.2
+drawCentralLineVert:b=no
+applyCorrectionToGun:b=no
+drawCentralLineHorz:b=no
+crosshairDistHorSizeMain:p2=0.03, 0.02
+crosshairDistHorSizeAdditional:p2=0.005, 0.003
+distanceCorrectionPos:p2=-0.2, -0.05
+drawDistanceCorrection:b=no
+
+crosshair_distances{}
+
+crosshair_hor_ranges{}
+
+
+drawLines{
+  
+//Cross
+  line{
+    line:p4=0.0, -1, 0, -18
+    move:b=no
+	thousandth:b=yes
+  }
+  
+  line{
+    line:p4=0.0, 1, 0, 18
+    move:b=no
+	thousandth:b=yes
+  }
+  
+
+  
+  line{
+    line:p4=1, 0, 18, 0
+    move:b=no
+	thousandth:b=yes
+  }
+  
+  line{
+    line:p4=-1, 0, -18, 0
+    move:b=no
+	thousandth:b=yes
+  } 
+
+// SURV Square //
+  line{
+    line:p4=-114.0, -43, -114, -57
+    move:b=no
+	thousandth:b=yes
+  }
+  line{
+    line:p4=-101.0, -43, -101, -57
+    move:b=no
+	thousandth:b=yes
+  }
+
+
+  line{
+    line:p4=-114.0, -57, -101, -57
+    move:b=no
+	thousandth:b=yes
+  }
+  line{
+    line:p4=-114.0, -43, -101, -43
+    move:b=no
+	thousandth:b=yes
+  }
+
+// WFOV Square //
+ line{
+    line:p4=118.0, -41, 118, -57
+    move:b=no
+	thousandth:b=yes
+  }
+  line{
+    line:p4=103, -41, 103, -57
+    move:b=no
+	thousandth:b=yes
+  }
+
+
+
+  line{
+    line:p4=118.0, -57, 103, -57
+    move:b=no
+	thousandth:b=yes
+  }
+  line{
+    line:p4=118.0, -41, 103, -41
+    move:b=no
+	thousandth:b=yes
+  }
+
+
+// C-BRT square //
+  line{
+    line:p4=-114.0, 30.8, -114, -21.8
+    move:b=no
+	thousandth:b=yes
+
+  }
+  line{
+    line:p4=-101.0, 30.8, -101, -21.8
+    move:b=no
+	thousandth:b=yes
+  }
+
+
+  line{
+    line:p4=-114.0, -17.5, -101, -17.5
+    move:b=no
+	thousandth:b=yes
+  }
+
+  line{
+    line:p4=-114.0, -21.8, -101, -21.8
+    move:b=no
+	thousandth:b=yes
+  }
+
+  line{
+    line:p4=-114.0, -43, -101, -43
+    move:b=no
+	thousandth:b=yes
+  }
+
+}
+
+ drawQuads {
+    quad {
+      tl:p2 = -101, -18; // Top left top
+      tr:p2 = -101, -10; // Top right top
+
+      br:p2 = -101, 31; // Top right bottom
+      bl:p2 = -114, 31; // Top left bottom
+      thousandth:b = true;
+    }
+}
+
+drawTexts{
+
+
+      text{
+        text:t="SURV"
+        align:i=0;highlight:b = true
+        pos:p2=-0.40, -0.20
+        size:r=0.7
+		move:b=no
+      }
+
+      text{
+        text:t="C-BRT"
+        align:i=0;highlight:b = true
+        pos:p2=-0.395, -0.073
+        size:r=0.7
+		move:b=no
+      }
+
+      text{
+        text:t="DAY"
+        align:i=0;highlight:b = true
+        pos:p2=0.395, -0.20
+        size:r=0.7
+		move:b=no
+      }
+      text{
+        text:t="WFOV"
+        align:i=0;highlight:b = true
+        pos:p2=0.40, -0.181
+        size:r=0.7
+		move:b=no
+      }
+      text{
+        text:t="LAST"
+        align:i=0;highlight:b = true
+        pos:p2=0.398, -0.163
+        size:r=0.7
+		move:b=no
+      }
+    }
+
+drawCircles {
+}
+
+

@@ -1,0 +1,62 @@
+
+//Created by RideR2; edited by Caff//
+
+crosshairHorVertSize:p2=3, 2
+rangefinderProgressBarColor1:c=0, 0, 0, 0
+rangefinderProgressBarColor2:c=0, 0, 0, 0
+rangefinderTextScale:r=0.7 
+rangefinderVerticalOffset:r=-21.8
+rangefinderHorizontalOffset:r=-95.0
+distanceCorrectionPos:p2=0.018, 0.125
+drawDistanceCorrection:b=yes
+fontSizeMult:r=0.7
+lineSizeMult:r=1.2
+drawCentralLineVert:b=no
+drawCentralLineHorz:b=no
+crosshairDistHorSizeMain:p2=0.03, 0.02
+crosshairDistHorSizeAdditional:p2=0.005, 0.003
+thousandth:t = “nato”
+crosshairColor:c=255, 30, 30, 255
+crosshairLightColor:c=145, 255, 130, 255  
+
+
+crosshair_distances{}
+
+crosshair_hor_ranges{}
+
+drawLines{
+  line { line:p4 = -0.3, 0, -1, 0;  thousandth:b = true; move:b = no; }
+  line { line:p4 = 0.3, 0, 1, 0;  thousandth:b = true; move:b = no; } 
+  line { line:p4 = 0, 0.3, 0, 1;  thousandth:b = true; move:b = no; } 
+  line { line:p4 = 0, -0.3, 0, -1;  thousandth:b = true; move:b = no; } 
+ 
+  line { line:p4 = 2.5, 0, 5, 0; thousandth:b = true; move:b = no; }
+  line { line:p4 = 7.45, 0, 7.55, 0; thousandth:b = true; move:b = no; }
+  line { line:p4 = -2.5, 0, -5, 0; thousandth:b = true; move:b = no; }
+  line { line:p4 = -7.45, 0, -7.55, 0; thousandth:b = true; move:b = no; }
+  line { line:p4 = -2.5, -2, -7.5, -2; thousandth:b = true; move:b = no; }
+  line { line:p4 = 2.5, 2, 7.5, 2; thousandth:b = true; move:b = no; }
+  line { line:p4 = -2.5, 2, -7.5, 2; thousandth:b = true; move:b = no; }
+  line { line:p4 = 2.5, -2, 7.5, -2; thousandth:b = true; move:b = no; }
+
+  line { line:p4 = 0, 2, 0, 4; thousandth:b = true; move:b = no; }
+  line { line:p4 = 0, -2, 0, -4; thousandth:b = true; move:b = no; }
+  
+}
+
+
+
+drawCircles {
+
+//Sight's circle//
+circle{
+      segment:p2 = 0.0, 360.0
+      pos:p2 = 0.0, 0.0
+      diameter:r = 0.6
+      size:r = 1.0
+      move:b = no
+      thousandth:b = yes
+    }
+  }
+
+

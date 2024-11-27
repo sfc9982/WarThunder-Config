@@ -1,0 +1,68 @@
+///Created by Caff///
+
+thousandth:t=“nato”
+rangefinderProgressBarColor1:c=0, 0, 0, 0
+rangefinderProgressBarColor2:c=0, 0, 0, 0
+rangefinderTextScale:r=0.7
+rangefinderVerticalOffset:r=11.5
+rangefinderHorizontalOffset:r=40.0
+fontSizeMult:r=0.9
+lineSizeMult:r=1.5
+drawCentralLineVert:b=no
+applyCorrectionToGun:b=no
+drawCentralLineHorz:b=no
+crosshairDistHorSizeMain:p2=0.03, 0.02
+crosshairDistHorSizeAdditional:p2=0.005, 0.003
+distanceCorrectionPos:p2=-0.2, -0.05
+drawDistanceCorrection:b=yes
+crosshairColor:c=255, 20, 20, 255
+crosshairLightColor:c=145, 255, 141, 255
+
+crosshair_distances{}
+
+crosshair_hor_ranges{}
+
+drawCircles{}
+
+drawLines{
+
+// Cross //  
+
+  line{
+    line:p4=0.0, 0, 0, -500
+    move:b=no
+	thousandth:b=yes
+  }
+  
+  line{
+    line:p4=0.0, 0, 0, 500
+    move:b=no
+	thousandth:b=yes
+  }
+    
+  line{
+    line:p4=0, 0, 500, 0
+    move:b=no
+	thousandth:b=yes
+  }
+  
+  line{
+    line:p4=0, 0, -500, 0
+    move:b=no
+	thousandth:b=yes
+  }
+
+// Stadia lines //
+  
+  line{
+    line:p4= 0.6, -15, 0.6, -13
+    move:b=no
+	thousandth:b=yes
+  }
+  line{
+    line:p4= -0.6, -15, -0.6, -13
+    move:b=no
+	thousandth:b=yes
+  }    
+}
+

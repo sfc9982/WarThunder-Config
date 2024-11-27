@@ -1,0 +1,58 @@
+
+//Created by RideR2; edited by Caff//
+
+crosshairHorVertSize:p2=3, 2
+rangefinderProgressBarColor1:c=0, 0, 0, 0
+rangefinderProgressBarColor2:c=0, 20, 0, 0
+rangefinderTextScale:r=0.7
+rangefinderVerticalOffset:r=-16.5
+rangefinderHorizontalOffset:r=-105.0
+distanceCorrectionPos:p2=0.018, 0.182
+drawDistanceCorrection:b=yes
+fontSizeMult:r=0.9
+lineSizeMult:r=1.5
+drawCentralLineVert:b=no
+drawCentralLineHorz:b=no
+crosshairDistHorSizeMain:p2=0.03, 0.02
+crosshairDistHorSizeAdditional:p2=0.005, 0.003
+crosshairColor:c=0, 0, 0, 255
+crosshairLightColor:c=0, 0, 0, 0
+thousandth:t = “nato”
+
+
+crosshair_distances{}
+
+crosshair_hor_ranges{}
+
+drawLines{
+
+//Cross
+  line { line:p4 = -0, 0, -1, 0;  thousandth:b = true; move:b = no; }
+  line { line:p4 = 0, 0, 1, 0;  thousandth:b = true; move:b = no; } 
+  line { line:p4 = 0, 0, 0, 1;  thousandth:b = true; move:b = no; } 
+  line { line:p4 = 0, -0, 0, -1;  thousandth:b = true; move:b = no; } 
+
+//Center Righ Line 
+  line { line:p4 = 5.5, 0, 10.45, 0; thousandth:b = true; move:b = no; }
+  line { line:p4 = 15.5, 0, 20.45, 0; thousandth:b = true; move:b = no; }
+
+//Center Letf Line 
+  line { line:p4 = -5.5, 0, -10.45, 0; thousandth:b = true; move:b = no; }
+  line { line:p4 = -15.5, 0, -20.45, 0; thousandth:b = true; move:b = no; }
+
+  line { line:p4 = -7.45, 0, -7.55, 0; thousandth:b = true; move:b = no; }
+  line { line:p4 = -2.5, -2, -7.5, -2; thousandth:b = true; move:b = no; }
+  line { line:p4 = 2.5, 2, 7.5, 2; thousandth:b = true; move:b = no; }
+  line { line:p4 = -2.5, 2, -7.5, 2; thousandth:b = true; move:b = no; }
+  line { line:p4 = 2.5, -2, 7.5, -2; thousandth:b = true; move:b = no; }
+
+//Bottom
+  line { line:p4 = 0, 10, 0, 12; thousandth:b = true; move:b = no; }
+  line { line:p4 = 0, 6, 0, 8; thousandth:b = true; move:b = no; }
+  line { line:p4 = 0, 2, 0, 4; thousandth:b = true; move:b = no; }
+
+//Top
+  line { line:p4 = 0, -10, 0, -12; thousandth:b = true; move:b = no; }
+  line { line:p4 = 0, -6, 0, -8; thousandth:b = true; move:b = no; }
+  line { line:p4 = 0, -2, 0, -4; thousandth:b = true; move:b = no; }  
+}
