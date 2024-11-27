@@ -1,0 +1,56 @@
+crosshairHorVertSize:p2=3, 2
+rangefinderProgressBarColor1:c=238,238,200, 64
+rangefinderProgressBarColor2:c=0,0,0,0
+rangefinderTextScale:r=0.5
+rangefinderVerticalOffset:r=-33
+rangefinderHorizontalOffset:r=145
+fontSizeMult:r=1
+lineSizeMult:r=1.0
+drawCentralLineVert:b=no
+drawCentralLineHorz:b=no
+distanceCorrectionPos:p2=0.05, 0.19
+drawDistanceCorrection:b=yes
+applyCorrectionToGun:b=no
+thousandth:t=nato
+
+
+	
+crosshair_distances{
+}
+
+crosshair_hor_ranges{
+}
+
+drawCircles {
+
+
+   circle {
+      segment:p2 = 12.0, 348.0
+      pos:p2 = 0.0, 0
+      diameter:r = 15.0
+      size:r = 2
+      move:b = no
+      thousandth:b = yes
+    }
+	
+   circle {
+      segment:p2 = 0.0, 360.0
+      pos:p2 = 0.0, 0
+      diameter:r = 60.0
+      size:r = 2
+      move:b = no
+      thousandth:b = yes
+    }
+	
+	
+  }
+
+  
+
+drawLines{
+
+  //line { line:p4=1.5, 0, -1.5, 0;thousandth:b = true; move:b=no ;}
+ 
+ 
+
+}

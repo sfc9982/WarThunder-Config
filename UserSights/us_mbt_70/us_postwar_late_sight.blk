@@ -1,0 +1,168 @@
+crosshairHorVertSize:p2=3, 2
+rangefinderProgressBarColor1:c=0, 255, 0, 64
+rangefinderProgressBarColor2:c=255, 255, 255, 64
+rangefinderTextScale:r=0.7
+rangefinderVerticalOffset:r=-0.15
+rangefinderHorizontalOffset:r=-31
+fontSizeMult:r=1.3
+lineSizeMult:r=1.5
+drawCentralLineVert:b=no
+drawCentralLineHorz:b=no
+crosshairDistHorSizeMain:p2=0.03, 0.02
+crosshairDistHorSizeAdditional:p2=0.005, 0.003
+distanceCorrectionPos:p2=-0.035, 0.19
+drawDistanceCorrection:b=yes
+thousandth:t = nato
+crosshairColor:c=255, 0, 20, 220
+crosshairLightColor:c=20, 255, 20, 220
+
+crosshair_distances{
+}
+
+crosshair_hor_ranges{
+}
+
+drawLines{
+  line{
+    line:p4=5, 0, 10, 0
+    move:b=no
+	thousandth:b = yes
+  } 
+  
+  line{
+    line:p4=-5, 0, -10, 0
+    move:b=no
+	thousandth:b = yes
+  } 
+  
+  line{
+    line:p4=-15, 0, -20, 0
+    move:b=no
+	thousandth:b = yes
+  } 
+  
+  line{
+    line:p4=15, 0, 20, 0
+    move:b=no
+	thousandth:b = yes
+  } 
+  
+  
+  
+  
+  line{
+    line:p4=2.5, 2.5, 7.5, 2.5
+    move:b=no
+	thousandth:b = yes
+  } 
+  
+  line{
+    line:p4=2.5, -2.5, 7.5, -2.5
+    move:b=no
+	thousandth:b = yes
+  } 
+  
+  
+  
+  
+  line{
+    line:p4=-2.5, 2.5, -7.5, 2.5
+    move:b=no
+	thousandth:b = yes
+  } 
+  
+  line{
+    line:p4=-2.5, -2.5, -7.5, -2.5
+    move:b=no
+	thousandth:b = yes
+  } 
+  
+  
+  line{
+    line:p4=0, -2.5, 0, -5.0
+    move:b=no
+	thousandth:b = yes
+  } 
+  
+  line{
+    line:p4=0, 2.5, 0, 5.0
+    move:b=no
+	thousandth:b = yes
+  } 
+  
+  line{
+    line:p4=0, 7.5, 0, 10.0
+    move:b=no
+	thousandth:b = yes
+  }
+  
+  line{
+    line:p4=0, 12.5, 0, 15.0
+    move:b=no
+	thousandth:b = yes
+  }
+  
+  line{
+    line:p4=0, 17.5, 0, 20.0
+    move:b=no
+	thousandth:b = yes
+  }
+  
+  
+  line{
+    line:p4=1.5, 2.5, -1.5, 2.5
+    move:b=no
+	thousandth:b = yes
+  }
+  
+  
+  line{
+    line:p4=0.3, 3, -0.3, 3
+    move:b=no
+	thousandth:b = yes
+  }
+  
+  line{
+    line:p4=0.3, 1.75, -0.3, 1.75
+    move:b=no
+	thousandth:b = yes
+  }
+  
+  line{
+    line:p4=0.0, 2.1, -0.0, 1.4
+    move:b=no
+	thousandth:b = yes
+  }
+  
+  
+  
+  
+  
+  
+  
+  //center X
+  
+  line{
+    line:p4=0, -0.3, 0, 0.3
+    move:b=no
+	thousandth:b = yes
+  }
+  
+  line{
+    line:p4=0.3, 0, -0.3, 0
+    move:b=no
+	thousandth:b = yes
+  }
+  
+}
+
+drawCircles{
+   circle{
+      segment:p2 = 0.0, 360.0
+      pos:p2 = 0.0, 0.0
+      diameter:r = 1.25
+      size:r = 1.5
+      move:b = no
+      thousandth:b = yes
+    }
+  }

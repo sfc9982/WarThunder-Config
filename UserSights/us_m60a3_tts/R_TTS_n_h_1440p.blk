@@ -1,0 +1,206 @@
+crosshairHorVertSize:p2=3, 2
+rangefinderProgressBarColor1:c=0, 255, 0, 64
+rangefinderProgressBarColor2:c=255, 255, 255, 64
+rangefinderTextScale:r=0.7
+rangefinderUseThousandth:b=no
+rangefinderVerticalOffset:r=100
+rangefinderHorizontalOffset:r=5
+detectAllyTextScale:r=0.7
+detectAllyOffset:p2=4, 0.05
+fontSizeMult:r=1
+lineSizeMult:r=1.3
+drawCentralLineVert:b=no
+drawCentralLineHorz:b=no
+drawSightMask:b=yes
+useSmoothEdge:b=yes
+crosshairColor:c=0, 0, 0, 0
+crosshairLightColor:c=0, 200, 0, 255
+crosshairDistHorSizeMain:p2=0.03, 0.02
+crosshairDistHorSizeAdditional:p2=0.005, 0.003
+distanceCorrectionPos:p2=-0.26, -0.05
+drawDistanceCorrection:b=no
+
+crosshair_distances{
+}
+
+crosshair_hor_ranges{
+}
+
+drawLines{
+  line{
+    line:p4=0.5, 0, 2.5, 0
+    move:b=no
+    thousandth:b=yes
+  }
+  line{
+    line:p4=2.5, 1, 5, 1
+    move:b=no
+    thousandth:b=yes
+  }
+  line{
+    line:p4=2.5, -1, 5, -1
+    move:b=no
+    thousandth:b=yes
+  }
+  line{
+    line:p4=7.5, 0, 10, 0
+    move:b=no
+    thousandth:b=yes
+  }
+  line{
+    line:p4=-0.5, 0, -2.5, 0
+    move:b=no
+    thousandth:b=yes
+  }
+  line{
+    line:p4=-2.5, 1, -5, 1
+    move:b=no
+    thousandth:b=yes
+  }
+  line{
+    line:p4=-2.5, -1, -5, -1
+    move:b=no
+    thousandth:b=yes
+  }
+  line{
+    line:p4=-7.5, 0, -10, 0
+    move:b=no
+    thousandth:b=yes
+  }
+  line{
+    line:p4=0, 0.5, 0, 1
+    move:b=no
+    thousandth:b=yes
+  }
+  line{
+    line:p4=0, 2, 0, 3
+    move:b=no
+    thousandth:b=yes
+  }
+  line{
+    line:p4=0, -0.5, 0, -1
+    move:b=no
+    thousandth:b=yes
+  }
+  line{
+    line:p4=0, -2, 0, -3
+    move:b=no
+    thousandth:b=yes
+  }
+}
+
+drawTexts {
+    text {
+      text:t = "WHT HOT"
+      align:i = 0
+      pos:p2 = 65, 65
+      move:b = no
+      thousandth:b = yes
+      size:r = 1
+      highlight:b=yes
+    }
+  }
+
+drawCircles {
+    circle {
+      segment:p2 = 0, 360;
+      pos:p2 = 0, 0;
+      diameter:r = 1;
+      size:r = 1.867;
+      move:b = no;
+      thousandth:b = yes;
+    }
+    circle {
+      segment:p2 = 0, 360;
+      pos:p2 = 0, 0;
+      diameter:r = 0;
+      size:r = 1.867;
+      move:b = no;
+      thousandth:b = yes;
+
+//fov (8°)
+
+    }
+    circle {
+      segment:p2 = 0, 360;
+      pos:p2 = 0, 0;
+      diameter:r = 263;
+      size:r = 20;
+      move:b = no;
+      thousandth:b = yes;
+    }
+    circle {
+      segment:p2 = 0, 360;
+      pos:p2 = 0, 0;
+      diameter:r = 266;
+      size:r = 40;
+      move:b = no;
+      thousandth:b = yes;
+    }
+    circle {
+      segment:p2 = 0, 360;
+      pos:p2 = 0, 0;
+      diameter:r = 272;
+      size:r = 80;
+      move:b = no;
+      thousandth:b = yes;
+    }
+    circle {
+      segment:p2 = 0, 360;
+      pos:p2 = 0, 0;
+      diameter:r = 284;
+      size:r = 160;
+      move:b = no;
+      thousandth:b = yes;
+    }
+    circle {
+      segment:p2 = 0, 360;
+      pos:p2 = 0, 0;
+      diameter:r = 308;
+      size:r = 320;
+      move:b = no;
+      thousandth:b = yes;
+    }
+    circle {
+      segment:p2 = 0, 360;
+      pos:p2 = 0, 0;
+      diameter:r = 356;
+      size:r = 640;
+      move:b = no;
+      thousandth:b = yes;
+    }
+    circle {
+      segment:p2 = 0, 360;
+      pos:p2 = 0, 0;
+      diameter:r = 460;
+      size:r = 1280;
+      move:b = no;
+      thousandth:b = yes;
+    }
+    circle {
+      segment:p2 = 0, 360;
+      pos:p2 = 0, 0;
+      diameter:r = 680;
+      size:r = 2560;
+      move:b = no;
+      thousandth:b = yes;
+    }
+  }
+
+
+drawQuads {
+    quad {
+      tl:p2 = -1000, 67.5; // Top left
+      tr:p2 = 1000, 67.5; // Top right
+      br:p2 = 1000, 1000; // Bottom right
+      bl:p2 = -1000, 1000; // Bottom left
+      thousandth:b = true;
+    }
+    quad {
+      tl:p2 = -1000, -67.5; // Top left
+      tr:p2 = 1000, -67.5; // Top right
+      br:p2 = 1000, -1000; // Bottom right
+      bl:p2 = -1000, -1000; // Bottom left
+      thousandth:b = true;
+    }
+  }

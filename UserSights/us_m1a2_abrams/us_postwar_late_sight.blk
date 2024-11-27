@@ -1,0 +1,162 @@
+crosshairHorVertSize:p2=3, 2
+rangefinderProgressBarColor1:c=0, 255, 0, 64
+rangefinderProgressBarColor2:c=255, 255, 255, 64
+rangefinderTextScale:r=0.7
+rangefinderVerticalOffset:r=-20.5
+rangefinderHorizontalOffset:r=-31.3
+fontSizeMult:r=0.48
+lineSizeMult:r=1.2
+drawCentralLineVert:b=no
+drawCentralLineHorz:b=no
+crosshairDistHorSizeMain:p2=0.03, 0.02
+crosshairDistHorSizeAdditional:p2=0.005, 0.003
+distanceCorrectionPos:p2=-0.038, 0.18
+drawDistanceCorrection:b=yes
+thousandth:t = nato
+crosshairColor:c=255, 0, 20, 220
+crosshairLightColor:c=20, 255, 20, 220
+
+crosshair_distances{
+}
+
+crosshair_hor_ranges{
+}
+
+drawLines{
+  line{
+    line:p4=5, 19, -5, 19
+    move:b=no
+	thousandth:b = yes
+  } 
+  
+  
+  line{
+    line:p4=-5.5, 19.5, -5.5, 18.5
+    move:b=no
+	thousandth:b = yes
+  } 
+  
+  
+  line{
+    line:p4=-6.5, 19.5, -6.5, 18.5
+    move:b=no
+	thousandth:b = yes
+  } 
+  
+  line{
+    line:p4=-6.5, 19.5, -5.5, 19.5
+    move:b=no
+	thousandth:b = yes
+  } 
+  
+  line{
+    line:p4=-6.5, 18.5, -5.5, 18.5
+    move:b=no
+	thousandth:b = yes
+  } 
+  
+
+
+
+
+
+
+
+
+
+  line{
+    line:p4=2.5, 1, 5, 1
+    move:b=no
+	thousandth:b = yes
+  } 
+  
+ 
+  line{
+    line:p4=2.5, -1, 5, -1
+    move:b=no
+	thousandth:b = yes
+  }
+  
+  line{
+    line:p4=-2.5, 1, -5, 1
+    move:b=no
+	thousandth:b = yes
+  } 
+  
+  line{
+    line:p4=-2.5, -1, -5, -1
+    move:b=no
+	thousandth:b = yes
+  }
+  
+  
+  line{
+    line:p4=-7.5, 0, -10, 0
+    move:b=no
+	thousandth:b = yes
+  }
+  
+  line{
+    line:p4=7.5, 0, 10, 0
+    move:b=no
+	thousandth:b = yes
+  }
+  
+  
+  line{
+    line:p4=0.5, 0, 2.5, 0
+    move:b=no
+	thousandth:b = yes
+  }
+  
+  line{
+    line:p4=-0.5, 0, -2.5, 0
+    move:b=no
+	thousandth:b = yes
+  }
+  
+  line{
+    line:p4=0, -0.5, 0, -1
+    move:b=no
+	thousandth:b = yes
+  }
+  
+  line{
+    line:p4=0, 0.5, 0, 1
+    move:b=no
+	thousandth:b = yes
+  }
+  
+  line{
+    line:p4=0, -2, 0, -3
+    move:b=no
+	thousandth:b = yes
+  }
+  
+  line{
+    line:p4=0, 2, 0, 3
+    move:b=no
+	thousandth:b = yes
+  }
+  
+}
+
+drawCircles{
+   circle{
+      segment:p2 = 0.0, 360.0
+      pos:p2 = 0.0, 0.0
+      diameter:r = 1.0
+      size:r = 1.5
+      move:b = no
+      thousandth:b = yes
+    }
+	
+	circle{
+      segment:p2 = 0.0, 360.0
+      pos:p2 = 0.0, 0.0
+      diameter:r = 0.05
+      size:r = 1.5
+      move:b = no
+      thousandth:b = yes
+    }
+  }

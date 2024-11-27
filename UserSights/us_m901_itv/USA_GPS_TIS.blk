@@ -1,0 +1,63 @@
+
+///Created by by Caffeinated Gunner///
+
+rangefinderProgressBarColor1:c=0, 255, 0, 64
+rangefinderProgressBarColor2:c=255, 255, 255, 64
+rangefinderTextScale:r=0.7
+rangefinderVerticalOffset:r=0.04
+rangefinderHorizontalOffset:r=5
+fontSizeMult:r=1.0
+lineSizeMult:r=1.1
+drawCentralLineVert:b=yes
+drawCentralLineHorz:b=yes
+crosshairDistHorSizeMain:p2=0.03, 0.02
+crosshairDistHorSizeAdditional:p2=0.005, 0.003
+distanceCorrectionPos:p2=-0.2, -0.05
+drawDistanceCorrection:b=no
+applyCorrectionToGun:b=no
+thousandth:t = “real”
+move:b=no
+crosshairColor:c=0, 0, 0, 255
+crosshairLightColor:c=145, 255, 150, 255
+
+//TV MONITOR
+drawQuads {
+//TOP
+  quad {
+    thousandth:b = yes
+    tl:p2 = -500,-400
+    tr:p2 = 500,-400
+    br:p2 = 500,-116
+    bl:p2 = -500,-116
+  }
+//BOTTOM
+  quad {
+    thousandth:b = yes
+    tl:p2 = -500,400
+    tr:p2 = 500,400
+    br:p2 = 500,116
+    bl:p2 = -500,116
+  }
+//LEFT
+  quad {
+    thousandth:b = yes
+    tl:p2 = -300,-200
+    tr:p2 = -212,-200
+    br:p2 = -212,200
+    bl:p2 = -300,200
+  }
+
+//RIGHT
+  quad {
+    thousandth:b = yes
+    tl:p2 = 300,200
+    tr:p2 = 212,200
+    br:p2 = 212,-200
+    bl:p2 = 300,-200
+  } 
+}
+
+crosshair_distances{}
+
+crosshair_hor_ranges{}
+

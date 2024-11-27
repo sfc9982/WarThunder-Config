@@ -1,0 +1,170 @@
+///Created by RideR2; edited by Caffeinated Gunner///
+
+crosshairHorVertSize:p2=3, 2
+rangefinderProgressBarColor1:c=0, 0, 0, 0
+rangefinderProgressBarColor2:c=0, 0, 0, 0
+rangefinderTextScale:r=0.5
+rangefinderVerticalOffset:r=-30.5
+rangefinderHorizontalOffset:r=-28.2
+fontSizeMult:r=0.6
+lineSizeMult:r=1.5
+drawCentralLineVert:b=no
+drawCentralLineHorz:b=no
+crosshairDistHorSizeMain:p2=0.03, 0.02
+crosshairDistHorSizeAdditional:p2=0.005, 0.003
+distanceCorrectionPos:p2=-0.033, 0.178
+drawDistanceCorrection:b=yes
+thousandth:t = real
+crosshairColor:c=255, 0, 20, 220
+crosshairLightColor:c=145, 255, 141, 255  
+
+crosshair_distances{
+}
+crosshair_hor_ranges{
+}
+
+drawLines{
+
+//Reticle
+line { line:p4 = 1.6, 0, 5, 0; thousandth:b = true; }
+line { line:p4 = -1.6, 0, -5, 0; thousandth:b = true; }
+line { line:p4 = 5, 2, 10, 2; thousandth:b = true; }
+line { line:p4 = -5, 2, -10, 2; thousandth:b = true; }
+line { line:p4 = 5, -2, 10, -2; thousandth:b = true; }
+line { line:p4 = -5, -2, -10, -2; thousandth:b = true; }
+line { line:p4 = 15, 0, 20, 0; thousandth:b = true; }
+line { line:p4 = -15, 0, -20, 0; thousandth:b = true; }
+line { line:p4 = 0, 1.6, 0, 2.5; thousandth:b = true; }
+line { line:p4 = 0, -1.6, 0, -2.5; thousandth:b = true; }
+line { line:p4 = 0, 4.5, 0, 6.5; thousandth:b = true; }
+line { line:p4 = 0, -4.5, 0, -6.5; thousandth:b = true; }
+
+//Range Finder
+line { line:p4 = -0.045,0.175, 0.055,0.175; thousandth:b = no; }
+line { line:p4 = -0.065,0.17, -0.055,0.17; thousandth:b = no; }
+line { line:p4 = -0.055,0.17, -0.055,0.18; thousandth:b = no; }
+line { line:p4 = -0.055,0.18, -0.065,0.18; thousandth:b = no; }
+line { line:p4 = -0.065,0.18, -0.065,0.17; thousandth:b = no; }
+
+//Central square
+line{ line:p4=0.010, 0.010, 0.010, -0.010; move:b=no; }
+line{ line:p4=-0.010, 0.010, -0.010, -0.010; move:b=no; }
+line{ line:p4=0.010, -0.010, -0.010, -0.010; move:b=no; }
+line{ line:p4=0.010, 0.010, -0.010, 0.010; move:b=no; }
+
+//Azimuth indicator
+line { line:p4 = -53, -113, 53, -113;  thousandth:b = true; move:b = no; }
+line { line:p4 = -53, -106, 53, -106;  thousandth:b = true; move:b = no; }
+
+line { line:p4 = -53, -113, -53, -106;  thousandth:b = true; move:b = no; }
+line { line:p4 = 53, -113, 53, -106;  thousandth:b = true; move:b = no; }
+
+line { line:p4 = -0.12, -113, -0.12, -106;  thousandth:b = true; move:b = no; }
+}
+  
+//Central circle
+drawCircles{
+  circle {
+    segment:p2 = 0.0, 360.0; 
+    pos:p2 = 0.0, 0.0; 
+    diameter:r = 0.1; 
+    size:r = 1.5; 
+    move:b = no;
+    thousandth:b = yes;
+  }
+}
+
+drawQuads {
+//TOP
+  quad {
+    thousandth:b = yes
+    tl:p2 = -500,-400
+    tr:p2 = 500,-400
+    br:p2 = 500,-120
+    bl:p2 = -500,-120
+  }
+//BOTTOM
+  quad {
+    thousandth:b = yes
+    tl:p2 = -500,400
+    tr:p2 = 500,400
+    br:p2 = 500,120
+    bl:p2 = -500,120
+  }
+//LEFT
+  quad {
+    thousandth:b = yes
+    tl:p2 = -300,-200
+    tr:p2 = -213,-200
+    br:p2 = -213,200
+    bl:p2 = -300,200
+  }
+
+//RIGHT
+  quad {
+    thousandth:b = yes
+    tl:p2 = 300,200
+    tr:p2 = 213,200
+    br:p2 = 213,-200
+    bl:p2 = 300,-200
+  } 
+}
+
+///Texts
+drawTexts {
+    text {
+      text:t = "HFOM 2"
+      align:i = 0 
+      pos:p2 = -70, -109.5
+      move:b = no 
+      thousandth:b = yes
+      size:r = 2.5
+      highlight:b = yes
+    }
+text {
+      text:t = "POS"
+      align:i = 0
+      pos:p2 = -145, 70
+      move:b = no
+      thousandth:b = yes
+      size:r = 2.5
+      highlight:b = yes
+    }
+text {
+      text:t = "GPS SELF POSITION"
+      align:i = 0
+      pos:p2 = -124.5, 78
+      move:b = no
+      thousandth:b = yes
+      size:r = 2.5
+      highlight:b = yes
+    }
+text {
+      text:t = "PLGR CONNECTED"
+      align:i = 0
+      pos:p2 = 125, 52
+      move:b = no
+      thousandth:b = yes
+      size:r = 2.5
+      highlight:b = yes
+    }
+text {
+      text:t = "TGT"
+      align:i = 0
+      pos:p2 = 105, 65
+      move:b = no
+      thousandth:b = yes
+      size:r = 2.5
+      highlight:b = yes
+    }
+text {
+      text:t = "FTL AVAIABLE"
+      align:i = 0
+      pos:p2 = 119, 78
+      move:b = no
+      thousandth:b = yes
+      size:r = 2.5
+      highlight:b = yes
+    }
+
+  }

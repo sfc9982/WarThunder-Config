@@ -1,0 +1,169 @@
+crosshairHorVertSize:p2=3, 2
+rangefinderProgressBarColor1:c=0, 255, 0, 64
+rangefinderProgressBarColor2:c=255, 255, 255, 64
+rangefinderTextScale:r=0.3
+rangefinderUseThousandth:b=no
+rangefinderVerticalOffset:r= -0.1
+rangefinderHorizontalOffset:r= -20
+detectAllyTextScale:r=0.7
+detectAllyOffset:p2=-90, -0.09
+fontSizeMult:r=1
+lineSizeMult:r=1
+drawCentralLineVert:b=no
+drawCentralLineHorz:b=no
+drawSightMask:b=yes
+crosshairDistHorSizeMain:p2=0.03, 0.02
+crosshairDistHorSizeAdditional:p2=0.005, 0.003
+distanceCorrectionPos:p2= -0.03, 0.125
+drawDistanceCorrection:b=yes
+crosshairColor:c = 153,255,153,1000 // Rouge-Vert-Bleu-Saturation
+crosshairLightColor:c = 255,255,255,1000 // Rouge-Vert-Bleu-Saturation
+
+crosshair_distances{
+  distance:p3=0, 0, 0
+  distance:p3=0, 0, 0
+  distance:p3=0, 0, 0
+  distance:p3=0, 0, 0
+  distance:p3=0, 0, 0
+  distance:p3=0, 0, 0
+  distance:p3=0, 0, 0
+  distance:p3=0, 0, 0
+  distance:p3=0, 0, 0
+  distance:p3=0, 0, 0
+  distance:p3=0, 0, 0
+  distance:p3=0, 0, 0
+  distance:p3=0, 0, 0
+  distance:p3=0, 0, 0
+}
+
+crosshair_hor_ranges{
+}
+
+//====================central circle=======================
+
+drawCircles {
+  circle {
+    segment:p2 = 0.0, 360.0; 
+    pos:p2 = 0, 0;
+    diameter:r = 0.1;
+    size:r = 2;
+    move:b = no;
+    thousandth:b = yes;
+  }
+}
+drawLines{
+//=====================Central cross==============================
+  line{
+    line:p4= 0.75, 0, 3, 0
+    move:b=no
+    thousandth:b = true
+  }  line{
+    line:p4= -0.75, 0, -3, 0
+    move:b=no
+    thousandth:b = true
+  }  line{
+    line:p4= 0, 0.75, 0, 1.25
+    move:b=no
+    thousandth:b = true
+  }  line{
+    line:p4= 0, -0.75, 0, -1.25
+    move:b=no
+    thousandth:b = true
+  }  line{
+    line:p4= 0, 2.25, 0, 3.25
+    move:b=no
+    thousandth:b = true
+  }  line{
+    line:p4= 0, -2.25, 0, -3.25
+    move:b=no
+    thousandth:b = true
+  }  line{
+    line:p4= 9, 0, 12, 0
+    move:b=no
+    thousandth:b = true
+  }  line{
+    line:p4= -9, 0, -12, 0
+    move:b=no
+    thousandth:b = true
+  }
+//===================Central square=====================
+  line{
+    line:p4= -0.75, 0.75, 0.75, 0.75
+    move:b=no
+    thousandth:b = true
+  }  line{
+    line:p4= 0.75, 0.75, 0.75, -0.75
+    move:b=no
+    thousandth:b = true
+  }  line{
+    line:p4= 0.75, -0.75, -0.75, -0.75
+    move:b=no
+    thousandth:b = true
+  }  line{
+    line:p4= -0.75, -0.75, -0.75, 0.75
+    move:b=no
+    thousandth:b = true
+  }
+//=========================Lateral signs=============================
+  line{
+    line:p4= 3, 1.25, 6, 1.25
+    move:b=no
+    thousandth:b = true
+  }  line{
+    line:p4= -3, 1.25, -6, 1.25
+    move:b=no
+    thousandth:b = true
+  }  line{
+    line:p4= 3, -1.25, 6, -1.25
+    move:b=no
+    thousandth:b = true
+  }  line{
+    line:p4= -3, -1.25, -6, -1.25
+    move:b=no
+    thousandth:b = true
+  }
+}
+drawTexts {
+// ==================Gabarit horizontal==================
+  text { 
+    text:t = "POS"
+    align:i = 0
+    pos:p2 = -30, 17
+    move:b = false
+    highlight:b=yes
+    thousandth:b = yes
+    size:r = 0.5
+  }  text { 
+    text:t = "NO SELF POSITION"
+    align:i = 0
+    pos:p2 = -23.8, 19
+    move:b = false
+    highlight:b=yes
+    thousandth:b = yes
+    size:r = 0.5
+  }  text { 
+    text:t = "PLGR NOT CONNECTED"
+    align:i = 0
+    pos:p2 = 28, 13
+    move:b = false
+    highlight:b=yes
+    thousandth:b = yes
+    size:r = 0.5
+  }  text { 
+    text:t = "TGT"
+    align:i = 0
+    pos:p2 = 20, 16.3
+    move:b = false
+    highlight:b=yes
+    thousandth:b = yes
+    size:r = 0.5
+  }  text { 
+    text:t = "NO FTL AVAILABLE"
+    align:i = 0
+    pos:p2 = 26.3, 19.7
+    move:b = false
+    highlight:b=yes
+    thousandth:b = yes
+    size:r = 0.5
+  }
+}

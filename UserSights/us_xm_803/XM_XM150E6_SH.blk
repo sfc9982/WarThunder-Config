@@ -1,0 +1,149 @@
+crosshairHorVertSize:p2=3, 2
+rangefinderProgressBarColor1:c=0, 255, 0, 64
+rangefinderProgressBarColor2:c=255, 255, 255, 64
+rangefinderTextScale:r=0.7
+rangefinderUseThousandth:b=no
+rangefinderVerticalOffset:r=0.01
+rangefinderHorizontalOffset:r=-120
+detectAllyTextScale:r=0.7
+detectAllyOffset:p2=4, 0.04
+fontSizeMult:r=1
+lineSizeMult:r=1.7
+drawCentralLineVert:b=no
+drawCentralLineHorz:b=no
+drawSightMask:b=yes
+useSmoothEdge:b=yes
+crosshairColor:c=0, 0, 0, 0
+crosshairLightColor:c=0, 0, 0, 0
+crosshairDistHorSizeMain:p2=0.03, 0.02
+crosshairDistHorSizeAdditional:p2=0.005, 0.003
+distanceCorrectionPos:p2=-0.09, -0.022
+drawDistanceCorrection:b=yes
+
+crosshair_distances{
+}
+
+crosshair_hor_ranges{
+}
+
+drawLines{
+  line{
+    line:p4=-0.5, 0, 0.5, 0
+    move:b=no
+    thousandth:b=yes
+  }
+  line{
+    line:p4=0, -0.5, 0, 0.5
+    move:b=no
+    thousandth:b=yes
+  }
+
+  line{
+    line:p4=0, -3, 0, -5.5
+    move:b=no
+    thousandth:b=yes
+  }
+
+  line{
+    line:p4=-0.5, 2, 0.5, 2
+    move:b=no
+    thousandth:b=yes
+  }
+  line{
+    line:p4=0, 1.7, 0, 2.3
+    move:b=no
+    thousandth:b=yes
+  }
+
+  line{
+    line:p4=1.5, 2.8, -1.5, 2.8
+    move:b=no
+    thousandth:b=yes
+  }
+  line{
+    line:p4=0, 2.8, 0, 4.8
+    move:b=no
+    thousandth:b=yes
+  }
+  line{
+    line:p4=0.5, 3.8, -0.5, 3.8
+    move:b=no
+    thousandth:b=yes
+  }
+
+  line{
+    line:p4=0, 6.8, 0, 9.3
+    move:b=no
+    thousandth:b=yes
+  }
+  line{
+    line:p4=0, 11.8, 0, 14.3
+    move:b=no
+    thousandth:b=yes
+  }
+  line{
+    line:p4=0, 17.3, 0, 19.8
+    move:b=no
+    thousandth:b=yes
+  }
+  line{
+    line:p4=0, 21.8, 0, 24.8
+    move:b=no
+    thousandth:b=yes
+  } 
+
+  line{
+    line:p4=2.5, 2.8, 7.5, 2.8
+    move:b=no
+    thousandth:b=yes
+  }
+  line{
+    line:p4=-2.5, 2.8, -5.5, 2.8
+    move:b=no
+    thousandth:b=yes
+  }
+  line{
+    line:p4=2.5, -2.8, 7.5, -2.8
+    move:b=no
+    thousandth:b=yes
+  }
+  line{
+    line:p4=-2.5, -2.8, -7.5, -2.8
+    move:b=no
+    thousandth:b=yes
+  }
+
+  line{
+    line:p4=5, 0, 10, 0
+    move:b=no
+    thousandth:b=yes
+  }
+  line{
+    line:p4=15, 0, 20, 0
+    move:b=no
+    thousandth:b=yes
+  }
+  line{
+    line:p4=-5, 0, -10, 0
+    move:b=no
+    thousandth:b=yes
+  }
+  line{
+    line:p4=-15, 0, -20, 0
+    move:b=no
+    thousandth:b=yes
+  }
+}
+
+
+
+drawCircles{
+  circle{
+    segment:p2=0, 360
+    pos:p2=0, 0
+    diameter:r=2.4
+    size:r=2
+    move:b=no
+    thousandth:b=yes
+  }
+}

@@ -1,0 +1,365 @@
+crosshairHorVertSize:p2=3, 2
+rangefinderProgressBarColor1:c=0, 255, 0, 64
+rangefinderProgressBarColor2:c=255, 255, 255, 64
+rangefinderTextScale:r= 0
+rangefinderUseThousandth:b=yes
+rangefinderVerticalOffset:r= -16.3
+rangefinderHorizontalOffset:r= -85
+drawCentralLineVert:b=no
+drawCentralLineHorz:b=no
+fontSizeMult:r = 0.85
+lineSizeMult:r = 0.85
+drawSightMask:b=yes
+crosshairDistHorSizeMain:p2=0.03, 0.02
+crosshairDistHorSizeAdditional:p2= 0.00, 0.00
+distanceCorrectionPos:p2= -0.13, 0.102
+drawDistanceCorrection:b=no
+crosshairColor:c = 255,255,255,1000 // Rouge-Vert-Bleu-Saturation
+crosshairLightColor:c = 000,000,000,1000 // Rouge-Vert-Bleu-Saturation
+
+crosshair_distances{}
+
+crosshair_hor_ranges {}
+
+drawLines{
+//==================Croix centrale======================
+  line{
+    line:p4= 0, -1, 0, 1
+    move:b = no
+    size:r = 5
+    thousandth:b = true
+  }line{
+    line:p4= 1, 0, -1, 0
+    move:b=no
+    thousandth:b = true
+  }
+//================double croix horizontale=================
+  line{
+    line:p4= 1, 0.1, 3, 0.1
+    move:b=no
+    thousandth:b = true
+  }  line{
+    line:p4= 1, -0.1, 3, -0.1
+    move:b=no
+    thousandth:b = true
+  }  line{
+    line:p4= -1, 0.1, -3, 0.1
+    move:b=no
+    thousandth:b = true
+  }  line{
+    line:p4= -1, -0.1, -3, -0.1
+    move:b=no
+    thousandth:b = true
+  }
+//================double croix verticale=================
+  line{
+    line:p4= -0.1, -1, -0.1, -3
+    move:b=no
+    thousandth:b = true
+  }  line{
+    line:p4= -0.1, 1, -0.1, 3
+    move:b=no
+    thousandth:b = true
+  }  line{
+    line:p4= 0.1, -1, 0.1, -3
+    move:b=no
+    thousandth:b = true
+  }  line{
+    line:p4= 0.1, 1, 0.1, 3
+    move:b=no
+    thousandth:b = true
+  }
+//=================Triangle mire droite============
+  line{
+    line:p4= 5, 0, 5.2, 0.5
+    move:b=no
+    thousandth:b = true
+  }  line{
+    line:p4= 5, 0, 4.8, 0.5
+    move:b=no
+    thousandth:b = true
+  }
+//==================Triangle mire gauche===================
+  line{
+    line:p4= -5, 0, -5.2, 0.5
+    move:b=no
+    thousandth:b = true
+  }  line{
+    line:p4= -5, 0, -4.8, 0.5
+    move:b=no
+    thousandth:b = true
+  }
+}
+
+drawCircles {
+//================mires de mouvement droite==============
+  circle {
+    segment:p2 = 0.0, 360.0; 
+    pos:p2 = 4, 0;
+    diameter:r = 0.15;
+    size:r = 2;
+    move:b = no;
+    thousandth:b = yes;
+  }  circle {
+    segment:p2 = 0.0, 360.0; 
+    pos:p2 = 6, 0;
+    diameter:r = 0.15;
+    size:r = 2;
+    move:b = no;
+    thousandth:b = yes;
+  }  circle {
+    segment:p2 = 0.0, 360.0; 
+    pos:p2 = 7, 0;
+    diameter:r = 0.15;
+    size:r = 2;
+    move:b = no;
+    thousandth:b = yes;
+  }  circle {
+    segment:p2 = 0.0, 360.0; 
+    pos:p2 = 8, 0;
+    diameter:r = 0.15;
+    size:r = 2;
+    move:b = no;
+    thousandth:b = yes;
+  }  circle {
+    segment:p2 = 0.0, 360.0; 
+    pos:p2 = 9, 0;
+    diameter:r = 0.15;
+    size:r = 2;
+    move:b = no;
+    thousandth:b = yes;
+  }  circle {
+    segment:p2 = 0.0, 360.0; 
+    pos:p2 = 10, 0;
+    diameter:r = 0.15;
+    size:r = 2;
+    move:b = no;
+    thousandth:b = yes;
+  }
+//================mires de mouvement gauche==============
+  circle {
+    segment:p2 = 0.0, 360.0; 
+    pos:p2 = -4, 0;
+    diameter:r = 0.15;
+    size:r = 2;
+    move:b = no;
+    thousandth:b = yes;
+  }  circle {
+    segment:p2 = 0.0, 360.0; 
+    pos:p2 = -6, 0;
+    diameter:r = 0.15;
+    size:r = 2;
+    move:b = no;
+    thousandth:b = yes;
+  }  circle {
+    segment:p2 = 0.0, 360.0; 
+    pos:p2 = -7, 0;
+    diameter:r = 0.15;
+    size:r = 2;
+    move:b = no;
+    thousandth:b = yes;
+  }  circle {
+    segment:p2 = 0.0, 360.0; 
+    pos:p2 = -8, 0;
+    diameter:r = 0.15;
+    size:r = 2;
+    move:b = no;
+    thousandth:b = yes;
+  }  circle {
+    segment:p2 = 0.0, 360.0; 
+    pos:p2 = -9, 0;
+    diameter:r = 0.15;
+    size:r = 2;
+    move:b = no;
+    thousandth:b = yes;
+  }  circle {
+    segment:p2 = 0.0, 360.0; 
+    pos:p2 = -10, 0;
+    diameter:r = 0.15;
+    size:r = 2;
+    move:b = no;
+    thousandth:b = yes;
+  }
+//============= Mire Hydra 70==================
+  circle {
+    segment:p2 = 0.0, 360.0; // 20m
+    pos:p2 = 0, -13;
+    diameter:r = 0.15;
+    size:r = 2;
+    move:b = yes;
+    thousandth:b = yes;
+  }  circle {
+    segment:p2 = 0.0, 360.0; // 50m
+    pos:p2 = 0, 6;
+    diameter:r = 0.15;
+    size:r = 2;
+    move:b = yes;
+    thousandth:b = yes;
+  }  circle {
+    segment:p2 = 0.0, 360.0; // 100m
+    pos:p2 = 0, 10;
+    diameter:r = 0.15;
+    size:r = 2;
+    move:b = yes;
+    thousandth:b = yes;
+  }  circle {
+    segment:p2 = 0.0, 360.0; // 200m
+    pos:p2 = 0, 12;
+    diameter:r = 0.15;
+    size:r = 2;
+    move:b = yes;
+    thousandth:b = yes;
+  }  circle {
+    segment:p2 = 0.0, 360.0; // 300m
+    pos:p2 = 0, 13.5;
+    diameter:r = 0.15;
+    size:r = 2;
+    move:b = yes;
+    thousandth:b = yes;
+  }  circle {
+    segment:p2 = 0.0, 360.0; // 400m
+    pos:p2 = 0, 15;
+    diameter:r = 0.15;
+    size:r = 2;
+    move:b = yes;
+    thousandth:b = yes;
+  }  circle {
+    segment:p2 = 0.0, 360.0; // 600m
+    pos:p2 = 0, 16.5;
+    diameter:r = 0.15;
+    size:r = 2;
+    move:b = yes;
+    thousandth:b = yes;
+  }  circle {
+    segment:p2 = 0.0, 360.0; // 800m
+    pos:p2 = 0, 18;
+    diameter:r = 0.15;
+    size:r = 2;
+    move:b = yes;
+    thousandth:b = yes;
+  }  circle {
+    segment:p2 = 0.0, 360.0; // 1000m
+    pos:p2 = 0, 20.5;
+    diameter:r = 0.15;
+    size:r = 2;
+    move:b = yes;
+    thousandth:b = yes;
+  }  circle {
+    segment:p2 = 0.0, 360.0; // 1200m
+    pos:p2 = 0, 22.5;
+    diameter:r = 0.15;
+    size:r = 2;
+    move:b = yes;
+    thousandth:b = yes;
+  }  circle {
+    segment:p2 = 0.0, 360.0; // 1400m
+    pos:p2 = 0, 24.5;
+    diameter:r = 0.15;
+    size:r = 2;
+    move:b = yes;
+    thousandth:b = yes;
+  }
+}
+
+drawTexts{
+
+//====================Mire Hydra 70=========================
+   text {
+    text:t = "Hydra 70"
+    align:i = 0
+    pos:p2 = -3, -13
+    move:b = true
+    highlight:b=yes
+    thousandth:b = yes
+    size:r = 0.4
+  }
+   text {
+    text:t = "20m"
+    align:i = 0
+    pos:p2 = 1.5, -13
+    move:b = true
+    highlight:b=yes
+    thousandth:b = yes
+    size:r = 0.4
+  }   text {
+    text:t = "50m"
+    align:i = 0
+    pos:p2 = 1.5, 6
+    move:b = true
+    highlight:b=yes
+    thousandth:b = yes
+    size:r = 0.4
+  }   text {
+    text:t = "1"
+    align:i = 0
+    pos:p2 = 1, 10
+    move:b = true
+    highlight:b=yes
+    thousandth:b = yes
+    size:r = 0.4
+  }   text {
+    text:t = "2"
+    align:i = 0
+    pos:p2 = 1, 12
+    move:b = true
+    highlight:b=yes
+    thousandth:b = yes
+    size:r = 0.4
+  }   text {
+    text:t = "3"
+    align:i = 0
+    pos:p2 = 1, 13.5
+    move:b = true
+    highlight:b=yes
+    thousandth:b = yes
+    size:r = 0.4
+  }   text {
+    text:t = "4"
+    align:i = 0
+    pos:p2 = 1, 15
+    move:b = true
+    highlight:b=yes
+    thousandth:b = yes
+    size:r = 0.4
+  }   text {
+    text:t = "6"
+    align:i = 0
+    pos:p2 = 1, 16.5
+    move:b = true
+    highlight:b=yes
+    thousandth:b = yes
+    size:r = 0.4
+  }   text {
+    text:t = "8"
+    align:i = 0
+    pos:p2 = 1, 18
+    move:b = true
+    highlight:b=yes
+    thousandth:b = yes
+    size:r = 0.4
+  }   text {
+    text:t = "10"
+    align:i = 0
+    pos:p2 = 1, 20.5
+    move:b = true
+    highlight:b=yes
+    thousandth:b = yes
+    size:r = 0.4
+  }   text {
+    text:t = "12"
+    align:i = 0
+    pos:p2 = 1, 22.5
+    move:b = true
+    highlight:b=yes
+    thousandth:b = yes
+    size:r = 0.4
+  }   text {
+    text:t = "14"
+    align:i = 0
+    pos:p2 = 1, 24.5
+    move:b = true
+    highlight:b=yes
+    thousandth:b = yes
+    size:r = 0.4
+  }
+}

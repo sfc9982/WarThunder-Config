@@ -1,0 +1,146 @@
+crosshairHorVertSize:p2=3, 2
+
+// rangefinder
+rangefinderHorizontalOffset:r = -43
+rangefinderVerticalOffset:r = -25
+
+rangefinderTextScale:r = 0
+rangefinderUseThousandth:b = yes
+
+// general
+detectAllyTextScale:r=0.7
+detectAllyOffset:p2=4, 0.15
+fontSizeMult:r=0.6
+lineSizeMult:r=2
+drawCentralLineVert:b=no
+drawCentralLineHorz:b=no
+drawSightMask:b=yes
+crosshairColor:c=145, 255, 141, 255
+crosshairLightColor:c=0, 0, 0, 0 
+crosshairDistHorSizeMain:p2=0.03, 0.02
+crosshairDistHorSizeAdditional:p2=0.005, 0.003
+
+// ballistic range indicators
+drawDistanceCorrection:b = yes
+distanceCorrectionPos:p2 = -0.04,0.2
+
+crosshair_distances{
+  distance:p3=0, 0, 0
+  distance:p3=0, 0, 0
+  distance:p3=0, 0, 0
+  distance:p3=0, 0, 0
+  distance:p3=0, 0, 0
+  distance:p3=0, 0, 0
+  distance:p3=0, 0, 0
+  distance:p3=0, 0, 0
+  distance:p3=0, 0, 0
+  distance:p3=0, 0, 0
+  distance:p3=0, 0, 0
+  distance:p3=0, 0, 0
+  distance:p3=0, 0, 0
+  distance:p3=0, 0, 0
+}
+
+crosshair_hor_ranges{
+}
+
+
+//====================Central point=======================
+
+drawCircles {
+  circle {
+    segment:p2 = 0.0, 360.0; 
+    pos:p2 = 0, 0;
+    diameter:r = 0.1;
+    size:r = 1;
+    move:b = no;
+    thousandth:b = yes;
+  }
+}
+
+drawLines{
+//====================Central square=======================
+	
+	line{ line:p4=0.005, 0.005, 0.005, -0.005; move:b=no; }
+	line{ line:p4=-0.005, 0.005, -0.005, -0.005; move:b=no; }
+	line{ line:p4=0.005, -0.005, -0.005, -0.005; move:b=no; }
+	line{ line:p4=0.005, 0.005, -0.005, 0.005; move:b=no; }
+
+//=====================Central cross=============================
+
+  line{
+    line:p4= 0.75, 0, 3, 0
+    move:b=no
+    thousandth:b = true
+  }  line{
+    line:p4= -0.75, 0, -3, 0
+    move:b=no
+    thousandth:b = true
+  }  line{
+    line:p4= 0, 0.75, 0, 1.25
+    move:b=no
+    thousandth:b = true
+  }  line{
+    line:p4= 0, -0.75, 0, -1.25
+    move:b=no
+    thousandth:b = true
+  }  line{
+    line:p4= 0, 2.25, 0, 3.25
+    move:b=no
+    thousandth:b = true
+  }  line{
+    line:p4= 0, -2.25, 0, -3.25
+    move:b=no
+    thousandth:b = true
+  }  line{
+    line:p4= 9, 0, 12, 0
+    move:b=no
+    thousandth:b = true
+  }  line{
+    line:p4= -9, 0, -12, 0
+    move:b=no
+    thousandth:b = true
+  }
+//=========================Lateral signs=============================
+  line{
+    line:p4= 3, 1.25, 6, 1.25
+    move:b=no
+    thousandth:b = true
+  }  line{
+    line:p4= -3, 1.25, -6, 1.25
+    move:b=no
+    thousandth:b = true
+  }  line{
+    line:p4= 3, -1.25, 6, -1.25
+    move:b=no
+    thousandth:b = true
+  }  line{
+    line:p4= -3, -1.25, -6, -1.25
+    move:b=no
+    thousandth:b = true
+  }
+  
+//=========================Range finder=============================
+  line {
+    thousandth:b = no
+    line:p4 = -0.045,0.175, 0.055,0.175
+  }
+  line {
+    thousandth:b = no
+    line:p4 = -0.065,0.17, -0.055,0.17
+  }
+  line {
+    thousandth:b = no
+    line:p4 = -0.055,0.17, -0.055,0.18
+  }
+  line {
+    thousandth:b = no
+    line:p4 = -0.055,0.18, -0.065,0.18
+  }
+  line {
+    thousandth:b = no
+    line:p4 = -0.065,0.18, -0.065,0.17
+  }
+
+}
+

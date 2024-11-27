@@ -1,0 +1,3029 @@
+crosshairHorVertSize:p2=3, 2
+rangefinderProgressBarColor1:c=0, 255, 0, 64
+rangefinderProgressBarColor2:c=255, 255, 255, 64
+rangefinderTextScale:r= 0
+rangefinderUseThousandth:b=yes
+rangefinderVerticalOffset:r= -1000
+rangefinderHorizontalOffset:r= 160
+drawCentralLineVert:b=no
+drawCentralLineHorz:b=no
+fontSizeMult:r = 1.3
+lineSizeMult:r = 1.3
+drawSightMask:b=no
+crosshairDistHorSizeMain:p2=0.03, 0.02
+crosshairDistHorSizeAdditional:p2= 0.00, 0.00
+distanceCorrectionPos:p2= 0.23, 0.28
+drawDistanceCorrection:b=yes
+crosshairColor:c = 255,255,255,1000 // Rouge-Vert-Bleu-Saturation
+crosshairLightColor:c = 000,000,000,1000 // Rouge-Vert-Bleu-Saturation
+
+crosshair_distances{}
+
+crosshair_hor_ranges {}
+
+drawLines{
+//================Central cross================
+line{
+    line:p4= 0, 0, 2, 0
+    move:b=no
+    thousandth:b = true
+  }  line{
+    line:p4= 3.5, 0, 12, 0
+    move:b = no
+    size:r = 5
+    thousandth:b = true
+  }line{
+    line:p4= -3.5, 0, -12, 0
+    move:b=no
+    thousandth:b = true
+  }  line{
+    line:p4= 0, -3.5, 0, -12
+    move:b = no
+    size:r = 5
+    thousandth:b = true
+  }line{
+    line:p4= 0, 3.5, 0, 12
+    move:b=no
+    thousandth:b = true
+  }
+//===================Dynamic square==================
+  line{
+    line:p4= -3.5, -5, -3.5, 5
+    move:b = no
+    size:r = 5
+    thousandth:b = true
+  }line{
+    line:p4= -3.5, 5, 3.5, 5
+    move:b=no
+    thousandth:b = true
+  }  line{
+    line:p4= 3.5, 5, 3.5, -5
+    move:b = no
+    size:r = 5
+    thousandth:b = true
+  }line{
+    line:p4= 3.5, -5, -3.5, -5
+    move:b=no
+    thousandth:b = true
+  }
+
+//===============informations squares===================
+  line{
+    line:p4= -94, -34, -94, -38 // GUN
+    move:b = no
+    size:r = 5
+    thousandth:b = true
+  }line{
+    line:p4= -94, -34, -85, -34
+    move:b=no
+    thousandth:b = true
+  }  line{
+    line:p4= -85, -34, -85, -38
+    move:b = no
+    size:r = 5
+    thousandth:b = true
+  }line{
+    line:p4= -85, -38, -94, -38
+    move:b=no
+    thousandth:b = true
+  }  line{
+    line:p4= -96, 49, -96, 57.5 // info gauche haut
+    move:b = no
+    size:r = 5
+    thousandth:b = true
+  }line{
+    line:p4= -96, 49, -78, 49
+    move:b=no
+    thousandth:b = true
+  }  line{
+    line:p4= -78, 49, -78, 57.5
+    move:b = no
+    size:r = 5
+    thousandth:b = true
+  }line{
+    line:p4= -78, 57.5, -96, 57.5
+    move:b=no
+    thousandth:b = true
+  }  line{
+    line:p4= -96, 58.5, -96, 66.5 // info gauche bas
+    move:b = no
+    size:r = 5
+    thousandth:b = true
+  }line{
+    line:p4= -96, 58.5, -78, 58.5
+    move:b=no
+    thousandth:b = true
+  }  line{
+    line:p4= -78, 58.5, -78, 66.5
+    move:b = no
+    size:r = 5
+    thousandth:b = true
+  }line{
+    line:p4= -78, 66.5, -96, 66.5
+    move:b=no
+    thousandth:b = true
+  }  line{
+    line:p4= -77, 58.5, -77, 66.5 // info bas centre
+    move:b = no
+    size:r = 5
+    thousandth:b = true
+  }line{
+    line:p4= -77, 58.5, -60, 58.5
+    move:b=no
+    thousandth:b = true
+  }  line{
+    line:p4= -60, 58.5, -60, 66.5
+    move:b = no
+    size:r = 5
+    thousandth:b = true
+  }line{
+    line:p4= -60, 66.5, -77, 66.5
+    move:b=no
+    thousandth:b = true
+  }  line{
+    line:p4= 50, 65, 50, 60.5 // Télémètre
+    move:b = no
+    size:r = 5
+    thousandth:b = true
+  }line{
+    line:p4= 50, 60.5, 74, 60.5
+    move:b=no
+    thousandth:b = true
+  }  line{
+    line:p4= 74, 60.5, 74, 65
+    move:b = no
+    size:r = 5
+    thousandth:b = true
+  }line{
+    line:p4= 50, 65, 74, 65
+    move:b=no
+    thousandth:b = true
+  }  line{
+    line:p4= 75.5, 60.5, 75.5, 65 // info bas droite
+    move:b = no
+    size:r = 5
+    thousandth:b = true
+  }line{
+    line:p4= 75.5, 60.5, 93, 60.5
+    move:b=no
+    thousandth:b = true
+  }  line{
+    line:p4= 93, 60.5, 93, 65
+    move:b = no
+    size:r = 5
+    thousandth:b = true
+  }line{
+    line:p4= 75.5, 65, 93, 65
+    move:b=no
+    thousandth:b = true
+  }
+}
+
+drawCircles {
+//============= Mire Hydra 70==================
+  circle {
+    segment:p2 = 0.0, 360.0; // 20m
+    pos:p2 = 0, -13;
+    diameter:r = 0.15;
+    size:r = 2;
+    move:b = yes;
+    thousandth:b = yes;
+  }  circle {
+    segment:p2 = 0.0, 360.0; // 50m
+    pos:p2 = 0, 6;
+    diameter:r = 0.15;
+    size:r = 2;
+    move:b = yes;
+    thousandth:b = yes;
+  }  circle {
+    segment:p2 = 0.0, 360.0; // 100m
+    pos:p2 = 0, 10;
+    diameter:r = 0.15;
+    size:r = 2;
+    move:b = yes;
+    thousandth:b = yes;
+  }  circle {
+    segment:p2 = 0.0, 360.0; // 200m
+    pos:p2 = 0, 12;
+    diameter:r = 0.15;
+    size:r = 2;
+    move:b = yes;
+    thousandth:b = yes;
+  }  circle {
+    segment:p2 = 0.0, 360.0; // 300m
+    pos:p2 = 0, 13.5;
+    diameter:r = 0.15;
+    size:r = 2;
+    move:b = yes;
+    thousandth:b = yes;
+  }  circle {
+    segment:p2 = 0.0, 360.0; // 400m
+    pos:p2 = 0, 15;
+    diameter:r = 0.15;
+    size:r = 2;
+    move:b = yes;
+    thousandth:b = yes;
+  }  circle {
+    segment:p2 = 0.0, 360.0; // 600m
+    pos:p2 = 0, 16.5;
+    diameter:r = 0.15;
+    size:r = 2;
+    move:b = yes;
+    thousandth:b = yes;
+  }  circle {
+    segment:p2 = 0.0, 360.0; // 800m
+    pos:p2 = 0, 18;
+    diameter:r = 0.15;
+    size:r = 2;
+    move:b = yes;
+    thousandth:b = yes;
+  }  circle {
+    segment:p2 = 0.0, 360.0; // 1000m
+    pos:p2 = 0, 20.5;
+    diameter:r = 0.15;
+    size:r = 2;
+    move:b = yes;
+    thousandth:b = yes;
+  }  circle {
+    segment:p2 = 0.0, 360.0; // 1200m
+    pos:p2 = 0, 22.5;
+    diameter:r = 0.15;
+    size:r = 2;
+    move:b = yes;
+    thousandth:b = yes;
+  }  circle {
+    segment:p2 = 0.0, 360.0; // 1400m
+    pos:p2 = 0, 24.5;
+    diameter:r = 0.15;
+    size:r = 2;
+    move:b = yes;
+    thousandth:b = yes;
+  }
+}
+//================jauge droite===============
+  drawQuads {
+    quad {  // Simple fixed quadrangle
+      tl:p2 = 78, 10; // Top left top
+      tr:p2 = 83, 10; // Top right top
+      br:p2 = 83, 10.5; // Top right bottom
+      bl:p2 = 78, 10.5; // Top left bottom
+      thousandth:b = true;
+    }
+//=================Echelle élévation=================
+    quad {  // Simple fixed quadrangle
+      tl:p2 = 89.5, -36; // Top left top
+      tr:p2 = 90, -36; // Top right top
+      br:p2 = 90, 32; // Top right bottom
+      bl:p2 = 89.5, 32; // Top left bottom
+      thousandth:b = true;
+    }
+    quad {  // Simple fixed quadrangle
+      tl:p2 = 84, 31.5; // Top left top
+      tr:p2 = 90, 31.5; // Top right top
+      br:p2 = 90, 32; // Top right bottom
+      bl:p2 = 84, 32; // Top left bottom
+      thousandth:b = true;
+    }
+    quad {  // Simple fixed quadrangle
+      tl:p2 = 84, -36; // Top left top
+      tr:p2 = 90, -36; // Top right top
+      br:p2 = 90, -35.5; // Top right bottom
+      bl:p2 = 84, -35.5; // Top left bottom
+      thousandth:b = true;
+    }
+    quad {  // Simple fixed quadrangle
+      tl:p2 = 86, -2; // Top left top
+      tr:p2 = 90, -2; // Top right top
+      br:p2 = 90, -1.5; // Top right bottom
+      bl:p2 = 86, -1.5; // Top left bottom
+      thousandth:b = true;
+    }
+    quad {  // Simple fixed quadrangle
+      tl:p2 = 87, 25; // Top left top
+      tr:p2 = 90, 25; // Top right top
+      br:p2 = 90, 25.5; // Top right bottom
+      bl:p2 = 87, 25.5; // Top left bottom
+      thousandth:b = true;
+    }    quad {  // Simple fixed quadrangle
+      tl:p2 = 87, 18.25; // Top left top
+      tr:p2 = 90, 18.25; // Top right top
+      br:p2 = 90, 18.75; // Top right bottom
+      bl:p2 = 87, 18.75; // Top left bottom
+      thousandth:b = true;
+    }    quad {  // Simple fixed quadrangle
+      tl:p2 = 87, 11.5 // Top left top
+      tr:p2 = 90, 11.5 // Top right top
+      br:p2 = 90, 12 // Top right bottom
+      bl:p2 = 87, 12 // Top left bottom
+      thousandth:b = true;
+    }    quad {  // Simple fixed quadrangle
+      tl:p2 = 87, 4.7; // Top left top
+      tr:p2 = 90, 4.7; // Top right top
+      br:p2 = 90, 5.2; // Top right bottom
+      bl:p2 = 87, 5.2; // Top left bottom
+      thousandth:b = true;
+    }
+    quad {  // Simple fixed quadrangle
+      tl:p2 = 87, -8.35; // Top left top
+      tr:p2 = 90, -8.35; // Top right top
+      br:p2 = 90, -8.85; // Top right bottom
+      bl:p2 = 87, -8.85; // Top left bottom
+      thousandth:b = true;
+    }    quad {  // Simple fixed quadrangle
+      tl:p2 = 87, -15.2; // Top left top
+      tr:p2 = 90, -15.2; // Top right top
+      br:p2 = 90, -15.7; // Top right bottom
+      bl:p2 = 87, -15.7; // Top left bottom
+      thousandth:b = true;
+    }    quad {  // Simple fixed quadrangle
+      tl:p2 = 87, -22.05; // Top left top
+      tr:p2 = 90, -22.05; // Top right top
+      br:p2 = 90, -22.55; // Top right bottom
+      bl:p2 = 87, -22.55; // Top left bottom
+      thousandth:b = true;
+    }    quad {  // Simple fixed quadrangle
+      tl:p2 = 87, -28.9; // Top left top
+      tr:p2 = 90, -28.9; // Top right top
+      br:p2 = 90, -29.4; // Top right bottom
+      bl:p2 = 87, -29.4; // Top left bottom
+      thousandth:b = true;
+    }
+}
+
+drawTexts{
+//====================Distance====================
+//laser
+    text {
+      text:t = "-  -  -  -" 
+      align:i = 0 
+      pos:p2 = 63, 61.8
+      move:b = no 
+      thousandth:b = yes 
+      size:r = 1.5
+    highlight:b=yes
+     center:p2 = 0, -90; 
+      radialCenter:p2 = 8000.0, 0.0;
+      radialAngle:r = 0;
+      radialMoveSpeed:r = 2000.04;
+      moveRadial:b = yes;
+      thousandth:b = true;
+    }
+//====================Mire Hydra 70=========================
+   text {
+    text:t = "Hydra 70"
+    align:i = 0
+    pos:p2 = -3, -13
+    move:b = true
+    highlight:b=yes
+    thousandth:b = yes
+    size:r = 0.3
+  }
+   text {
+    text:t = "20m"
+    align:i = 0
+    pos:p2 = 2, -13
+    move:b = true
+    highlight:b=yes
+    thousandth:b = yes
+    size:r = 0.3
+  }   text {
+    text:t = "50m"
+    align:i = 0
+    pos:p2 = 2, 6
+    move:b = true
+    highlight:b=yes
+    thousandth:b = yes
+    size:r = 0.3
+  }   text {
+    text:t = "1"
+    align:i = 0
+    pos:p2 = 1, 10
+    move:b = true
+    highlight:b=yes
+    thousandth:b = yes
+    size:r = 0.3
+  }   text {
+    text:t = "2"
+    align:i = 0
+    pos:p2 = 1, 12
+    move:b = true
+    highlight:b=yes
+    thousandth:b = yes
+    size:r = 0.3
+  }   text {
+    text:t = "3"
+    align:i = 0
+    pos:p2 = 1, 13.5
+    move:b = true
+    highlight:b=yes
+    thousandth:b = yes
+    size:r = 0.3
+  }   text {
+    text:t = "4"
+    align:i = 0
+    pos:p2 = 1, 15
+    move:b = true
+    highlight:b=yes
+    thousandth:b = yes
+    size:r = 0.3
+  }   text {
+    text:t = "6"
+    align:i = 0
+    pos:p2 = 1, 16.5
+    move:b = true
+    highlight:b=yes
+    thousandth:b = yes
+    size:r = 0.3
+  }   text {
+    text:t = "8"
+    align:i = 0
+    pos:p2 = 1, 18
+    move:b = true
+    highlight:b=yes
+    thousandth:b = yes
+    size:r = 0.3
+  }   text {
+    text:t = "10"
+    align:i = 0
+    pos:p2 = 1, 20.5
+    move:b = true
+    highlight:b=yes
+    thousandth:b = yes
+    size:r = 0.3
+  }   text {
+    text:t = "12"
+    align:i = 0
+    pos:p2 = 1, 22.5
+    move:b = true
+    highlight:b=yes
+    thousandth:b = yes
+    size:r = 0.3
+  }   text {
+    text:t = "14"
+    align:i = 0
+    pos:p2 = 1, 24.5
+    move:b = true
+    highlight:b=yes
+    thousandth:b = yes
+    size:r = 0.3
+  }
+//====================Echelle droite=========================
+   text {
+    text:t = "0"
+    align:i = 0
+    pos:p2 = 92, 31.75
+    move:b = false
+    highlight:b=yes
+    thousandth:b = yes
+    size:r = 0.8
+  }   text {
+    text:t = "1"
+    align:i = 0
+    pos:p2 = 92, 25.25
+    move:b = false
+    highlight:b=yes
+    thousandth:b = yes
+    size:r = 0.8
+  }   text {
+    text:t = "2"
+    align:i = 0
+    pos:p2 = 92, 18.5
+    move:b = false
+    highlight:b=yes
+    thousandth:b = yes
+    size:r = 0.8
+  }   text {
+    text:t = "3"
+    align:i = 0
+    pos:p2 = 92, 11.75
+    move:b = false
+    highlight:b=yes
+    thousandth:b = yes
+    size:r = 0.8
+  }   text {
+    text:t = "4"
+    align:i = 0
+    pos:p2 = 92, 5
+    move:b = false
+    highlight:b=yes
+    thousandth:b = yes
+    size:r = 0.8
+  }   text {
+    text:t = "5"
+    align:i = 0
+    pos:p2 = 92, -1.75
+    move:b = false
+    highlight:b=yes
+    thousandth:b = yes
+    size:r = 0.8
+  }   text {
+    text:t = "6"
+    align:i = 0
+    pos:p2 = 92, -8.5
+    move:b = false
+    highlight:b=yes
+    thousandth:b = yes
+    size:r = 0.8
+  }   text {
+    text:t = "7"
+    align:i = 0
+    pos:p2 = 92, -15.25
+    move:b = false
+    highlight:b=yes
+    thousandth:b = yes
+    size:r = 0.8
+  }   text {
+    text:t = "8"
+    align:i = 0
+    pos:p2 = 92, -22
+    move:b = false
+    highlight:b=yes
+    thousandth:b = yes
+    size:r = 0.8
+  }   text {
+    text:t = "9"
+    align:i = 0
+    pos:p2 = 92, -28.75
+    move:b = false
+    highlight:b=yes
+    thousandth:b = yes
+    size:r = 0.8
+  }   text {
+    text:t = "10"
+    align:i = 0
+    pos:p2 = 92, -36
+    move:b = false
+    highlight:b=yes
+    thousandth:b = yes
+    size:r = 0.8
+  }
+//===============info GUN==================
+   text {
+    text:t = "GUN"
+    align:i = 0
+    pos:p2 = -89.5, -36.1
+    move:b = false
+    highlight:b=no
+    thousandth:b = yes
+    size:r = 0.85
+  }
+//===============Info gauche haut=================
+   text {
+    text:t = "6277 MIL"
+    align:i = 0
+    pos:p2 = -87.5, 50.9
+    move:b = false
+    highlight:b=no
+    thousandth:b = yes
+    size:r = 0.85
+  }   text {
+    text:t = "WPN  AZ  V"
+    align:i = 0
+    pos:p2 = -87.5, 54.9
+    move:b = false
+    highlight:b=no
+    thousandth:b = yes
+    size:r = 0.85
+  }
+//===============Info gauche bas=================
+   text {
+    text:t = "5034 MIL"
+    align:i = 0
+    pos:p2 = -87.5, 60
+    move:b = false
+    highlight:b=no
+    thousandth:b = yes
+    size:r = 0.85
+  }   text {
+    text:t = "WPN  AZ  G"
+    align:i = 0
+    pos:p2 = -87.5, 64
+    move:b = false
+    highlight:b=no
+    thousandth:b = yes
+    size:r = 0.85
+  }
+//===============Info bas centre=================
+   text {
+    text:t = "25 MIL"
+    align:i = 0
+    pos:p2 = -67.5, 60
+    move:b = false
+    highlight:b=no
+    thousandth:b = yes
+    size:r = 0.85
+  }   text {
+    text:t = "WPN  EL"
+    align:i = 0
+    pos:p2 = -69.5, 64
+    move:b = false
+    highlight:b=no
+    thousandth:b = yes
+    size:r = 0.85
+  }
+//===============Télémètre=================
+   text {
+    text:t = "E"
+    align:i = 0
+    pos:p2 = 52.5, 62.4
+    move:b = false
+    highlight:b=no
+    thousandth:b = yes
+    size:r = 0.85
+  }
+//===============info bas droite=================
+   text {
+    text:t = "N  1234.55"
+    align:i = 0
+    pos:p2 = 84, 62.4
+    move:b = false
+    highlight:b=no
+    thousandth:b = yes
+    size:r = 0.85
+  }
+//============================masque TV===============================
+
+//=================================Bas droite===============================
+
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = 0.00, 0.45
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = 0.07, 0.45
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = 0.14, 0.45
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = 0.21, 0.45
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = 0.28, 0.45
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = 0.35, 0.45
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = 0.52, 0.45
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = 0.59, 0.45
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = 0.56, 0.45
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = 0.63, 0.45
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = 0.70, 0.45
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = 0.77, 0.45
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = 0.84, 0.45
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = 0.91, 0.45
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = 0.98, 0.45
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = 1.05, 0.45
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = 1.12, 0.45
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = 1.19, 0.45
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = 1.26, 0.45
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = 1.33, 0.45
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = 1.4, 0.45
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+//=====2nd bas droit======
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = 0.00, 0.6
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = 0.07, 0.6
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = 0.14, 0.6
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = 0.21, 0.6
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = 0.28, 0.6
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = 0.35, 0.6
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = 0.52, 0.6
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = 0.59, 0.6
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = 0.56, 0.6
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = 0.63, 0.6
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = 0.70, 0.6
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = 0.77, 0.6
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = 0.84, 0.6
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = 0.91, 0.6
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = 0.98, 0.6
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = 1.05, 0.6
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = 1.12, 0.6
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = 1.19, 0.6
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = 1.26, 0.6
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = 1.33, 0.6
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = 1.4, 0.6
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+
+//===================================Bas gauche===============================
+
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = -0.00, 0.45
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = -0.07, 0.45
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = -0.14, 0.45
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = -0.21, 0.45
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = -0.28, 0.45
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = -0.35, 0.45
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = -0.52, 0.45
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = -0.59, 0.45
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = -0.56, 0.45
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = -0.63, 0.5
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = -0.70, 0.45
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = -0.77, 0.45
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = -0.84, 0.45
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = -0.91, 0.45
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = -0.98, 0.45
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = -1.05, 0.45
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = -1.12, 0.45
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = -1.19, 0.45
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = -1.26, 0.45
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = -1.33, 0.45
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = -1.4, 0.45
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+//=====2nd bas gauche======
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = -0.00, 0.6
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = -0.07, 0.6
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = -0.14, 0.6
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = -0.21, 0.6
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = -0.28, 0.6
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = -0.35, 0.6
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = -0.52, 0.6
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = -0.59, 0.6
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = -0.56, 0.6
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = -0.63, 0.6
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = -0.70, 0.6
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = -0.77, 0.6
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = -0.84, 0.6
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = -0.91, 0.6
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = -0.98, 0.6
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = -1.05, 0.6
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = -1.12, 0.6
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = -1.19, 0.6
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = -1.26, 0.6
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = -1.33, 0.96
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = -1.4, 0.6
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+//===================================haut droite===============================
+
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = 0.00, -0.55
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = 0.07, -0.55
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = 0.14, -0.55
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = 0.21, -0.55
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = 0.28, -0.55
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = 0.35, -0.55
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = 0.52, -0.55
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = 0.59, -0.55
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = 0.56, -0.55
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = 0.63, -0.55
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = 0.70, -0.55
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = 0.77, -0.55
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = 0.84, -0.55
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = 0.91, -0.55
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = 0.98, -0.55
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = 1.05, -0.55
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = 1.12, -0.55
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = 1.19, -0.55
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = 1.26, -0.55
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = 1.33, -0.55
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = 1.4, -0.55
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+//=====2nd haut droit======
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = 0.00, -0.7
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = 0.07, -0.7
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = 0.14, -0.7
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = 0.21, -0.7
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = 0.28, -0.7
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = 0.35, -0.7
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = 0.52, -0.7
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = 0.59, -0.7
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = 0.56, -0.7
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = 0.63, -0.7
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = 0.70, -0.7
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = 0.77, -0.7
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = 0.84, -0.7
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = 0.91, -0.7
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = 0.98, -0.7
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = 1.05, -0.7
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = 1.12, -0.7
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = 1.19, -0.7
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = 1.26, -0.7
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = 1.33, -0.7
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = 1.4, -0.7
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+
+//===================================haut gauche===============================
+
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = -0.00, -0.55
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = -0.07, -0.55
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = -0.14, -0.55
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = -0.21, -0.55
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = -0.28, -0.55
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = -0.35, -0.55
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = -0.52, -0.55
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = -0.59, -0.55
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = -0.56, -0.55
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = -0.63, -0.55
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = -0.70, -0.55
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = -0.77, -0.55
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = -0.84, -0.55
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = -0.91, -0.55
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = -0.98, -0.55
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = -1.05, -0.55
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = -1.12, -0.55
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = -1.19, -0.55
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = -1.26, -0.55
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = -1.33, -0.55
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = -1.4, -0.55
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+//=====2nd haut gauche======
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = -0.00, -0.7
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = -0.07, -0.7
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = -0.14, -0.7
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = -0.21, -0.7
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = -0.28, -0.7
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = -0.35, -0.7
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = -0.52, -0.7
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = -0.59, -0.7
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = -0.56, -0.7
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = -0.63, -0.7
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = -0.70, -0.7
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = -0.77, -0.7
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = -0.84, -0.7
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = -0.91, -0.7
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = -0.98, -0.7
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = -1.05, -0.7
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = -1.12, -0.7
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = -1.19, -0.7
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = -1.26, -0.7
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = -1.33, -0.7
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = -1.4, -0.7
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+
+//=========================Vertical droit====================================
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = 0.6, -0.7
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = 0.6, -0.63
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = 0.6, -0.56
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = 0.6, -0.59
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = 0.6, -0.52
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = 0.6, -0.35
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = 0.6, -0.28
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = 0.6, -0.21
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = 0.6, -0.14
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = 0.6, -0.07
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = 0.6, 0.00
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = 0.6, 0.07
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = 0.6, 0.14
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = 0.6, 0.21
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = 0.6, 0.28
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = 0.6, 0.35
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = 0.6, 0.52
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = 0.6, 0.59
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = 0.6, 0.56
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = 0.6, 0.63
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = 0.6, 0.7
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+//=======2nd vertical droit=========
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = 0.75, -0.7
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = 0.75, -0.63
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = 0.75, -0.56
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = 0.75, -0.59
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = 0.75, -0.52
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = 0.75, -0.35
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = 0.75, -0.28
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = 1.3, -0.21
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = 0.75, -0.14
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = 0.75, -0.07
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = 0.75, 0.00
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = 0.75, 0.07
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = 0.75, 0.14
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = 0.75, 0.21
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = 0.75, 0.28
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = 0.75, 0.35
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = 0.75, 0.52
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = 0.75, 0.59
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = 0.75, 0.56
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = 0.75, 0.63
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = 0.75, 0.7
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+//========3rd vertical droit===========
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = 0.95, -0.7
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = 0.95, -0.63
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = 0.95, -0.56
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = 0.95, -0.59
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = 0.95, -0.52
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = 0.95, -0.35
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = 0.95, -0.28
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = 0.95, -0.21
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = 0.95, -0.14
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = 0.95, -0.07
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = 0.95, 0.00
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = 0.95, 0.07
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = 0.95, 0.14
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = 0.95, 0.21
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = 0.95, 0.28
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = 0.95, 0.35
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = 0.95, 0.52
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = 0.95, 0.59
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = 0.95, 0.56
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = 0.95, 0.63
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = 0.95, 0.7
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+
+//===============================Vertical gauche==============================
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = -0.6, -0.7
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = -0.6, -0.63
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = -0.6, -0.56
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = -0.6, -0.59
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = -0.6, -0.52
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = -0.6, -0.35
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = -0.6, -0.28
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = -0.6, -0.21
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = -0.6, -0.14
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = -0.6, -0.07
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = -0.6, 0.00
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = -0.6, 0.07
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = -0.6, 0.14
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = -0.6, 0.21
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = -0.6, 0.28
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = -0.6, 0.35
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = -0.6, 0.52
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = -0.6, 0.59
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = -0.6, 0.56
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = -0.6, 0.63
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = -0.6, 0.7
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+//=======2nd vertical gauche=========
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = -0.75, -0.7
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = -0.75, -0.63
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = -0.75, -0.56
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = -0.75, -0.59
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = -0.75, -0.52
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = -0.75, -0.35
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = -0.75, -0.28
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = -0.75, -0.21
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = -0.75, -0.14
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = -0.75, -0.07
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = -0.75, 0.00
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = -0.75, 0.07
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = -0.75, 0.14
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = -0.75, 0.21
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = -0.75, 0.28
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = -0.75, 0.35
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = -0.75, 0.52
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = -0.75, 0.59
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = -0.75, 0.56
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = -0.75, 0.63
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = -0.75, 0.7
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+//========3rd vertical gauche===========
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = -0.95, -0.7
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = -0.95, -0.63
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = -0.95, -0.56
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = -0.95, -0.59
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = -0.95, -0.52
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = -0.95, -0.35
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = -0.95, -0.28
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = -0.95, -0.21
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = -0.95, -0.14
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = -0.95, -0.07
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = -0.95, 0.00
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = -0.95, 0.07
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = -0.95, 0.14
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = -0.95, 0.21
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = -0.95, 0.28
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = -0.95, 0.35
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = -0.95, 0.52
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = -0.95, 0.59
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = -0.95, 0.56
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = -0.95, 0.63
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+text {
+    text:t = "⋱"
+    align:i = 0
+    pos:p2 = -0.95, 0.7
+    move:b = false
+    highlight:b=no
+    size:r = 20
+   }
+
+}
