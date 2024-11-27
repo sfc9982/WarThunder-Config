@@ -1,0 +1,645 @@
+move:b                            = false
+applyCorrectionToGun:b            = false		
+
+fontSizeMult:r                    = 0.7
+lineSizeMult:r                    = 2
+
+drawCentralLineVert:b             = false
+drawCentralLineHorz:b             = false
+
+drawDistanceCorrection:b          = false
+distanceCorrectionPos:p2          = 0, 0
+
+crosshairHorVertSize:p2           = 0, 0
+crosshairDistHorSizeMain:p2       = 0, 0
+crosshairDistHorSizeAdditional:p2 = 0, 0
+crosshairLightColor:c = 255, 46, 0 , 150
+
+rangefinderProgressBarColor1:c    = 0, 0, 0, 100
+rangefinderProgressBarColor2:c    = 0, 255, 0, 100
+rangefinderTextScale:r            = 0.3
+rangefinderVerticalOffset:r       = 13
+rangefinderHorizontalOffset:r     = -80
+
+thousandth:t                      = "nato"
+
+crosshair_hor_ranges {}
+
+ballistics {
+  bullet {
+    bulletType:t = "hesh_tank"
+    speed:r = 731
+    move:b = true
+    highlight:b = true
+
+    drawAdditionalLines:b = false
+    drawDistanceCorrection:b = false
+    distanceCorrectionPos:p2 = 0, 0
+    drawUpward:b = true
+    distancePos:p2 = 0.11, -0.078
+    textAlign:i = 1
+    textPos:p2 = 0, 0
+    textShift:r = 0.5
+    crosshairDistHorSizeMain:p2 = 0.016, 0.016
+    crosshairDistHorSizeAdditional:p2 = 0.0, 0.0
+
+    crosshair_distances {
+      distance { textPos:p2 = 0, 0; distance:p3 = 10,   .9, -0.008; }
+      distance { textPos:p2 = 0, 0; distance:p3 = 200,  2,  -0.008; }
+      distance { textPos:p2 = 0, 0; distance:p3 = 400,  4,  -0.008; }
+      distance { textPos:p2 = 0, 0; distance:p3 = 600, 6, -0.008; }
+      distance { textPos:p2 = 0, 0; distance:p3 = 800, 8, -0.008; }
+      distance { textPos:p2 = 0, 0; distance:p3 = 1000, 10, -0.008; }
+      distance { textPos:p2 = 0, 0; distance:p3 = 1200, 12, -0.008; }
+      distance { textPos:p2 = 0, 0; distance:p3 = 1400, 14, -0.008; }
+      distance { textPos:p2 = 0, 0; distance:p3 = 1600, 16, -0.008; }
+      distance { textPos:p2 = 0, 0; distance:p3 = 1700, 17, -0.008; }
+      distance { textPos:p2 = 0, 0; distance:p3 = 1800, 18, -0.008; }
+      distance { textPos:p2 = 0, 0; distance:p3 = 1900, 19, -0.008; }
+      distance { textPos:p2 = 0, 0; distance:p3 = 2000, 20, -0.008; }
+      distance { textPos:p2 = 0, 0; distance:p3 = 2100, 21, -0.008; }
+      distance { textPos:p2 = 0, 0; distance:p3 = 2200, 22, -0.008; }
+      distance { textPos:p2 = 0, 0; distance:p3 = 2300, 23, -0.008; }
+      distance { textPos:p2 = 0, 0; distance:p3 = 2400, 24, -0.008; }
+      distance { textPos:p2 = 0, 0; distance:p3 = 2500, 25, -0.008; }
+      distance { textPos:p2 = 0, 0; distance:p3 = 2600, 26, -0.008; }
+      distance { textPos:p2 = 0, 0; distance:p3 = 2700, 27, -0.008; }
+      distance { textPos:p2 = 0, 0; distance:p3 = 2800, 28, -0.008; }
+      distance { textPos:p2 = 0, 0; distance:p3 = 2900, 29, -0.008; }
+    }
+  }
+  bullet {
+    bulletType:t = "hesh_tank"
+    speed:r = 731
+    move:b = true
+    highlight:b = true
+
+    drawAdditionalLines:b = false
+    drawDistanceCorrection:b = false
+    distanceCorrectionPos:p2 = 0, 0
+    drawUpward:b = true
+    distancePos:p2 = 0.102, -0.078
+    textAlign:i = 1
+    textPos:p2 = 0.023, 0
+    textShift:r = 0.4
+    crosshairDistHorSizeMain:p2 = 0.016, 0.016
+    crosshairDistHorSizeAdditional:p2 = 0.0, 0.0
+
+    crosshair_distances {
+      distance { textPos:p2 = 0, 0; distance:p3 = 100,  0,   0; }
+      distance { textPos:p2 = 0, 0; distance:p3 = 300,  0,   0; }
+      distance { textPos:p2 = 0, 0; distance:p3 = 500, 0,  0; }
+      distance { textPos:p2 = 0, 0; distance:p3 = 700, 0,  0; }
+      distance { textPos:p2 = 0, 0; distance:p3 = 900, 0,  0; }
+      distance { textPos:p2 = 0, 0; distance:p3 = 1100, 0,  0; }
+      distance { textPos:p2 = 0, 0; distance:p3 = 1300, 0,  0; }
+      distance { textPos:p2 = 0, 0; distance:p3 = 1500, 0,  0; }
+      distance { textPos:p2 = 0, 0; distance:p3 = 1650, 0,  0; }
+      distance { textPos:p2 = 0, 0; distance:p3 = 1700, 0,  0; }
+      distance { textPos:p2 = 0, 0; distance:p3 = 1750, 0,  0; }
+      distance { textPos:p2 = 0, 0; distance:p3 = 1850, 0,  0; }
+      distance { textPos:p2 = 0, 0; distance:p3 = 1950, 0,  0; }
+      distance { textPos:p2 = 0, 0; distance:p3 = 2050, 0,  0; }
+      distance { textPos:p2 = 0, 0; distance:p3 = 2150, 0,  0; }
+      distance { textPos:p2 = 0, 0; distance:p3 = 2250, 0,  0; }
+      distance { textPos:p2 = 0, 0; distance:p3 = 2350, 0,  0; }
+      distance { textPos:p2 = 0, 0; distance:p3 = 2450, 0,  0; }
+      distance { textPos:p2 = 0, 0; distance:p3 = 2550, 0,  0; }
+      distance { textPos:p2 = 0, 0; distance:p3 = 2650, 0,  0; }
+      distance { textPos:p2 = 0, 0; distance:p3 = 2750, 0,  0; }
+      distance { textPos:p2 = 0, 0; distance:p3 = 2850, 0,  0; }
+
+
+
+    }
+  }
+  bullet {
+    bulletType:t = "heat_fs_tank"
+    speed:r = 1173
+    move:b = true
+    highlight:b = true
+
+    drawAdditionalLines:b = false
+    drawDistanceCorrection:b = false
+    distanceCorrectionPos:p2 = 0, 0
+    drawUpward:b = true
+    distancePos:p2 = -0.3234, -0.078
+    textAlign:i = 1
+    textPos:p2 = 0, 0
+    textShift:r = 0.5
+    crosshairDistHorSizeMain:p2 = 0.016, 0.016
+    crosshairDistHorSizeAdditional:p2 = 0.0, 0.0
+
+    crosshair_distances {
+      distance { textPos:p2 = 0, 0; distance:p3 = 10, 0.9, -0.008; }
+      distance { textPos:p2 = 0, 0; distance:p3 = 800, 8, -0.008; }
+      distance { textPos:p2 = 0, 0; distance:p3 = 1600, 16, -0.008; }
+      distance { textPos:p2 = 0, 0; distance:p3 = 2000, 20, -0.008; }
+      distance { textPos:p2 = 0, 0; distance:p3 = 2400, 24, -0.008; }
+      distance { textPos:p2 = 0, 0; distance:p3 = 2800, 28, -0.008; }
+      distance { textPos:p2 = 0, 0; distance:p3 = 3200, 32, -0.008; }
+      distance { textPos:p2 = 0, 0; distance:p3 = 3600, 36, -0.008; }
+      distance { textPos:p2 = 0, 0; distance:p3 = 3800, 38, -0.008; }
+      distance { textPos:p2 = 0, 0; distance:p3 = 4000, 40, -0.008; }
+      distance { textPos:p2 = 0, 0; distance:p3 = 4200, 42, -0.008; }
+    }
+  }
+
+  bullet {
+    bulletType:t = "heat_fs_tank"
+    speed:r = 1173
+    move:b = true
+    highlight:b = true
+
+    drawAdditionalLines:b = false
+    drawDistanceCorrection:b = false
+    distanceCorrectionPos:p2 = 0, 0
+    drawUpward:b = true
+    distancePos:p2 = -0.3234, -0.078
+    textAlign:i = 1
+    textPos:p2 = -0.018, 0
+    textShift:r = 0.5
+    crosshairDistHorSizeMain:p2 = 0.016, 0.016
+    crosshairDistHorSizeAdditional:p2 = 0.0, 0.0
+
+    crosshair_distances {
+      distance { textPos:p2 = 0, 0; distance:p3 = 400, 4, -0.008; }
+      distance { textPos:p2 = 0, 0; distance:p3 = 1200, 12, -0.008; }
+      distance { textPos:p2 = 0, 0; distance:p3 = 1800, 18, -0.008; }
+      distance { textPos:p2 = 0, 0; distance:p3 = 2200, 22, -0.008; }
+      distance { textPos:p2 = 0, 0; distance:p3 = 2600, 26, -0.008; }
+      distance { textPos:p2 = 0, 0; distance:p3 = 3000, 30, -0.008; }
+      distance { textPos:p2 = 0, 0; distance:p3 = 3400, 34, -0.008; }
+      distance { textPos:p2 = 0, 0; distance:p3 = 3700, 37, -0.008; }
+      distance { textPos:p2 = 0, 0; distance:p3 = 3900, 39, -0.008; }
+      distance { textPos:p2 = 0, 0; distance:p3 = 4100, 41, -0.008; }
+      distance { textPos:p2 = 0, 0; distance:p3 = 4300, 43, -0.008; }
+    }
+  }
+bullet {
+    bulletType:t = "heat_fs_tank"
+    speed:r = 1173
+    move:b = true
+    highlight:b = true
+
+    drawAdditionalLines:b = false
+    drawDistanceCorrection:b = false
+    distanceCorrectionPos:p2 = 0, 0
+    drawUpward:b = true
+    distancePos:p2 = -0.3315, -0.078
+    textAlign:i = 1
+    textPos:p2 = -0.018, 0
+    textShift:r = 0.5
+    crosshairDistHorSizeMain:p2 = 0.016, 0.016
+    crosshairDistHorSizeAdditional:p2 = 0.0, 0.0
+
+    crosshair_distances {
+      distance { textPos:p2 = 0, 0; distance:p3 = 200, 0, 0; }
+      distance { textPos:p2 = 0, 0; distance:p3 = 600, 0, 0; }
+      distance { textPos:p2 = 0, 0; distance:p3 = 1000, 0, -0.0; }
+      distance { textPos:p2 = 0, 0; distance:p3 = 1400, 0, -0.0; }
+      distance { textPos:p2 = 0, 0; distance:p3 = 1700, 0, -0.0; }
+      distance { textPos:p2 = 0, 0; distance:p3 = 1900, 0, -0.0; }
+      distance { textPos:p2 = 0, 0; distance:p3 = 2100, 0, -0.0; }
+      distance { textPos:p2 = 0, 0; distance:p3 = 2300, 0, -0.0; }
+      distance { textPos:p2 = 0, 0; distance:p3 = 2500, 0, -0.0; }
+      distance { textPos:p2 = 0, 0; distance:p3 = 2700, 0, -0.0; }
+      distance { textPos:p2 = 0, 0; distance:p3 = 2900, 0, -0.0; }
+      distance { textPos:p2 = 0, 0; distance:p3 = 3000, 0, -0.0; }
+      distance { textPos:p2 = 0, 0; distance:p3 = 3100, 0, -0.0; }
+      distance { textPos:p2 = 0, 0; distance:p3 = 3300, 0, -0.0; }
+      distance { textPos:p2 = 0, 0; distance:p3 = 3400, 0, -0.0; }
+      distance { textPos:p2 = 0, 0; distance:p3 = 3500, 0, -0.0; }
+      distance { textPos:p2 = 0, 0; distance:p3 = 3650, 0, -0.0; }
+      distance { textPos:p2 = 0, 0; distance:p3 = 3750, 0, -0.0; }
+      distance { textPos:p2 = 0, 0; distance:p3 = 3850, 0, -0.0; }
+      distance { textPos:p2 = 0, 0; distance:p3 = 3950, 0, -0.0; }
+      distance { textPos:p2 = 0, 0; distance:p3 = 4050, 0, -0.0; }
+      distance { textPos:p2 = 0, 0; distance:p3 = 4150, 0, -0.0; }
+      distance { textPos:p2 = 0, 0; distance:p3 = 4250, 0, -0.0; }
+
+    }
+  }
+
+
+  bullet {
+    triggerGroup:t = "coaxial"
+    bulletType:t = "ap_ball"
+    speed:r = 853
+    move:b = true
+    highlight:b = true
+
+    drawAdditionalLines:b = false
+    drawDistanceCorrection:b = false
+    distanceCorrectionPos:p2 = 0, 0
+    drawUpward:b = true
+    distancePos:p2 = 0.36, -0.078
+    textAlign:i = 1
+    textPos:p2 = 0, 0
+    textShift:r = 0.5
+    crosshairDistHorSizeMain:p2 = 0.016, 0.016
+    crosshairDistHorSizeAdditional:p2 = 0.0, 0.0
+
+ crosshair_distances{
+                     distance { textPos:p2 = 0, 0; distance:p3 = 10,   0.9, -0.008; }
+		    distance { textPos:p2 = 0, 0; distance:p3=200.0, 2.0, -0.008; }
+                   distance { textPos:p2 = 0, 0; distance:p3=400.0, 4.0, -0.008; }
+            distance { textPos:p2 = 0, 0; distance:p3=600.0, 6.0, -0.008; }
+            distance { textPos:p2 = 0, 0; distance:p3=800.0, 8.0, -0.008; }
+            distance { textPos:p2 = 0, 0; distance:p3=1000.0, 10.0, -0.008; }
+            distance { textPos:p2 = 0, 0; distance:p3=1200.0, 12.0, -0.008; }
+            distance { textPos:p2 = 0, 0; distance:p3=1400.0, 14.0, -0.008; }
+            distance { textPos:p2 = 0, 0; distance:p3=1600.0, 16.0, -0.008; }
+            distance { textPos:p2 = 0, 0; distance:p3=1800.0, 18.0, -0.008; }
+
+    }
+  }
+
+  bullet {
+    triggerGroup:t = "coaxial"
+    bulletType:t = "ap_ball"
+    speed:r = 853
+    move:b = true
+    highlight:b = true
+
+    drawAdditionalLines:b = false
+    drawDistanceCorrection:b = false
+    distanceCorrectionPos:p2 = 0, 0
+    drawUpward:b = true
+    distancePos:p2 = 0.353, -0.078
+    textAlign:i = 1
+    textPos:p2 = 0.0, 0
+    textShift:r = 0
+    crosshairDistHorSizeMain:p2 = 0.016, 0.016
+    crosshairDistHorSizeAdditional:p2 = 0.0, 0.0
+
+    crosshair_distances{
+      distance { textPos:p2 = 0, 0; distance:p3=100,   0, 0; }
+      distance { textPos:p2 = 0, 0; distance:p3=300.0, 0, 0; }
+      distance { textPos:p2 = 0, 0; distance:p3=500.0, 5, 0; }
+      distance { textPos:p2 = 0, 0; distance:p3=700.0, 7, 0; }
+      distance { textPos:p2 = 0, 0; distance:p3=900.0, 9, 0; }
+      distance { textPos:p2 = 0, 0; distance:p3=1100.0, 11.0, 0; }
+      distance { textPos:p2 = 0, 0; distance:p3=1300.0, 13.0, 0; }
+      distance { textPos:p2 = 0, 0; distance:p3=1500.0, 15.0, 0; }
+      distance { textPos:p2 = 0, 0; distance:p3=1700.0, 17.0, 0; }
+
+    }
+  }
+
+
+  bullet {
+    bulletType:t = "apds_tank"
+    speed:r = 1478
+    move:b = true
+    highlight:b = true
+
+    drawAdditionalLines:b = false
+    drawDistanceCorrection:b = false
+    distanceCorrectionPos:p2 = 0, 0
+    drawUpward:b = true
+    distancePos:p2 = -0.1235, -0.078
+    textAlign:i = 1
+    textPos:p2 = 0, 0
+    textShift:r = 0.5
+    crosshairDistHorSizeMain:p2 = 0.016, 0.016
+    crosshairDistHorSizeAdditional:p2 = 0.0, 0.0
+
+    crosshair_distances {
+      distance { textPos:p2 = 0, 0; distance:p3 = 10,   0.9, -0.040; }
+      distance { textPos:p2 = 0, 0; distance:p3 = 800,  8,  -0.040; }
+      distance { textPos:p2 = 0, 0; distance:p3 = 1600, 16, -0.040; }
+      distance { textPos:p2 = 0, 0; distance:p3 = 2400, 24, -0.040; }
+      distance { textPos:p2 = 0, 0; distance:p3 = 3200, 32, -0.040; }
+      distance { textPos:p2 = 0, 0; distance:p3 = 4000, 40, -0.040; }
+      distance { textPos:p2 = 0, 0; distance:p3 = 4800, 48, -0.040; }
+      distance { textPos:p2 = 0, 0; distance:p3 = 5600, 56, -0.040; }
+    }
+  }
+ bullet {
+    bulletType:t = "apds_tank"
+    speed:r = 1478
+    move:b = true
+    highlight:b = true
+
+    drawAdditionalLines:b = false
+    drawDistanceCorrection:b = false
+    distanceCorrectionPos:p2 = 0, 0
+    drawUpward:b = true
+    distancePos:p2 = -0.139, -0.078
+    textAlign:i = 1
+    textPos:p2 = 999, 0
+    textShift:r = 0.5
+    crosshairDistHorSizeMain:p2 = 0.016, 0.016
+    crosshairDistHorSizeAdditional:p2 = 0.0, 0.0
+
+    crosshair_distances {
+
+      distance { textPos:p2 = 0, 0; distance:p3 = 200,  1,  -0.008; }
+      distance { textPos:p2 = 0, 0; distance:p3 = 600, 1,  -0.008; }
+      distance { textPos:p2 = 0, 0; distance:p3 = 1000, 1,  -0.008; }
+      distance { textPos:p2 = 0, 0; distance:p3 = 1400, 1,  -0.008; }
+      distance { textPos:p2 = 0, 0; distance:p3 = 1800, 1,  -0.008; }
+      distance { textPos:p2 = 0, 0; distance:p3 = 2200, 1,  -0.008; }
+      distance { textPos:p2 = 0, 0; distance:p3 = 2600, 1,  -0.008; }
+      distance { textPos:p2 = 0, 0; distance:p3 = 3000, 1,  -0.008; }
+      distance { textPos:p2 = 0, 0; distance:p3 = 3400, 1,  -0.008; }
+      distance { textPos:p2 = 0, 0; distance:p3 = 3800, 1,  -0.008; }
+      distance { textPos:p2 = 0, 0; distance:p3 = 4200, 1,  -0.008; }
+      distance { textPos:p2 = 0, 0; distance:p3 = 4600, 1,  -0.008; }
+      distance { textPos:p2 = 0, 0; distance:p3 = 5000, 1,  -0.008; }
+      distance { textPos:p2 = 0, 0; distance:p3 = 5400, 1,  -0.008; }
+      distance { textPos:p2 = 0, 0; distance:p3 = 5800, 1,  -0.008; }
+
+    }
+  }
+
+
+  bullet {
+    bulletType:t = "apds_tank"
+    speed:r = 1478
+    move:b = true
+    highlight:b = true
+
+    drawAdditionalLines:b = false
+    drawDistanceCorrection:b = false
+    distanceCorrectionPos:p2 = 0, 0
+    drawUpward:b = true
+    distancePos:p2 = -0.1635, -0.078
+    textAlign:i = -1
+    textPos:p2 = 0.034, 0
+    textShift:r = 1
+    crosshairDistHorSizeMain:p2 = 0.016, 0.016
+    crosshairDistHorSizeAdditional:p2 = 0.0, 0.0
+
+    crosshair_distances {
+      distance { textPos:p2 = 0, 0; distance:p3 = 400,  4,  0.032; }
+      distance { textPos:p2 = 0, 0; distance:p3 = 1200, 12, 0.032; }
+      distance { textPos:p2 = 0, 0; distance:p3 = 2000, 20, 0.032; }
+      distance { textPos:p2 = 0, 0; distance:p3 = 2800, 28, 0.032; }
+      distance { textPos:p2 = 0, 0; distance:p3 = 3600, 36, 0.032; }
+      distance { textPos:p2 = 0, 0; distance:p3 = 4400, 44, 0.032; }
+      distance { textPos:p2 = 0, 0; distance:p3 = 5200, 52, 0.032; }
+      distance { textPos:p2 = 0, 0; distance:p3 = 6000, 60, 0.032; }
+    }
+}
+
+bullet {
+    bulletType:t = "smoke_tank"
+    speed:r = 731
+    move:b = true
+    highlight:b = true
+
+    drawAdditionalLines:b = false
+    drawDistanceCorrection:b = false
+    distanceCorrectionPos:p2 = 0, 0
+    drawUpward:b = true
+
+    distancePos:p2 = 0.235, -0.078
+    textAlign:i = 1
+    textPos:p2 = 0, 0
+    textShift:r = 0.5
+    crosshairDistHorSizeMain:p2 = 0.016, 0.016
+    crosshairDistHorSizeAdditional:p2 = 0.0, 0.0
+
+    crosshair_distances {
+      distance { textPos:p2 = 0, 0; distance:p3 = 10,   0.9, -0.008; }
+      distance { textPos:p2 = 0, 0; distance:p3 = 400,  4,  -0.008; }
+      distance { textPos:p2 = 0, 0; distance:p3 = 800,  8,  -0.008; }
+      distance { textPos:p2 = 0, 0; distance:p3 = 1200, 12, -0.008; }
+      distance { textPos:p2 = 0, 0; distance:p3 = 1600, 16, -0.008; }
+      distance { textPos:p2 = 0, 0; distance:p3 = 2000, 20, -0.008; }
+      distance { textPos:p2 = 0, 0; distance:p3 = 2400, 24, -0.008; }
+      distance { textPos:p2 = 0, 0; distance:p3 = 2800, 28, -0.008; }
+    }
+  }
+
+bullet {
+    bulletType:t = "smoke_tank"
+    speed:r = 731
+    move:b = true
+    highlight:b = true
+
+    drawAdditionalLines:b = false
+    drawDistanceCorrection:b = false
+    distanceCorrectionPos:p2 = 0, 0
+    drawUpward:b = true
+
+    distancePos:p2 = 0.235, -0.078
+    textAlign:i = 1
+    textPos:p2 = 0, 0
+    textShift:r = 0.5
+    crosshairDistHorSizeMain:p2 = 0.016, 0.016
+    crosshairDistHorSizeAdditional:p2 = 0.0, 0.0
+
+    crosshair_distances {
+      distance { textPos:p2 = 0, 0; distance:p3 = 10,   0.9, -0.008; }
+      distance { textPos:p2 = 0, 0; distance:p3 = 200,  2,  -0.008; }
+      distance { textPos:p2 = 0, 0; distance:p3 = 400,  4,  -0.008; }
+
+      distance { textPos:p2 = 0, 0; distance:p3 = 800,  8,  -0.008; }
+
+      distance { textPos:p2 = 0, 0; distance:p3 = 1200, 12, -0.008; }
+
+      distance { textPos:p2 = 0, 0; distance:p3 = 1600, 16, -0.008; }
+
+      distance { textPos:p2 = 0, 0; distance:p3 = 2000, 20, -0.008; }
+
+      distance { textPos:p2 = 0, 0; distance:p3 = 2400, 24, -0.008; }
+
+      distance { textPos:p2 = 0, 0; distance:p3 = 2800, 28, -0.008; }
+      distance { textPos:p2 = 0, 0; distance:p3 = 3000, 30, -0.008; }
+     }
+   }
+bullet {
+    bulletType:t = "smoke_tank"
+    speed:r = 731
+    move:b = true
+    highlight:b = true
+
+    drawAdditionalLines:b = false
+    drawDistanceCorrection:b = false
+    distanceCorrectionPos:p2 = 0, 0
+    drawUpward:b = true
+
+    distancePos:p2 = 0.235, -0.078
+    textAlign:i = 1
+    textPos:p2 = 999, 0
+    textShift:r = 0.5
+    crosshairDistHorSizeMain:p2 = 0.016, 0.016
+    crosshairDistHorSizeAdditional:p2 = 0.0, 0.0
+
+    crosshair_distances {
+      distance { textPos:p2 = 0, 0; distance:p3 = 600,  1,  -0.008; }
+      distance { textPos:p2 = 0, 0; distance:p3 = 1000,  1,  -0.008; }
+      distance { textPos:p2 = 0, 0; distance:p3 = 1400,  1,  -0.008; }
+      distance { textPos:p2 = 0, 0; distance:p3 = 1800, 1, -0.008; }
+      distance { textPos:p2 = 0, 0; distance:p3 = 2200,  1,  -0.008; }
+      distance { textPos:p2 = 0, 0; distance:p3 = 2600,  1,  -0.008; }
+     }
+   }
+bullet {
+    bulletType:t = "smoke_tank"
+    speed:r = 731
+    move:b = true
+    highlight:b = true
+
+    drawAdditionalLines:b = false
+    drawDistanceCorrection:b = false
+    distanceCorrectionPos:p2 = 0, 0
+    drawUpward:b = true
+
+    distancePos:p2 = 0.227, -0.078
+    textAlign:i = 0
+    textPos:p2 = 0, 0
+    textShift:r = 0
+    crosshairDistHorSizeMain:p2 = 0.016, 0.016
+    crosshairDistHorSizeAdditional:p2 = 0.0, 0.0
+
+    crosshair_distances {
+      distance { textPos:p2 = 0, 0; distance:p3 = 100,  0,  0; }
+      distance { textPos:p2 = 0, 0; distance:p3 = 300,  0,  0; }
+      distance { textPos:p2 = 0, 0; distance:p3 = 500,  0,  0; }
+      distance { textPos:p2 = 0, 0; distance:p3 = 700, 0, 0; }
+      distance { textPos:p2 = 0, 0; distance:p3 = 900,  0,  0 }
+      distance { textPos:p2 = 0, 0; distance:p3 = 1100,  0,  0; }
+      distance { textPos:p2 = 0, 0; distance:p3 = 1300,  0,  -0; }
+      distance { textPos:p2 = 0, 0; distance:p3 = 1500,  0,  0; }
+      distance { textPos:p2 = 0, 0; distance:p3 = 1700,  0,  0; }
+     }
+   }
+
+  }
+
+drawTexts {
+  // Ammo type captions
+  // HESH
+  text { move:b = true; thousandth:b = true; highlight:b = true; size:r = 0.6; align:i = 0; text:t = "ךיעמ"; pos:p2 = -15.5, -9.2; }
+  // HEAT
+  text { move:b = true; thousandth:b = true; highlight:b = true; size:r = 0.6; align:i = 0; text:t = "לולח"; pos:p2 = 49, -9.2; }
+text { move:b = true; thousandth:b = true; highlight:b = true; size:r = 0.6; align:i = 0; text:t = ".ק.ח וק"; pos:p2 = 61, -13.5; }
+  // Coaxial
+  text { move:b = true; thousandth:b = true; highlight:b = true; size:r = 0.6; align:i = 0; text:t = "ליבקת"; pos:p2 = -52.5, -9.2; }
+text { move:b = true; thousandth:b = true; highlight:b = true; size:r = 0.6; align:i = 0; text:t = ".ק.ח וק"; pos:p2 = -60, -12; }
+  // Subcaliber
+  text { move:b = true; thousandth:b = true; highlight:b = true; size:r = 0.6; align:i = 0; text:t = "ש''ח"; pos:p2 = 21.9, -9.2; }
+// Smoke
+  text { move:b = true; thousandth:b = true; highlight:b = true; size:r = 0.6; align:i = 0; text:t = "נ''א"; pos:p2 = -34, -9.2; }
+
+
+}
+
+drawLines {
+  
+  // Horizontal line
+  line { move:b = false; thousandth:b = false; line:p4 = -4, -0.08, 4, -0.08; }
+  line { move:b = true;   line:p4 = 0.34, -0.0896, 0.385, -0.0896; }
+  line { move:b = true;   line:p4 = -0.3, -0.0805, -0.335, -0.0805; }
+
+
+  
+ // Vertical lines
+line { move:b = true; thousandth:b = false; line:p4 = -0.335, -0.080, -0.335, -0.517; }
+line { move:b = true; thousandth:b = false; line:p4 = -0.21, -0.080, -0.21, -0.467; }
+line { move:b = true; thousandth:b = false; line:p4 = -0.0852, -0.080, -0.0852, -0.452; }
+line { move:b = true; thousandth:b = false; line:p4 = 0.147, -0.080, 0.147, -0.2001; }
+line { move:b = true; thousandth:b = false; line:p4 = 0.348, -0.080, 0.348, -0.337; }
+
+  // Central chevron
+  line{
+    line:p4=1, 0, -1, 0
+    move:b=yes
+	thousandth:b = yes
+  }  
+  
+  line{
+    line:p4=0, 1, 0, -1
+    move:b=yes
+	thousandth:b = yes
+  }  
+
+  line{
+    line:p4=5, 0, 10, 0
+    move:b=yes
+	thousandth:b = yes
+  }  
+  
+  line{
+    line:p4=-5, 0, -10, 0
+    move:b=yes
+	thousandth:b = yes
+  }  
+  
+  line{
+    line:p4=15, 0, 20, 0
+    move:b=yes
+	thousandth:b = yes
+  }  
+  
+  line{
+    line:p4=-15, 0, -20, 0
+    move:b=yes
+	thousandth:b = yes
+  }  
+  
+  line{
+    line:p4=-2.5, 2.5, -7.5, 2.5
+    move:b=yes
+	thousandth:b = yes
+  }  
+  
+  line{
+    line:p4=-2.5, -2.5, -7.5, -2.5
+    move:b=yes
+	thousandth:b = yes
+  }
+  
+  line{
+    line:p4=2.5, 2.5, 7.5, 2.5
+    move:b=yes
+	thousandth:b = yes
+  }  
+  
+  line{
+    line:p4=2.5, -2.5, 7.5, -2.5
+    move:b=yes
+	thousandth:b = yes
+  }
+  
+  line{
+    line:p4=0, -2.5, 0, -5
+    move:b=yes
+	thousandth:b = yes
+  }
+  
+  line{
+    line:p4=0, -7.5, 0, -10
+    move:b=yes
+	thousandth:b = yes
+  }
+  
+  line{
+    line:p4=0, -12.5, 0, -15
+    move:b=yes
+	thousandth:b = yes
+  }
+  
+  line{
+    line:p4=0, 2.5, 0, 5
+    move:b=yes
+	thousandth:b = yes
+  }
+  
+  line{
+    line:p4=0, 7.5, 0, 10
+    move:b=yes
+	thousandth:b = yes
+  }
+  
+  line{
+    line:p4=0, 12.5, 0, 15
+    move:b=yes
+	thousandth:b = yes
+}
+
+ }

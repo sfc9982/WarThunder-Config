@@ -1,0 +1,93 @@
+crosshairHorVertSize:p2=0.07,0.07
+
+rangefinderTextScale:r=0.6
+rangefinderUseThousandth:b=no
+rangefinderVerticalOffset:r=-0.1
+rangefinderHorizontalOffset:r=-250
+
+rangefinderProgressBarColor1:c=0, 255, 0, 64
+rangefinderProgressBarColor2:c=255, 255, 255, 64
+
+drawDistanceCorrection:b = yes
+distanceCorrectionPos:p2 = -0.25, 0.15
+
+crosshairLightColor:c = 254,190,0
+
+detectAllyTextScale:r=1.0
+detectAllyOffset:p2=4, 0.05
+
+fontSizeMult:r=1.2
+lineSizeMult:r=2.6
+textPos:p2 = 0.185, 0.0
+
+drawCentralLineVert:b=no
+drawCentralLineHorz:b=no
+
+drawSightMask:b=yes
+
+crosshairDistHorSizeMain:p2=0.0, 0.0
+crosshairDistHorSizeAdditional:p2=0.0009, 0.0009
+
+distanceCorrectionPos:p2=-0.131, -0.04
+
+drawDistanceCorrection:b=no
+
+crosshair_distances{
+
+ }
+
+crosshair_hor_ranges{
+
+ }
+
+drawLines{
+
+line { line:p4 = 1.8, 0, 4, 0; thousandth:b = true; }
+line { line:p4 = -1.8, 0, -4, 0; thousandth:b = true; }
+
+line { line:p4 = 0, 1.8, 0, 4; thousandth:b = yes;}
+line { line:p4 = 0, -1.8, 0, -4; thousandth:b = yes;}
+line { line:p4 = 0, 10, 0, 20; thousandth:b = yes;}
+line { line:p4 = 0, -10, 0, -20; thousandth:b = yes;}
+
+line { line:p4 = 10, 1.2, 10, -1.2; thousandth:b = true; }
+line { line:p4 = -10, -1.2, -10, 1.2; thousandth:b = true; }
+line { line:p4 = 20, 2.2, 20, -2.2; thousandth:b = true; }
+line { line:p4 = -20, -2.2, -20, 2.2; thousandth:b = true; }
+line { line:p4 = 30, 1.2, 30, -1.2; thousandth:b = true; }
+line { line:p4 = -30, -1.2, -30, 1.2; thousandth:b = true; }
+
+}
+
+
+drawCircles {
+
+  circle {			// центральная точка прицела
+    segment:p2 = 0.0, 360.0; 
+    pos:p2 = 0.0, 0.0; 
+    diameter:r = 0.4; 
+    size:r = 3; 
+    move:b = no;
+    thousandth:b = yes;
+  }
+
+ circle {
+    segment:p2 = 0.0, 360.0; // Сектор окружности
+    pos:p2 = 0.0, 0.0;      // Позиция
+    diameter:r = 3.6;        // Диаметр. Если thousandth=yes, то в тысячных
+    thousandth:b = yes;
+    size:r = 2.2;            // Толщина линии
+    move:b = no;
+    
+  }
+
+}
+
+
+matchExpClass{
+  exp_tank:b = yes
+  exp_heavy_tank:b = yes
+  exp_tank_destroye:b = yes
+  exp_tank_destroyer:b = yes
+  exp_SPAA:b = yes
+}

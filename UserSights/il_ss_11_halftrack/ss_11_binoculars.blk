@@ -1,0 +1,278 @@
+crosshairHorVertSize:p2=3, 2
+rangefinderProgressBarColor1:c=0, 255, 0, 64
+rangefinderProgressBarColor2:c=255, 255, 255, 64
+rangefinderTextScale:r=0.7
+rangefinderUseThousandth:b=yes
+rangefinderVerticalOffset:r=0.1
+rangefinderHorizontalOffset:r=5
+detectAllyTextScale:r=0.7
+detectAllyOffset:p2=4, 0.05
+fontSizeMult:r=1
+lineSizeMult:r=1
+drawCentralLineVert:b=no
+drawCentralLineHorz:b=no
+drawSightMask:b=yes
+useSmoothEdge:b=yes
+crosshairColor:c=0, 0, 0, 255
+crosshairLightColor:c=0, 0, 0, 255
+crosshairDistHorSizeMain:p2=0.03, 0.02
+crosshairDistHorSizeAdditional:p2=0.005, 0.003
+distanceCorrectionPos:p2=-0.26, -0.05
+drawDistanceCorrection:b=no
+
+crosshair_distances{
+}
+
+crosshair_hor_ranges{
+}
+
+drawLines{
+//////////RIIIIIIIIIGHT////////
+line{
+    line:p4=8, 0, 8, -2
+    move:b=no
+thousandth:b = yes;
+}
+
+line{
+    line:p4=4, 0, 4, -1
+    move:b=no
+thousandth:b = yes;
+}
+
+line{
+    line:p4=16, 0, 16, -2
+    move:b=no
+thousandth:b = yes;
+}
+
+line{
+    line:p4=12, 0, 12, -1
+    move:b=no
+thousandth:b = yes;
+}
+
+line{
+    line:p4=24, 0, 24, -2
+    move:b=no
+thousandth:b = yes;
+}
+
+line{
+    line:p4=20, 0, 20, -1
+    move:b=no
+thousandth:b = yes;
+}
+
+
+line{
+    line:p4=32, 0, 32, -2
+    move:b=no
+thousandth:b = yes;
+}
+
+line{
+    line:p4=36, 0, 36, -1
+    move:b=no
+thousandth:b = yes;
+}
+
+
+line{
+    line:p4=28, 0, 28, -1
+    move:b=no
+thousandth:b = yes;
+}
+
+
+line{
+    line:p4=40, 0, 40, -2
+    move:b=no
+thousandth:b = yes;
+}
+//////////LEEEEEEEEEEEEEFT/////////////////
+line{
+    line:p4=-8, 0, -8, -2
+    move:b=no
+thousandth:b = yes;
+}
+
+line{
+    line:p4=-4, 0, -4, -1
+    move:b=no
+thousandth:b = yes;
+}
+
+line{
+    line:p4=-16, 0, -16, -2
+    move:b=no
+thousandth:b = yes;
+}
+
+line{
+    line:p4=-12, 0, -12, -1
+    move:b=no
+thousandth:b = yes;
+}
+
+line{
+    line:p4=-24, 0, -24, -2
+    move:b=no
+thousandth:b = yes;
+}
+
+line{
+    line:p4=-20, 0, -20, -1
+    move:b=no
+thousandth:b = yes;
+}
+
+
+line{
+    line:p4=-32, 0, -32, -2
+    move:b=no
+thousandth:b = yes;
+}
+
+line{
+    line:p4=-36, 0, -36, -1
+    move:b=no
+thousandth:b = yes;
+}
+
+
+line{
+    line:p4=-28, 0, -28, -1
+    move:b=no
+thousandth:b = yes;
+}
+
+
+line{
+    line:p4=-40, 0, -40, -2
+    move:b=no
+thousandth:b = yes;
+}
+/////////////UUUUUUUUUUUUUUUUUUUUP///////////////////
+  line{
+    line:p4=0, 0.75, 0, -0.75
+    move:b=no
+thousandth:b = yes;
+  }
+
+line{
+    line:p4=0.75, 0, -0.75, 0
+    move:b=no
+thousandth:b = yes;
+  }
+
+line{
+    line:p4=0.75, -4, -0.75, -4
+    move:b=no
+thousandth:b = yes;
+}
+
+line{
+    line:p4=0.75, -8, -0.75, -8
+    move:b=no
+thousandth:b = yes;
+}
+
+line{
+    line:p4=0, -7.25, 0, -8.75
+    move:b=no
+thousandth:b = yes;
+}
+
+line{
+    line:p4=0.75, -12, -0.75, -12
+    move:b=no
+thousandth:b = yes;
+}
+
+line{
+    line:p4=0.75, -16, -0.75, -16
+    move:b=no
+thousandth:b = yes;
+}
+
+line{
+    line:p4=0, -15.25, 0, -16.75
+    move:b=no
+thousandth:b = yes;
+}
+
+
+}
+
+drawCircles {
+  circle {
+  segment:p2 = -25, 205; 
+  pos:p2 = 30, 0;
+  diameter:r = 100;
+  size:r = 500;
+  move:b = no;
+  thousandth:b = yes;
+  }
+  circle {
+  segment:p2 = 155, 385; 
+  pos:p2 = -30, 0;
+  diameter:r = 100;
+  size:r = 500;
+  move:b = no;
+  thousandth:b = yes;
+  }
+
+circle {
+  segment:p2 = -25, 25; 
+  pos:p2 = 0, -64.35;
+  diameter:r = 42.8;
+  size:r = 487;
+  move:b = no;
+  thousandth:b = yes;
+  }
+
+circle {
+  segment:p2 = 155, 205; 
+  pos:p2 = 0, 64.35;
+  diameter:r = 42.8;
+  size:r = 487;
+  move:b = no;
+  thousandth:b = yes;
+  }
+circle {
+  segment:p2 = -25, 25; 
+  pos:p2 = 0, -64.34;
+  diameter:r = 10;
+  size:r = 500;
+  move:b = no;
+  thousandth:b = yes;
+  }
+
+circle {
+  segment:p2 = 155, 205; 
+  pos:p2 = 0, 64.34;
+  diameter:r = 10;
+  size:r = 500;
+  move:b = no;
+  thousandth:b = yes;
+  }
+
+circle {
+  segment:p2 = -25, 205; 
+  pos:p2 = 30, 0;
+  diameter:r = 140;
+  size:r = 600;
+  move:b = no;
+  thousandth:b = yes;
+  }
+  circle {
+  segment:p2 = 155, 385; 
+  pos:p2 = -30, 0;
+  diameter:r = 140;
+  size:r = 600;
+  move:b = no;
+  thousandth:b = yes;
+  }
+} 
+

@@ -1,0 +1,177 @@
+crosshairHorVertSize:p2=3, 2
+rangefinderProgressBarColor1:c=0, 255, 0, 64
+rangefinderProgressBarColor2:c=255, 255, 255, 64
+rangefinderTextScale:r=0.7
+rangefinderUseThousandth:b=no
+rangefinderVerticalOffset:r=0.1
+rangefinderHorizontalOffset:r=5
+detectAllyTextScale:r=0.7
+detectAllyOffset:p2=4, 0.05
+fontSizeMult:r=1
+lineSizeMult:r=6
+drawCentralLineVert:b=no
+drawCentralLineHorz:b=no
+drawSightMask:b=yes
+useSmoothEdge:b=yes
+crosshairColor:c=0, 0, 0, 0
+crosshairLightColor:c=255, 192, 0, 255
+crosshairDistHorSizeMain:p2=0.03, 0.02
+crosshairDistHorSizeAdditional:p2=0.005, 0.003
+distanceCorrectionPos:p2=-0.26, -0.05
+drawDistanceCorrection:b=no
+
+crosshair_distances{
+}
+
+crosshair_hor_ranges{
+}
+
+drawLines{
+  line{
+    line:p4=2.5, 0, 42, 0
+    move:b=no
+    thousandth:b=yes
+  }
+  line{
+    line:p4=-2.5, 0, -42, 0
+    move:b=no
+    thousandth:b=yes
+  }
+  line{
+    line:p4=0, 2.5, 0, 42
+    move:b=no
+    thousandth:b=yes
+  }
+  line{
+    line:p4=0, -2.5, 0, -42
+    move:b=no
+    thousandth:b=yes
+  }
+  line{
+    line:p4=52, 0, 96, 0
+    move:b=no
+    thousandth:b=yes
+  }
+  line{
+    line:p4=-52, 0, -96, 0
+    move:b=no
+    thousandth:b=yes
+  }
+  line{
+    line:p4=0, 52, 0, 96
+    move:b=no
+    thousandth:b=yes
+  }
+  line{
+    line:p4=0, -52, 0, -96
+    move:b=no
+    thousandth:b=yes
+  }
+}
+
+drawCircles {
+circle {
+segment:p2 = 0, 360; 
+pos:p2 = 0, 0;
+diameter:r = 0;
+size:r = 17;
+move:b = no;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 7, 83; 
+pos:p2 = 0, 0;
+diameter:r = 26.666;
+size:r = 13;
+move:b = no;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 97, 173; 
+pos:p2 = 0, 0;
+diameter:r = 26.666;
+size:r = 13;
+move:b = no;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 187, 263; 
+pos:p2 = 0, 0;
+diameter:r = 26.666;
+size:r = 13;
+move:b = no;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 277, 353; 
+pos:p2 = 0, 0;
+diameter:r = 26.666;
+size:r = 13;
+move:b = no;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 5, 30; 
+pos:p2 = 0, 0;
+diameter:r = 44.444;
+size:r = 13;
+move:b = no;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 60, 85; 
+pos:p2 = 0, 0;
+diameter:r = 44.444;
+size:r = 13;
+move:b = no;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 95, 120; 
+pos:p2 = 0, 0;
+diameter:r = 44.444;
+size:r = 13;
+move:b = no;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 150, 175; 
+pos:p2 = 0, 0;
+diameter:r = 44.444;
+size:r = 13;
+move:b = no;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 185, 210; 
+pos:p2 = 0, 0;
+diameter:r = 44.444;
+size:r = 13;
+move:b = no;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 240, 265; 
+pos:p2 = 0, 0;
+diameter:r = 44.444;
+size:r = 13;
+move:b = no;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 275, 300; 
+pos:p2 = 0, 0;
+diameter:r = 44.444;
+size:r = 13;
+move:b = no;
+thousandth:b = yes;
+}
+circle {
+segment:p2 = 330, 355; 
+pos:p2 = 0, 0;
+diameter:r = 44.444;
+size:r = 13;
+move:b = no;
+thousandth:b = yes;
+}
+} 
