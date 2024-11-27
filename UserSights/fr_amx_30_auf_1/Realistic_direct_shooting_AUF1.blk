@@ -1,0 +1,319 @@
+crosshairHorVertSize:p2=3, 2
+rangefinderProgressBarColor1:c=0, 255, 0, 64
+rangefinderProgressBarColor2:c=255, 255, 255, 64
+rangefinderTextScale:r=0.7
+rangefinderUseThousandth:b=no
+rangefinderVerticalOffset:r=0.05
+rangefinderHorizontalOffset:r=320
+detectAllyTextScale:r=0.7
+detectAllyOffset:p2=4, 0.05
+fontSizeMult:r=1
+lineSizeMult:r=1
+drawCentralLineVert:b=no
+drawCentralLineHorz:b=no
+drawSightMask:b=yes
+useSmoothEdge:b=yes
+crosshairColor:c=0, 0, 0, 0
+crosshairLightColor:c=0, 0, 0, 0
+crosshairDistHorSizeMain:p2=0.03, 0.02
+crosshairDistHorSizeAdditional:p2=0.005, 0.003
+distanceCorrectionPos:p2=-0.26, -0.05
+drawDistanceCorrection:b=no
+
+crosshair_distances{
+}
+
+crosshair_hor_ranges{
+}
+
+drawLines{
+//=================hausse 0 + centre=====================
+	line {
+    line:p4 = 0, -0.7, 0, -2 
+    move:b = yes
+    thousandth:b = true
+  }	line {
+    line:p4 = -0.7, 0, -2, 0 
+    move:b = yes
+    thousandth:b = true
+  }	line {
+    line:p4 = 0.7, 0, 2, 0
+    move:b = yes
+    thousandth:b = true
+  }	line {
+    line:p4 = 10, 0, 13, 0
+    move:b = yes
+    thousandth:b = true
+  }	line {
+    line:p4 = 16, 0, 19, 0
+    move:b = yes
+    thousandth:b = true
+  }	line {
+    line:p4 = -10, 0, -13, 0
+    move:b = yes
+    thousandth:b = true
+  }	line {
+    line:p4 = -16, 0, -19, 0
+    move:b = yes
+    thousandth:b = true
+  }	line {
+    line:p4 = 0, 7.35, 0, 12.5
+    move:b = yes
+    thousandth:b = true
+  }	line {
+    line:p4 = 0, 22.15, 0, 17.2
+    move:b = yes
+    thousandth:b = true
+  }
+//=================hausse 900=====================
+	line {
+    line:p4 = 10, 7.35, 13, 7.35
+    move:b = yes
+    thousandth:b = true
+  }	line {
+    line:p4 = 16, 7.35, 19, 7.35
+    move:b = yes
+    thousandth:b = true
+  }	line {
+    line:p4 = -10, 7.35, -13, 7.35
+    move:b = yes
+    thousandth:b = true
+  }	line {
+    line:p4 = -16, 7.35, -19, 7.35
+    move:b = yes
+    thousandth:b = true
+  }
+//=================hausse 1500=====================
+	line {
+    line:p4 = 10, 12.5, 13, 12.5
+    move:b = yes
+    thousandth:b = true
+  }	line {
+    line:p4 = 16, 12.5, 19, 12.5
+    move:b = yes
+    thousandth:b = true
+  }	line {
+    line:p4 = -10, 12.5, -13, 12.5
+    move:b = yes
+    thousandth:b = true
+  }	line {
+    line:p4 = -16, 12.5, -19, 12.5
+    move:b = yes
+    thousandth:b = true
+  }
+//=================hausse 2000=====================
+	line {
+    line:p4 = 10, 17.2, 13, 17.2
+    move:b = yes
+    thousandth:b = true
+  }	line {
+    line:p4 = 16, 17.2, 19, 17.2
+    move:b = yes
+    thousandth:b = true
+  }	line {
+    line:p4 = -10, 17.2, -13, 17.2
+    move:b = yes
+    thousandth:b = true
+  }	line {
+    line:p4 = -16, 17.2, -19, 17.2
+    move:b = yes
+    thousandth:b = true
+  }
+//=================hausse 2500=====================
+	line {
+    line:p4 = 10, 22.15, 13, 22.15
+    move:b = yes
+    thousandth:b = true
+  }	line {
+    line:p4 = 16, 22.15, 19, 22.15
+    move:b = yes
+    thousandth:b = true
+  }	line {
+    line:p4 = -10, 22.15, -13, 22.15
+    move:b = yes
+    thousandth:b = true
+  }	line {
+    line:p4 = -16, 22.15, -19, 22.15
+    move:b = yes
+    thousandth:b = true
+  }
+//====================Stadimètre=================
+	line {
+    line:p4 = -16, 1.8, -13, 2.3 //200m
+    move:b = yes
+    thousandth:b = true
+  }	line {
+    line:p4 = 16, 1.8, 13, 2.3
+    move:b = yes
+    thousandth:b = true
+  }
+	line {
+    line:p4 = -13, 2.3, -8, 3.8 //400m
+    move:b = yes
+    thousandth:b = true
+  }	line {
+    line:p4 = 13, 2.3, 8, 3.8
+    move:b = yes
+    thousandth:b = true
+  }
+	line {
+    line:p4 = -8, 3.8, -5, 5.4 //600m
+    move:b = yes
+    thousandth:b = true
+  }	line {
+    line:p4 = 8, 3.8, 5, 5.4
+    move:b = yes
+    thousandth:b = true
+  }
+	line {
+    line:p4 = -5, 5.4, -3.5, 6.8 //800m
+    move:b = yes
+    thousandth:b = true
+  }	line {
+    line:p4 = 5, 5.4, 3.5, 6.8
+    move:b = yes
+    thousandth:b = true
+  }
+	line {
+    line:p4 = -3.5, 6.8, -3, 8.2 //1000m
+    move:b = yes
+    thousandth:b = true
+  }	line {
+    line:p4 = 3.5, 6.8, 3, 8.2
+    move:b = yes
+    thousandth:b = true
+  }
+	line {
+    line:p4 = -3, 8.2, -2.5, 9.9 //1200m
+    move:b = yes
+    thousandth:b = true
+  }	line {
+    line:p4 = 3, 8.2, 2.5, 9.9
+    move:b = yes
+    thousandth:b = true
+  }
+	line {
+    line:p4 = -2.5, 9.9, -2.145, 11.6 //1400m
+    move:b = yes
+    thousandth:b = true
+  }	line {
+    line:p4 = 2.5, 9.9, 2.145, 11.6
+    move:b = yes
+    thousandth:b = true
+  }
+	line {
+    line:p4 = -2.145, 11.6, -2, 13.45 //1600m
+    move:b = yes
+    thousandth:b = true
+  }	line {
+    line:p4 = 2.145, 11.6, 2, 13.45
+    move:b = yes
+    thousandth:b = true
+  }
+	line {
+    line:p4 = -2, 13.45, -1.9, 15.25 //1800m
+    move:b = yes
+    thousandth:b = true
+  }	line {
+    line:p4 = 2, 13.45, 1.9, 15.25
+    move:b = yes
+    thousandth:b = true
+  }
+	line {
+    line:p4 = -1.9, 15.25, -1.765, 17.2 //2000m
+    move:b = yes
+    thousandth:b = true
+  }	line {
+    line:p4 = 1.9, 15.25, 1.765, 17.2
+    move:b = yes
+    thousandth:b = true
+  }
+	line {
+    line:p4 = -1.765, 17.2, -1.59, 19.2 //2200m
+    move:b = yes
+    thousandth:b = true
+  }	line {
+    line:p4 = 1.765, 17.2, 1.59, 19.2
+    move:b = yes
+    thousandth:b = true
+  }
+	line {
+    line:p4 = -1.59, 19.2, -1.467, 21.15 //2400m
+    move:b = yes
+    thousandth:b = true
+  }	line {
+    line:p4 = 1.59, 19.2, 1.467, 21.15
+    move:b = yes
+    thousandth:b = true
+  }
+	line {
+    line:p4 = -1.467, 21.15, -1.4, 22.15 //2500m
+    move:b = yes
+    thousandth:b = true
+  }	line {
+    line:p4 = 1.467, 21.15, 1.4, 22.15
+    move:b = yes
+    thousandth:b = true
+  }
+
+//================================
+	line {
+    line:p4 = -0, 0, 0, 0
+    move:b = yes
+    thousandth:b = true
+  }
+}
+drawTexts {
+
+// ==================hausses==================
+     text {
+    text:t = "0"
+    align:i = 0
+    pos:p2 = 20, 0
+    move:b = true
+    highlight:b=yes
+    thousandth:b = yes
+    size:r = 0.6
+  }     text {
+    text:t = "0"
+    align:i = 0
+    pos:p2 = -20, 0
+    move:b = true
+    highlight:b=yes
+    thousandth:b = yes
+    size:r = 0.6
+  }     text {
+    text:t = "1500"
+    align:i = 0
+    pos:p2 = 21, 12.5
+    move:b = true
+    highlight:b=yes
+    thousandth:b = yes
+    size:r = 0.6
+  }     text {
+    text:t = "900"
+    align:i = 0
+    pos:p2 = -21, 7.35
+    move:b = true
+    highlight:b=yes
+    thousandth:b = yes
+    size:r = 0.6
+  }     text {
+    text:t = "2500"
+    align:i = 0
+    pos:p2 = 21, 22.15
+    move:b = true
+    highlight:b=yes
+    thousandth:b = yes
+    size:r = 0.6
+  }     text {
+    text:t = "2000"
+    align:i = 0
+    pos:p2 = -21, 17.2
+    move:b = true
+    highlight:b=yes
+    thousandth:b = yes
+    size:r = 0.6
+
+  }
+}

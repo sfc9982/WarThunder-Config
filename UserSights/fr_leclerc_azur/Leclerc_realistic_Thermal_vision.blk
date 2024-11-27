@@ -1,0 +1,170 @@
+crosshairHorVertSize:p2=3, 2
+rangefinderProgressBarColor1:c=0, 255, 0, 64
+rangefinderProgressBarColor2:c=255, 255, 255, 64
+rangefinderTextScale:r= 0
+rangefinderUseThousandth:b=yes
+rangefinderVerticalOffset:r= -16.3
+rangefinderHorizontalOffset:r= -85
+drawCentralLineVert:b=no
+drawCentralLineHorz:b=no
+fontSizeMult:r = 0.85
+lineSizeMult:r = 0.85
+drawSightMask:b=yes
+crosshairDistHorSizeMain:p2=0.03, 0.02
+crosshairDistHorSizeAdditional:p2= 0.00, 0.00
+distanceCorrectionPos:p2= -0.13, 0.102
+drawDistanceCorrection:b=no
+crosshairColor:c = 255,255,255,1000 // Rouge-Vert-Bleu-Saturation
+crosshairLightColor:c = 000,000,000,1000 // Rouge-Vert-Bleu-Saturation
+
+crosshair_distances{}
+
+crosshair_hor_ranges {}
+
+drawLines{
+//================Ligne discontinue vert=================
+  line{
+    line:p4= 0, 1, 0, 2
+    move:b=no
+    thousandth:b = true
+  }  line{
+    line:p4= 0, 3, 0, 4
+    move:b=no
+    thousandth:b = true
+  }  line{
+    line:p4= 0, -1, 0, -2
+    move:b=no
+    thousandth:b = true
+  }  line{
+    line:p4= 0, -3, 0, -4
+    move:b=no
+    thousandth:b = true
+  }
+//================Ligne discontinue Horz=================
+  line{
+    line:p4= 2, 0, 4, 0
+    move:b=no
+    thousandth:b = true
+  }  line{
+    line:p4= 6, 0, 8, 0
+    move:b=no
+    thousandth:b = true
+  }  line{
+    line:p4= -2, 0, -4, 0
+    move:b=no
+    thousandth:b = true
+  }  line{
+    line:p4= -6, 0, -8, 0
+    move:b=no
+    thousandth:b = true
+  }
+
+//==================Flèche direction===================
+  line{
+    line:p4= 0.7, 12.8, 0.5, 13.3
+    move:b=no
+    thousandth:b = true
+  }  line{
+    line:p4= 0.7, 12.8, 0.9, 13.3
+    move:b=no
+    thousandth:b = true
+  }  line{
+    line:p4= 0.7, 12.8, 0.7, 13.8
+    move:b=no
+    thousandth:b = true
+  }  line{
+    line:p4= 0.7, 12.8, 0.5, 13.3
+    move:b=no
+    thousandth:b = true
+  }  line{
+    line:p4= 0.7, 12.8, 0.9, 13.3
+    move:b=no
+    thousandth:b = true
+  }  line{
+    line:p4= 0.7, 12.8, 0.7, 13.8
+    move:b=no
+    thousandth:b = true
+  }
+}
+//================Direction châssis===============
+  drawQuads {
+    quad {  // Simple fixed quadrangle
+      tl:p2 = 0.6, 15; // Top left top
+      tr:p2 = 0.8, 15; // Top right top
+      br:p2 = 0.8, 15.5; // Top right bottom
+      bl:p2 = 0.6, 15.5; // Top left bottom
+      thousandth:b = true;
+    }
+//rear sight quad hor
+    quad {  // Simple fixed quadrangle
+      tl:p2 = 0.4, 15.3; // Top left top
+      tr:p2 = 0.2, 15.3; // Top right top
+      br:p2 = 0.2, 16.5; // Top right bottom
+      bl:p2 = 0.4, 16.5; // Top left bottom
+      thousandth:b = true;
+    }
+//rear sight quad hor
+    quad {  // Simple fixed quadrangle
+      tl:p2 = 1, 15.3; // Top left top
+      tr:p2 = 1.2, 15.3; // Top right top
+      br:p2 = 1.2, 16.5; // Top right bottom
+      bl:p2 = 1, 16.5; // Top left bottom
+      thousandth:b = true;
+    }
+//===================Redoublement===============
+//rear sight quad hor
+    quad {  // Simple fixed quadrangle
+      tl:p2 = 3.1, 14.2; // Top left top
+      tr:p2 = 4.3, 14.2; // Top right top
+      br:p2 = 4.3, 14.4; // Top right bottom
+      bl:p2 = 3.1, 14.4; // Top left bottom
+      thousandth:b = true;
+    }
+}
+
+drawCircles {
+//======================Cercle central======================
+  circle {
+    segment:p2 = 0.0, 360.0; //Cercle large
+    pos:p2 = 0, 0;
+    diameter:r = 1;
+    size:r = 1.1;
+    move:b = no;
+    thousandth:b = yes;
+  }  circle {
+    segment:p2 = 0.0, 360.0; //Point central
+    pos:p2 = 0, 0;
+    diameter:r = 0.1;
+    size:r = 1;
+    move:b = no;
+    thousandth:b = yes;
+  }
+//================masque bonette==============
+
+}
+
+drawTexts{
+//====================masque=========================
+
+
+//====================Alerte=========================
+   text {
+    text:t = "A"
+    align:i = 0
+    pos:p2 = 3.7, 15.5
+    move:b = false
+    highlight:b=yes
+    thousandth:b = yes
+    size:r = 0.6
+  }
+//====================Obus chargé=========================
+   text {
+    text:t = "F"
+    align:i = 0
+    pos:p2 = 3.7, 13.3
+    move:b = false
+    highlight:b=yes
+    thousandth:b = yes
+    size:r = 0.6
+  }
+}

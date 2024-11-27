@@ -1,0 +1,359 @@
+crosshairHorVertSize:p2=3, 2
+rangefinderProgressBarColor1:c=0, 255, 0, 64
+rangefinderProgressBarColor2:c=255, 255, 255, 64
+rangefinderTextScale:r= 0.3
+rangefinderUseThousandth:b=yes
+rangefinderVerticalOffset:r= 5
+rangefinderHorizontalOffset:r= 20
+drawCentralLineVert:b=no
+drawCentralLineHorz:b=no
+fontSizeMult:r = 0.7
+lineSizeMult:r = 0.7
+drawSightMask:b=yes
+crosshairDistHorSizeMain:p2=0.03, 0.02
+crosshairDistHorSizeAdditional:p2= 0.00, 0.00
+distanceCorrectionPos:p2= -0.13, 0.102
+drawDistanceCorrection:b=no
+crosshairColor:c = 000,000,000,1000 // Rouge-Vert-Bleu-Saturation
+crosshairLightColor:c = 255,255,255,1000 // Rouge-Vert-Bleu-Saturation
+
+crosshair_distances{
+}
+
+crosshair_hor_ranges{
+}
+
+drawLines{
+//================stadi 4000m============
+  line{
+    line:p4= 0.9, 3.8, 0.9, 5.2
+    move:b=no
+    thousandth:b = true
+  }  line{
+    line:p4= -0.9, 3.8, -0.9, 5.2
+    move:b=no
+    thousandth:b = true
+  }  line{
+    line:p4= -0.9, 4.5, -1.8, 4.5
+    move:b=no
+    thousandth:b = true
+  }  line{
+    line:p4= 0.9, 4.5, 1.8, 4.5
+    move:b=no
+    thousandth:b = true
+  }
+
+//================central cross====================
+  line{
+    line:p4= 1.5, 0, -1.5, 0
+    move:b=no
+    thousandth:b = true
+  }  line{
+    line:p4= 0, -0.75, 0, 0.75
+    move:b=no
+    thousandth:b = true
+  }  line{
+    line:p4= 0, -0.75, 0, -27
+    move:b=no
+    thousandth:b = true
+  }  line{
+    line:p4= 0, 0.75, 0, 27
+    move:b=no
+    thousandth:b = true
+  }
+
+//=================Chevron axe véhicule=============
+  line{
+    line:p4= 0, -16, -0.75, -14.5
+    move:b=no
+    thousandth:b = true
+  }  line{
+    line:p4= 0, -16, 0.75, -14.5
+    move:b=no
+    thousandth:b = true
+  }
+//================Harmonisation auto (rectangle)====================
+  line{
+    line:p4= -13.5, -14.5, -14.5, -15.5
+    move:b=no
+    thousandth:b = true
+  }  line{
+    line:p4= -14.5, -15.5, -16.5, -13.5
+    move:b=no
+    thousandth:b = true
+  }  line{
+    line:p4= -16.5, -13.5, -15.5, -12.5
+    move:b=no
+    thousandth:b = true
+  }  line{
+    line:p4= -15.5, -12.5, -13.5, -14.5
+    move:b=no
+    thousandth:b = true
+  }
+}
+
+  drawQuads {
+//====================Chevron axe châssis=====================
+    quad {  // Simple fixed quadrangle
+      tl:p2 = -0.15, -16; // Top left top
+      tr:p2 = -0, -16.08; // Top right top
+      br:p2 = -0.75, -14.5; // Top right bottom
+      bl:p2 = -0.9, -14.5; // Top left bottom
+      thousandth:b = true;
+    }    quad {  // Simple fixed quadrangle
+      tl:p2 = 0.15, -16; // Top left top
+      tr:p2 = 0, -16.08; // Top right top
+      br:p2 = 0.75, -14.5; // Top right bottom
+      bl:p2 = 0.9, -14.5; // Top left bottom
+      thousandth:b = true;
+    }
+//====================central cross=====================
+    quad {  // Simple fixed quadrangle
+      tl:p2 = -27, -0.09; // Top left top
+      tr:p2 = -1.4, -0.09; // Top right top
+      br:p2 = -1.4, 0.09; // Top right bottom
+      bl:p2 = -27, 0.09; // Top left bottom
+      thousandth:b = true;
+    }    quad {  // Simple fixed quadrangle
+      tl:p2 = 27, -0.09; // Top left top
+      tr:p2 = 1.4, -0.09; // Top right top
+      br:p2 = 1.4, 0.09; // Top right bottom
+      bl:p2 = 27, 0.09; // Top left bottom
+      thousandth:b = true;
+    }    quad {  // Simple fixed quadrangle
+      tl:p2 = -0.09, -27; // Top left top
+      tr:p2 = -0.09, -0.65; // Top right top
+      br:p2 = 0.09, -0.65; // Top right bottom
+      bl:p2 = 0.09, -27; // Top left bottom
+      thousandth:b = true;
+    }    quad {  // Simple fixed quadrangle
+      tl:p2 = -0.09, 27; // Top left top
+      tr:p2 = -0.09, 0.65; // Top right top
+      br:p2 = 0.09, 0.65; // Top right bottom
+      bl:p2 = 0.09, 27; // Top left bottom
+      thousandth:b = true;
+    }
+//===================Repères croisière centre=================
+    quad {  // Simple fixed quadrangle
+      tl:p2 = -1.32, -0.55; // Top left top
+      tr:p2 = -1.48, -0.55; // Top right top
+      br:p2 = -1.48, 0.55; // Top right bottom
+      bl:p2 = -1.32, 0.55; // Top left bottom
+      thousandth:b = true;
+    }    quad {  // Simple fixed quadrangle
+      tl:p2 = 1.32, -0.55; // Top left top
+      tr:p2 = 1.48, -0.55; // Top right top
+      br:p2 = 1.48, 0.55; // Top right bottom
+      bl:p2 = 1.32, 0.55; // Top left bottom
+      thousandth:b = true;
+    }    quad {  // Simple fixed quadrangle
+      tl:p2 = -0.55, -0.68; // Top left top
+      tr:p2 = 0.55, -0.68; // Top right top
+      br:p2 = 0.55, -0.81; // Top right bottom
+      bl:p2 = -0.55, -0.81; // Top left bottom
+      thousandth:b = true;
+    }    quad {  // Simple fixed quadrangle
+      tl:p2 = -0.55, 0.68; // Top left top
+      tr:p2 = 0.55, 0.68; // Top right top
+      br:p2 = 0.55, 0.81; // Top right bottom
+      bl:p2 = -0.55, 0.81; // Top left bottom
+      thousandth:b = true;
+    }
+//===================Repères croisière large=================
+    quad {  // Simple fixed quadrangle
+      tl:p2 = -4.42, -0.8; // Top left top
+      tr:p2 = -4.58, -0.8; // Top right top
+      br:p2 = -4.58, 0.8; // Top right bottom
+      bl:p2 = -4.42, 0.8; // Top left bottom
+      thousandth:b = true;
+    }    quad {  // Simple fixed quadrangle
+      tl:p2 = 4.42, -0.8; // Top left top
+      tr:p2 = 4.58, -0.8; // Top right top
+      br:p2 = 4.58, 0.8; // Top right bottom
+      bl:p2 = 4.42, 0.8; // Top left bottom
+      thousandth:b = true;
+    }    quad {  // Simple fixed quadrangle
+      tl:p2 = -0.8, -4.42; // Top left top
+      tr:p2 = 0.8, -4.42; // Top right top
+      br:p2 = 0.8, -4.58; // Top right bottom
+      bl:p2 = -0.8, -4.58; // Top left bottom
+      thousandth:b = true;
+    }    quad {  // Simple fixed quadrangle
+      tl:p2 = -0.8, 4.42; // Top left top
+      tr:p2 = 0.8, 4.42; // Top right top
+      br:p2 = 0.8, 4.58; // Top right bottom
+      bl:p2 = -0.8, 4.58; // Top left bottom
+      thousandth:b = true;
+    }
+//===================Stadimétrie 2000=================
+    quad {  // Simple fixed quadrangle
+      tl:p2 = -1.52, 12.8; // Top left top
+      tr:p2 = -1.67, 12.8; // Top right top
+      br:p2 = -1.67, 14.2; // Top right bottom
+      bl:p2 = -1.52, 14.2; // Top left bottom
+      thousandth:b = true;
+    }    quad {  // Simple fixed quadrangle
+      tl:p2 = 1.52, 12.8; // Top left top
+      tr:p2 = 1.67, 12.8; // Top right top
+      br:p2 = 1.67, 14.2; // Top right bottom
+      bl:p2 = 1.52, 14.2; // Top left bottom
+      thousandth:b = true;
+    }    quad {  // Simple fixed quadrangle
+      tl:p2 = 1.59, 13.42; // Top left top
+      tr:p2 = 3.18, 13.42; // Top right top
+      br:p2 = 3.18, 13.58; // Top right bottom
+      bl:p2 = 1.59, 13.58; // Top left bottom
+      thousandth:b = true;
+    }    quad {  // Simple fixed quadrangle
+      tl:p2 = -1.59, 13.42; // Top left top
+      tr:p2 = -3.18, 13.42; // Top right top
+      br:p2 = -3.18, 13.58; // Top right bottom
+      bl:p2 = -1.59, 13.58; // Top left bottom
+      thousandth:b = true;
+    }    quad {  // Simple fixed quadrangle
+      tl:p2 = -0.5, 13.42; // Top left top
+      tr:p2 = 0.5, 13.42; // Top right top
+      br:p2 = 0.5, 13.58; // Top right bottom
+      bl:p2 = -0.5, 13.58; // Top left bottom
+      thousandth:b = true;
+    }
+//===================Stadimétrie 3000=================
+    quad {  // Simple fixed quadrangle
+      tl:p2 = -1.28, 8.3; // Top left top
+      tr:p2 = -1.17, 8.3; // Top right top
+      br:p2 = -1.17, 9.7; // Top right bottom
+      bl:p2 = -1.28, 9.7; // Top left bottom
+      thousandth:b = true;
+    }    quad {  // Simple fixed quadrangle
+      tl:p2 = 1.29, 8.3; // Top left top
+      tr:p2 = 1.17, 8.3; // Top right top
+      br:p2 = 1.17, 9.7; // Top right bottom
+      bl:p2 = 1.29, 9.7; // Top left bottom
+      thousandth:b = true;
+    }    quad {  // Simple fixed quadrangle
+      tl:p2 = 1.17, 8.935; // Top left top
+      tr:p2 = 2.34, 8.935; // Top right top
+      br:p2 = 2.34, 9.065; // Top right bottom
+      bl:p2 = 1.17, 9.065; // Top left bottom
+      thousandth:b = true;
+    }    quad {  // Simple fixed quadrangle
+      tl:p2 = -1.17, 8.935; // Top left top
+      tr:p2 = -2.34, 8.935; // Top right top
+      br:p2 = -2.34, 9.065; // Top right bottom
+      bl:p2 = -1.17, 9.065; // Top left bottom
+      thousandth:b = true;
+    }    quad {  // Simple fixed quadrangle
+      tl:p2 = -0.5, 8.93; // Top left top
+      tr:p2 = 0.5, 8.93; // Top right top
+      br:p2 = 0.5, 9.06; // Top right bottom
+      bl:p2 = -0.5, 9.06; // Top left bottom
+      thousandth:b = true;
+    }
+//===================Stadimétrie 4000=================
+    quad {  // Simple fixed quadrangle
+      tl:p2 = -0.9, 3.8; // Top left top
+      tr:p2 = -1.0, 3.8; // Top right top
+      br:p2 = -1.0, 5.2; // Top right bottom
+      bl:p2 = -0.9, 5.2; // Top left bottom
+      thousandth:b = true;
+    }    quad {  // Simple fixed quadrangle
+      tl:p2 = 0.9, 3.8; // Top left top
+      tr:p2 = 1.0, 3.8; // Top right top
+      br:p2 = 1.0, 5.2; // Top right bottom
+      bl:p2 = 0.9, 5.2; // Top left bottom
+      thousandth:b = true;
+    }    quad {  // Simple fixed quadrangle
+      tl:p2 = 0.9, 4.42; // Top left top
+      tr:p2 = 1.8, 4.42; // Top right top
+      br:p2 = 1.8, 4.58; // Top right bottom
+      bl:p2 = 0.9, 4.58; // Top left bottom
+      thousandth:b = true;
+    }    quad {  // Simple fixed quadrangle
+      tl:p2 = -0.9, 4.42; // Top left top
+      tr:p2 = -1.8, 4.42; // Top right top
+      br:p2 = -1.8, 4.58; // Top right bottom
+      bl:p2 = -0.9, 4.58; // Top left bottom
+      thousandth:b = true;
+    }
+}
+
+
+drawCircles {
+//====================
+  circle {
+    segment:p2 = 0.0, 360.0; 
+    pos:p2 = 4, -13.5;
+    diameter:r = 3;
+    size:r = 0.9;
+    move:b = no;
+    thousandth:b = yes;
+  }  circle {
+    segment:p2 = 0.0, 360.0; 
+    pos:p2 = -4, -13.5;
+    diameter:r = 3;
+    size:r = 0.9;
+    move:b = no;
+    thousandth:b = yes;
+  }  circle {
+    segment:p2 = 0.0, 360.0; 
+    pos:p2 = 11, -21;
+    diameter:r = 2;
+    size:r = 0.9;
+    move:b = no;
+    thousandth:b = yes;
+  }
+}
+
+drawTexts{
+
+//====================
+   text {
+    text:t = "2"
+    align:i = 0
+    pos:p2 = 4, 13.5
+    move:b = false
+    highlight:b=yes
+    thousandth:b = yes
+    size:r = 0.4
+  }   text {
+    text:t = "2"
+    align:i = 0
+    pos:p2 = -4, 13.5
+    move:b = false
+    highlight:b=yes
+    thousandth:b = yes
+    size:r = 0.4
+  }   text {
+    text:t = "3"
+    align:i = 0
+    pos:p2 = 3.16, 9
+    move:b = false
+    highlight:b=yes
+    thousandth:b = yes
+    size:r = 0.4
+  }   text {
+    text:t = "3"
+    align:i = 0
+    pos:p2 = -3.16, 9
+    move:b = false
+    highlight:b=yes
+    thousandth:b = yes
+    size:r = 0.4
+  }   text {
+    text:t = "4"
+    align:i = 0
+    pos:p2 = 2.62, 4.5
+    move:b = false
+    highlight:b=yes
+    thousandth:b = yes
+    size:r = 0.4
+  }   text {
+    text:t = "4"
+    align:i = 0
+    pos:p2 = -2.62, 4.5
+    move:b = false
+    highlight:b=yes
+    thousandth:b = yes
+    size:r = 0.4
+  }
+}

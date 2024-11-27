@@ -1,0 +1,132 @@
+
+///Created by Caff///
+
+//=====Rangefinder=====//
+rangefinderProgressBarColor1:c=0, 0, 0, 0
+rangefinderProgressBarColor2:c=255, 255, 255, 64
+rangefinderTextScale:r=0.7
+rangefinderVerticalOffset:r=-7
+rangefinderHorizontalOffset:r=433
+
+//=====Ballistic range indicators=====//
+applyCorrectionToGun:b=yes
+distanceCorrectionPos:p2=0.40, -0.0
+drawDistanceCorrection:b=yes
+
+//=====Crosshair=====//
+crosshairHorVertSize:p2=3, 2
+crosshairDistHorSizeMain:p2=0.03, 0.02
+crosshairDistHorSizeAdditional:p2=0.005, 0.003
+crosshairColor:c=0, 0, 0, 0
+crosshairLightColor:c=255, 23, 23, 255
+
+//=====Font and lines=====//
+fontSizeMult:r=0.7
+lineSizeMult:r=1.5
+drawCentralLineVert:b=no
+drawCentralLineHorz:b=no
+
+//------------------------------------------------------//
+crosshair_distances{}
+crosshair_hor_ranges{}
+//------------------------------------------------------//
+
+crosshair_distances{
+  distance:p3=200, 0, 0
+  distance:p3=400, 4, 0
+  distance:p3=600, 0, 0
+  distance:p3=800, 8, 0
+  distance:p3=1000, 0, 0
+  distance:p3=1200, 12, 0
+  distance:p3=1400, 0, 0
+  distance:p3=1600, 16, 0
+  distance:p3=1800, 0, 0
+  distance:p3=2000, 20, 0
+  distance:p3=2200, 0, 0
+  distance:p3=2400, 24, 0
+  distance:p3=2600, 0, 0
+  distance:p3=2800, 28, 0
+  distance:p3=3000, 0, 0
+  distance:p3=3200, 32, 0
+  distance:p3=3400, 0, 0
+  distance:p3=3600, 36, 0
+  distance:p3=3800, 0, 0
+  distance:p3=4000, 40, 0
+  distance:p3=4200, 0, 0
+  distance:p3=4400, 44, 0
+  distance:p3=4600, 0, 0
+  distance:p3=4800, 48, 0
+  distance:p3=5000, 0, 0
+  distance:p3=5200, 52, 0
+  distance:p3=5400, 0, 0
+  distance:p3=5600, 56, 0
+  distance:p3=5800, 0, 0
+  distance:p3=6000, 60, 0
+}
+
+drawCircles {
+ circle {
+   segment:p2 = 0.0, 360.0;
+   pos:p2 = 0.0, 0.0;
+   diameter:r = 0.07;
+   size:r = 2.7
+   move:b = no;   
+  }
+}
+
+//===========[ Quads ]===========//
+  drawQuads {}
+
+//===========[ Lines ]===========//
+drawLines{
+///left horizontal 
+  line{
+    line:p4=-0.045, 0, -10, -0
+    move:b=no
+  } 
+
+//Right horizontal
+  line{
+    line:p4=0.045, 0, 10, -0
+    move:b=no
+  } 
+  
+//Top vertical
+  line{
+    line:p4=0, -10, 0, -0.045
+    move:b=no
+  } 
+  
+//Bottom vertical 
+  line{
+    line:p4=0, 10, 0, 0.045
+    move:b=no
+  }
+
+/////////////////////////////////////
+
+//Right vertical
+  line{
+    line:p4=0.1, -0.04, 0.1, 0.04
+    move:b=no
+  }
+//Left vertical  
+  line{
+    line:p4=-0.1, -0.04, -0.1, 0.04
+    move:b=no
+  } 
+
+/////////////////////////////////////
+ 
+//Top horizontal
+  line{
+    line:p4=0.04, -0.1, -0.04, -0.1
+	move:b=no
+  }
+//Bottom horizontal  
+  line{
+    line:p4=0.04, 0.1, -0.04, 0.1
+	move:b=no
+  }
+     
+}

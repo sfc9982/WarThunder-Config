@@ -1,0 +1,677 @@
+crosshairHorVertSize:p2=3, 2
+rangefinderProgressBarColor1:c=0, 255, 0, 64
+rangefinderProgressBarColor2:c=255, 255, 255, 64
+rangefinderTextScale:r=0.7
+rangefinderUseThousandth:b=no
+rangefinderVerticalOffset:r=0.1
+rangefinderHorizontalOffset:r=5
+detectAllyTextScale:r=0.7
+detectAllyOffset:p2=4, 0.05
+fontSizeMult:r=1.1
+lineSizeMult:r=1.1
+drawCentralLineVert:b=no
+drawCentralLineHorz:b=no
+drawSightMask:b=yes
+crosshairColor:c=0, 0, 0, 0
+crosshairLightColor:c=0, 0, 0, 0
+crosshairDistHorSizeMain:p2=0.03, 0.02
+crosshairDistHorSizeAdditional:p2=0.005, 0.003
+distanceCorrectionPos:p2=-0.2, -0.05
+drawDistanceCorrection:b=yes
+
+crosshair_distances {
+  distance:p3 = 00, 0, 0
+  distance:p3 = 00, 4, 0
+  distance:p3 = 00, 0, 0
+  distance:p3 = 00, 8, 0
+  distance:p3 = 00, 0, 0
+  distance:p3 = 00, 12, 0
+  distance:p3 = 00, 0, 0
+  distance:p3 = 00, 16, 0
+  distance:p3 = 00, 0, 0
+  distance:p3 = 00, 20, 0
+  distance:p3 = 00, 0, 0
+  distance:p3 = 00, 24, 0
+  distance:p3 = 00, 0, 0
+  distance:p3 = 00, 28, 0
+  distance:p3 = 00, 0, 0
+  distance:p3 = 00, 32, 0
+  distance:p3 = 00, 0, 0
+  distance:p3 = 00, 36, 0
+  distance:p3 = 00, 0, 0
+  distance:p3 = 00, 40, 0
+  distance:p3 = 00, 0, 0
+  distance:p3 = 00, 44, 0
+  distance:p3 = 00, 0, 0
+  distance:p3 = 00, 48, 0
+  distance:p3 = 00, 0, 0
+  distance:p3 = 00, 52, 0
+}
+crosshair_hor_ranges {}
+
+
+//===============================croix Centrale========================
+drawLines{
+	line {
+    line:p4 = -0.4, 0, 0.4, 0 
+    move:b = no
+    thousandth:b = true
+  }	line {
+    line:p4 = 0, -0.4, 0, 0.4 
+    move:b = no
+    thousandth:b = true
+  }	line {
+    line:p4 = 0.4, 0.15, 0.4, -0.15 
+    move:b = no
+    thousandth:b = true
+  }	line {
+    line:p4 = 0.15, 0.4, -0.15, 0.4 
+    move:b = no
+    thousandth:b = true
+  }	line {
+    line:p4 = -0.4, 0.15, -0.4, -0.15 
+    move:b = no
+    thousandth:b = true
+  }	line {
+    line:p4 = 0.15, -0.4, -0.15, -0.4 
+    move:b = no
+    thousandth:b = true
+  }
+
+//===============================zone centrale========================
+	line {
+    line:p4 = 0.7, 0.7, 0.7, -0.7 //Carré
+    move:b = no
+    thousandth:b = true
+  }	line {
+    line:p4 = 0.7, -0.7, -0.7, -0.7
+    move:b = no
+    thousandth:b = true
+  }	line {
+    line:p4 = -0.7, -0.7, -0.7, 0.7
+    move:b = no
+    thousandth:b = true
+  }	line {
+    line:p4 = -0.7, 0.7, 0.7, 0.7
+    move:b = no
+    thousandth:b = true
+  }
+	line {
+    line:p4 = 1.1, 0.3, 1.1, -0.3 //correcteurs droite
+    move:b = no
+    thousandth:b = true
+  }	line {
+    line:p4 = 1.5, 0.7, 1.5, -0.7
+    move:b = no
+    thousandth:b = true
+  }	line {
+    line:p4 = 1.9, 0.3, 1.9, -0.3
+    move:b = no
+    thousandth:b = true
+  }	line {
+    line:p4 = 2.3, 0.7, 2.3, -0.7
+    move:b = no
+    thousandth:b = true
+  }	line {
+    line:p4 = 2.7, 0.3, 2.7, -0.3
+    move:b = no
+    thousandth:b = true
+  }	line {
+    line:p4 = 3.1, 0.7, 3.1, -0.7
+    move:b = no
+    thousandth:b = true
+  }
+	line {
+    line:p4 = -1.1, 0.3, -1.1, -0.3 //correcteurs Gauche
+    move:b = no
+    thousandth:b = true
+  }	line {
+    line:p4 = -1.5, 0.7, -1.5, -0.7
+    move:b = no
+    thousandth:b = true
+  }	line {
+    line:p4 = -1.9, 0.3, -1.9, -0.3
+    move:b = no
+    thousandth:b = true
+  }	line {
+    line:p4 = -2.3, 0.7, -2.3, -0.7
+    move:b = no
+    thousandth:b = true
+  }	line {
+    line:p4 = -2.7, 0.3, -2.7, -0.3
+    move:b = no
+    thousandth:b = true
+  }	line {
+    line:p4 = -3.1, 0.7, -3.1, -0.7
+    move:b = no
+    thousandth:b = true
+  }
+	line {
+    line:p4 = -0.3, -1.1, 0.3, -1.1 //correcteurs haut et bas
+    move:b = no
+    thousandth:b = true
+  }	line {
+    line:p4 = -0.7, -1.5, 0.7, -1.5
+    move:b = no
+    thousandth:b = true
+  }	line {
+    line:p4 = -0.3, 1.1, 0.3, 1.1
+    move:b = no
+    thousandth:b = true
+  }	line {
+    line:p4 = -0.7, 1.5, 0.7, 1.5
+    move:b = no
+    thousandth:b = true
+  }
+//====================== Ligne pointillée verticale========================
+	line {
+    line:p4 = 0, 1.85, 0, 3 //200
+    move:b = no
+    thousandth:b = true
+  }	line {
+    line:p4 = 0, 3.7, 0, 4.7 //400
+    move:b = no
+    thousandth:b = true
+  }	line {
+    line:p4 = 0, 5.5, 0, 6.7 //600
+    move:b = no
+    thousandth:b = true
+  }	line {
+    line:p4 = 0, 7.45, 0, 8.7 //800
+    move:b = no
+    thousandth:b = true
+  }	line {
+    line:p4 = 0, 9.45, 0, 10.7 //1000
+    move:b = no
+    thousandth:b = true
+  }	line {
+    line:p4 = 0, 11.55, 0, 12.8 //1200
+    move:b = no
+    thousandth:b = true
+  }	line {
+    line:p4 = 0, 13.75, 0, 15.1 //1400
+    move:b = no
+    thousandth:b = true
+  }	line {
+    line:p4 = 0, 16, 0, 17.4 //1600
+    move:b = no
+    thousandth:b = true
+  }	line {
+    line:p4 = 0, 18.3, 0, 19.8 //1800
+    move:b = no
+    thousandth:b = true
+  }	line {
+    line:p4 = 0, 20.8, 0, 22.3 //2000
+    move:b = no
+    thousandth:b = true
+  }	line {
+    line:p4 = 0, 23.4, 0, 25 //2200
+    move:b = no
+    thousandth:b = true
+  }	line {
+    line:p4 = 0, 26.1, 0, 28 //2400
+    move:b = no
+    thousandth:b = true
+  }
+
+//====================== Ligne pointillée verticale========================
+	line {
+    line:p4 = 2.3, 1.85, 4.7, 1.85 //200-D1
+    move:b = no
+    thousandth:b = true
+  }	line {
+    line:p4 = -2.3, 1.85, -4.7, 1.85 //200-G1
+    move:b = no
+    thousandth:b = true
+  }	line {
+    line:p4 = 2.3, 3.7, 4.7, 3.7 //400-D1
+    move:b = no
+    thousandth:b = true
+  }	line {
+    line:p4 = 7.1, 3.7, 9.5, 3.7 //400-D2
+    move:b = no
+    thousandth:b = true
+  }	line {
+    line:p4 = -2.3, 3.7, -4.7, 3.7 //400-G1
+    move:b = no
+    thousandth:b = true
+  }	line {
+    line:p4 = -7.1, 3.7, -9.5, 3.7 //400-G2
+    move:b = no
+    thousandth:b = true
+  }	line {
+    line:p4 = 2.3, 5.5, 4.7, 5.5 //600-D1
+    move:b = no
+    thousandth:b = true
+  }	line {
+    line:p4 = 7.1, 5.5, 9.5, 5.5 //600-D2
+    move:b = no
+    thousandth:b = true
+  }	line {
+    line:p4 = -2.3, 5.5, -4.7, 5.5 //600-G1
+    move:b = no
+    thousandth:b = true
+  }	line {
+    line:p4 = -7.1, 5.5, -9.5, 5.5 //600-G2
+    move:b = no
+    thousandth:b = true
+  }	line {
+    line:p4 = 2.3, 7.45, 4.7, 7.45 //800-D1
+    move:b = no
+    thousandth:b = true
+  }	line {
+    line:p4 = 7.1, 7.45, 9.5, 7.45 //800-D2
+    move:b = no
+    thousandth:b = true
+  }	line {
+    line:p4 = -2.3, 7.45, -4.7, 7.45 //800-G1
+    move:b = no
+    thousandth:b = true
+  }	line {
+    line:p4 = -7.1, 7.45, -9.5, 7.45 //800-G2
+    move:b = no
+    thousandth:b = true
+  }	line {
+    line:p4 = 2.3, 9.45, 4.7, 9.45 //1000-D1
+    move:b = no
+    thousandth:b = true
+  }	line {
+    line:p4 = 7.1, 9.45, 9.5, 9.45 //1000-D2
+    move:b = no
+    thousandth:b = true
+  }	line {
+    line:p4 = -2.3, 9.45, -4.7, 9.45 //1000-G1
+    move:b = no
+    thousandth:b = true
+  }	line {
+    line:p4 = -7.1, 9.45, -9.5, 9.45 //1000-G2
+    move:b = no
+    thousandth:b = true
+  }	line {
+    line:p4 = 2.3, 11.55, 4.7, 11.55 //1200-D1
+    move:b = no
+    thousandth:b = true
+  }	line {
+    line:p4 = 7.1, 11.55, 9.5, 11.55 //1200-D2
+    move:b = no
+    thousandth:b = true
+  }	line {
+    line:p4 = -2.3, 11.55, -4.7, 11.55 //1200-G1
+    move:b = no
+    thousandth:b = true
+  }	line {
+    line:p4 = -7.1, 11.55, -9.5, 11.55 //1200-G2
+    move:b = no
+    thousandth:b = true
+  }	line {
+    line:p4 = 2.3, 13.75, 4.7, 13.75 //1400-D1
+    move:b = no
+    thousandth:b = true
+  }	line {
+    line:p4 = 7.1, 13.75, 9.5, 13.75 //1400-D2
+    move:b = no
+    thousandth:b = true
+  }	line {
+    line:p4 = -2.3, 13.75, -4.7, 13.75 //1400-G1
+    move:b = no
+    thousandth:b = true
+  }	line {
+    line:p4 = -7.1, 13.75, -9.5, 13.75 //1400-G2
+    move:b = no
+    thousandth:b = true
+  }	line {
+    line:p4 = 2.3, 16, 4.7, 16 //1600-D1
+    move:b = no
+    thousandth:b = true
+  }	line {
+    line:p4 = 7.1, 16, 9.5, 16 //1600-D2
+    move:b = no
+    thousandth:b = true
+  }	line {
+    line:p4 = -2.3, 16, -4.7, 16 //1600-G1
+    move:b = no
+    thousandth:b = true
+  }	line {
+    line:p4 = -7.1, 16, -9.5, 16 //1600-G2
+    move:b = no
+    thousandth:b = true
+  }	line {
+    line:p4 = 2.3, 18.3, 4.7, 18.3 //1800-D1
+    move:b = no
+    thousandth:b = true
+  }	line {
+    line:p4 = 7.1, 18.3, 9.5, 18.3 //1800-D2
+    move:b = no
+    thousandth:b = true
+  }	line {
+    line:p4 = -2.3, 18.3, -4.7, 18.3 //1800-G1
+    move:b = no
+    thousandth:b = true
+  }	line {
+    line:p4 = -7.1, 18.3, -9.5, 18.3 //1800-G2
+    move:b = no
+    thousandth:b = true
+  }	line {
+    line:p4 = 2.3, 20.8, 4.7, 20.8 //2000-D1
+    move:b = no
+    thousandth:b = true
+  }	line {
+    line:p4 = 7.1, 20.8, 9.5, 20.8 //2000-D2
+    move:b = no
+    thousandth:b = true
+  }	line {
+    line:p4 = -2.3, 20.8, -4.7, 20.8 //2000-G1
+    move:b = no
+    thousandth:b = true
+  }	line {
+    line:p4 = -7.1, 20.8, -9.5, 20.8 //2000-G2
+    move:b = no
+    thousandth:b = true
+  }	line {
+    line:p4 = 2.3, 23.4, 4.7, 23.4 //2200-D1
+    move:b = no
+    thousandth:b = true
+  }	line {
+    line:p4 = 7.1, 23.4, 9.5, 23.4 //2200-D2
+    move:b = no
+    thousandth:b = true
+  }	line {
+    line:p4 = -2.3, 23.4, -4.7, 23.4 //2200-G1
+    move:b = no
+    thousandth:b = true
+  }	line {
+    line:p4 = -7.1, 23.4, -9.5, 23.4 //2200-G2
+    move:b = no
+    thousandth:b = true
+  }	line {
+    line:p4 = 2.3, 26.1, 4.7, 26.1 //2400-D1
+    move:b = no
+    thousandth:b = true
+  }	line {
+    line:p4 = 7.1, 26.1, 9.5, 26.1 //2400-D2
+    move:b = no
+    thousandth:b = true
+  }	line {
+    line:p4 = -2.3, 26.1, -4.7, 26.1 //2400-G1
+    move:b = no
+    thousandth:b = true
+  }	line {
+    line:p4 = -7.1, 26.1, -9.5, 26.1 //2400-G2
+    move:b = no
+    thousandth:b = true
+  }
+}
+drawTexts {
+// ==================distances principales==================
+  text { 
+    text:t = "2"
+    align:i = 0
+    pos:p2 = 5.6, 1.85
+    move:b = false
+    highlight:b=yes
+    thousandth:b = yes
+    size:r = 0.6
+  }   text { 
+    text:t = "4"
+    align:i = 0
+    pos:p2 = 11, 3.7
+    move:b = false
+    highlight:b=yes
+    thousandth:b = yes
+    size:r = 0.6
+  }  text { 
+    text:t = "6"
+    align:i = 0
+    pos:p2 = 11, 5.5
+    move:b = false
+    highlight:b=yes
+    thousandth:b = yes
+    size:r = 0.6
+  }  text {
+    text:t = "8"
+    align:i = 0
+    pos:p2 = 11, 7.45
+    move:b = false
+    highlight:b=yes
+    thousandth:b = yes
+    size:r = 0.6
+  }  text {
+    text:t = "10"
+    align:i = 0
+    pos:p2 = 10.7, 9.45
+    move:b = false
+    highlight:b=yes
+    thousandth:b = yes
+    size:r = 0.6
+  }  text {
+    text:t = "12"
+    align:i = 0
+    pos:p2 = 10.7, 11.55
+    move:b = false
+    highlight:b=yes
+    thousandth:b = yes
+    size:r = 0.6
+  }  text {
+    text:t = "14"
+    align:i = 0
+    pos:p2 = 10.7, 13.75
+    move:b = false
+    highlight:b=yes
+    thousandth:b = yes
+    size:r = 0.6
+  }  text {
+    text:t = "16"
+    align:i = 0
+    pos:p2 = 10.7, 16
+    move:b = false
+    highlight:b=yes
+    thousandth:b = yes
+    size:r = 0.6
+  }  text {
+    text:t = "18"
+    align:i = 0
+    pos:p2 = 10.7, 18.3
+    move:b = false
+    highlight:b=yes
+    thousandth:b = yes
+    size:r = 0.6
+  }  text {
+    text:t = "20"
+    align:i = 0
+    pos:p2 = 10.7, 20.8
+    move:b = false
+    highlight:b=yes
+    thousandth:b = yes
+    size:r = 0.6
+  }  text {
+    text:t = "22"
+    align:i = 0
+    pos:p2 = 10.7, 23.5
+    move:b = false
+    highlight:b=yes
+    thousandth:b = yes
+    size:r = 0.6
+  }  text {
+    text:t = "24"
+    align:i = 0
+    pos:p2 = 10.7, 26.1
+    move:b = false
+    highlight:b=yes
+    thousandth:b = yes
+    size:r = 0.6
+  }  text { 
+    text:t = "2"
+    align:i = 0
+    pos:p2 = -5.6, 1.85
+    move:b = false
+    highlight:b=yes
+    thousandth:b = yes
+    size:r = 0.6
+  }   text { 
+    text:t = "4"
+    align:i = 0
+    pos:p2 = -11, 3.7
+    move:b = false
+    highlight:b=yes
+    thousandth:b = yes
+    size:r = 0.6
+  }  text { 
+    text:t = "6"
+    align:i = 0
+    pos:p2 = -11, 5.5
+    move:b = false
+    highlight:b=yes
+    thousandth:b = yes
+    size:r = 0.6
+  }  text {
+    text:t = "8"
+    align:i = 0
+    pos:p2 = -11, 7.45
+    move:b = false
+    highlight:b=yes
+    thousandth:b = yes
+    size:r = 0.6
+  }  text {
+    text:t = "10"
+    align:i = 0
+    pos:p2 = -10.7, 9.45
+    move:b = false
+    highlight:b=yes
+    thousandth:b = yes
+    size:r = 0.6
+  }  text {
+    text:t = "12"
+    align:i = 0
+    pos:p2 = -10.7, 11.55
+    move:b = false
+    highlight:b=yes
+    thousandth:b = yes
+    size:r = 0.6
+  }  text {
+    text:t = "14"
+    align:i = 0
+    pos:p2 = -10.7, 13.75
+    move:b = false
+    highlight:b=yes
+    thousandth:b = yes
+    size:r = 0.6
+  }  text {
+    text:t = "16"
+    align:i = 0
+    pos:p2 = -10.7, 16
+    move:b = false
+    highlight:b=yes
+    thousandth:b = yes
+    size:r = 0.6
+  }  text {
+    text:t = "18"
+    align:i = 0
+    pos:p2 = -10.7, 18.3
+    move:b = false
+    highlight:b=yes
+    thousandth:b = yes
+    size:r = 0.6
+  }  text {
+    text:t = "20"
+    align:i = 0
+    pos:p2 = -10.7, 20.8
+    move:b = false
+    highlight:b=yes
+    thousandth:b = yes
+    size:r = 0.6
+  }  text {
+    text:t = "22"
+    align:i = 0
+    pos:p2 = -10.7, 23.5
+    move:b = false
+    highlight:b=yes
+    thousandth:b = yes
+    size:r = 0.6
+  }  text {
+    text:t = "24"
+    align:i = 0
+    pos:p2 = -10.7, 26.1
+    move:b = false
+    highlight:b=yes
+    thousandth:b = yes
+    size:r = 0.6
+  }
+//===========================correcteurs centraux=========================
+  text {
+    text:t = "4"
+    align:i = 0
+    pos:p2 = 1.5, -1
+    move:b = false
+    highlight:b=yes
+    thousandth:b = yes
+    size:r = 0.45
+  }   text {
+    text:t = "4"
+    align:i = 0
+    pos:p2 = -1.5, -1
+    move:b = false
+    highlight:b=yes
+    thousandth:b = yes
+    size:r = 0.45
+  }   text {
+    text:t = "4"
+    align:i = 0
+    pos:p2 = 1, -1.5
+    move:b = false
+    highlight:b=yes
+    thousandth:b = yes
+    size:r = 0.45
+  }   text {
+    text:t = "4"
+    align:i = 0
+    pos:p2 = -1, -1.5
+    move:b = false
+    highlight:b=yes
+    thousandth:b = yes
+    size:r = 0.45
+  }   text {
+    text:t = "8"
+    align:i = 0
+    pos:p2 = 3.1, -1
+    move:b = false
+    highlight:b=yes
+    thousandth:b = yes
+    size:r = 0.45
+  }   text {
+    text:t = "8"
+    align:i = 0
+    pos:p2 = -3.1, -1
+    move:b = false
+    highlight:b=yes
+    thousandth:b = yes
+    size:r = 0.45
+  }
+//==================================textes divers==============================
+   text {
+    text:t = "M 262"
+    align:i = 0
+    pos:p2 = -0.5, 31
+    move:b = false
+    highlight:b=yes
+    thousandth:b = yes
+    size:r = 0.6
+  }
+   text {
+    text:t = "CN.90 F1"
+    align:i = 0
+    pos:p2 = 0, -20
+    move:b = false
+    highlight:b=yes
+    thousandth:b = yes
+    size:r = 0.6
+  } 
+   text {
+    text:t = "OCC Emp-Mle 62"
+    align:i = 0
+    pos:p2 = 0, -18
+    move:b = false
+    highlight:b=yes
+    thousandth:b = yes
+    size:r = 0.6
+  }  
+}

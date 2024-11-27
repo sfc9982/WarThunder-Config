@@ -1,0 +1,370 @@
+thousandth:t = “nato”
+rangefinderProgressBarColor1:c=0, 255, 0, 64
+rangefinderProgressBarColor2:c=255, 255, 255, 64
+rangefinderTextScale:r=0.7
+rangefinderVerticalOffset:r=15
+rangefinderHorizontalOffset:r=5
+fontSizeMult:r=1
+lineSizeMult:r=1.5
+drawCentralLineVert:b=no
+drawCentralLineHorz:b=no
+crosshairDistHorSizeMain:p2=0.03, 0.02
+crosshairDistHorSizeAdditional:p2=0.005, 0.003; move:b=no
+distanceCorrectionPos:p2=-0.2, -0.05
+drawDistanceCorrection:b=yes
+
+ballistics {
+bullet {
+  bulletType:t = "apcbc_tank"
+  speed:r = 618.0
+  drawAdditionalLines:b = no
+  drawDistanceCorrection:b = yes
+  distanceCorrectionPos:p2 = -0.15, -0.15
+  drawUpward:b = no 
+  distancePos:p2 = 0.0, 0.0 
+  textAlign:i = 1
+  textPos:p2 = -0.0, 0.0
+  textShift:r = 0.0
+  crosshairDistHorSizeMain:p2 = 0.0126, 0.0126
+  crosshairDistHorSizeAdditional:p2 = 0.005, 0.003
+  
+  crosshair_distances{
+    //distance:p3 = 1, 0, 0.0126
+    //distance:p3 = 600, 6, 0.0126
+    //distance:p3 = 1000, 10, 0.0126
+    distance:p3 = 1500, 0, 0.0126
+    distance:p3 = 2000, 0, 0.0126
+    distance:p3 = 2500, 0, 0.0126
+    distance:p3 = 3000, 0, 0.0126
+  }
+ }
+ /*
+ bullet {
+  bulletType:t = "ap_tank"
+  speed:r = 619.0
+  drawAdditionalLines:b = no
+  drawDistanceCorrection:b = yes
+  distanceCorrectionPos:p2 = -0.15, -0.15
+  drawUpward:b = no 
+  distancePos:p2 = 0.0, 0.0 
+  textAlign:i = 1
+  textPos:p2 = -0.012, 0.0
+  textShift:r = 0.0
+  crosshairDistHorSizeMain:p2 = 0.0075, 0.0075
+  crosshairDistHorSizeAdditional:p2 = 0.005, 0.003
+  
+  crosshair_distances{
+    distance:p3 = 1, 0, 0
+    distance:p3 = 600, 0, 0
+    distance:p3 = 1000, 0, 0
+    distance:p3 = 1400, 0, 0
+    distance:p3 = 1800, 0, 0
+    distance:p3 = 2200, 0, 0
+    distance:p3 = 2600, 0, 0
+  }
+ }
+ 
+ bullet {
+  bulletType:t = "he_frag_tank"
+  speed:r = 463.0
+  drawAdditionalLines:b = no
+  drawDistanceCorrection:b = yes
+  distanceCorrectionPos:p2 = -0.15, -0.15
+  drawUpward:b = no 
+  distancePos:p2 = 0.0, 0.0 
+  textAlign:i = 1
+  textPos:p2 = -0.012, 0.0
+  textShift:r = 0.0
+  crosshairDistHorSizeMain:p2 = 0.0075, 0.0075
+  crosshairDistHorSizeAdditional:p2 = 0.005, 0.003
+  
+  crosshair_distances{
+    distance:p3 = 1, 0, 0
+    distance:p3 = 400, 0, 0
+    distance:p3 = 600, 0, 0
+    distance:p3 = 900, 0, 0
+    distance:p3 = 1200, 0, 0
+    distance:p3 = 1600, 0, 0
+    distance:p3 = 1900, 0, 0
+  }
+ }
+ 
+  bullet {
+  triggerGroup:t = "coaxial"
+  bulletType:t = "ap_ball"
+  speed:r = 853.0
+  drawAdditionalLines:b = no
+  drawDistanceCorrection:b = yes
+  distanceCorrectionPos:p2 = -0.15, -0.15
+  drawUpward:b = no 
+  distancePos:p2 = 0.0, 0.0 
+  textAlign:i = 1
+  textPos:p2 = -0.012, 0.0
+  textShift:r = 0.0
+  crosshairDistHorSizeMain:p2 = 0.0075, 0.0075
+  crosshairDistHorSizeAdditional:p2 = 0.005, 0.003
+  
+  crosshair_distances{
+    distance:p3 = 1, 0, 0
+    distance:p3 = 700, 0, 0
+    distance:p3 = 1000, 0, 0
+    distance:p3 = 1200, 0, 0
+    distance:p3 = 1400, 0, 0
+    distance:p3 = 1600, 0, 0
+    distance:p3 = 1800, 0, 0
+  }
+ }
+ */
+ 
+  bullet {
+  bulletType:t = "he_frag_tank"
+  speed:r = 463.0
+  drawAdditionalLines:b = no
+  drawDistanceCorrection:b = yes
+  distanceCorrectionPos:p2 = -0.15, -0.15
+  drawUpward:b = no 
+  distancePos:p2 = 0.0, -0.0
+  textAlign:i = 1
+  textPos:p2 = -0.012, 0.0
+  textShift:r = 0.0
+  crosshairDistHorSizeMain:p2 = 0.3, 0.3
+  crosshairDistHorSizeAdditional:p2 = 0.005, 0.003
+  
+  radial:b = yes
+  circleMode:b = yes
+  move:b = yes
+  radialStretch:r = 1.0
+  radialAngle:r = 0.0
+  radialRadius:p2 = 0, 0
+  
+  crosshair_distances{
+    distance:p3 = 10, 0, 0
+  }
+ }
+ 
+  bullet {
+  bulletType:t = "he_frag_tank"
+  speed:r = 463.0
+  drawAdditionalLines:b = no
+  drawDistanceCorrection:b = yes
+  distanceCorrectionPos:p2 = -0.15, -0.15
+  drawUpward:b = no 
+  distancePos:p2 = 0.0, -0.0
+  textAlign:i = 1
+  textPos:p2 = -0.012, 0.0
+  textShift:r = 0.0
+  crosshairDistHorSizeMain:p2 = 0.4, 0.4
+  crosshairDistHorSizeAdditional:p2 = 0.005, 0.003
+  
+  radial:b = yes
+  circleMode:b = yes
+  move:b = yes
+  radialStretch:r = 1.0
+  radialAngle:r = 0.0
+  radialRadius:p2 = 0, 0
+  
+  crosshair_distances{
+    distance:p3 = 10, 0, 0
+  }
+ }
+ 
+  bullet {
+  bulletType:t = "he_frag_tank"
+  speed:r = 463.0
+  drawAdditionalLines:b = no
+  drawDistanceCorrection:b = yes
+  distanceCorrectionPos:p2 = -0.15, -0.15
+  drawUpward:b = no 
+  distancePos:p2 = 0.0, -0.0
+  textAlign:i = 1
+  textPos:p2 = -0.012, 0.0
+  textShift:r = 0.0
+  crosshairDistHorSizeMain:p2 = 0.5, 0.5
+  crosshairDistHorSizeAdditional:p2 = 0.005, 0.003
+  
+  radial:b = yes
+  circleMode:b = yes
+  move:b = yes
+  radialStretch:r = 1.0
+  radialAngle:r = 0.0
+  radialRadius:p2 = 0, 0
+  
+  crosshair_distances{
+    distance:p3 = 10, 0, 0
+  }
+ }
+ 
+  bullet {
+  bulletType:t = "he_frag_tank"
+  speed:r = 463.0
+  drawAdditionalLines:b = no
+  drawDistanceCorrection:b = yes
+  distanceCorrectionPos:p2 = -0.15, -0.15
+  drawUpward:b = no 
+  distancePos:p2 = 0.0, -0.0
+  textAlign:i = 1
+  textPos:p2 = -0.012, 0.0
+  textShift:r = 0.0
+  crosshairDistHorSizeMain:p2 = 0.6, 0.6
+  crosshairDistHorSizeAdditional:p2 = 0.005, 0.003
+  
+  radial:b = yes
+  circleMode:b = yes
+  move:b = yes
+  radialStretch:r = 1.0
+  radialAngle:r = 0.0
+  radialRadius:p2 = 0, 0
+  
+  crosshair_distances{
+    distance:p3 = 10, 0, 0
+  }
+ }
+ 
+  
+ 
+ bullet {
+  bulletType:t = "he_frag_tank"
+  speed:r = 463.0
+  drawAdditionalLines:b = no
+  drawDistanceCorrection:b = yes
+  distanceCorrectionPos:p2 = -0.15, -0.15
+  drawUpward:b = no 
+  distancePos:p2 = 0.0, -0.0
+  textAlign:i = 1
+  textPos:p2 = -0.012, 0.0
+  textShift:r = 0.0
+  crosshairDistHorSizeMain:p2 = 0.1, 0.35
+  crosshairDistHorSizeAdditional:p2 = 0.005, 0.003
+  
+  radial:b = yes
+  circleMode:b = yes
+  move:b = yes
+  radialStretch:r = 1.0
+  radialAngle:r = 0.0
+  radialRadius:p2 = 0, 0
+  
+  crosshair_distances{
+    distance:p3 = 10, 0, 0
+  }
+ }
+ 
+ 
+ bullet {
+  bulletType:t = "he_frag_tank"
+  speed:r = 463.0
+  drawAdditionalLines:b = no
+  drawDistanceCorrection:b = yes
+  distanceCorrectionPos:p2 = -0.15, -0.15
+  drawUpward:b = no 
+  distancePos:p2 = 0.0, -0.02
+  textAlign:i = 1
+  textPos:p2 = -0.012, 0.0
+  textShift:r = 0.0
+  crosshairDistHorSizeMain:p2 = 0.1, 0.25
+  crosshairDistHorSizeAdditional:p2 = 0.005, 0.003
+  
+  radial:b = yes
+  circleMode:b = yes
+  move:b = yes
+  radialStretch:r = 1.0
+  radialAngle:r = 0.0
+  radialRadius:p2 = 0, 0
+  
+  crosshair_distances{
+    distance:p3 = 10, 0, 0
+  }
+ }
+ 
+  
+ bullet {
+  bulletType:t = "he_frag_tank"
+  speed:r = 463.0
+  drawAdditionalLines:b = no
+  drawDistanceCorrection:b = yes
+  distanceCorrectionPos:p2 = -0.15, -0.15
+  drawUpward:b = no 
+  distancePos:p2 = 0.0, -0.02
+  textAlign:i = 1
+  textPos:p2 = -0.012, 0.0
+  textShift:r = 0.0
+  crosshairDistHorSizeMain:p2 = 0.1, 0.20
+  crosshairDistHorSizeAdditional:p2 = 0.005, 0.003
+  
+  radial:b = yes
+  circleMode:b = yes
+  move:b = yes
+  radialStretch:r = 1.0
+  radialAngle:r = 0.0
+  radialRadius:p2 = 0, 0
+  
+  crosshair_distances{
+    distance:p3 = 10, 0, 0
+  }
+ }
+}
+
+crosshair_distances{
+}
+
+crosshair_hor_ranges{
+  /*range:p2=-20, 20
+  range:p2=-15, 15
+  range:p2=-10, 10
+  range:p2=-5, 5
+  range:p2=5, 5
+  range:p2=10, 10
+  range:p2=15, 15
+  range:p2=20, 20*/
+}
+
+drawCircles{
+    circle{
+      segment:p2 = 0.0, 360.0
+      pos:p2 = 0.0, 8.0
+      diameter:r = 10.0
+      size:r = 1.5
+      move:b = yes
+      thousandth:b = yes
+    }
+	
+	circle{
+      segment:p2 = 0.0, 360.0
+      pos:p2 = 0.0, 8.0
+      diameter:r = 0.5
+      size:r = 1.5
+      move:b = yes
+      thousandth:b = yes
+    }
+	
+	circle{
+      segment:p2 = 0.0, 360.0
+      pos:p2 = 0.0, 0.0
+      diameter:r = 0.5
+      size:r = 1.5
+      move:b = yes
+      thousandth:b = yes
+    }
+	
+	circle{
+      segment:p2 = 0.0, 360.0
+      pos:p2 = 0.0, 13.5
+      diameter:r = 0.5
+      size:r = 1.5
+      move:b = yes
+      thousandth:b = yes
+    }
+  }
+
+drawLines{
+  line{
+    line:p4=10, 8.7, 20, 8.7
+    move:b=yes
+	thousandth:b = yes
+  }
+  
+  line{
+    line:p4=-10, 8.7, -20, 8.7
+    move:b=yes
+	thousandth:b = yes
+  }
+}
