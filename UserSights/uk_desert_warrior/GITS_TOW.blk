@@ -1,0 +1,24 @@
+thousandth:t = “nato”
+rangefinderProgressBarColor1:c=0, 0, 0, 0
+rangefinderProgressBarColor2:c=0, 0, 0, 64
+rangefinderTextScale:r=0.0001
+rangefinderVerticalOffset:r=0.04
+rangefinderHorizontalOffset:r=5
+fontSizeMult:r=1.3
+lineSizeMult:r=1.5
+drawCentralLineVert:b=yes
+drawCentralLineHorz:b=yes
+crosshairDistHorSizeMain:p2=0.03, 0.02
+crosshairDistHorSizeAdditional:p2=0.005, 0.003; move:b=no
+distanceCorrectionPos:p2=-0.2, -0.05
+crosshairColor:c=145, 255, 141, 255
+crosshairLightColor:c=145, 255, 141, 255
+drawDistanceCorrection:b=no
+applyCorrectionToGun:b=no
+
+crosshair_distances{
+}
+
+crosshair_hor_ranges{
+}
+

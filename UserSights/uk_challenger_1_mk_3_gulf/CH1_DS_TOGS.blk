@@ -1,0 +1,1657 @@
+// TOGS SIGHT CHALLENGER 1 DS
+
+// general
+crosshairColor:c=0, 225, 0, 255
+crosshairLightColor:c=0, 225, 0, 255
+thousandth:t = "real"
+fontSizeMult:r = 1
+lineSizeMult:r = 2.5
+applyCorrectionToGun:b = yes
+drawCentralLineVert:b = no
+drawCentralLineHorz:b = no
+
+// rangefinder
+rangefinderHorizontalOffset:r = 114
+rangefinderVerticalOffset:r = -30.55
+rangefinderProgressBarColor1:c = 0,255,0,0
+rangefinderProgressBarColor2:c = 0,0,0,0
+rangefinderTextScale:r = 0.0001
+rangefinderUseThousandth:b = yes
+
+// horizontal range indicators
+crosshairHorVertSize:p2 = 3.055,2
+crosshair_hor_ranges {
+}
+
+// ballistic range indicators
+drawUpward:b = yes
+distancePos:p2 = 0,0
+move:b = yes
+radial:b = yes
+circleMode:b = yes
+crosshairDistHorSizeMain:p2 = 1,0
+textPos:p2 = 0,0
+textAlign:i = 0
+textShift:r = 0.2
+drawAdditionalLines:b = yes
+crosshairDistHorSizeAdditional:p2 = 0.005,0.003
+radialStretch:r = 1
+radialAngle:r = 1
+radialRadius:p2 = 20,1
+drawDistanceCorrection:b = no
+distanceCorrectionPos:p2 = 0.0655, 0.260
+
+drawSightMask:b=yes   	
+
+crosshair_distances 
+{
+}
+
+
+
+
+drawQuads {
+// SMALL RECTANGLE ON TOP
+    quad {  // Simple fixed quadrangle
+      tl:p2 = 3, -36.7; // Top left top
+      tr:p2 = -3, -36.7; // Top right top
+      br:p2 = -3, -37; // Top right bottom
+      bl:p2 = 3, -37; // Top left bottom
+      thousandth:b = true;
+    }
+
+    quad {  // Simple fixed quadrangle
+      tl:p2 = 3, -34.8; // Top left top
+      tr:p2 = -3, -34.8; // Top right top
+      br:p2 = -3, -34.5; // Top right bottom
+      bl:p2 = 3, -34.5; // Top left bottom
+      thousandth:b = true;
+    }
+
+    quad {  // Simple fixed quadrangle
+      tl:p2 = 2, -37; // Top left top
+      tr:p2 = 3, -37; // Top right top
+      br:p2 = 3, -34.5; // Top right bottom
+      bl:p2 = 2, -34.5; // Top left bottom
+      thousandth:b = true;
+    }
+
+    quad {  // Simple fixed quadrangle
+      tl:p2 = -2, -37; // Top left top
+      tr:p2 = -3, -37; // Top right top
+      br:p2 = -3, -34.5; // Top right bottom
+      bl:p2 = -2, -34.5; // Top left bottom
+      thousandth:b = true;
+    }
+}
+
+
+
+drawTexts {  
+// BLACK BACKGROUND 
+//// RIGHT SIDE
+     text {
+     text:t = "["
+     thousandth:b = yes
+     highlight:b = no
+     pos:p2 = 49.4, -30.0
+     align:i = 0
+     size:r = 12
+   } 
+     text {
+     text:t = "["
+     thousandth:b = yes
+     highlight:b = no
+     pos:p2 = 49.4, -20.0
+     align:i = 0
+     size:r = 12
+   } 
+     text {
+     text:t = "["
+     thousandth:b = yes
+     highlight:b = no
+     pos:p2 = 49.4, -10.0
+     align:i = 0
+     size:r = 12
+   } 
+     text {
+     text:t = "["
+     thousandth:b = yes
+     highlight:b = no
+     pos:p2 = 49.4, 0.0
+     align:i = 0
+     size:r = 12
+   } 
+     text {
+     text:t = "["
+     thousandth:b = yes
+     highlight:b = no
+     pos:p2 = 49.4, 10.0
+     align:i = 0
+     size:r = 12
+   } 
+     text {
+     text:t = "["
+     thousandth:b = yes
+     highlight:b = no
+     pos:p2 = 49.4, 20.0
+     align:i = 0
+     size:r = 12
+   } 
+     text {
+     text:t = "["
+     thousandth:b = yes
+     highlight:b = no
+     pos:p2 = 49.4, 30.0
+     align:i = 0
+     size:r = 12
+   } 
+
+///======
+
+     text {
+     text:t = "〓"
+     thousandth:b = yes
+     highlight:b = no
+     pos:p2 = 59.5, -5
+     align:i = 0
+     size:r = 15
+   } 
+     text {
+     text:t = "〓"
+     thousandth:b = yes
+     highlight:b = no
+     pos:p2 = 59.5, 0
+     align:i = 0
+     size:r = 15
+   } 
+     text {
+     text:t = "〓"
+     thousandth:b = yes
+     highlight:b = no
+     pos:p2 = 59.5, 5
+     align:i = 0
+     size:r = 15
+   } 
+       text {
+     text:t = "〓"
+     thousandth:b = yes
+     highlight:b = no
+     pos:p2 = 59.5, -10
+     align:i = 0
+     size:r = 15
+   } 
+     text {
+     text:t = "〓"
+     thousandth:b = yes
+     highlight:b = no
+     pos:p2 = 59.5, 10
+     align:i = 0
+     size:r = 15
+   } 
+     text {
+     text:t = "〓"
+     thousandth:b = yes
+     highlight:b = no
+     pos:p2 = 59.5, -15
+     align:i = 0
+     size:r = 15
+   } 
+     text {
+     text:t = "〓"
+     thousandth:b = yes
+     highlight:b = no
+     pos:p2 = 59.5, 15
+     align:i = 0
+     size:r = 15
+   } 
+     text {
+     text:t = "〓"
+     thousandth:b = yes
+     highlight:b = no
+     pos:p2 = 59.5, -20
+     align:i = 0
+     size:r = 15
+   } 
+     text {
+     text:t = "〓"
+     thousandth:b = yes
+     highlight:b = no
+     pos:p2 = 59.5, 20
+     align:i = 0
+     size:r = 15
+   } 
+     text {
+     text:t = "〓"
+     thousandth:b = yes
+     highlight:b = no
+     pos:p2 = 59.5, -25
+     align:i = 0
+     size:r = 15
+   } 
+     text {
+     text:t = "〓"
+     thousandth:b = yes
+     highlight:b = no
+     pos:p2 = 59.5, 25
+     align:i = 0
+     size:r = 15
+   } 
+     text {
+     text:t = "〓"
+     thousandth:b = yes
+     highlight:b = no
+     pos:p2 = 59.5, -30
+     align:i = 0
+     size:r = 15
+   } 
+     text {
+     text:t = "〓"
+     thousandth:b = yes
+     highlight:b = no
+     pos:p2 = 59.5, 30
+     align:i = 0
+     size:r = 15
+   }  
+     text {
+     text:t = "〓"
+     thousandth:b = yes
+     highlight:b = no
+     pos:p2 = 59.5, -35
+     align:i = 0
+     size:r = 15
+   } 
+     text {
+     text:t = "〓"
+     thousandth:b = yes
+     highlight:b = no
+     pos:p2 = 59.5, 35
+     align:i = 0
+     size:r = 15
+   }  
+     text {
+     text:t = "〓"
+     thousandth:b = yes
+     highlight:b = no
+     pos:p2 = 59.5, -40
+     align:i = 0
+     size:r = 15
+   } 
+     text {
+     text:t = "〓"
+     thousandth:b = yes
+     highlight:b = no
+     pos:p2 = 59.5, 40
+     align:i = 0
+     size:r = 15
+   }  
+     text {
+     text:t = "〓"
+     thousandth:b = yes
+     highlight:b = no
+     pos:p2 = 73.5, -5
+     align:i = 0
+     size:r = 15
+   } 
+     text {
+     text:t = "〓"
+     thousandth:b = yes
+     highlight:b = no
+     pos:p2 = 73.5, 0
+     align:i = 0
+     size:r = 15
+   } 
+     text {
+     text:t = "〓"
+     thousandth:b = yes
+     highlight:b = no
+     pos:p2 = 73.5, 5
+     align:i = 0
+     size:r = 15
+   } 
+     text {
+     text:t = "〓"
+     thousandth:b = yes
+     highlight:b = no
+     pos:p2 = 73.5, -10
+     align:i = 0
+     size:r = 15
+   } 
+     text {
+     text:t = "〓"
+     thousandth:b = yes
+     highlight:b = no
+     pos:p2 = 73.5, 10
+     align:i = 0
+     size:r = 15
+   } 
+     text {
+     text:t = "〓"
+     thousandth:b = yes
+     highlight:b = no
+     pos:p2 = 73.5, -15
+     align:i = 0
+     size:r = 15
+   } 
+     text {
+     text:t = "〓"
+     thousandth:b = yes
+     highlight:b = no
+     pos:p2 = 73.5, 15
+     align:i = 0
+     size:r = 15
+   } 
+     text {
+     text:t = "〓"
+     thousandth:b = yes
+     highlight:b = no
+     pos:p2 = 73.5, -20
+     align:i = 0
+     size:r = 15
+   } 
+     text {
+     text:t = "〓"
+     thousandth:b = yes
+     highlight:b = no
+     pos:p2 = 73.5, 20
+     align:i = 0
+     size:r = 15
+   } 
+     text {
+     text:t = "〓"
+     thousandth:b = yes
+     highlight:b = no
+     pos:p2 = 86.5, -5
+     align:i = 0
+     size:r = 15
+   } 
+
+     text {
+     text:t = "〓"
+     thousandth:b = yes
+     highlight:b = no
+     pos:p2 = 86.5, 0
+     align:i = 0
+     size:r = 15
+   } 
+     text {
+     text:t = "〓"
+     thousandth:b = yes
+     highlight:b = no
+     pos:p2 = 86.5, 5
+     align:i = 0
+     size:r = 15
+   } 
+     text {
+     text:t = "〓"
+     thousandth:b = yes
+     highlight:b = no
+     pos:p2 = 86.5, -10
+     align:i = 0
+     size:r = 15
+   } 
+     text {
+     text:t = "〓"
+     thousandth:b = yes
+     highlight:b = no
+     pos:p2 = 86.5, 10
+     align:i = 0
+     size:r = 15
+   } 
+     text {
+     text:t = "〓"
+     thousandth:b = yes
+     highlight:b = no
+     pos:p2 = 86.5, -15
+     align:i = 0
+     size:r = 15
+   } 
+     text {
+     text:t = "〓"
+     thousandth:b = yes
+     highlight:b = no
+     pos:p2 = 86.5, 15
+     align:i = 0
+     size:r = 15
+   } 
+     text {
+     text:t = "〓"
+     thousandth:b = yes
+     highlight:b = no
+     pos:p2 = 86.5, -20
+     align:i = 0
+     size:r = 15
+   } 
+     text {
+     text:t = "〓"
+     thousandth:b = yes
+     highlight:b = no
+     pos:p2 = 86.5, 20
+     align:i = 0
+     size:r = 15
+   } 
+      text {
+     text:t = "〓"
+     thousandth:b = yes
+     highlight:b = no
+     pos:p2 = 99.5, -5
+     align:i = 0
+     size:r = 15
+   } 
+
+     text {
+     text:t = "〓"
+     thousandth:b = yes
+     highlight:b = no
+     pos:p2 = 99.5, 0
+     align:i = 0
+     size:r = 15
+   } 
+     text {
+     text:t = "〓"
+     thousandth:b = yes
+     highlight:b = no
+     pos:p2 = 99.5, 5
+     align:i = 0
+     size:r = 15
+   } 
+     text {
+     text:t = "〓"
+     thousandth:b = yes
+     highlight:b = no
+     pos:p2 = 99.5, -10
+     align:i = 0
+     size:r = 15
+   } 
+     text {
+     text:t = "〓"
+     thousandth:b = yes
+     highlight:b = no
+     pos:p2 = 99.5, 10
+     align:i = 0
+     size:r = 15
+   } 
+     text {
+     text:t = "〓"
+     thousandth:b = yes
+     highlight:b = no
+     pos:p2 = 99.5, -15
+     align:i = 0
+     size:r = 15
+   } 
+     text {
+     text:t = "〓"
+     thousandth:b = yes
+     highlight:b = no
+     pos:p2 = 99.5, 15
+     align:i = 0
+     size:r = 15
+   } 
+     text {
+     text:t = "〓"
+     thousandth:b = yes
+     highlight:b = no
+     pos:p2 = 99.5, -20
+     align:i = 0
+     size:r = 15
+   } 
+     text {
+     text:t = "〓"
+     thousandth:b = yes
+     highlight:b = no
+     pos:p2 = 99.5, 20
+     align:i = 0
+     size:r = 15
+   } 
+
+
+
+
+
+
+
+
+
+//// LEFT SIDE
+     text {
+     text:t = "]"
+     thousandth:b = yes
+     highlight:b = no
+     pos:p2 = -49.4, -30.0
+     align:i = 0
+     size:r = 12
+   } 
+     text {
+     text:t = "]"
+     thousandth:b = yes
+     highlight:b = no
+     pos:p2 = -49.4, -20.0
+     align:i = 0
+     size:r = 12
+   } 
+     text {
+     text:t = "]"
+     thousandth:b = yes
+     highlight:b = no
+     pos:p2 = -49.4, -10.0
+     align:i = 0
+     size:r = 12
+   } 
+     text {
+     text:t = "]"
+     thousandth:b = yes
+     highlight:b = no
+     pos:p2 = -49.4, 0.0
+     align:i = 0
+     size:r = 12
+   } 
+     text {
+     text:t = "]"
+     thousandth:b = yes
+     highlight:b = no
+     pos:p2 = -49.4, 10.0
+     align:i = 0
+     size:r = 12
+   } 
+     text {
+     text:t = "]"
+     thousandth:b = yes
+     highlight:b = no
+     pos:p2 = -49.4, 20.0
+     align:i = 0
+     size:r = 12
+   } 
+     text {
+     text:t = "]"
+     thousandth:b = yes
+     highlight:b = no
+     pos:p2 = -49.4, 30.0
+     align:i = 0
+     size:r = 12
+   } 
+
+///======
+
+     text {
+     text:t = "〓"
+     thousandth:b = yes
+     highlight:b = no
+     pos:p2 = -59.5, -5
+     align:i = 0
+     size:r = 15
+   } 
+
+     text {
+     text:t = "〓"
+     thousandth:b = yes
+     highlight:b = no
+     pos:p2 = -59.5, 0
+     align:i = 0
+     size:r = 15
+   } 
+     text {
+     text:t = "〓"
+     thousandth:b = yes
+     highlight:b = no
+     pos:p2 = -59.5, 5
+     align:i = 0
+     size:r = 15
+   } 
+     text {
+     text:t = "〓"
+     thousandth:b = yes
+     highlight:b = no
+     pos:p2 = -59.5, -10
+     align:i = 0
+     size:r = 15
+   } 
+     text {
+     text:t = "〓"
+     thousandth:b = yes
+     highlight:b = no
+     pos:p2 = -59.5, 10
+     align:i = 0
+     size:r = 15
+   } 
+     text {
+     text:t = "〓"
+     thousandth:b = yes
+     highlight:b = no
+     pos:p2 = -59.5, -15
+     align:i = 0
+     size:r = 15
+   } 
+     text {
+     text:t = "〓"
+     thousandth:b = yes
+     highlight:b = no
+     pos:p2 = -59.5, 15
+     align:i = 0
+     size:r = 15
+   } 
+     text {
+     text:t = "〓"
+     thousandth:b = yes
+     highlight:b = no
+     pos:p2 = -59.5, -20
+     align:i = 0
+     size:r = 15
+   } 
+     text {
+     text:t = "〓"
+     thousandth:b = yes
+     highlight:b = no
+     pos:p2 = -59.5, 20
+     align:i = 0
+     size:r = 15
+   } 
+    text {
+     text:t = "〓"
+     thousandth:b = yes
+     highlight:b = no
+     pos:p2 = -59.5, -25
+     align:i = 0
+     size:r = 15
+   } 
+     text {
+     text:t = "〓"
+     thousandth:b = yes
+     highlight:b = no
+     pos:p2 = -59.5, 25
+     align:i = 0
+     size:r = 15
+   } 
+    text {
+     text:t = "〓"
+     thousandth:b = yes
+     highlight:b = no
+     pos:p2 = -59.5, -30
+     align:i = 0
+     size:r = 15
+   } 
+     text {
+     text:t = "〓"
+     thousandth:b = yes
+     highlight:b = no
+     pos:p2 = -59.5, 30
+     align:i = 0
+     size:r = 15
+   }   
+     text {
+     text:t = "〓"
+     thousandth:b = yes
+     highlight:b = no
+     pos:p2 = -73.5, -5
+     align:i = 0
+     size:r = 15
+   } 
+
+     text {
+     text:t = "〓"
+     thousandth:b = yes
+     highlight:b = no
+     pos:p2 = -73.5, 0
+     align:i = 0
+     size:r = 15
+   } 
+     text {
+     text:t = "〓"
+     thousandth:b = yes
+     highlight:b = no
+     pos:p2 = -73.5, 5
+     align:i = 0
+     size:r = 15
+   } 
+     text {
+     text:t = "〓"
+     thousandth:b = yes
+     highlight:b = no
+     pos:p2 = -73.5, -10
+     align:i = 0
+     size:r = 15
+   } 
+     text {
+     text:t = "〓"
+     thousandth:b = yes
+     highlight:b = no
+     pos:p2 = -73.5, 10
+     align:i = 0
+     size:r = 15
+   } 
+     text {
+     text:t = "〓"
+     thousandth:b = yes
+     highlight:b = no
+     pos:p2 = -73.5, -15
+     align:i = 0
+     size:r = 15
+   } 
+     text {
+     text:t = "〓"
+     thousandth:b = yes
+     highlight:b = no
+     pos:p2 = -73.5, 15
+     align:i = 0
+     size:r = 15
+   } 
+     text {
+     text:t = "〓"
+     thousandth:b = yes
+     highlight:b = no
+     pos:p2 = -73.5, -20
+     align:i = 0
+     size:r = 15
+   } 
+     text {
+     text:t = "〓"
+     thousandth:b = yes
+     highlight:b = no
+     pos:p2 = -73.5, 20
+     align:i = 0
+     size:r = 15
+   } 
+     text {
+     text:t = "〓"
+     thousandth:b = yes
+     highlight:b = no
+     pos:p2 = -86.5, -5
+     align:i = 0
+     size:r = 15
+   } 
+
+     text {
+     text:t = "〓"
+     thousandth:b = yes
+     highlight:b = no
+     pos:p2 = -86.5, 0
+     align:i = 0
+     size:r = 15
+   } 
+     text {
+     text:t = "〓"
+     thousandth:b = yes
+     highlight:b = no
+     pos:p2 = -86.5, 5
+     align:i = 0
+     size:r = 15
+   } 
+     text {
+     text:t = "〓"
+     thousandth:b = yes
+     highlight:b = no
+     pos:p2 = -86.5, -10
+     align:i = 0
+     size:r = 15
+   } 
+     text {
+     text:t = "〓"
+     thousandth:b = yes
+     highlight:b = no
+     pos:p2 = -86.5, 10
+     align:i = 0
+     size:r = 15
+   } 
+     text {
+     text:t = "〓"
+     thousandth:b = yes
+     highlight:b = no
+     pos:p2 = -86.5, -15
+     align:i = 0
+     size:r = 15
+   } 
+     text {
+     text:t = "〓"
+     thousandth:b = yes
+     highlight:b = no
+     pos:p2 = -86.5, 15
+     align:i = 0
+     size:r = 15
+   } 
+     text {
+     text:t = "〓"
+     thousandth:b = yes
+     highlight:b = no
+     pos:p2 = -86.5, -20
+     align:i = 0
+     size:r = 15
+   } 
+     text {
+     text:t = "〓"
+     thousandth:b = yes
+     highlight:b = no
+     pos:p2 = -86.5, 20
+     align:i = 0
+     size:r = 15
+   } 
+      text {
+     text:t = "〓"
+     thousandth:b = yes
+     highlight:b = no
+     pos:p2 = -99.5, -5
+     align:i = 0
+     size:r = 15
+   } 
+
+     text {
+     text:t = "〓"
+     thousandth:b = yes
+     highlight:b = no
+     pos:p2 = -99.5, 0
+     align:i = 0
+     size:r = 15
+   } 
+     text {
+     text:t = "〓"
+     thousandth:b = yes
+     highlight:b = no
+     pos:p2 = -99.5, 5
+     align:i = 0
+     size:r = 15
+   } 
+     text {
+     text:t = "〓"
+     thousandth:b = yes
+     highlight:b = no
+     pos:p2 = -99.5, -10
+     align:i = 0
+     size:r = 15
+   } 
+     text {
+     text:t = "〓"
+     thousandth:b = yes
+     highlight:b = no
+     pos:p2 = -99.5, 10
+     align:i = 0
+     size:r = 15
+   } 
+     text {
+     text:t = "〓"
+     thousandth:b = yes
+     highlight:b = no
+     pos:p2 = -99.5, -15
+     align:i = 0
+     size:r = 15
+   } 
+     text {
+     text:t = "〓"
+     thousandth:b = yes
+     highlight:b = no
+     pos:p2 = -99.5, 15
+     align:i = 0
+     size:r = 15
+   } 
+     text {
+     text:t = "〓"
+     thousandth:b = yes
+     highlight:b = no
+     pos:p2 = -99.5, -20
+     align:i = 0
+     size:r = 15
+   } 
+     text {
+     text:t = "〓"
+     thousandth:b = yes
+     highlight:b = no
+     pos:p2 = -99.5, 20
+     align:i = 0
+     size:r = 15
+   } 
+
+
+
+
+
+
+
+// BOTTOM
+     text {
+     text:t = "〓"
+     thousandth:b = yes
+     highlight:b = no
+     pos:p2 = -20, 43.4
+     align:i = 0
+     size:r = 35
+   } 
+     text {
+     text:t = "〓"
+     thousandth:b = yes
+     highlight:b = no
+     pos:p2 = 0, 43.4
+     align:i = 0
+     size:r = 35
+   } 
+     text {
+     text:t = "〓"
+     thousandth:b = yes
+     highlight:b = no
+     pos:p2 = 20, 43.4
+     align:i = 0
+     size:r = 35
+   } 
+     text {
+     text:t = "〓"
+     thousandth:b = yes
+     highlight:b = no
+     pos:p2 = -30, 43.4
+     align:i = 0
+     size:r = 35
+   } 
+     text {
+     text:t = "〓"
+     thousandth:b = yes
+     highlight:b = no
+     pos:p2 = 30, 43.4
+     align:i = 0
+     size:r = 35
+   } 
+     text {
+     text:t = "〓"
+     thousandth:b = yes
+     highlight:b = no
+     pos:p2 = -40, 43.4
+     align:i = 0
+     size:r = 35
+   } 
+     text {
+     text:t = "〓"
+     thousandth:b = yes
+     highlight:b = no
+     pos:p2 = 40, 43.4
+     align:i = 0
+     size:r = 35
+   } 
+      text {
+     text:t = "〓"
+     thousandth:b = yes
+     highlight:b = no
+     pos:p2 = -50, 43.6
+     align:i = 0
+     size:r = 35
+   } 
+     text {
+     text:t = "〓"
+     thousandth:b = yes
+     highlight:b = no
+     pos:p2 = 50, 43.6
+     align:i = 0
+     size:r = 35
+   }
+     text {
+     text:t = "〓"
+     thousandth:b = yes
+     highlight:b = no
+     pos:p2 = -60, 43.6
+     align:i = 0
+     size:r = 35
+   } 
+     text {
+     text:t = "〓"
+     thousandth:b = yes
+     highlight:b = no
+     pos:p2 = 60, 43.6
+     align:i = 0
+     size:r = 35
+   }
+     text {
+     text:t = "〓"
+     thousandth:b = yes
+     highlight:b = no
+     pos:p2 = -75, 42.6
+     align:i = 0
+     size:r = 35
+   } 
+     text {
+     text:t = "〓"
+     thousandth:b = yes
+     highlight:b = no
+     pos:p2 = 75, 42.6
+     align:i = 0
+     size:r = 35
+   }
+     text {
+     text:t = "〓"
+     thousandth:b = yes
+     highlight:b = no
+     pos:p2 = -80, 42.6
+     align:i = 0
+     size:r = 35
+   } 
+     text {
+     text:t = "〓"
+     thousandth:b = yes
+     highlight:b = no
+     pos:p2 = 80, 42.6
+     align:i = 0
+     size:r = 35
+   }  
+     text {
+     text:t = "〓"
+     thousandth:b = yes
+     highlight:b = no
+     pos:p2 = -90, 42.6
+     align:i = 0
+     size:r = 35
+   } 
+     text {
+     text:t = "〓"
+     thousandth:b = yes
+     highlight:b = no
+     pos:p2 = 90, 42.6
+     align:i = 0
+     size:r = 35
+    }  
+     text {
+     text:t = "〓"
+     thousandth:b = yes
+     highlight:b = no
+     pos:p2 = -100, 42.6
+     align:i = 0
+     size:r = 35
+   } 
+     text {
+     text:t = "〓"
+     thousandth:b = yes
+     highlight:b = no
+     pos:p2 = 100, 42.6
+     align:i = 0
+     size:r = 35
+   }   
+     text {
+     text:t = "〓"
+     thousandth:b = yes
+     highlight:b = no
+     pos:p2 = -20, 57.6
+     align:i = 0
+     size:r = 35
+   } 
+     text {
+     text:t = "〓"
+     thousandth:b = yes
+     highlight:b = no
+     pos:p2 = 0, 57.6
+     align:i = 0
+     size:r = 35
+   } 
+     text {
+     text:t = "〓"
+     thousandth:b = yes
+     highlight:b = no
+     pos:p2 = 20, 57.6
+     align:i = 0
+     size:r = 35
+   }  
+      text {
+     text:t = "〓"
+     thousandth:b = yes
+     highlight:b = no
+     pos:p2 = -30, 57.6
+     align:i = 0
+     size:r = 35
+   } 
+     text {
+     text:t = "〓"
+     thousandth:b = yes
+     highlight:b = no
+     pos:p2 = 30, 57.6
+     align:i = 0
+     size:r = 35
+   }  
+       text {
+     text:t = "〓"
+     thousandth:b = yes
+     highlight:b = no
+     pos:p2 = -40, 57.6
+     align:i = 0
+     size:r = 35
+   } 
+     text {
+     text:t = "〓"
+     thousandth:b = yes
+     highlight:b = no
+     pos:p2 = 40, 57.6
+     align:i = 0
+     size:r = 35
+   }  
+      text {
+     text:t = "〓"
+     thousandth:b = yes
+     highlight:b = no
+     pos:p2 = -50, 57.6
+     align:i = 0
+     size:r = 35
+   } 
+     text {
+     text:t = "〓"
+     thousandth:b = yes
+     highlight:b = no
+     pos:p2 = 50, 57.6
+     align:i = 0
+     size:r = 35
+   }  
+     text {
+     text:t = "〓"
+     thousandth:b = yes
+     highlight:b = no
+     pos:p2 = -60, 57.6
+     align:i = 0
+     size:r = 35
+   } 
+     text {
+     text:t = "〓"
+     thousandth:b = yes
+     highlight:b = no
+     pos:p2 = 60, 57.6
+     align:i = 0
+     size:r = 35
+   }  
+      text {
+     text:t = "〓"
+     thousandth:b = yes
+     highlight:b = no
+     pos:p2 = -70, 57.6
+     align:i = 0
+     size:r = 35
+   } 
+     text {
+     text:t = "〓"
+     thousandth:b = yes
+     highlight:b = no
+     pos:p2 = 70, 57.6
+     align:i = 0
+     size:r = 35
+   }  
+     text {
+     text:t = "〓"
+     thousandth:b = yes
+     highlight:b = no
+     pos:p2 = -80, 57.6
+     align:i = 0
+     size:r = 35
+   } 
+     text {
+     text:t = "〓"
+     thousandth:b = yes
+     highlight:b = no
+     pos:p2 = 80, 57.6
+     align:i = 0
+     size:r = 35
+   }  
+     text {
+     text:t = "〓"
+     thousandth:b = yes
+     highlight:b = no
+     pos:p2 = -20, 69.6
+     align:i = 0
+     size:r = 35
+   } 
+     text {
+     text:t = "〓"
+     thousandth:b = yes
+     highlight:b = no
+     pos:p2 = 0, 69.6
+     align:i = 0
+     size:r = 35
+   } 
+     text {
+     text:t = "〓"
+     thousandth:b = yes
+     highlight:b = no
+     pos:p2 = 20, 69.6
+     align:i = 0
+     size:r = 35
+   }  
+     text {
+     text:t = "〓"
+     thousandth:b = yes
+     highlight:b = no
+     pos:p2 = -30, 69.6
+     align:i = 0
+     size:r = 35
+   } 
+     text {
+     text:t = "〓"
+     thousandth:b = yes
+     highlight:b = no
+     pos:p2 = 30, 69.6
+     align:i = 0
+     size:r = 35
+   }  
+     text {
+     text:t = "〓"
+     thousandth:b = yes
+     highlight:b = no
+     pos:p2 = -40, 69.6
+     align:i = 0
+     size:r = 35
+   } 
+     text {
+     text:t = "〓"
+     thousandth:b = yes
+     highlight:b = no
+     pos:p2 = 40, 69.6
+     align:i = 0
+     size:r = 35
+   }  
+     text {
+     text:t = "〓"
+     thousandth:b = yes
+     highlight:b = no
+     pos:p2 = -50, 69.6
+     align:i = 0
+     size:r = 35
+   } 
+     text {
+     text:t = "〓"
+     thousandth:b = yes
+     highlight:b = no
+     pos:p2 = 50, 69.6
+     align:i = 0
+     size:r = 35
+   }  
+
+
+
+
+
+
+// TOP
+      text {
+     text:t = "〓"
+     thousandth:b = yes
+     highlight:b = no
+     pos:p2 = -20, -62.1
+     align:i = 0
+     size:r = 35
+   } 
+     text {
+     text:t = "〓"
+     thousandth:b = yes
+     highlight:b = no
+     pos:p2 = 0, -62.1
+     align:i = 0
+     size:r = 35
+   } 
+     text {
+     text:t = "〓"
+     thousandth:b = yes
+     highlight:b = no
+     pos:p2 = 20, -62.1
+     align:i = 0
+     size:r = 35
+   }  
+      text {
+     text:t = "〓"
+     thousandth:b = yes
+     highlight:b = no
+     pos:p2 = -30, -62.1
+     align:i = 0
+     size:r = 35
+   } 
+     text {
+     text:t = "〓"
+     thousandth:b = yes
+     highlight:b = no
+     pos:p2 = 30, -62.1
+     align:i = 0
+     size:r = 35
+   }  
+       text {
+     text:t = "〓"
+     thousandth:b = yes
+     highlight:b = no
+     pos:p2 = -40, -62.1
+     align:i = 0
+     size:r = 35
+   } 
+     text {
+     text:t = "〓"
+     thousandth:b = yes
+     highlight:b = no
+     pos:p2 = 40, -62.1
+     align:i = 0
+     size:r = 35
+   }  
+      text {
+     text:t = "〓"
+     thousandth:b = yes
+     highlight:b = no
+     pos:p2 = -50, -62.1
+     align:i = 0
+     size:r = 35
+   } 
+     text {
+     text:t = "〓"
+     thousandth:b = yes
+     highlight:b = no
+     pos:p2 = 50, -62.1
+     align:i = 0
+     size:r = 35
+   }  
+     text {
+     text:t = "〓"
+     thousandth:b = yes
+     highlight:b = no
+     pos:p2 = -60, -62.1
+     align:i = 0
+     size:r = 35
+   } 
+     text {
+     text:t = "〓"
+     thousandth:b = yes
+     highlight:b = no
+     pos:p2 = 60, -62.1
+     align:i = 0
+     size:r = 35
+   }  
+    text {
+     text:t = "〓"
+     thousandth:b = yes
+     highlight:b = no
+     pos:p2 = -76, -52.6
+     align:i = 0
+     size:r = 35
+   } 
+     text {
+     text:t = "〓"
+     thousandth:b = yes
+     highlight:b = no
+     pos:p2 = 76, -52.6
+     align:i = 0
+     size:r = 35
+   }  
+     text {
+     text:t = "〓"
+     thousandth:b = yes
+     highlight:b = no
+     pos:p2 = -80, -52.6
+     align:i = 0
+     size:r = 35
+   } 
+     text {
+     text:t = "〓"
+     thousandth:b = yes
+     highlight:b = no
+     pos:p2 = 80, -52.6
+     align:i = 0
+     size:r = 35
+   }  
+     text {
+     text:t = "〓"
+     thousandth:b = yes
+     highlight:b = no
+     pos:p2 = -90, -52.6
+     align:i = 0
+     size:r = 35
+   } 
+     text {
+     text:t = "〓"
+     thousandth:b = yes
+     highlight:b = no
+     pos:p2 = 90, -52.6
+     align:i = 0
+     size:r = 35
+    }  
+     text {
+     text:t = "〓"
+     thousandth:b = yes
+     highlight:b = no
+     pos:p2 = -100, -52.6
+     align:i = 0
+     size:r = 35
+   } 
+     text {
+     text:t = "〓"
+     thousandth:b = yes
+     highlight:b = no
+     pos:p2 = 100, -52.6
+     align:i = 0
+     size:r = 35
+   }   
+     text {
+     text:t = "〓"
+     thousandth:b = yes
+     highlight:b = no
+     pos:p2 = -20, -67.6
+     align:i = 0
+     size:r = 35
+   } 
+     text {
+     text:t = "〓"
+     thousandth:b = yes
+     highlight:b = no
+     pos:p2 = 0, -67.6
+     align:i = 0
+     size:r = 35
+   } 
+     text {
+     text:t = "〓"
+     thousandth:b = yes
+     highlight:b = no
+     pos:p2 = 20, -67.6
+     align:i = 0
+     size:r = 35
+   }  
+      text {
+     text:t = "〓"
+     thousandth:b = yes
+     highlight:b = no
+     pos:p2 = -30, -67.6
+     align:i = 0
+     size:r = 35
+   } 
+     text {
+     text:t = "〓"
+     thousandth:b = yes
+     highlight:b = no
+     pos:p2 = 30, -67.6
+     align:i = 0
+     size:r = 35
+   }  
+       text {
+     text:t = "〓"
+     thousandth:b = yes
+     highlight:b = no
+     pos:p2 = -40, -67.6
+     align:i = 0
+     size:r = 35
+   } 
+     text {
+     text:t = "〓"
+     thousandth:b = yes
+     highlight:b = no
+     pos:p2 = 40, -67.6
+     align:i = 0
+     size:r = 35
+   }  
+      text {
+     text:t = "〓"
+     thousandth:b = yes
+     highlight:b = no
+     pos:p2 = -50, -67.6
+     align:i = 0
+     size:r = 35
+   } 
+     text {
+     text:t = "〓"
+     thousandth:b = yes
+     highlight:b = no
+     pos:p2 = 50, -67.6
+     align:i = 0
+     size:r = 35
+   }  
+     text {
+     text:t = "〓"
+     thousandth:b = yes
+     highlight:b = no
+     pos:p2 = -60, -67.6
+     align:i = 0
+     size:r = 35
+   } 
+     text {
+     text:t = "〓"
+     thousandth:b = yes
+     highlight:b = no
+     pos:p2 = 60, -67.6
+     align:i = 0
+     size:r = 35
+   }  
+      text {
+     text:t = "〓"
+     thousandth:b = yes
+     highlight:b = no
+     pos:p2 = -70, -67.6
+     align:i = 0
+     size:r = 35
+   } 
+     text {
+     text:t = "〓"
+     thousandth:b = yes
+     highlight:b = no
+     pos:p2 = 70, -67.6
+     align:i = 0
+     size:r = 35
+   }  
+     text {
+     text:t = "〓"
+     thousandth:b = yes
+     highlight:b = no
+     pos:p2 = -80, -67.6
+     align:i = 0
+     size:r = 35
+   } 
+     text {
+     text:t = "〓"
+     thousandth:b = yes
+     highlight:b = no
+     pos:p2 = 80, -67.6
+     align:i = 0
+     size:r = 35
+   }  
+     text {
+     text:t = "〓"
+     thousandth:b = yes
+     highlight:b = no
+     pos:p2 = -20, -79.6
+     align:i = 0
+     size:r = 35
+   } 
+     text {
+     text:t = "〓"
+     thousandth:b = yes
+     highlight:b = no
+     pos:p2 = 0, -79.6
+     align:i = 0
+     size:r = 35
+   } 
+     text {
+     text:t = "〓"
+     thousandth:b = yes
+     highlight:b = no
+     pos:p2 = 20, -79.6
+     align:i = 0
+     size:r = 35
+   }  
+     text {
+     text:t = "〓"
+     thousandth:b = yes
+     highlight:b = no
+     pos:p2 = -30, -79.6
+     align:i = 0
+     size:r = 35
+   } 
+     text {
+     text:t = "〓"
+     thousandth:b = yes
+     highlight:b = no
+     pos:p2 = 30, -79.6
+     align:i = 0
+     size:r = 35
+   }  
+     text {
+     text:t = "〓"
+     thousandth:b = yes
+     highlight:b = no
+     pos:p2 = -40, -79.6
+     align:i = 0
+     size:r = 35
+   } 
+     text {
+     text:t = "〓"
+     thousandth:b = yes
+     highlight:b = no
+     pos:p2 = 40, -79.6
+     align:i = 0
+     size:r = 35
+   }  
+     text {
+     text:t = "〓"
+     thousandth:b = yes
+     highlight:b = no
+     pos:p2 = -50, -79.6
+     align:i = 0
+     size:r = 35
+   } 
+     text {
+     text:t = "〓"
+     thousandth:b = yes
+     highlight:b = no
+     pos:p2 = 50, -79.6
+     align:i = 0
+     size:r = 35
+   }  
+
+
+
+
+
+// TEXT LASER DISTANCE
+    text {
+     text:t = "       PRED    THERMAL    CHRG    FIRST                00 . 0S           "
+     thousandth:b = yes
+     highlight:b = yes
+     pos:p2 = 1,26.5
+     align:i = 0
+     size:r = 0.98
+   }
+     text {
+     text:t = "FSAP                                                                            "
+     thousandth:b = yes
+     highlight:b = yes
+     pos:p2 = 1,28
+     align:i = 0
+     size:r = 0.98
+ }
+}
+
+
+
+drawCircles {
+  circle {
+    thousandth:b = no
+    segment:p2 = 0,360
+    pos:p2 = 0,0
+    diameter:r = 0.007
+    size:r = 1.5
+  }
+  circle {
+    thousandth:b = no
+    segment:p2 = 0,360
+    pos:p2 = 0,0
+    diameter:r = 0.00001
+    size:r = 2
+  }
+}
+
+drawLines {
+  line { line:p4 = -0.0238, 0.014, -0.0168, 0.014; move:b = false; }
+  line { line:p4 = -0.0238, -0.014, -0.0168, -0.014; move:b = false; } 
+  line { line:p4 = -0.0238, -0.008, -0.0238, -0.014; move:b = false; }
+  line { line:p4 = -0.0238, 0.008, -0.0238, 0.014; move:b = false; }
+
+  line { line:p4 = 0.0238, -0.014, 0.0168, -0.014; move:b = false; }
+  line { line:p4 = 0.0238, 0.014, 0.0168, 0.014; move:b = false; } 
+  line { line:p4 = 0.0238, 0.008, 0.0238, 0.014; move:b = false; }
+  line { line:p4 = 0.0238, -0.008, 0.0238, -0.014; move:b = false; }
+
+
+}

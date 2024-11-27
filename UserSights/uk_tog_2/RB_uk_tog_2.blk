@@ -1,0 +1,235 @@
+rangefinderProgressBarColor1:c=255, 255, 255, 255
+rangefinderProgressBarColor2:c=0, 0, 0, 255
+rangefinderTextScale:r=1.0
+rangefinderVerticalOffset:r=1.6
+rangefinderHorizontalOffset:r=55
+fontSizeMult:r=0.42
+lineSizeMult:r=1.0
+drawCentralLineVert:b=no
+drawCentralLineHorz:b=no
+drawDistanceCorrection:b=yes
+distanceCorrectionPos:p2=-0.1, -0.05
+drawSightMask:b=yes
+crosshairDistHorSizeMain:p2=0, 0
+crosshairHorVertSize:p2=0.5, 0.5
+crosshairDistHorSizeAdditional:p2=0.007, 0.0025
+rangefinderUseThousandth:b=yes
+crosshair_hor_ranges{}
+crosshairColor:c = 0, 0, 0, 255
+crosshairLightColor:c = 220, 255, 0, 255
+
+// ballistic range indicators
+drawUpward:b = no
+distancePos:p2 = -0.0,0
+move:b = yes
+crosshairDistHorSizeMain:p2 = 0,0
+textPos:p2 = 0.010, 0
+textAlign:i = 1
+textShift:r = 0
+drawAdditionalLines:b = no
+crosshairDistHorSizeAdditional:p2 = 0.0,0.0
+drawDistanceCorrection:b = no
+
+crosshair_distances{
+distance { distance:p3=200,2,-0.007; textPos:p2=0.017,0; }
+distance { distance:p3=400,4,0.007; textPos:p2=-0.017,0; }
+distance { distance:p3=600,6,-0.007; textPos:p2=0.017,0; }
+distance { distance:p3=800,8,0.007; textPos:p2=-0.017,0; }
+distance { distance:p3=1000,10,-0.007; textPos:p2=0.017,0; }
+distance { distance:p3=1200,12,0.007; textPos:p2=-0.017,0; }
+distance { distance:p3=1400,14,-0.007; textPos:p2=0.017,0; }
+distance { distance:p3=1600,16,0.007; textPos:p2=-0.017,0; }
+distance { distance:p3=1800,18,-0.007; textPos:p2=0.017,0; }
+distance { distance:p3=2000,20,0.007; textPos:p2=-0.017,0; }
+distance { distance:p3=2200,22,-0.007; textPos:p2=0.017,0; }
+distance { distance:p3=2400,24,0.007; textPos:p2=-0.017,0; }
+distance { distance:p3=2600,26,-0.007; textPos:p2=0.017,0; }
+distance { distance:p3=2800,28,0.007; textPos:p2=-0.017,0; }
+}
+
+drawLines{
+line    //to 4000
+{
+line: p4 = 0.0, 31.88, 0, 0
+move: b = yes
+thousandth: b = yes
+}
+line{
+line:p4= 0, -2.5, 0, -400
+move:b=no
+thousandth:b=yes
+}
+line{
+line:p4= 2.5, 0, 400, 0
+move:b=no
+thousandth:b=yes
+}
+line{
+line:p4= -2.5, 0, -400, 0
+move:b=no
+thousandth:b=yes
+}
+line{
+line:p4= -0.7, 0, -2, 0
+move:b=no
+thousandth:b=yes
+}
+line{
+line:p4= 0.7, 0, 2, 0
+move:b=no
+thousandth:b=yes
+}
+
+//RANGEFINDER
+
+//4
+line { line:p4 = 7,  6.0, 8, 6.0; thousandth:b = true; }
+//5
+line { line:p4 = 8.7, 5.2, 10.3, 5.2; thousandth:b = true; }
+//6
+line { line:p4 = 11, 4.3, 12, 4.3; thousandth:b = true; }
+//7
+line { line:p4 = 12.7, 3.7, 14.3, 3.7; thousandth:b = true; }
+//8
+line { line:p4 = 15, 3.1, 16, 3.1; thousandth:b = true; }
+//9
+line { line:p4 = 16.7, 2.75, 18.3, 2.75; thousandth:b = true; }
+//10
+line { line:p4 = 19, 2.5, 20, 2.5; thousandth:b = true; }
+//12
+line { line:p4 = 20.7, 2.2, 22.7, 2.2; thousandth:b = true; }
+//14
+line { line:p4 = 23.3, 1.95, 25.3, 1.95; thousandth:b = true; }
+//16
+line { line:p4 = 25.9, 1.8, 27.9, 1.8; thousandth:b = true; }
+//18
+line { line:p4 = 28.5, 1.6, 30.5, 1.6; thousandth:b = true; }
+//4-
+line { line:p4 = 7, 6, 7, 7; thousandth:b = true; }
+//6-
+line { line:p4 = 11, 4.3, 11, 6; thousandth:b = true; }
+//8-
+line { line:p4 = 15, 3.1, 15, 5; thousandth:b = true; }
+//10-
+line { line:p4 = 19, 2.5, 19, 4; thousandth:b = true; }
+//14-
+line { line:p4 = 23.3, 1.95, 23.3, 3.45; thousandth:b = true; }
+//18-
+line { line:p4 = 28.5, 1.6, 28.5, 3.1; thousandth:b = true; }
+}
+
+drawCircles{
+circle {
+segment:p2 = 0, 360;
+pos:p2 = 0, 0;
+diameter:r = 0;
+size:r = 3.0;
+move:b = no
+thousandth:b = yes;
+}
+}
+
+drawTexts{
+
+//RANGEFINDER NUMBERS
+
+text {
+text:t = "4"
+align:i = 0
+pos:p2 = 7, 8.8
+move:b = no
+thousandth:b = yes
+size:r = 0.94
+highlight:b=yes
+}
+text{
+text:t="5"
+align:i=0
+pos:p2= 9.5,6.6
+size:r = 0.94
+move:b=no
+thousandth:b=yes
+highlight:b=yes
+}
+text {
+text:t = "6"
+align:i = 0
+pos:p2 = 11, 7.6
+move:b = no
+thousandth:b = yes
+size:r = 0.94
+highlight:b=yes
+}
+text{
+text:t="7"
+align:i=0
+pos:p2= 13.5,5.2
+size:r = 0.94
+move:b=no
+thousandth:b=yes
+highlight:b=yes
+}
+text {
+text:t = "8"
+align:i = 0
+pos:p2 = 15, 6.6
+move:b = no
+thousandth:b = yes
+size:r = 0.94
+highlight:b=yes
+}
+text{
+text:t="9"
+align:i=0
+pos:p2= 17.5,4.1
+size:r = 0.94
+move:b=no
+thousandth:b=yes
+highlight:b=yes
+}
+text {
+text:t = "10"
+align:i = 0
+pos:p2 = 19, 5.7
+move:b = no
+thousandth:b = yes
+size:r = 0.94
+highlight:b=yes
+}
+text{
+text:t="12"
+align:i=0
+pos:p2= 21.5,3.4
+size:r = 0.94
+move:b=no
+thousandth:b=yes
+highlight:b=yes
+}
+text {
+text:t = "14"
+align:i = 0
+pos:p2 = 23.3, 5.1
+move:b = no
+thousandth:b = yes
+size:r = 0.94
+highlight:b=yes
+}
+text{
+text:t="16"
+align:i=0
+pos:p2= 26.7,2.9
+size:r = 0.94
+move:b=no
+thousandth:b=yes
+highlight:b=yes
+}
+text{
+text:t="18"
+align:i=0
+pos:p2= 28.5,4.5
+size:r = 0.94
+move:b=no
+thousandth:b=yes
+highlight:b=yes
+}
+}

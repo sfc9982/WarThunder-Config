@@ -1,0 +1,72 @@
+crosshairHorVertSize:p2=3, 2
+rangefinderProgressBarColor1:c=0, 255, 0, 64
+rangefinderProgressBarColor2:c=255, 255, 255, 64
+rangefinderTextScale:r=0.7
+rangefinderVerticalOffset:r=-25.8
+rangefinderHorizontalOffset:r=0
+fontSizeMult:r=0.7
+lineSizeMult:r=1
+drawCentralLineVert:b=no
+drawCentralLineHorz:b=no
+crosshairDistHorSizeMain:p2=0.03, 0.02
+crosshairDistHorSizeAdditional:p2=0.005, 0.003
+distanceCorrectionPos:p2=-0.09, 0.2
+drawDistanceCorrection:b = yes
+thousandth:t = “nato”
+applyCorrectionToGun:b=yes
+
+ 
+	
+crosshair_distances{
+}
+
+crosshair_hor_ranges{
+ /* range:p2=-12.5, 12
+  range:p2=-10, 10
+  range:p2=-7.5, 0
+  range:p2=-5, 5
+  range:p2=-2.5, 0
+  range:p2=2.5, 0
+  range:p2=5, 5
+  range:p2=7.5, 7.5
+  range:p2=10, 10
+  range:p2=12.5, 12.5*/
+}
+
+
+
+drawLines{
+//  line { line:p4=2.5, 0, -2.5, 0 ;move:b=no ;thousandth:b = yes ;}
+
+}
+
+
+drawCircles {
+	circle {
+      segment:p2 = 0.0, 360.0
+      pos:p2 = 0.0, 0
+      diameter:r = 2.0
+      size:r = 1.5
+      move:b = no
+      thousandth:b = yes
+    }
+	
+	circle {
+      segment:p2 = 0.0, 360.0
+      pos:p2 = 0.0, 0
+      diameter:r = 0.2
+      size:r = 1.5
+      move:b = no
+      thousandth:b = yes
+    }
+	
+	circle {
+      segment:p2 = 0.0, 360.0
+      pos:p2 = 0.0, 0
+      diameter:r = 143
+      size:r = 2
+      move:b = no
+      thousandth:b = yes
+    }
+
+  }
