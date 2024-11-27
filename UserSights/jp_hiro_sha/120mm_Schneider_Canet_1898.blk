@@ -1,0 +1,368 @@
+
+crosshairHorVertSize:p2=3, 2
+rangefinderProgressBarColor1:c=0, 255, 0, 64
+rangefinderProgressBarColor2:c=255, 255, 255, 64
+rangefinderTextScale:r=0.7
+rangefinderVerticalOffset:r=10
+rangefinderHorizontalOffset:r=30
+fontSizeMult:r=1.1
+lineSizeMult:r=1
+distancePos:p2=-0.01, 0.0
+drawCentralLineVert:b=no
+drawCentralLineHorz:b=no
+crosshairDistHorSizeMain:p2=0.0, 0.0
+crosshairDistHorSizeAdditional:p2=0.003, 0.005
+distanceCorrectionPos:p2=-0.2, -0.05
+drawDistanceCorrection:b=no
+drawAdditionalLines:b=yes
+
+crosshair_distances{
+	//distance {textPos: p2 = 0.037, 0; distance: p3 = 200, 0, 0; }
+	//distance {textPos: p2 = 0.037, 0; distance: p3 = 300, 0, 0; }
+//	distance {textPos: p2 = 0.037, 0; distance: p3 = 400, 0, 0; }
+	//distance {textPos: p2 = 0.037, 0; distance: p3 = 500, 0, 0; }
+//	distance {textPos: p2 = 0.037, 0; distance: p3 = 600, 0, 0; }
+	//distance {textPos: p2 = 0.037, 0; distance: p3 = 700, 0, 0; }
+//	distance {textPos: p2 = 0.037, 0; distance: p3 = 800, 0, 0; }
+	//distance {textPos: p2 = 0.037, 0; distance: p3 = 900, 0, 0; }
+//	distance {textPos: p2 = 0.043, 0.001; distance: p3 = 1000, 0, 0; }
+//	distance {textPos: p2 = 0.043, 0.001; distance: p3 = 1200, 0, 0; }
+//	distance {textPos: p2 = 0.043, 0.001; distance: p3 = 1400, 0, 0; }
+//	distance {textPos: p2 = 0.043, 0.001; distance: p3 = 1600, 0, 0; }
+//	distance {textPos: p2 = 0.043, 0.001; distance: p3 = 1800, 0, 0; }
+//	distance {textPos: p2 = 0.043, 0.001; distance: p3 = 2000, 0, 0; }
+
+// DELETE THE "//" ON THESE LINES FOR ACCURATE/SYNCHED SIGHT MARKERS vvvvvvvvvvvvvvvv
+//distance {textPos: p2 = 0.025, 0; distance: p3=400, 4, 0.02; }
+distance {textPos: p2 = 0.025, 0; distance: p3=600, 0, 0.; }
+distance {textPos: p2 = 0.025, 0; distance: p3=800, 8, 0.02; }
+distance {textPos: p2 = -0.025, 0; distance: p3=1000, 0, 0.; }
+distance {textPos: p2 = -0.025, 0; distance: p3=1200, 12, 0.02; }
+distance {textPos: p2 = 0.025, 0; distance: p3=1400, 0, 0.; }
+distance {textPos: p2 = 0.025, 0; distance: p3=1600, 16, 0.02; }
+distance {textPos: p2 = -0.025, 0; distance: p3=1800, 0, 0.; }
+distance {textPos: p2 = -0.025, 0; distance: p3=2000, 20, 0.02; }
+distance {textPos: p2 = 0.025, 0; distance: p3=2200, 0, 0.; }
+distance {textPos: p2 = 0.025, 0; distance: p3=2400, 24, 0.02; }
+distance {textPos: p2 = -0.025, 0; distance: p3=2600, 0, 0.; }
+distance {textPos: p2 = -0.025, 0; distance: p3=2800, 28, 0.02.; }
+// DELETE THE "//" ON THESE LINES FOR ACCURATE/SYNCHED SIGHT MARKERS ^^^^^^^^^^^^^^^^
+
+
+
+}
+crosshair_hor_ranges{
+ //range:p2=-16, 16
+  //range:p2=-12, 0
+ // range:p2=-8, 8
+  //range:p2=-4, 0
+}
+
+drawLines{
+
+line{
+    line:p4=0.05, 0, 0.29, 0
+    move:b=no
+  }
+line{
+    line:p4=-0.05, 0, -0.29, 0
+    move:b=no
+  }
+line{
+    line:p4=0, -0.057, 0, -0.297
+  move:b=no
+}
+
+
+line{
+    line:p4=0.05, -0.02, 0.05, 0
+    move:b=no
+  }
+line{
+    line:p4=0.08, -0.008, 0.08, 0
+    move:b=no
+  }
+line{
+    line:p4=0.105, -0.02, 0.105, 0
+    move:b=no
+  }
+line{
+    line:p4=0.14, -0.008, 0.14, 0
+    move:b=no
+  }
+line{
+    line:p4=0.17, -0.02, 0.17, 0
+    move:b=no
+  }
+line{
+    line:p4=0.2, -0.008, 0.2, 0
+    move:b=no
+  }
+line{
+    line:p4=0.23, -0.02, 0.23, 0
+    move:b=no
+  }
+line{
+    line:p4=0.26, -0.008, 0.26, 0
+    move:b=no
+  }
+line{
+    line:p4=0.29, -0.02, 0.29, 0
+    move:b=no
+  }
+
+
+
+line{
+    line:p4=-0.05, -0.02, -0.05, 0
+    move:b=no
+  }
+line{
+    line:p4=-0.08, -0.008, -0.08, 0
+    move:b=no
+  }
+line{
+    line:p4=-0.105, -0.02, -0.105, 0
+    move:b=no
+  }
+line{
+    line:p4=-0.14, -0.008, -0.14, 0
+    move:b=no
+  }
+line{
+    line:p4=-0.17, -0.02, -0.17, 0
+    move:b=no
+  }
+line{
+    line:p4=-0.2, -0.008, -0.2, 0
+    move:b=no
+  }
+line{
+    line:p4=-0.23, -0.02, -0.23, 0
+    move:b=no
+  }
+line{
+    line:p4=-0.26, -0.008, -0.26, 0
+    move:b=no
+  }
+line{
+    line:p4=-0.29, -0.02, -0.29, 0
+    move:b=no
+  }
+
+
+
+
+line{
+    line:p4=-0.016, -0.057, 0, -0.057
+    move:b=no
+  }
+line{
+    line:p4=-0.008, -0.087, 0, -0.087
+    move:b=no
+  }
+line{
+    line:p4=-0.016, -0.117, 0, -0.117
+    move:b=no
+  }
+line{
+    line:p4=-0.008, -0.147, 0, -0.147
+    move:b=no
+  }
+line{
+    line:p4=-0.016, -0.177, 0, -0.177
+    move:b=no
+  }
+line{
+    line:p4=-0.008, -0.207, 0, -0.207
+    move:b=no
+  }
+line{
+    line:p4=-0.016, -0.237, 0, -0.237
+    move:b=no
+  }
+line{
+    line:p4=-0.008, -0.267, 0, -0.267
+    move:b=no
+  }
+line{
+    line:p4=-0.016, -0.297, 0, -0.297
+    move:b=no
+  }
+
+
+
+
+
+line{
+    line:p4=-0.0095, -0.007, -0.0095, -0.0
+    move:b=no
+  }
+line{
+    line:p4=-0.019, -0.007, -0.019, -0.0
+    move:b=no
+  }
+line{
+    line:p4=-0.0283, -0.007, -0.0283, -0.0
+    move:b=no
+  }
+line{
+    line:p4=-0.0384, -0.007, -0.0384, -0.0
+    move:b=no
+  }
+
+
+
+
+line{
+    line:p4=0.0095, -0.007, 0.0095, -0.0
+    move:b=no
+  }
+line{
+    line:p4=0.019, -0.007, 0.019, -0.0
+    move:b=no
+  }
+line{
+    line:p4=0.0283, -0.007, 0.0283, -0.0
+    move:b=no
+  }
+line{
+    line:p4=0.0384, -0.007, 0.0384, -0.0
+    move:b=no
+  }
+
+//DELETE THIS CHUNK FOR SYNCED DISTANCE MARKERSvvvvvvvvvvvvvvvv
+
+
+
+//DELETE THIS CHUNK FOR SYNCED DISTANCE MARKERS^^^^^^^^^^^^^^^^^
+
+
+line{
+    line:p4=0, 0, 0.008, 0.008
+    move:b=no
+  }
+line{
+    line:p4=0, 0, -0.008, 0.008
+    move:b=no
+  }
+
+
+
+}
+drawTexts{
+
+
+
+text{
+   text:t="1"
+   align:i=0
+   pos:p2=0.05, -0.033
+   move:b=no
+   size:r=0.75
+}
+text{
+   text:t="2"
+   align:i=0
+   pos:p2=0.105, -0.033
+   move:b=no
+   size:r=0.75
+}
+text{
+   text:t="3"
+   align:i=0
+   pos:p2=0.17, -0.033
+   move:b=no
+   size:r=0.75
+}
+text{
+   text:t="4"
+   align:i=0
+   pos:p2=0.23, -0.033
+   move:b=no
+   size:r=0.75
+}
+text{
+   text:t="5"
+   align:i=0
+   pos:p2=0.29, -0.033
+   move:b=no
+   size:r=0.75
+}
+text{
+   text:t="1"
+   align:i=0
+   pos:p2=-0.05, -0.033
+   move:b=no
+   size:r=0.75
+}
+text{
+   text:t="2"
+   align:i=0
+   pos:p2=-0.105, -0.033
+   move:b=no
+   size:r=0.75
+}
+text{
+   text:t="3"
+   align:i=0
+   pos:p2=-0.17, -0.033
+   move:b=no
+   size:r=0.75
+}
+text{
+   text:t="4"
+   align:i=0
+   pos:p2=-0.23, -0.033
+   move:b=no
+   size:r=0.75
+}
+text{
+   text:t="5"
+   align:i=0
+   pos:p2=-0.29, -0.033
+   move:b=no
+   size:r=0.75
+}
+
+
+
+
+
+
+text{
+   text:t="1"
+   align:i=0
+   pos:p2=-0.023, -0.057
+   move:b=no
+   size:r=0.75
+}
+text{
+   text:t="2"
+   align:i=0
+   pos:p2=-0.023, -0.117
+   move:b=no
+   size:r=0.75
+}
+text{
+   text:t="3"
+   align:i=0
+   pos:p2=-0.023, -0.177
+   move:b=no
+   size:r=0.75
+}
+text{
+   text:t="4"
+   align:i=0
+   pos:p2=-0.023, -0.236
+   move:b=no
+   size:r=0.75
+}
+text{
+   text:t="5"
+   align:i=0
+   pos:p2=-0.023, -0.296
+   move:b=no
+   size:r=0.75
+}
+}

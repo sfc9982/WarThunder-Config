@@ -1,0 +1,306 @@
+crosshairHorVertSize:p2=3, 2
+rangefinderProgressBarColor1:c=0, 255, 0, 64
+rangefinderProgressBarColor2:c=255, 255, 255, 64
+rangefinderTextScale:r=0.5
+rangefinderVerticalOffset:r=-45
+rangefinderHorizontalOffset:r=-15
+fontSizeMult:r=1
+lineSizeMult:r=1
+drawCentralLineVert:b=no
+drawCentralLineHorz:b=no
+crosshairDistHorSizeMain:p2=0.03, 0.02
+crosshairDistHorSizeAdditional:p2=0.005, 0.003
+distanceCorrectionPos:p2=-0.2, -0.05
+drawDistanceCorrection:b=yes
+
+crosshair_distances{
+
+}
+
+crosshair_hor_ranges{
+
+ // range:p2=0.5, 0
+ // range:p2=2.5, 0
+ // range:p2=5, 0
+//  range:p2=7.5, 0
+  //range:p2=10, 0
+}
+
+drawLines{
+
+
+
+
+
+  line{
+    line:p4=0.005, 0.0, 0.029, 0.0
+    move:b=no
+  }
+  line{
+    line:p4=0.087, 0.0, 0.116, 0.0
+    move:b=no
+  }
+
+  line{
+    line:p4=-0.005, 0.0, -0.029, 0.0
+    move:b=no
+  }
+  line{
+    line:p4=-0.087, 0.0, -0.116, 0.0
+    move:b=no
+  }
+
+
+
+
+  line{
+    line:p4=0.029, 0.012, 0.058, 0.012
+    move:b=no
+  }
+  line{
+    line:p4=0.029, -0.012, 0.058, -0.012
+    move:b=no
+  }
+  line{
+    line:p4=-0.029, 0.012, -0.058, 0.012
+    move:b=no
+  }
+  line{
+    line:p4=-0.029, -0.012, -0.058, -0.012
+    move:b=no
+  }
+
+
+
+
+  line{
+    line:p4=0.0, -0.005, 0.0, -0.012
+    move:b=no
+  }
+  line{
+    line:p4=0.0, 0.005, 0.0, 0.012
+    move:b=no
+  }
+
+  line{
+    line:p4=0.0, 0.0235, 0.0, 0.035
+    move:b=no
+  }
+  line{
+    line:p4=0.0, -0.0235, 0.0, -0.035
+    move:b=no
+  }
+
+
+
+
+
+//stadia start
+
+  line{
+    line:p4=-0.078, 0.095, 0.078, 0.095
+    move:b=no
+  }
+  line{
+    line:p4=-0.078, 0.09, 0.078, 0.07
+    move:b=no
+  }
+
+
+
+  line{
+    line:p4=-0.078, 0.085, -0.078, 0.09
+    move:b=no
+  }
+  line{
+    line:p4=-0.065, 0.086, -0.065, 0.088
+    move:b=no
+  }
+  line{
+    line:p4=-0.052, 0.0815, -0.052, 0.0865
+    move:b=no
+  }
+  line{
+    line:p4=-0.022, 0.0825, -0.022, 0.0775
+    move:b=no
+  }
+  line{
+    line:p4=0.078, 0.065, 0.078, 0.07
+    move:b=no
+  }
+
+
+
+
+//antihelo
+
+
+//18-20
+
+  line{
+    line:p4=0.005, 0.028, 0.0045, 0.035
+    move:b=no
+  }
+  line{
+    line:p4=-0.005, 0.028, -0.0045, 0.035
+    move:b=no
+  }
+
+//30
+
+  line{
+    line:p4=0.0034, 0.068, 0.003, 0.078
+    move:b=no
+  }
+  line{
+    line:p4=-0.0034, 0.068, -0.003, 0.078
+    move:b=no
+  }
+
+
+  line{
+    line:p4=0.0045, 0.035, 0.0034, 0.068
+    move:b=no
+  }
+  line{
+    line:p4=-0.0045, 0.035, -0.0034, 0.068
+    move:b=no
+  }
+
+//10
+
+
+
+  line{
+    line:p4=0.0095, 0.012, 0.0085, 0.015
+    move:b=no
+  }
+  line{
+    line:p4=-0.0095, 0.012, -0.0085, 0.015
+    move:b=no
+  }
+
+
+  line{
+    line:p4=0.0085, 0.015, 0.007, 0.02
+    move:b=no
+  }
+  line{
+    line:p4=-0.0085, 0.015, -0.007, 0.02
+    move:b=no
+  }
+
+  line{
+    line:p4=0.0085, 0.015, 0.007, 0.02
+    move:b=no
+  }
+  line{
+    line:p4=-0.0085, 0.015, -0.007, 0.02
+    move:b=no
+  }
+
+  line{
+    line:p4=0.007, 0.02, 0.005, 0.028
+    move:b=no
+  }
+  line{
+    line:p4=-0.007, 0.02, -0.005, 0.028
+    move:b=no
+  }
+
+
+
+//50
+
+
+
+  line{
+    line:p4=0.0185, 0.005, 0.015, 0.007
+    move:b=no
+  }
+  line{
+    line:p4=-0.0185, 0.005, -0.015, 0.007
+    move:b=no
+  }
+
+  line{
+    line:p4=0.015, 0.007, 0.0095, 0.012
+    move:b=no
+  }
+  line{
+    line:p4=-0.015, 0.007, -0.0095, 0.012
+    move:b=no
+  }
+
+
+
+
+
+
+
+
+}
+
+drawCircles {
+
+    circle {
+      segment:p2 = 0.0, 360.0; // Sector of a circle
+      pos:p2 = 0.0, 0.0; // Position
+      diameter:r = .01; // Diameter. If thousandth=yes, then in thousandths
+      size:r = 1.4; // Line Thickness
+      move:b = no;
+      thousandth:b = no;
+    }
+
+    circle {
+      segment:p2 = 0.0, 360.0; // Sector of a circle
+      pos:p2 = 0.0, 0.0; // Position
+      diameter:r = .001; // Diameter. If thousandth=yes, then in thousandths
+      size:r = 1.4; // Line Thickness
+      move:b = no;
+      thousandth:b = no;
+    }
+}
+
+
+
+
+
+
+drawTexts{
+
+text{
+   text:t="2.5"
+   align:i=0
+   pos:p2=0.078, 0.055
+   move:b=no
+   size:r=0.6
+}
+text{
+   text:t="5"
+   align:i=0
+   pos:p2=-0.0215, 0.068
+   move:b=no
+   size:r=0.6
+}
+text{
+   text:t="8"
+   align:i=0
+   pos:p2=-0.052, 0.072
+   move:b=no
+   size:r=0.6
+}
+text{
+   text:t="12"
+   align:i=0
+   pos:p2=-0.078, 0.075
+   move:b=no
+   size:r=0.6
+}
+
+
+
+
+
+
+}

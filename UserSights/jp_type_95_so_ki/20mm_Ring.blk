@@ -1,0 +1,95 @@
+crosshairHorVertSize:p2=3, 2
+rangefinderProgressBarColor1:c=0, 255, 0, 64
+rangefinderProgressBarColor2:c=255, 255, 255, 64
+rangefinderTextScale:r=0.7
+rangefinderVerticalOffset:r=15
+rangefinderHorizontalOffset:r=0
+fontSizeMult:r=1
+lineSizeMult:r=1
+drawCentralLineVert:b=no
+drawCentralLineHorz:b=no
+crosshairDistHorSizeMain:p2=0.03, 0.02
+crosshairDistHorSizeAdditional:p2=0.005, 0.003
+distanceCorrectionPos:p2=-0.2, -0.05
+drawDistanceCorrection:b=yes
+
+crosshair_distances{
+
+}
+
+crosshair_hor_ranges{
+
+}
+
+drawLines{
+  line{
+    line:p4=.075, 0, 0.3, 0
+    move:b=no
+  }
+
+  line{
+    line:p4=-0.075, 0, -0.3, 0
+    move:b=no
+  }
+
+  line{
+    line:p4=0., 0.075, 0., 0.3
+    move:b=no
+  }
+  line{
+    line:p4=0., -0.075, 0., -0.3
+    move:b=no
+  }
+
+}
+drawCircles {
+    circle {
+      segment:p2 = 0.0, 360.0; // Sector of a circle
+      pos:p2 = 0.0, 0.0; // Position
+      diameter:r = .007; // Diameter. If thousandth=yes, then in thousandths
+      size:r = 4.0; // Line Thickness
+      move:b = no;
+      thousandth:b = no;
+    }
+    circle {
+      segment:p2 = 0.0, 360.0; // Sector of a circle
+      pos:p2 = 0.0, 0.0; // Position
+      diameter:r = .005; // Diameter. If thousandth=yes, then in thousandths
+      size:r = 4.0; // Line Thickness
+      move:b = no;
+      thousandth:b = no;
+    }
+    circle {
+      segment:p2 = 0.0, 360.0; // Sector of a circle
+      pos:p2 = 0.0, 0.0; // Position
+      diameter:r = .002; // Diameter. If thousandth=yes, then in thousandths
+      size:r = 4.0; // Line Thickness
+      move:b = no;
+      thousandth:b = no;
+    }
+    circle {
+      segment:p2 = 0.0, 360.0; // Sector of a circle
+      pos:p2 = 0.0, 0.0; // Position
+      diameter:r = .15; // Diameter. If thousandth=yes, then in thousandths
+      size:r = 1.5; // Line Thickness
+      move:b = no;
+      thousandth:b = no;
+    }
+    circle {
+      segment:p2 = 0.0, 360.0; // Sector of a circle
+      pos:p2 = 0.0, 0.0; // Position
+      diameter:r = .3; // Diameter. If thousandth=yes, then in thousandths
+      size:r = 1.5; // Line Thickness
+      move:b = no;
+      thousandth:b = no;
+    }
+    circle {
+      segment:p2 = 0.0, 360.0; // Sector of a circle
+      pos:p2 = 0.0, 0.0; // Position
+      diameter:r = .45; // Diameter. If thousandth=yes, then in thousandths
+      size:r = 1.5; // Line Thickness
+      move:b = no;
+      thousandth:b = no;
+    }
+
+}

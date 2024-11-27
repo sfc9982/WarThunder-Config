@@ -1,0 +1,114 @@
+crosshairHorVertSize:p2=3, 2
+rangefinderProgressBarColor1:c=0, 255, 0, 64
+rangefinderProgressBarColor2:c=255, 255, 255, 64
+rangefinderTextScale:r=-0.5
+rangefinderVerticalOffset:r=3
+rangefinderHorizontalOffset:r=65
+fontSizeMult:r=1
+lineSizeMult:r=1
+distancePos:p2=0.008, 0.0
+drawCentralLineVert:b=no
+drawCentralLineHorz:b=no
+crosshairDistHorSizeMain:p2=0.02, 0.02
+crosshairDistHorSizeAdditional:p2=0.017, 0.017
+distanceCorrectionPos:p2=-0.02, -0.05
+drawDistanceCorrection:b=no
+drawAdditionalLines:b=no
+crosshair_distances{
+
+
+}
+
+crosshair_hor_ranges{
+
+}
+
+drawLines{
+  line{
+    line:p4=0.008, 0, 0.03, 0
+    move:b=no
+  }
+  line{
+    line:p4=-0.008, 0, -0.03, 0
+    move:b=no
+  }
+
+
+  line{
+    line:p4=0.054, 0, 0.078, 0
+    move:b=no
+  }
+
+  line{
+    line:p4=-0.054, 0, -0.078, 0
+    move:b=no
+  }
+
+
+
+  line{
+    line:p4=0.102, 0, 0.126, 0
+    move:b=no
+  }
+  line{
+    line:p4=-0.102, 0, -0.126, 0
+    move:b=no
+  }
+
+
+  
+  line{
+    line:p4=0, 0.0075, 0, 0.028
+    move:b=no
+  }
+   line{
+    line:p4=0, -0.0075, 0, -0.028
+    move:b=no
+  }
+ 
+
+
+
+   line{
+    line:p4=0, -0.05, 0, -0.075
+    move:b=no
+  }
+    line{
+    line:p4=0, 0.05, 0, 0.075
+    move:b=no
+  }
+ 
+
+
+
+
+
+
+
+}
+drawCircles {
+
+    circle {
+      segment:p2 = 0.0, 360.0; 
+      pos:p2 = 0.0, 0.0; 
+      diameter:r = .032; 
+      size:r = 1.5; 
+      move:b = no;
+      thousandth:b = no;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+

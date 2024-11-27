@@ -1,0 +1,842 @@
+
+crosshairHorVertSize:p2=3, 2
+rangefinderProgressBarColor1:c=0, 255, 0, 64
+rangefinderProgressBarColor2:c=255, 255, 255, 64
+rangefinderTextScale:r=-0.5
+rangefinderVerticalOffset:r=0.04
+rangefinderHorizontalOffset:r=28
+fontSizeMult:r=1
+lineSizeMult:r=1
+distancePos:p2=0.008, 0.0
+drawCentralLineVert:b=no
+drawCentralLineHorz:b=no
+crosshairDistHorSizeMain:p2=0.02, 0.02
+crosshairDistHorSizeAdditional:p2=0.017, 0.017
+distanceCorrectionPos:p2=-0.02, -0.05
+drawDistanceCorrection:b=no
+drawAdditionalLines:b=no
+crosshair_distances{
+	//distance {textPos: p2 = 0.043, 0.001; distance: p3 = 200, 2, 0; }
+	//distance {textPos: p2 = 0.043, 0.001; distance: p3 = 350, 3, 0; }
+	//distance {textPos: p2 = 0.043, 0.001; distance: p3 = 550, 5, 0; }
+
+	//distance {textPos: p2 = 0.043, 0.001; distance: p3 = 600, 0, 0; }
+	//distance {textPos: p2 = 0.043, 0.001; distance: p3 = 800, 8, 0; }
+	//distance {textPos: p2 = 0.043, 0.001; distance: p3 = 1000, 0, 0; }
+	//distance {textPos: p2 = 0.043, 0.001; distance: p3 = 1200, 12, 0; }
+	//distance {textPos: p2 = 0.043, 0.001; distance: p3 = 1400, 0, 0; }
+
+	//distance {textPos: p2 = 0.043, 0.001; distance: p3 = 1600, 16, 0; }
+	//distance {textPos: p2 = 0.043, 0.001; distance: p3 = 1800, 0, 0; }
+	//distance {textPos: p2 = 0.043, 0.001; distance: p3 = 2000, 20, 0; }
+	//distance {textPos: p2 = 0.043, 0.001; distance: p3 = 2200, 0, 0; }
+	//distance {textPos: p2 = 0.043, 0.001; distance: p3 = 2400, 24, 0; }
+	//distance {textPos: p2 = 0.043, 0.001; distance: p3 = 2600, 0, 0; }
+	//distance {textPos: p2 = 0.043, 0.001; distance: p3 = 2800, 28, 0; }
+	//distance {textPos: p2 = 0.043, 0.001; distance: p3 = 3000, 30, 0; }
+	//distance {textPos: p2 = 0.043, 0.001; distance: p3 = 3200, 32, 0; }
+
+}
+
+crosshair_hor_ranges{
+//range:p2=-15, 15
+//range:p2=-10, 10
+
+ // range:p2=2.5, 2
+  //range:p2=-2.5, 2
+  //range:p2=-5, 5
+  //range:p2=5, 5
+  //range:p2=10, 10
+  //range:p2=15, 15
+ //range:p2=20, 20
+ //range:p2=-20, 20
+ //range:p2=25, 25
+ //range:p2=-25, 25
+ //range:p2=30, 30
+ //range:p2=-30, 30
+}
+
+drawLines{
+  line{
+    line:p4=-0.028, 0, 0.028, 0
+    move:b=no
+  }
+  line{
+    line:p4=-0.028, 0.069, 0.028, 0.069
+    move:b=no
+  }
+
+  
+  line{
+    line:p4=0, 0.0068, 0, -0.015
+    move:b=no
+  }
+ 
+
+  line{
+    line:p4=-0.028, 0.038, -0.0085, 0.038
+    move:b=no
+  }
+  line{
+    line:p4=0.028, 0.038, 0.0085, 0.038
+    move:b=no
+  }
+
+
+
+  line{
+    line:p4=0, 0.0245, 0, 0.03
+    move:b=no
+  }
+  line{
+    line:p4=0, 0.046, 0, 0.053
+    move:b=no
+  }
+  line{
+    line:p4=0, 0.061, 0, 0.078
+    move:b=no
+  }
+  line{
+    line:p4=0, 0.087, 0, 0.097
+    move:b=no
+  }
+  line{
+    line:p4=0, 0.107, 0, 0.117
+    move:b=no
+  }
+
+
+
+  line{
+    line:p4=0.058, 0.0246, 0.029, 0.0246
+    move:b=no
+  }
+  line{
+    line:p4=0.058, 0.053, 0.029, 0.053
+    move:b=no
+  }
+  line{
+    line:p4=0.058, 0.087, 0.029, 0.087
+    move:b=no
+  }
+  line{
+    line:p4=-0.058, 0.0246, -0.029, 0.0246
+    move:b=no
+  }
+  line{
+    line:p4=-0.058, 0.053, -0.029, 0.053
+    move:b=no
+  }
+  line{
+    line:p4=-0.058, 0.087, -0.029, 0.087
+    move:b=no
+  }
+
+
+
+
+
+
+
+
+//COMBO HEP
+
+  line{
+    line:p4=0.058, 0.138, 0.008, 0.138
+    move:b=no
+  }
+
+  line{
+    line:p4=-0.058, 0.138, -0.008, 0.138
+    move:b=no
+  }
+  line{
+    line:p4=-0.058, 0.245, 0.058, 0.245
+    move:b=no
+  }
+  line{
+    line:p4=-0.058, 0.368, 0.058, 0.368
+    move:b=no
+  }
+
+
+
+
+  line{
+    line:p4=-0.058, 0.189, -0.115, 0.189
+    move:b=no
+  }
+  line{
+    line:p4=0.058, 0.189, 0.115, 0.189
+    move:b=no
+  }
+
+
+  line{
+    line:p4=-0.058, 0.304, -0.115, 0.304
+    move:b=no
+  }
+  line{
+    line:p4=0.058, 0.304, 0.115, 0.304
+    move:b=no
+  }
+
+
+  line{
+    line:p4=-0.058, 0.436, -0.115, 0.436
+    move:b=no
+  }
+  line{
+    line:p4=0.058, 0.436, 0.115, 0.436
+    move:b=no
+  }
+
+
+
+
+  line{
+    line:p4=-0.086, 0.089, -0.115, 0.089
+    move:b=no
+  }
+  line{
+    line:p4=-0.086, 0.061, -0.115, 0.061
+    move:b=no
+  }
+  line{
+    line:p4=-0.086, 0.039, -0.115, 0.039
+    move:b=no
+  }
+
+
+
+
+
+
+  line{
+    line:p4=0., 0.146, 0., 0.164
+    move:b=no
+  }
+
+  line{
+    line:p4=0., 0.217, 0., 0.274
+    move:b=no
+  }
+
+  line{
+    line:p4=0., 0.336, 0., 0.401
+    move:b=no
+  }
+
+
+
+
+
+
+
+
+
+
+
+}
+drawCircles {
+
+    circle {
+      segment:p2 = 0.0, 360.0; 
+      pos:p2 = 0.0, 0.038; 
+      diameter:r = .016; 
+      size:r = 1.5; 
+      move:b = no;
+      thousandth:b = no;
+    }
+    circle {
+      segment:p2 = 0.0, 360.0; 
+      pos:p2 = 0.0, 0.038; 
+      diameter:r = .0053; 
+      size:r = 2.5; 
+      move:b = no;
+      thousandth:b = no;
+    }
+   	 circle {
+    	  segment:p2 = 0.0, 360.0; 
+     	 pos:p2 = 0.0, 0.038; 
+     	 diameter:r = .0033; 
+      	size:r = 2.5; 
+      	move:b = no;
+      	thousandth:b = no;
+   	 }
+   		 circle {
+    	 	 segment:p2 = 0.0, 360.0; 
+     		 pos:p2 = 0.0, 0.038; 
+     		 diameter:r = .0013; 
+      		size:r = 2.5; 
+      		move:b = no;
+      		thousandth:b = no;
+   		 }
+
+
+
+
+
+
+    circle {
+      segment:p2 = 0.0, 360.0; 
+      pos:p2 = 0.058, 0.038; 
+      diameter:r = .005; 
+      size:r = 2.5; 
+      move:b = no;
+      thousandth:b = no;
+    }
+   	 circle {
+    	  segment:p2 = 0.0, 360.0; 
+     	 pos:p2 = 0.058, 0.038; 
+     	 diameter:r = .0033; 
+      	size:r = 2.5; 
+      	move:b = no;
+      	thousandth:b = no;
+   	 }
+   		 circle {
+    	 	 segment:p2 = 0.0, 360.0; 
+     		 pos:p2 = 0.058, 0.038; 
+     		 diameter:r = .0013; 
+      		size:r = 2.5; 
+      		move:b = no;
+      		thousandth:b = no;
+   		 }
+    circle {
+      segment:p2 = 0.0, 360.0; 
+      pos:p2 = -0.058, 0.038; 
+      diameter:r = .005; 
+      size:r = 2.5; 
+      move:b = no;
+      thousandth:b = no;
+    }
+   	 circle {
+    	  segment:p2 = 0.0, 360.0; 
+     	 pos:p2 = -0.058, 0.038; 
+     	 diameter:r = .0033; 
+      	size:r = 2.5; 
+      	move:b = no;
+      	thousandth:b = no;
+   	 }
+   		 circle {
+    	 	 segment:p2 = 0.0, 360.0; 
+     		 pos:p2 = -0.058, 0.038; 
+     		 diameter:r = .0013; 
+      		size:r = 2.5; 
+      		move:b = no;
+      		thousandth:b = no;
+   		 }
+
+
+
+
+
+
+    circle {
+      segment:p2 = 0.0, 360.0; 
+      pos:p2 = 0.058, 0.069; 
+      diameter:r = .005; 
+      size:r = 2.5; 
+      move:b = no;
+      thousandth:b = no;
+    }
+   	 circle {
+    	  segment:p2 = 0.0, 360.0; 
+     	 pos:p2 = 0.058, 0.069; 
+     	 diameter:r = .0033; 
+      	size:r = 2.5; 
+      	move:b = no;
+      	thousandth:b = no;
+   	 }
+   		 circle {
+    	 	 segment:p2 = 0.0, 360.0; 
+     		 pos:p2 = 0.058, 0.069; 
+     		 diameter:r = .0013; 
+      		size:r = 2.5; 
+      		move:b = no;
+      		thousandth:b = no;
+   		 }
+    circle {
+      segment:p2 = 0.0, 360.0; 
+      pos:p2 = -0.058, 0.069; 
+      diameter:r = .005; 
+      size:r = 2.5; 
+      move:b = no;
+      thousandth:b = no;
+    }
+   	 circle {
+    	  segment:p2 = 0.0, 360.0; 
+     	 pos:p2 = -0.058, 0.069; 
+     	 diameter:r = .0033; 
+      	size:r = 2.5; 
+      	move:b = no;
+      	thousandth:b = no;
+   	 }
+   		 circle {
+    	 	 segment:p2 = 0.0, 360.0; 
+     		 pos:p2 = -0.058, 0.069; 
+     		 diameter:r = .0013; 
+      		size:r = 2.5; 
+      		move:b = no;
+      		thousandth:b = no;
+   		 }
+
+
+
+
+
+
+
+
+    circle {
+      segment:p2 = 0.0, 360.0; 
+      pos:p2 = 0.029, 0.107; 
+      diameter:r = .005; 
+      size:r = 2.5; 
+      move:b = no;
+      thousandth:b = no;
+    }
+   	 circle {
+    	  segment:p2 = 0.0, 360.0; 
+     	 pos:p2 = 0.029, 0.107; 
+     	 diameter:r = .0033; 
+      	size:r = 2.5; 
+      	move:b = no;
+      	thousandth:b = no;
+   	 }
+   		 circle {
+    	 	 segment:p2 = 0.0, 360.0; 
+     		 pos:p2 = 0.029, 0.107; 
+     		 diameter:r = .0013; 
+      		size:r = 2.5; 
+      		move:b = no;
+      		thousandth:b = no;
+   		 }
+    circle {
+      segment:p2 = 0.0, 360.0; 
+      pos:p2 = -0.029, 0.107; 
+      diameter:r = .005; 
+      size:r = 2.5; 
+      move:b = no;
+      thousandth:b = no;
+    }
+   	 circle {
+    	  segment:p2 = 0.0, 360.0; 
+     	 pos:p2 = -0.029, 0.107; 
+     	 diameter:r = .0033; 
+      	size:r = 2.5; 
+      	move:b = no;
+      	thousandth:b = no;
+   	 }
+   		 circle {
+    	 	 segment:p2 = 0.0, 360.0; 
+     		 pos:p2 = -0.029, 0.107; 
+     		 diameter:r = .0013; 
+      		size:r = 2.5; 
+      		move:b = no;
+      		thousandth:b = no;
+   		 }
+
+
+
+
+
+
+//COMBO HEP
+
+
+
+    circle {
+      segment:p2 = 0.0, 360.0; 
+      pos:p2 = -0.0, 0.189; 
+      diameter:r = .005; 
+      size:r = 2.5; 
+      move:b = no;
+      thousandth:b = no;
+    }
+   	 circle {
+    	  segment:p2 = 0.0, 360.0; 
+     	 pos:p2 = -0.0, 0.189; 
+     	 diameter:r = .0033; 
+      	size:r = 2.5; 
+      	move:b = no;
+      	thousandth:b = no;
+   	 }
+   		 circle {
+    	 	 segment:p2 = 0.0, 360.0; 
+     		 pos:p2 = -0.0, 0.189; 
+     		 diameter:r = .0013; 
+      		size:r = 2.5; 
+      		move:b = no;
+      		thousandth:b = no;
+   		 }
+    circle {
+      segment:p2 = 0.0, 360.0; 
+      pos:p2 = -0.0, 0.304; 
+      diameter:r = .005; 
+      size:r = 2.5; 
+      move:b = no;
+      thousandth:b = no;
+    }
+   	 circle {
+    	  segment:p2 = 0.0, 360.0; 
+     	 pos:p2 = -0.0, 0.304; 
+     	 diameter:r = .0033; 
+      	size:r = 2.5; 
+      	move:b = no;
+      	thousandth:b = no;
+   	 }
+   		 circle {
+    	 	 segment:p2 = 0.0, 360.0; 
+     		 pos:p2 = -0.0, 0.304; 
+     		 diameter:r = .0013; 
+      		size:r = 2.5; 
+      		move:b = no;
+      		thousandth:b = no;
+   		 }
+    circle {
+      segment:p2 = 0.0, 360.0; 
+      pos:p2 = -0.0, 0.436; 
+      diameter:r = .005; 
+      size:r = 2.5; 
+      move:b = no;
+      thousandth:b = no;
+    }
+   	 circle {
+    	  segment:p2 = 0.0, 360.0; 
+     	 pos:p2 = -0.0, 0.436; 
+     	 diameter:r = .0033; 
+      	size:r = 2.5; 
+      	move:b = no;
+      	thousandth:b = no;
+   	 }
+   		 circle {
+    	 	 segment:p2 = 0.0, 360.0; 
+     		 pos:p2 = -0.0, 0.436; 
+     		 diameter:r = .0013; 
+      		size:r = 2.5; 
+      		move:b = no;
+      		thousandth:b = no;
+   		 }
+
+
+
+
+
+
+
+
+
+    circle {
+      segment:p2 = 0.0, 360.0; 
+      pos:p2 = -0.115, 0.138; 
+      diameter:r = .005; 
+      size:r = 2.5; 
+      move:b = no;
+      thousandth:b = no;
+    }
+   	 circle {
+    	  segment:p2 = 0.0, 360.0; 
+     	 pos:p2 = -0.115, 0.138; 
+     	 diameter:r = .0033; 
+      	size:r = 2.5; 
+      	move:b = no;
+      	thousandth:b = no;
+   	 }
+   		 circle {
+    	 	 segment:p2 = 0.0, 360.0; 
+     		 pos:p2 = -0.115, 0.138; 
+     		 diameter:r = .0013; 
+      		size:r = 2.5; 
+      		move:b = no;
+      		thousandth:b = no;
+   		 }
+    circle {
+      segment:p2 = 0.0, 360.0; 
+      pos:p2 = 0.115, 0.138; 
+      diameter:r = .005; 
+      size:r = 2.5; 
+      move:b = no;
+      thousandth:b = no;
+    }
+   	 circle {
+    	  segment:p2 = 0.0, 360.0; 
+     	 pos:p2 = 0.115, 0.138; 
+     	 diameter:r = .0033; 
+      	size:r = 2.5; 
+      	move:b = no;
+      	thousandth:b = no;
+   	 }
+   		 circle {
+    	 	 segment:p2 = 0.0, 360.0; 
+     		 pos:p2 = 0.115, 0.138; 
+     		 diameter:r = .0013; 
+      		size:r = 2.5; 
+      		move:b = no;
+      		thousandth:b = no;
+   		 }
+    circle {
+      segment:p2 = 0.0, 360.0; 
+      pos:p2 = -0.115, 0.245; 
+      diameter:r = .005; 
+      size:r = 2.5; 
+      move:b = no;
+      thousandth:b = no;
+    }
+   	 circle {
+    	  segment:p2 = 0.0, 360.0; 
+     	 pos:p2 = -0.115, 0.245; 
+     	 diameter:r = .0033; 
+      	size:r = 2.5; 
+      	move:b = no;
+      	thousandth:b = no;
+   	 }
+   		 circle {
+    	 	 segment:p2 = 0.0, 360.0; 
+     		 pos:p2 = -0.115, 0.245; 
+     		 diameter:r = .0013; 
+      		size:r = 2.5; 
+      		move:b = no;
+      		thousandth:b = no;
+   		 }
+    circle {
+      segment:p2 = 0.0, 360.0; 
+      pos:p2 = 0.115, 0.245; 
+      diameter:r = .005; 
+      size:r = 2.5; 
+      move:b = no;
+      thousandth:b = no;
+    }
+   	 circle {
+    	  segment:p2 = 0.0, 360.0; 
+     	 pos:p2 = 0.115, 0.245; 
+     	 diameter:r = .0033; 
+      	size:r = 2.5; 
+      	move:b = no;
+      	thousandth:b = no;
+   	 }
+   		 circle {
+    	 	 segment:p2 = 0.0, 360.0; 
+     		 pos:p2 = 0.115, 0.245; 
+     		 diameter:r = .0013; 
+      		size:r = 2.5; 
+      		move:b = no;
+      		thousandth:b = no;
+   		 }
+    circle {
+      segment:p2 = 0.0, 360.0; 
+      pos:p2 = -0.115, 0.368; 
+      diameter:r = .005; 
+      size:r = 2.5; 
+      move:b = no;
+      thousandth:b = no;
+    }
+   	 circle {
+    	  segment:p2 = 0.0, 360.0; 
+     	 pos:p2 = -0.115, 0.368; 
+     	 diameter:r = .0033; 
+      	size:r = 2.5; 
+      	move:b = no;
+      	thousandth:b = no;
+   	 }
+   		 circle {
+    	 	 segment:p2 = 0.0, 360.0; 
+     		 pos:p2 = -0.115, 0.368; 
+     		 diameter:r = .0013; 
+      		size:r = 2.5; 
+      		move:b = no;
+      		thousandth:b = no;
+   		 }
+    circle {
+      segment:p2 = 0.0, 360.0; 
+      pos:p2 = 0.115, 0.368; 
+      diameter:r = .005; 
+      size:r = 2.5; 
+      move:b = no;
+      thousandth:b = no;
+    }
+   	 circle {
+    	  segment:p2 = 0.0, 360.0; 
+     	 pos:p2 = 0.115, 0.368; 
+     	 diameter:r = .0033; 
+      	size:r = 2.5; 
+      	move:b = no;
+      	thousandth:b = no;
+   	 }
+   		 circle {
+    	 	 segment:p2 = 0.0, 360.0; 
+     		 pos:p2 = 0.115, 0.368; 
+     		 diameter:r = .0013; 
+      		size:r = 2.5; 
+      		move:b = no;
+      		thousandth:b = no;
+   		 }
+
+
+
+
+
+
+
+
+
+    circle {
+      segment:p2 = 0.0, 360.0; 
+      pos:p2 = 0.0, 0.138; 
+      diameter:r = .016; 
+      size:r = 1.5; 
+      move:b = no;
+      thousandth:b = no;
+    }
+
+    circle {
+      segment:p2 = 0.0, 360.0; 
+      pos:p2 = -0., 0.138; 
+      diameter:r = .005; 
+      size:r = 2.5; 
+      move:b = no;
+      thousandth:b = no;
+    }
+   	 circle {
+    	  segment:p2 = 0.0, 360.0; 
+     	 pos:p2 = -0., 0.138; 
+     	 diameter:r = .0033; 
+      	size:r = 2.5; 
+      	move:b = no;
+      	thousandth:b = no;
+   	 }
+   		 circle {
+    	 	 segment:p2 = 0.0, 360.0; 
+     		 pos:p2 = -0., 0.138; 
+     		 diameter:r = .0013; 
+      		size:r = 2.5; 
+      		move:b = no;
+      		thousandth:b = no;
+   		 }
+
+
+
+
+
+
+
+}
+
+drawTexts{
+
+text{
+   text:t="8"
+   align:i=0
+   pos:p2=0.07, 0.022
+   move:b=no
+   size:r=0.8
+}
+text{
+   text:t="12"
+   align:i=0
+   pos:p2=0.074, 0.036
+   move:b=no
+   size:r=0.8
+}
+text{
+   text:t="16"
+   align:i=0
+   pos:p2=0.074, 0.05
+   move:b=no
+   size:r=0.8
+}
+text{
+   text:t="20"
+   align:i=0
+   pos:p2=0.074, 0.0666
+   move:b=no
+   size:r=0.8
+}
+text{
+   text:t="24"
+   align:i=0
+   pos:p2=0.074, 0.084
+   move:b=no
+   size:r=0.8
+}
+text{
+   text:t="28"
+   align:i=0
+   pos:p2=0.074, 0.103
+   move:b=no
+   size:r=0.8
+}
+
+//COMBO HEP
+
+
+text{
+   text:t="32"
+   align:i=0
+   pos:p2=-0.145, 0.433
+   move:b=no
+   size:r=0.8
+}
+text{
+   text:t="28"
+   align:i=0
+   pos:p2=-0.145, 0.366
+   move:b=no
+   size:r=0.8
+}
+text{
+   text:t="24"
+   align:i=0
+   pos:p2=-0.145, 0.302
+   move:b=no
+   size:r=0.8
+}
+text{
+   text:t="20"
+   align:i=0
+   pos:p2=-0.145, 0.243
+   move:b=no
+   size:r=0.8
+}
+text{
+   text:t="16"
+   align:i=0
+   pos:p2=-0.145, 0.188
+   move:b=no
+   size:r=0.8
+}
+text{
+   text:t="12"
+   align:i=0
+   pos:p2=-0.145, 0.136
+   move:b=no
+   size:r=0.8
+}
+text{
+   text:t="8"
+   align:i=0
+   pos:p2=-0.145, 0.086
+   move:b=no
+   size:r=0.8
+}
+text{
+   text:t="5.5"
+   align:i=0
+   pos:p2=-0.148, 0.058
+   move:b=no
+   size:r=0.8
+}
+text{
+   text:t="3.5"
+   align:i=0
+   pos:p2=-0.148, 0.037
+   move:b=no
+   size:r=0.8
+}
+
+
+
+}
+
+
+

@@ -1,0 +1,265 @@
+
+crosshairHorVertSize:p2=3, 2
+rangefinderProgressBarColor1:c=0, 255, 0, 64
+rangefinderProgressBarColor2:c=255, 255, 255, 64
+rangefinderTextScale:r=-0.5
+rangefinderVerticalOffset:r=18
+rangefinderHorizontalOffset:r=28
+fontSizeMult:r=1
+lineSizeMult:r=1
+distancePos:p2=0.008, 0.0
+drawCentralLineVert:b=no
+drawCentralLineHorz:b=no
+crosshairDistHorSizeMain:p2=0.02, 0.02
+crosshairDistHorSizeAdditional:p2=0.017, 0.017
+distanceCorrectionPos:p2=-0.02, -0.05
+drawDistanceCorrection:b=no
+drawAdditionalLines:b=no
+
+crosshair_distances{
+	//distance {textPos: p2 = 0.037, 0; distance: p3 = 200, 2, 0; }
+	//distance {textPos: p2 = 0.037, 0; distance: p3 = 400, 4, 0; }
+	//distance {textPos: p2 = 0.037, 0; distance: p3 = 500, 5, 0; }
+	//distance {textPos: p2 = 0.037, 0; distance: p3 = 800, 8, 0; }
+	//distance {textPos: p2 = 0.043, 0.001; distance: p3 = 1000, 10, 0; }
+	//distance {textPos: p2 = 0.043, 0.001; distance: p3 = 1200, 12, 0; }
+	//distance {textPos: p2 = 0.043, 0.001; distance: p3 = 1400, 14, 0; }
+
+
+}
+
+crosshair_hor_ranges{
+//  range:p2=-15, 0
+ // range:p2=-10, 8
+ // range:p2=-5, 0
+ // range:p2=5, 0
+ // range:p2=10, 8
+ // range:p2=15, 0
+ //range:p2=20, 0
+ //range:p2=-20, 0
+ //range:p2=25, 0
+ //range:p2=-25, 0
+ //range:p2=30, 0
+ //range:p2=-30, 0
+}
+
+drawLines{
+  line{
+    line:p4=-0.018, 0, 0.018, 0
+    move:b=no
+  }
+  line{
+    line:p4=0, 0.008, 0, -0.022
+    move:b=no
+  }
+
+
+
+
+  line{
+    line:p4=0.057, 0.0176, 0.029, 0.0176
+    move:b=no
+  }
+				  line{
+  				  line:p4=0.115, 0.0176, 0.087, 0.0176
+  				  move:b=no
+ 					 }
+					line{
+  					  line:p4=0.173, 0.0176, 0.145, 0.0176
+  					  move:b=no
+ 						 }
+  line{
+    line:p4=0.057, 0.04, 0.029, 0.04
+    move:b=no
+  }
+				  line{
+  				  line:p4=0.115, 0.04, 0.087, 0.04
+  				  move:b=no
+ 					 }
+
+  line{
+    line:p4=0.057, 0.072, 0.029, 0.072
+    move:b=no
+  }
+				  line{
+  				  line:p4=0.115, 0.072, 0.087, 0.072
+  				  move:b=no
+ 					 }
+  line{
+    line:p4=0.057, 0.115, 0.029, 0.115
+    move:b=no
+  }
+				  line{
+  				  line:p4=0.115, 0.115, 0.087, 0.115
+  				  move:b=no
+ 					 }
+  line{
+    line:p4=0.057, 0.173, 0.029, 0.173
+    move:b=no
+  }
+				  line{
+  				  line:p4=0.115, 0.173, 0.087, 0.173
+  				  move:b=no
+ 					 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  line{
+    line:p4=-0.057, 0.0176, -0.029, 0.0176
+    move:b=no
+  }
+				  line{
+  				  line:p4=-0.115, 0.0176, -0.087, 0.0176
+  				  move:b=no
+ 					 }
+					line{
+  					  line:p4=-0.173, 0.0176, -0.145, 0.0176
+  					  move:b=no
+ 						 }
+  line{
+    line:p4=-0.057, 0.04, -0.029, 0.04
+    move:b=no
+  }
+				  line{
+  				  line:p4=-0.115, 0.04, -0.087, 0.04
+  				  move:b=no
+ 					 }
+
+  line{
+    line:p4=-0.057, 0.072, -0.029, 0.072
+    move:b=no
+  }
+				  line{
+  				  line:p4=-0.115, 0.072, -0.087, 0.072
+  				  move:b=no
+ 					 }
+  line{
+    line:p4=-0.057, 0.115, -0.029, 0.115
+    move:b=no
+  }
+				  line{
+  				  line:p4=-0.115, 0.115, -0.087, 0.115
+  				  move:b=no
+ 					 }
+  line{
+    line:p4=-0.057, 0.173, -0.029, 0.173
+    move:b=no
+  }
+				  line{
+  				  line:p4=-0.115, 0.173, -0.087, 0.173
+  				  move:b=no
+ 					 }
+
+
+
+
+
+
+  line{
+    line:p4=0, 0.04, 0, 0.054
+    move:b=no
+  }
+  line{
+    line:p4=0, 0.072, 0, 0.092
+    move:b=no
+  }
+  line{
+    line:p4=0, 0.115, 0, 0.14
+    move:b=no
+  }
+  line{
+    line:p4=0, 0.173, 0, 0.2
+    move:b=no
+  }
+
+
+
+
+
+
+}
+drawCircles {
+
+    circle {
+      segment:p2 = 0.0, 360.0; // Sector of a circle
+      pos:p2 = 0.0, 0.023; // Position
+      diameter:r = .002; // Diameter. If thousandth=yes, then in thousandths
+      size:r = 3.0; // Line Thickness
+      move:b = no;
+      thousandth:b = no;
+    }
+
+    circle {
+      segment:p2 = 0.0, 360.0; // Sector of a circle
+      pos:p2 = 0.0, 0.0; // Position
+      diameter:r = .6; // Diameter. If thousandth=yes, then in thousandths
+      size:r = 1.5; // Line Thickness
+      move:b = no;
+      thousandth:b = no;
+    }
+    circle {
+      segment:p2 = 0.0, 360.0; // Sector of a circle
+      pos:p2 = 0.0, 0.0; // Position
+      diameter:r = 1.2; // Diameter. If thousandth=yes, then in thousandths
+      size:r = 1.5; // Line Thickness
+      move:b = no;
+      thousandth:b = no;
+    }
+
+}
+
+drawTexts{
+
+text{
+   text:t="4"
+   align:i=0
+   pos:p2=0.185, 0.023
+   move:b=no
+   size:r=0
+}
+text{
+   text:t="8"
+   align:i=0
+   pos:p2=0.128, 0.046
+   move:b=no
+   size:r=0
+}
+text{
+   text:t="12"
+   align:i=0
+   pos:p2=0.13, 0.076
+   move:b=no
+   size:r=0
+}
+text{
+   text:t="16"
+   align:i=0
+   pos:p2=0.13, 0.12
+   move:b=no
+   size:r=0
+}
+text{
+   text:t="20"
+   align:i=0
+   pos:p2=0.13, 0.179
+   move:b=no
+   size:r=0
+}
+
+
+
+
+
+}

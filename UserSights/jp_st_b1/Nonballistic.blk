@@ -1,0 +1,113 @@
+crosshairHorVertSize:p2=3, 2
+rangefinderProgressBarColor1:c=0, 255, 0, 64
+rangefinderProgressBarColor2:c=255, 255, 255, 64
+rangefinderTextScale:r=0.7
+rangefinderVerticalOffset:r=0.04
+rangefinderHorizontalOffset:r=5
+fontSizeMult:r=1
+lineSizeMult:r=1
+drawCentralLineVert:b=no
+drawCentralLineHorz:b=no
+crosshairDistHorSizeMain:p2=0.03, 0.02
+crosshairDistHorSizeAdditional:p2=0.005, 0.003
+distanceCorrectionPos:p2=-0.2, -0.05
+drawDistanceCorrection:b=yes
+
+crosshair_distances{
+
+}
+
+crosshair_hor_ranges{
+
+}
+
+drawLines{
+  line{
+    line:p4=-0.012, 0, 0.012, 0
+    move:b=no
+  }
+
+  line{
+    line:p4=0, 0.012, 0, -0.012
+    move:b=no
+  }
+ 
+
+
+
+
+
+
+
+
+
+  line{
+    line:p4=0.0585, 0.0, 0.115, 0.0
+    move:b=no
+  }
+
+ 			 line{
+   	 		line:p4=0.174, 0.0, 0.2318, 0.0
+   	 		move:b=no
+ 	 		}
+  line{
+    line:p4=-0.0585, 0.0, -0.115, 0.0
+    move:b=no
+  }
+
+ 			 line{
+   	 		line:p4=-0.174, 0.0, -0.2318, 0.0
+   	 		move:b=no
+ 	 		}
+
+
+
+  line{
+    line:p4=-0.023, 0.024, -0.081, 0.024
+    move:b=no
+  }
+  line{
+    line:p4=0.023, 0.024, 0.081, 0.024
+    move:b=no
+  }
+  line{
+    line:p4=-0.023, -0.024, -0.081, -0.024
+    move:b=no
+  }
+  line{
+    line:p4=0.023, -0.024, 0.081, -0.024
+    move:b=no
+  }
+
+
+
+
+  line{
+    line:p4=0.0, -0.024, 0.0, -0.048
+    move:b=no
+  }
+  line{
+    line:p4=0.0, -0.072, 0.0, -0.096
+    move:b=no
+  }
+  line{
+    line:p4=0.0, -0.120, 0.0, -0.144
+    move:b=no
+  }
+
+  line{
+    line:p4=0.0, 0.024, 0.0, 0.048
+    move:b=no
+  }
+  line{
+    line:p4=0.0, 0.072, 0.0, 0.096
+    move:b=no
+  }
+  line{
+    line:p4=0.0, 0.120, 0.0, 0.144
+    move:b=no
+  }
+
+
+
+}

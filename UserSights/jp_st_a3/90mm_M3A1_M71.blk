@@ -1,0 +1,452 @@
+
+crosshairHorVertSize:p2=3, 2
+rangefinderProgressBarColor1:c=0, 255, 0, 64
+rangefinderProgressBarColor2:c=255, 255, 255, 64
+rangefinderTextScale:r=-0.5
+rangefinderVerticalOffset:r=0.04
+rangefinderHorizontalOffset:r=28
+fontSizeMult:r=1
+lineSizeMult:r=1
+distancePos:p2=0.008, 0.0
+drawCentralLineVert:b=no
+drawCentralLineHorz:b=no
+crosshairDistHorSizeMain:p2=0.02, 0.02
+crosshairDistHorSizeAdditional:p2=0.017, 0.017
+distanceCorrectionPos:p2=-0.02, -0.05
+drawDistanceCorrection:b=no
+drawAdditionalLines:b=no
+
+crosshair_distances{
+	//distance {textPos: p2 = 0.043, 0.001; distance: p3 = 200, 0, 0; }
+	//distance {textPos: p2 = 0.043, 0.001; distance: p3 = 400, 4, 0; }
+	//distance {textPos: p2 = 0.043, 0.001; distance: p3 = 600, 0, 0; }
+	//distance {textPos: p2 = 0.043, 0.001; distance: p3 = 800, 8, 0; }
+	//distance {textPos: p2 = 0.043, 0.001; distance: p3 = 1000, 0, 0; }
+	//distance {textPos: p2 = 0.043, 0.001; distance: p3 = 1200, 12, 0; }
+	//distance {textPos: p2 = 0.043, 0.001; distance: p3 = 1400, 0, 0; }
+	//distance {textPos: p2 = 0.043, 0.001; distance: p3 = 1600, 16, 0; }
+	//distance {textPos: p2 = 0.043, 0.001; distance: p3 = 1800, 0, 0; }
+	//distance {textPos: p2 = 0.043, 0.001; distance: p3 = 2000, 20, 0; }
+	//distance {textPos: p2 = 0.043, 0.001; distance: p3 = 2200, 0, 0; }
+	//distance {textPos: p2 = 0.043, 0.001; distance: p3 = 2400, 24, 0; }
+	//distance {textPos: p2 = 0.043, 0.001; distance: p3 = 2600, 0, 0; }
+	//distance {textPos: p2 = 0.043, 0.001; distance: p3 = 2800, 28, 0; }
+	//distance {textPos: p2 = 0.043, 0.001; distance: p3 = 3000, 0, 0; }
+	//distance {textPos: p2 = 0.043, 0.001; distance: p3 = 3200, 32, 0; }
+	//distance {textPos: p2 = 0.043, 0.001; distance: p3 = 3400, 0, 0; }
+	//distance {textPos: p2 = 0.043, 0.001; distance: p3 = 3600, 36, 0; }
+	//distance {textPos: p2 = 0.043, 0.001; distance: p3 = 3800, 0, 0; }
+	//distance {textPos: p2 = 0.043, 0.001; distance: p3 = 4000, 40, 0; }
+	//distance {textPos: p2 = 0.043, 0.001; distance: p3 = 4200, 0, 0; }
+	//distance {textPos: p2 = 0.043, 0.001; distance: p3 = 4400, 44, 0; }
+	//distance {textPos: p2 = 0.043, 0.001; distance: p3 = 4600, 0, 0; }
+
+
+}
+
+crosshair_hor_ranges{
+
+  //range:p2=-30, 30
+  //range:p2=-25, 25
+  //range:p2=-20, 20
+  //range:p2=-15, 15
+  //range:p2=-10, 10
+  //range:p2=-5, 5
+  //range:p2=5, 5
+  //range:p2=10, 10
+  //range:p2=15, 15
+  //range:p2=20, 20
+  //range:p2=25, 25
+  //range:p2=30, 30
+
+}
+
+drawLines{
+  line{
+    line:p4=-0.016, 0, 0.016, 0
+    move:b=no
+  }
+
+  line{
+    line:p4=0, 0.0175, 0, -0.017
+    move:b=no
+  }
+ 
+
+
+
+
+
+
+
+
+
+  line{
+    line:p4=0.0585, 0.033, 0.115, 0.033
+    move:b=no
+  }
+
+ 		 line{
+   	 	line:p4=0.174, 0.033, 0.2318, 0.033
+   	 	move:b=no
+ 	 	}
+
+ 				 line{
+   	 			line:p4=0.29, 0.033, 0.3475, 0.033
+   	 			move:b=no
+ 	 			}
+
+  line{
+    line:p4=0.0585, 0.066, 0.115, 0.066
+    move:b=no
+  }
+ 		 line{
+   	 	line:p4=0.174, 0.066, 0.2318, 0.066
+   	 	move:b=no
+ 	 	}
+
+  line{
+    line:p4=0.0585, 0.1014, 0.115, 0.1014
+    move:b=no
+  }
+
+ 		 line{
+   	 	line:p4=0.174, 0.1014, 0.2318, 0.1014
+   	 	move:b=no
+ 	 	}
+
+ 				 line{
+   	 			line:p4=0.29, 0.1014, 0.3475, 0.1014
+   	 			move:b=no
+ 	 			}
+
+  line{
+    line:p4=0.0585, 0.139, 0.115, 0.139
+    move:b=no
+  }
+ 		 line{
+   	 	line:p4=0.174, 0.139, 0.2318, 0.139
+   	 	move:b=no
+ 	 	}
+
+  line{
+    line:p4=0.0585, 0.1799, 0.115, 0.1799
+    move:b=no
+  }
+ 		 line{
+   	 	line:p4=0.174, 0.1799, 0.2318, 0.1799
+   	 	move:b=no
+ 	 	}
+
+  line{
+    line:p4=0.0585, 0.2235, 0.115, 0.2235
+    move:b=no
+  }
+
+  line{
+    line:p4=0.0585, 0.2698, 0.115, 0.2698
+    move:b=no
+  }
+ 		 line{
+   	 	line:p4=0.174, 0.2698, 0.2318, 0.2698
+   	 	move:b=no
+ 	 	}
+
+  line{
+    line:p4=0.0585, 0.32, 0.115, 0.32
+    move:b=no
+  }
+
+  line{
+    line:p4=0.0585, 0.374, 0.115, 0.374
+    move:b=no
+  }
+ 		 line{
+   	 	line:p4=0.174, 0.374, 0.2318, 0.374
+   	 	move:b=no
+ 	 	}
+
+  line{
+    line:p4=0.0585, 0.431, 0.115, 0.431
+    move:b=no
+  }
+  line{
+    line:p4=0.0585, 0.493, 0.115, 0.493
+    move:b=no
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  line{
+    line:p4=-0.0585, 0.033, -0.115, 0.033
+    move:b=no
+  }
+
+ 		 line{
+   	 	line:p4=-0.174, 0.033, -0.2318, 0.033
+   	 	move:b=no
+ 	 	}
+
+ 				 line{
+   	 			line:p4=-0.29, 0.033, -0.3475, 0.033
+   	 			move:b=no
+ 	 			}
+
+  line{
+    line:p4=-0.0585, 0.066, -0.115, 0.066
+    move:b=no
+  }
+ 		 line{
+   	 	line:p4=-0.174, 0.066, -0.2318, 0.066
+   	 	move:b=no
+ 	 	}
+
+  line{
+    line:p4=-0.0585, 0.1014, -0.115, 0.1014
+    move:b=no
+  }
+
+ 		 line{
+   	 	line:p4=-0.174, 0.1014, -0.2318, 0.1014
+   	 	move:b=no
+ 	 	}
+
+ 				 line{
+   	 			line:p4=-0.29, 0.1014, -0.3475, 0.1014
+   	 			move:b=no
+ 	 			}
+
+  line{
+    line:p4=-0.0585, 0.139, -0.115, 0.139
+    move:b=no
+  }
+ 		 line{
+   	 	line:p4=-0.174, 0.139, -0.2318, 0.139
+   	 	move:b=no
+ 	 	}
+
+  line{
+    line:p4=-0.0585, 0.1799, -0.115, 0.1799
+    move:b=no
+  }
+ 		 line{
+   	 	line:p4=-0.174, 0.1799, -0.2318, 0.1799
+   	 	move:b=no
+ 	 	}
+
+  line{
+    line:p4=-0.0585, 0.2235, -0.115, 0.2235
+    move:b=no
+  }
+
+  line{
+    line:p4=-0.0585, 0.2698, -0.115, 0.2698
+    move:b=no
+  }
+ 		 line{
+   	 	line:p4=-0.174, 0.2698, -0.2318, 0.2698
+   	 	move:b=no
+ 	 	}
+
+  line{
+    line:p4=-0.0585, 0.32, -0.115, 0.32
+    move:b=no
+  }
+
+  line{
+    line:p4=-0.0585, 0.374, -0.115, 0.374
+    move:b=no
+  }
+ 		 line{
+   	 	line:p4=-0.174, 0.374, -0.2318, 0.374
+   	 	move:b=no
+ 	 	}
+
+  line{
+    line:p4=-0.0585, 0.431, -0.115, 0.431
+    move:b=no
+  }
+  line{
+    line:p4=-0.0585, 0.493, -0.115, 0.493
+    move:b=no
+  }
+
+
+
+
+
+
+  line{
+    line:p4=0, 0.033, 0, 0.0485
+    move:b=no
+  }
+  line{
+    line:p4=0, 0.066, 0, 0.0835
+    move:b=no
+  }
+  line{
+    line:p4=0, 0.1014, 0, 0.12
+    move:b=no
+  }
+  line{
+    line:p4=0, 0.139, 0, 0.159
+    move:b=no
+  }
+  line{
+    line:p4=0, 0.1799, 0, 0.201
+    move:b=no
+  }
+  line{
+    line:p4=0, 0.2235, 0, 0.2455
+    move:b=no
+  }
+  line{
+    line:p4=0, 0.2698, 0, 0.294
+    move:b=no
+  }
+  line{
+    line:p4=0, 0.32, 0, 0.346
+    move:b=no
+  }
+  line{
+    line:p4=0, 0.374, 0, 0.402
+    move:b=no
+  }
+  line{
+    line:p4=0, 0.431, 0, 0.462
+    move:b=no
+  }
+  line{
+    line:p4=0, 0.493, 0, 0.525
+    move:b=no
+  }
+
+
+}
+drawTexts{
+
+
+
+text{
+   text:t="8"
+   align:i=0
+   pos:p2=-0.295, 0.073
+   move:b=no
+   size:r=1
+}
+text{
+   text:t="16"
+   align:i=0
+   pos:p2=-0.295, 0.145
+   move:b=no
+   size:r=1
+}
+text{
+   text:t="24"
+   align:i=0
+   pos:p2=-0.185, 0.23
+   move:b=no
+   size:r=1
+}
+text{
+   text:t="32"
+   align:i=0
+   pos:p2=-0.185, 0.328
+   move:b=no
+   size:r=1
+}
+text{
+   text:t="36"
+   align:i=0
+   pos:p2=-0.295, 0.38
+   move:b=no
+   size:r=1
+}
+text{
+   text:t="40"
+   align:i=0
+   pos:p2=-0.185, 0.437
+   move:b=no
+   size:r=1
+}
+
+
+text{
+   text:t="8"
+   align:i=0
+   pos:p2=0.295, 0.073
+   move:b=no
+   size:r=1
+}
+text{
+   text:t="16"
+   align:i=0
+   pos:p2=0.295, 0.145
+   move:b=no
+   size:r=1
+}
+text{
+   text:t="24"
+   align:i=0
+   pos:p2=0.185, 0.23
+   move:b=no
+   size:r=1
+}
+text{
+   text:t="32"
+   align:i=0
+   pos:p2=0.185, 0.328
+   move:b=no
+   size:r=1
+}
+text{
+   text:t="36"
+   align:i=0
+   pos:p2=0.295, 0.38
+   move:b=no
+   size:r=1
+}
+text{
+   text:t="40"
+   align:i=0
+   pos:p2=0.185, 0.437
+   move:b=no
+   size:r=1
+}
+
+
+
+
+
+
+text{
+   text:t="90 - M82"
+   align:i=0
+   pos:p2=-0.005, -0.39
+   move:b=no
+   size:r=1.
+}
+
+
+
+}
+
+
+
+
+
+
