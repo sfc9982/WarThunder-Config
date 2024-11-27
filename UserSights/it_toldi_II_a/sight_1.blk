@@ -1,0 +1,333 @@
+matchExpClass {
+it_toldi_II_a:b = yes
+}
+
+crosshairHorVertSize:p2=3, 2
+rangefinderProgressBarColor1:c=0, 255, 0, 64
+rangefinderProgressBarColor2:c=255, 255, 255, 64
+rangefinderTextScale:r=0.7
+rangefinderUseThousandth:b=no
+rangefinderVerticalOffset:r=0.15
+rangefinderHorizontalOffset:r=170
+detectAllyTextScale:r=0.7
+detectAllyOffset:p2=4, 0.05
+fontSizeMult:r=1
+lineSizeMult:r=1.5
+drawCentralLineVert:b=no
+drawCentralLineHorz:b=no
+drawSightMask:b=yes
+crosshairColor:c=0, 0, 0, 0
+crosshairLightColor:c=0, 0, 0, 0
+
+
+ballistics {
+bullet {
+ bulletType:t = "aphebc_tank"
+ speed:r = 800.0
+ drawAdditionalLines:b = no
+ drawDistanceCorrection:b = no
+ distanceCorrectionPos:p2=-0.26, -0.138
+ drawUpward:b = no
+ distancePos:p2 = 0.243, 0.0
+ textAlign:i = 1
+ textPos:p2 = -0.01, 0.0
+ textShift:r = 10
+ crosshairDistHorSizeMain:p2=0.001, 0.01
+ crosshairDistHorSizeAdditional:p2=0, 0
+ crosshair_distances{
+   distance:p3=200, 2, 0.009
+   distance:p3=400, 4, 0
+   distance:p3=600, 6, 0.009
+   distance:p3=800, 8, 0
+   distance:p3=1000, 10, 0.009
+   distance:p3=1200, 12, 0
+   distance:p3=1400, 14, 0.009
+   distance:p3=1600, 16, 0
+   distance:p3=1800, 18, 0.009
+   distance:p3=2000, 20, 0
+   distance:p3=2200, 22, 0.009
+   distance:p3=2400, 24, 0
+   distance:p3=2600, 26, 0.009
+   distance:p3=2800, 28, 0
+   distance:p3=3000, 30, 0.009
+   distance:p3=3200, 32, 0
+   distance:p3=3400, 34, 0.009
+  }
+ }
+bullet {
+ bulletType:t = "he_frag_tank"
+ speed:r = 800.0
+ drawAdditionalLines:b = no
+ drawDistanceCorrection:b = no
+ distanceCorrectionPos:p2=-0.26, -0.138
+ drawUpward:b = no
+ distancePos:p2 = 0.23, 0.0
+ textAlign:i = -1
+ textPos:p2 = 0.024, 0.0
+ textShift:r = 10
+ crosshairDistHorSizeMain:p2=0.001, 0.01
+ crosshairDistHorSizeAdditional:p2=0, 0
+ crosshair_distances{
+   distance:p3=200, 2, -0.009
+   distance:p3=400, 4, 0
+   distance:p3=600, 6, -0.009
+   distance:p3=800, 8, 0
+   distance:p3=1000, 10, -0.009
+   distance:p3=1200, 12, 0
+   distance:p3=1400, 14, -0.009
+   distance:p3=1600, 16, 0
+   distance:p3=1800, 18, -0.009
+   distance:p3=2000, 20, 0
+   distance:p3=2200, 22, -0.009
+   distance:p3=2400, 24, 0
+   distance:p3=2600, 26, -0.009
+   distance:p3=2800, 28, 0
+   distance:p3=3000, 30, -0.009
+   distance:p3=3200, 32, 0
+   distance:p3=3400, 34, -0.009
+  }
+ }
+bullet {
+ bulletType:t = "ap_i_t_ball"
+ speed:r = 790.0
+ drawAdditionalLines:b = no
+ drawDistanceCorrection:b = no
+ distanceCorrectionPos:p2=-0.26, -0.138
+ drawUpward:b = no
+ distancePos:p2 = -0.2, 0.0
+ textAlign:i = -1
+ textPos:p2 = 0.023, 0.0
+ textShift:r = 10
+ crosshairDistHorSizeMain:p2=0.001, 0.01
+ crosshairDistHorSizeAdditional:p2=0, 0
+ crosshair_distances{
+   distance:p3=200, 2, -0.009
+   distance:p3=400, 4, 0
+   distance:p3=600, 6, -0.009
+   distance:p3=800, 8, 0
+   distance:p3=1000, 10, -0.009
+   distance:p3=1200, 12, 0
+   distance:p3=1400, 14, -0.009
+   distance:p3=1600, 16, 0
+   distance:p3=1800, 18, -0.009
+   distance:p3=2000, 20, 0
+   distance:p3=2200, 22, -0.009
+   distance:p3=2400, 24, 0
+   distance:p3=2600, 26, -0.009
+   distance:p3=2800, 28, 0
+   distance:p3=3000, 30, -0.009
+   distance:p3=3200, 32, 0
+   distance:p3=3400, 34, -0.009
+  }
+ }
+
+
+}
+
+
+
+crosshair_hor_ranges{
+}
+
+
+//40mm
+drawTexts {
+  text {
+	text:t = "40 mm"
+	align:i = 0
+	pos:p2 = -95, 80
+	move:b = yes 
+	thousandth:b = yes
+	size:r = 1.0
+   }
+
+
+//8mm
+  text {
+	text:t = "8 mm"
+	align:i = 0
+	pos:p2 = 81, 80
+	move:b = yes
+	thousandth:b = yes
+	size:r = 1.0
+   }
+}
+
+
+
+
+
+//bigger triangle
+drawLines{
+  line{
+    line:p4=5, 8, 0, 0
+    move:b=no
+	thousandth:b=yes
+  }
+
+  line{
+    line:p4=-5, 8, 0, 0
+    move:b=no
+	thousandth:b=yes
+  }
+//bigger triangle end
+
+
+
+//main lines
+  line{
+    line:p4=0, -50, 0, -1000
+    move:b=no
+	thousandth:b=yes
+  }
+
+line{
+    line:p4=17, 0, 1000, 0
+    move:b=no
+	thousandth:b=yes
+  }
+
+line{
+    line:p4=-17, 0, -1000, 0
+    move:b=no
+	thousandth:b=yes
+  }
+//main lines end
+
+
+
+//arrows
+//arrowlines
+line{
+    line:p4=17, -35, 40, -35
+    move:b=no
+	thousandth:b=yes
+  }
+
+line{
+    line:p4=-17, -35, -40, -35
+    move:b=no
+	thousandth:b=yes
+  }
+//arrow lines end
+
+//arrow tips
+line{
+    line:p4=23, -37, 17, -35
+    move:b=no
+	thousandth:b=yes
+  }
+  
+  line{
+    line:p4=23, -33, 17, -35
+    move:b=no
+	thousandth:b=yes
+  }
+
+line{
+    line:p4=-23, -37, -17, -35
+    move:b=no
+	thousandth:b=yes
+  }
+  
+  line{
+    line:p4=-23, -33, -17, -35
+    move:b=no
+	thousandth:b=yes
+  }
+
+//arrow tips end
+//arrows end
+
+
+
+
+
+//little triangles
+line{
+    line:p4=4, 0, 3, 2
+    move:b=no
+	thousandth:b=yes
+  }
+  
+  line{
+    line:p4=4, 0, 5, 2
+    move:b=no
+	thousandth:b=yes
+  }
+  
+  
+
+  line{
+    line:p4=8, 0, 9, 2
+    move:b=no
+	thousandth:b=yes
+  }
+  
+  line{
+    line:p4=8, 0, 7, 2
+    move:b=no
+	thousandth:b=yes
+  }
+
+  
+  
+  line{
+    line:p4=12, 0, 11, 2
+    move:b=no
+	thousandth:b=yes
+  }
+  
+  line{
+    line:p4=12, 0, 13, 2
+    move:b=no
+	thousandth:b=yes
+  }
+  
+ 
+  
+  line{
+    line:p4=-4, 0, -3, 2
+    move:b=no
+	thousandth:b=yes
+  }
+  
+  line{
+    line:p4=-4, 0, -5, 2
+    move:b=no
+	thousandth:b=yes
+  }
+  
+   
+  
+  line{
+    line:p4=-8, 0, -9, 2
+    move:b=no
+	thousandth:b=yes
+  }
+  
+  line{
+    line:p4=-8, 0, -7, 2
+    move:b=no
+	thousandth:b=yes
+  }
+  
+
+
+  line{
+    line:p4=-12, 0, -11, 2
+    move:b=no
+	thousandth:b=yes
+  }
+  
+  line{
+    line:p4=-12, 0, -13, 2
+    move:b=no
+	thousandth:b=yes
+  }
+//little triangles end
+
+
+
+  
+}

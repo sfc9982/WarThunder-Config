@@ -1,0 +1,81 @@
+
+///Created by Caff///
+
+crosshairHorVertSize:p2=3, 2
+rangefinderProgressBarColor1:c=0, 0, 0, 0
+rangefinderProgressBarColor2:c=255, 255, 255, 64
+rangefinderTextScale:r=0.7
+rangefinderUseThousandth:b=no
+rangefinderVerticalOffset:r=0.05
+rangefinderHorizontalOffset:r=5
+fontSizeMult:r=0.8
+lineSizeMult:r=1.3
+drawCentralLineVert:b=yes
+drawCentralLineHorz:b=no
+drawSightMask:b=yes
+useSmoothEdge:b=yes
+crosshairColor:c=0, 0, 0, 0
+crosshairLightColor:c=0, 0, 0, 0
+crosshairDistHorSizeMain:p2=0.03, 0.02
+crosshairDistHorSizeAdditional:p2=0.005, 0.003
+distanceCorrectionPos:p2=-0.26, -0.05
+drawDistanceCorrection:b=no
+applyCorrectionToGun:b=no
+
+crosshair_distances{}
+
+crosshair_hor_ranges{}
+
+ballistics{
+
+bullet {
+  bulletType:t = "apcr_t"
+  speed:r = 1050.0
+  drawAdditionalLines:b = no
+  drawDistanceCorrection:b= no
+  distanceCorrectionPos:p2 = -0.15, -0.15
+  drawUpward:b = no 
+  distancePos:p2 = 0.0049, -0.0011 
+  textAlign:i = 2
+  textPos:p2 = 0.015, -0.001
+  textShift:r = 0.0
+  crosshairDistHorSizeMain:p2 = 0.0126, 0.0126
+  crosshairDistHorSizeAdditional:p2 = 0.005, 0.003
+  move:b=no
+  
+  
+  crosshair_distances{
+    distance:p3 = 50, 0.1, 0.003
+  }
+  }
+
+bullet {
+  bulletType:t = "apcr_t"
+  speed:r = 1050.0
+  drawAdditionalLines:b = no
+  drawDistanceCorrection:b= no
+  distanceCorrectionPos:p2 = -0.15, -0.15
+  drawUpward:b = no 
+  distancePos:p2 = 0.0049, 0.0 
+  textAlign:i = 2
+  textPos:p2 = 0.015, 0.0
+  textShift:r = 0.0
+  crosshairDistHorSizeMain:p2 = 0.0126, 0.0126
+  crosshairDistHorSizeAdditional:p2 = 0.005, 0.003
+  move:b=no
+  
+  
+  crosshair_distances{
+    distance:p3 = 500, 5, 0.003
+	distance:p3 = 1000, 10, 0.003
+	distance:p3 = 1500, 15, 0.003
+  }
+  }
+ }
+
+drawLines{
+  line{
+    line:p4=-10, 0, 1000, 0
+    move:b=no
+  }
+}
