@@ -1,0 +1,108 @@
+crosshairHorVertSize:p2=3, 2
+rangefinderProgressBarColor1:c=0, 255, 0, 64
+rangefinderProgressBarColor2:c=255, 255, 255, 64
+rangefinderTextScale:r=0.7
+rangefinderUseThousandth:b=no
+rangefinderVerticalOffset:r=0.1
+rangefinderHorizontalOffset:r=5
+detectAllyTextScale:r=0.7
+detectAllyOffset:p2=4, 0.05
+fontSizeMult:r=1
+lineSizeMult:r=1
+drawCentralLineVert:b=no
+drawCentralLineHorz:b=no
+drawSightMask:b=yes
+useSmoothEdge:b=yes
+crosshairColor:c=0, 0, 0, 0
+crosshairLightColor:c=0, 0, 0, 0
+crosshairDistHorSizeMain:p2=0.03, 0.02
+crosshairDistHorSizeAdditional:p2=0.005, 0.003
+distanceCorrectionPos:p2=-0.26, -0.05
+drawDistanceCorrection:b=yes
+
+crosshair_distances{}
+
+crosshair_hor_ranges{}
+
+drawLines{
+  line{
+    line:p4=-3, 2.8, 3, 2.8
+    move:b=no
+    thousandth:b=yes
+  }
+  line{
+    line:p4=0, 2.8, 0, 1.27
+    move:b=no
+    thousandth:b=yes
+  }
+  line{
+    line:p4=0, 0, 1.155, 2
+    move:b=no
+    thousandth:b=yes
+  }
+  line{
+    line:p4=0, 0, -1.155, 2
+    move:b=no
+    thousandth:b=yes
+  }
+}
+
+
+drawCircles {
+    circle {
+      segment:p2 = 0, 360;
+      pos:p2 = 0, 0;
+      diameter:r = 138;
+      size:r = 30;
+      move:b = no;
+      thousandth:b = yes;
+    }
+    circle {
+      segment:p2 = 0, 360;
+      pos:p2 = 0, 0;
+      diameter:r = 139;
+      size:r = 60;
+      move:b = no;
+      thousandth:b = yes;
+    }
+    circle {
+      segment:p2 = 0, 360;
+      pos:p2 = 0, 0;
+      diameter:r = 141;
+      size:r = 120;
+      move:b = no;
+      thousandth:b = yes;
+    }
+    circle {
+      segment:p2 = 0, 360;
+      pos:p2 = 0, 0;
+      diameter:r = 145;
+      size:r = 240;
+      move:b = no;
+      thousandth:b = yes;
+    }
+    circle {
+      segment:p2 = 0, 360;
+      pos:p2 = 0, 0;
+      diameter:r = 154;
+      size:r = 480;
+      move:b = no;
+      thousandth:b = yes;
+    }
+    circle {
+      segment:p2 = 0, 360;
+      pos:p2 = 0, 0;
+      diameter:r = 163;
+      size:r = 600;
+      move:b = no;
+      thousandth:b = yes;
+    }
+    circle {
+      segment:p2 = 0, 360;
+      pos:p2 = 0, 0;
+      diameter:r = 173;
+      size:r = 600;
+      move:b = no;
+      thousandth:b = yes;
+    }
+  }
